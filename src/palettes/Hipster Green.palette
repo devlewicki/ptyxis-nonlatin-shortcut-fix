@@ -1,0 +1,23 @@
+[Palette]
+Name=Hipster Green
+Background=#100B05
+Foreground=#84C138
+Cursor=#84C138
+Color0=#000000
+Color1=#B6214A
+Color2=#00A600
+Color3=#BFBF00
+Color4=#246EB2
+Color5=#B200B2
+Color6=#00A6B2
+Color7=#BFBFBF
+Color8=#666666
+Color9=#E50000
+Color10=#86A93E
+Color11=#E5E500
+Color12=#0000FF
+Color13=#E500E5
+Color14=#00E5E5
+Color15=#E5E5E5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Hipster Green.yml

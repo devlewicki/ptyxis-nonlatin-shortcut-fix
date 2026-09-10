@@ -1,0 +1,23 @@
+[Palette]
+Name=Bim
+Background=#012849
+Foreground=#A9BED8
+Cursor=#A9BED8
+Color0=#2C2423
+Color1=#F557A0
+Color2=#A9EE55
+Color3=#F5A255
+Color4=#5EA2EC
+Color5=#A957EC
+Color6=#5EEEA0
+Color7=#918988
+Color8=#918988
+Color9=#F579B2
+Color10=#BBEE78
+Color11=#F5B378
+Color12=#81B3EC
+Color13=#BB79EC
+Color14=#81EEB2
+Color15=#F5EEEC
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Bim.yml

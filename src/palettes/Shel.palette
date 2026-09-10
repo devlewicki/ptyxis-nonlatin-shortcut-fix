@@ -1,0 +1,23 @@
+[Palette]
+Name=Shel
+Background=#2A201F
+Foreground=#4882CD
+Cursor=#4882CD
+Color0=#2C2423
+Color1=#AB2463
+Color2=#6CA323
+Color3=#AB6423
+Color4=#2C64A2
+Color5=#6C24A2
+Color6=#2CA363
+Color7=#918988
+Color8=#918988
+Color9=#F588B9
+Color10=#C2EE86
+Color11=#F5BA86
+Color12=#8FBAEC
+Color13=#C288EC
+Color14=#8FEEB9
+Color15=#F5EEEC
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Shel.yml

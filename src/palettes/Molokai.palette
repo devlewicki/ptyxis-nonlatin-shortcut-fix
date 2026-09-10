@@ -1,0 +1,23 @@
+[Palette]
+Name=Molokai
+Background=#1B1D1E
+Foreground=#BBBBBB
+Cursor=#BBBBBB
+Color0=#1B1D1E
+Color1=#7325FA
+Color2=#23E298
+Color3=#60D4DF
+Color4=#D08010
+Color5=#FF0087
+Color6=#D0A843
+Color7=#BBBBBB
+Color8=#555555
+Color9=#9D66F6
+Color10=#5FE0B1
+Color11=#6DF2FF
+Color12=#FFAF00
+Color13=#FF87AF
+Color14=#FFCE51
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Molokai.yml

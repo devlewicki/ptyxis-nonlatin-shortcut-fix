@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/Ptyxis">
+  <!-- UI files -->
+    <file preprocess="xml-stripblanks">ptyxis-find-bar.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-custom-link-editor.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-custom-link-row.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-inspector.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-menu-row.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-palette-preview.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-preferences-window.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-profile-editor.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-profile-row.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-shortcut-accel-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-shortcut-row.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-tab.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-terminal.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-theme-selector.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-title-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-profile-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ptyxis-window.ui</file>
+
+    <!-- Icons -->
+    <file preprocess="xml-stripblanks">icons/enter-keyboard-shortcut.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/container-generic-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/container-jhbuild-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/container-podman-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/container-toolbox-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/down-small-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/event-log-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/process-remote-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/process-superuser-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/up-small-symbolic.svg</file>
+
+    <!-- CSS -->
+    <file>style.css</file>
+
+    <!-- Core palettes -->
+    <file>palettes/campbell.palette</file>
+    <file>palettes/dracula.palette</file>
+    <file>palettes/gnome.palette</file>
+    <file>palettes/gnome-high-contrast.palette</file>
+    <file>palettes/linux.palette</file>
+    <file>palettes/nord.palette</file>
+    <file>palettes/rxvt.palette</file>
+    <file>palettes/solarized.palette</file>
+    <file>palettes/tango.palette</file>
+    <file>palettes/xterm.palette</file>
+
+    <!-- Extra Plettes -->
+    <file>palettes/3024.palette</file>
+    <file>palettes/Aci.palette</file>
+    <file>palettes/Aco.palette</file>
+    <file>palettes/Adventure Time.palette</file>
+    <file>palettes/Afterglow.palette</file>
+    <file>palettes/Alien Blood.palette</file>
+    <file>palettes/Apprentice.palette</file>
+    <file>palettes/Argonaut.palette</file>
+    <file>palettes/Arthur.palette</file>
+    <file>palettes/Atom.palette</file>
+    <file>palettes/Aura.palette</file>
+    <file>palettes/Ayu.palette</file>
+    <file>palettes/Ayu Mirage.palette</file>
+    <file>palettes/Azu.palette</file>
+    <file>palettes/Belafonte.palette</file>
+    <file>palettes/Bim.palette</file>
+    <file>palettes/Birds Of Paradise.palette</file>
+    <file>palettes/Blazer.palette</file>
+    <file>palettes/Bluloco Light.palette</file>
+    <file>palettes/Bluloco Zsh Light.palette</file>
+    <file>palettes/Borland.palette</file>
+    <file>palettes/Breath.palette</file>
+    <file>palettes/Breath Silverfox.palette</file>
+    <file>palettes/Breeze.palette</file>
+    <file>palettes/Broadcast.palette</file>
+    <file>palettes/Brogrammer.palette</file>
+    <file>palettes/C64.palette</file>
+    <file>palettes/Cai.palette</file>
+    <file>palettes/Catppuccin Frappé.palette</file>
+    <file>palettes/Catppuccin Latte.palette</file>
+    <file>palettes/Catppuccin Macchiato.palette</file>
+    <file>palettes/Catppuccin Mocha.palette</file>
+    <file>palettes/Chalkboard.palette</file>
+    <file>palettes/Chalk.palette</file>
+    <file>palettes/Chameleon.palette</file>
+    <file>palettes/Ciapre.palette</file>
+    <file>palettes/Clrs.palette</file>
+    <file>palettes/Cobalt 2.palette</file>
+    <file>palettes/Cobalt Neon.palette</file>
+    <file>palettes/Colorcli.palette</file>
+    <file>palettes/Crayon Pony Fish.palette</file>
+    <file>palettes/Dark Pastel.palette</file>
+    <file>palettes/Darkside.palette</file>
+    <file>palettes/Dehydration.palette</file>
+    <file>palettes/Desert.palette</file>
+    <file>palettes/Dimmed Monokai.palette</file>
+    <file>palettes/Dissonance.palette</file>
+    <file>palettes/Earthsong.palette</file>
+    <file>palettes/Elemental.palette</file>
+    <file>palettes/Elementary.palette</file>
+    <file>palettes/Elic.palette</file>
+    <file>palettes/Elio.palette</file>
+    <file>palettes/Espresso Libre.palette</file>
+    <file>palettes/Espresso.palette</file>
+    <file>palettes/Everblush.palette</file>
+    <file>palettes/Everforest.palette</file>
+    <file>palettes/Fairy Floss Dark.palette</file>
+    <file>palettes/Fairy Floss.palette</file>
+    <file>palettes/Fishtank.palette</file>
+    <file>palettes/Flatland.palette</file>
+    <file>palettes/Flat.palette</file>
+    <file>palettes/Flat Remix.palette</file>
+    <file>palettes/Foxnightly.palette</file>
+    <file>palettes/Freya.palette</file>
+    <file>palettes/Frontend Delight.palette</file>
+    <file>palettes/Frontend Fun Forrest.palette</file>
+    <file>palettes/Frontend Galaxy.palette</file>
+    <file>palettes/Geohot.palette</file>
+    <file>palettes/Github.palette</file>
+    <file>palettes/GNOME Legacy.palette</file>
+    <file>palettes/Gogh.palette</file>
+    <file>palettes/Gooey.palette</file>
+    <file>palettes/Google.palette</file>
+    <file>palettes/Gotham.palette</file>
+    <file>palettes/Grape.palette</file>
+    <file>palettes/Grass.palette</file>
+    <file>palettes/Gruvbox Material.palette</file>
+    <file>palettes/Gruvbox.palette</file>
+    <file>palettes/Hardcore.palette</file>
+    <file>palettes/Harper.palette</file>
+    <file>palettes/Hemisu.palette</file>
+    <file>palettes/Highway.palette</file>
+    <file>palettes/Hipster Green.palette</file>
+    <file>palettes/Homebrew Light.palette</file>
+    <file>palettes/Homebrew Ocean.palette</file>
+    <file>palettes/Homebrew.palette</file>
+    <file>palettes/Horizon.palette</file>
+    <file>palettes/Hurtado.palette</file>
+    <file>palettes/Hybrid.palette</file>
+    <file>palettes/Ibm 3270 (High Contrast).palette</file>
+    <file>palettes/Ibm3270.palette</file>
+    <file>palettes/Ic Green Ppl.palette</file>
+    <file>palettes/Ic Orange Ppl.palette</file>
+    <file>palettes/Idle Toes.palette</file>
+    <file>palettes/Ir Black.palette</file>
+    <file>palettes/Jackie Brown.palette</file>
+    <file>palettes/Japanesque.palette</file>
+    <file>palettes/Jellybeans.palette</file>
+    <file>palettes/Jup.palette</file>
+    <file>palettes/Kanagawa.palette</file>
+    <file>palettes/Kibble.palette</file>
+    <file>palettes/Kokuban.palette</file>
+    <file>palettes/Laserwave.palette</file>
+    <file>palettes/Later This Evening.palette</file>
+    <file>palettes/Lavandula.palette</file>
+    <file>palettes/Liquid Carbon.palette</file>
+    <file>palettes/Liquid Carbon Transparent.palette</file>
+    <file>palettes/Lunaria.palette</file>
+    <file>palettes/Lunaria Eclipse.palette</file>
+    <file>palettes/Maia.palette</file>
+    <file>palettes/Man Page.palette</file>
+    <file>palettes/Mar.palette</file>
+    <file>palettes/Material.palette</file>
+    <file>palettes/Mathias.palette</file>
+    <file>palettes/Medallion.palette</file>
+    <file>palettes/Misterioso.palette</file>
+    <file>palettes/Molokai.palette</file>
+    <file>palettes/Mona Lisa.palette</file>
+    <file>palettes/Mono Amber.palette</file>
+    <file>palettes/Mono Cyan.palette</file>
+    <file>palettes/Mono Green.palette</file>
+    <file>palettes/Monokai Dark.palette</file>
+    <file>palettes/Monokai Pro.palette</file>
+    <file>palettes/Monokai Pro Ristretto.palette</file>
+    <file>palettes/Monokai Soda.palette</file>
+    <file>palettes/Mono Red.palette</file>
+    <file>palettes/Mono White.palette</file>
+    <file>palettes/Mono Yellow.palette</file>
+    <file>palettes/Moonfly.palette</file>
+    <file>palettes/Morada.palette</file>
+    <file>palettes/N0Tch2K.palette</file>
+    <file>palettes/Neon Night.palette</file>
+    <file>palettes/Neopolitan.palette</file>
+    <file>palettes/Nep.palette</file>
+    <file>palettes/Neutron.palette</file>
+    <file>palettes/Nightfly.palette</file>
+    <file>palettes/Nightlion V1.palette</file>
+    <file>palettes/Nightlion V2.palette</file>
+    <file>palettes/Night Owl.palette</file>
+    <file>palettes/Nighty.palette</file>
+    <file>palettes/Novel.palette</file>
+    <file>palettes/Obsidian.palette</file>
+    <file>palettes/Ocean Dark.palette</file>
+    <file>palettes/Oceanic Next.palette</file>
+    <file>palettes/Ollie.palette</file>
+    <file>palettes/Omni.palette</file>
+    <file>palettes/One.palette</file>
+    <file>palettes/One Half Black.palette</file>
+    <file>palettes/Oxocarbon Dark.palette</file>
+    <file>palettes/Palenight.palette</file>
+    <file>palettes/Pali.palette</file>
+    <file>palettes/Panda.palette</file>
+    <file>palettes/Papercolor.palette</file>
+    <file>palettes/Paraiso Dark.palette</file>
+    <file>palettes/Paul Millr.palette</file>
+    <file>palettes/Pencil.palette</file>
+    <file>palettes/Peppermint.palette</file>
+    <file>palettes/Pixiefloss.palette</file>
+    <file>palettes/Pnevma.palette</file>
+    <file>palettes/Powershell.palette</file>
+    <file>palettes/Predawn.palette</file>
+    <file>palettes/Pro.palette</file>
+    <file>palettes/Purple People Eater.palette</file>
+    <file>palettes/Red Alert.palette</file>
+    <file>palettes/Red Sands.palette</file>
+    <file>palettes/Relaxed.palette</file>
+    <file>palettes/Rippedcasts.palette</file>
+    <file>palettes/Rosé Pine Dawn.palette</file>
+    <file>palettes/Rosé Pine Moon.palette</file>
+    <file>palettes/Rosé Pine.palette</file>
+    <file>palettes/Royal.palette</file>
+    <file>palettes/Sat.palette</file>
+    <file>palettes/Seafoam Pastel.palette</file>
+    <file>palettes/Sea Shells.palette</file>
+    <file>palettes/Selenized.palette</file>
+    <file>palettes/Seti.palette</file>
+    <file>palettes/Shaman.palette</file>
+    <file>palettes/Shel.palette</file>
+    <file>palettes/Slate.palette</file>
+    <file>palettes/Smyck.palette</file>
+    <file>palettes/Snazzy.palette</file>
+    <file>palettes/Soft Server.palette</file>
+    <file>palettes/Solarized Darcula.palette</file>
+    <file>palettes/Solarized Dark Higher Contrast.palette</file>
+    <file>palettes/Solarized.palette</file>
+    <file>palettes/Sonokai.palette</file>
+    <file>palettes/Spacedust.palette</file>
+    <file>palettes/Spacegray Eighties Dull.palette</file>
+    <file>palettes/Spacegray Eighties.palette</file>
+    <file>palettes/Spacegray.palette</file>
+    <file>palettes/Spring.palette</file>
+    <file>palettes/Square.palette</file>
+    <file>palettes/Srcery.palette</file>
+    <file>palettes/Summer Pop.palette</file>
+    <file>palettes/Sundried.palette</file>
+    <file>palettes/Sweet Eliverlara.palette</file>
+    <file>palettes/Sweet Terminal.palette</file>
+    <file>palettes/Symphonic.palette</file>
+    <file>palettes/Synthwave Alpha.palette</file>
+    <file>palettes/Synthwave.palette</file>
+    <file>palettes/Teerb.palette</file>
+    <file>palettes/Tender.palette</file>
+    <file>palettes/Terminal Basic.palette</file>
+    <file>palettes/Terminix Dark.palette</file>
+    <file>palettes/Thayer Bright.palette</file>
+    <file>palettes/Tin.palette</file>
+    <file>palettes/Tokyo Night Day.palette</file>
+    <file>palettes/Tokyo Night Light.palette</file>
+    <file>palettes/Tokyo Night Moon.palette</file>
+    <file>palettes/Tokyo Night.palette</file>
+    <file>palettes/Tokyo Night Storm.palette</file>
+    <file>palettes/Tomorrow Night Blue.palette</file>
+    <file>palettes/Tomorrow Night Bright.palette</file>
+    <file>palettes/Tomorrow Night Eighties.palette</file>
+    <file>palettes/Tomorrow Night.palette</file>
+    <file>palettes/Tomorrow.palette</file>
+    <file>palettes/Toy Chest.palette</file>
+    <file>palettes/Treehouse.palette</file>
+    <file>palettes/Twilight.palette</file>
+    <file>palettes/Ubuntu.palette</file>
+    <file>palettes/Ura.palette</file>
+    <file>palettes/Urple.palette</file>
+    <file>palettes/Vag.palette</file>
+    <file>palettes/Vaughn.palette</file>
+    <file>palettes/Vibrant Ink.palette</file>
+    <file>palettes/Vs Code.palette</file>
+    <file>palettes/Warm Neon.palette</file>
+    <file>palettes/Website.palette</file>
+    <file>palettes/Wez.palette</file>
+    <file>palettes/Wild Cherry.palette</file>
+    <file>palettes/Wombat.palette</file>
+    <file>palettes/Wryan.palette</file>
+    <file>palettes/Wzoreck.palette</file>
+    <file>palettes/Zenburn.palette</file>
+  </gresource>
+</gresources>
+

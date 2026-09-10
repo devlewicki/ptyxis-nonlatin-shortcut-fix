@@ -1,0 +1,1531 @@
+# Dutch translation of Ptyxis.
+# Copyright (C) 2023 Ptyxis COPYRIGHT HOLDER
+# This file is distributed under the same license as the Ptyxis package.
+#
+# Gert-dev, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-16 15:46+0300\n"
+"PO-Revision-Date: 2024-03-06 20:01+0100\n"
+"Last-Translator: Gert-dev\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:3
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:6 src/main.c:122
+#: src/ptyxis-window.c:313 src/ptyxis-window.c:372
+msgid "Ptyxis"
+msgstr "Ptyxis"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:4
+msgid "A container-oriented terminal for GNOME"
+msgstr "Een op containers gefocuste terminal voor GNOME"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Ptyxis.desktop.in.in:14
+msgid "terminal;shell;ptyxis;command;commandline;cmd;"
+msgstr "terminal;shell;ptyxis;commando;commandolijn;cmd;"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:19
+#: src/org.gnome.Ptyxis.gschema.xml.in:319 src/ptyxis-preferences-window.ui:632
+msgid "New Window"
+msgstr "Nieuw venster"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:23
+#: src/org.gnome.Ptyxis.gschema.xml.in:331 src/ptyxis-preferences-window.ui:795
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:7
+msgid "A container oriented terminal for GNOME"
+msgstr "Een op containers gefocuste terminal voor GNOME"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:9
+msgid ""
+"Ptyxis is a terminal for GNOME that focuses on ease-of-use in a world of "
+"containers."
+msgstr ""
+"Ptyxis is een terminal voor GNOME die zich specialiseert in gebruiksgemak "
+"bij het gebruik van containers."
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:13
+msgid "Features:"
+msgstr "Functies:"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:15
+msgid ""
+"Remembers current container when opening a new tab with support for podman, "
+"toolbox, distrobox, and more"
+msgstr ""
+"Onthoudt de huidige container bij het openen van een nieuw tabblad, met "
+"ondersteuning voor podman, toolbox, distrobox en meer"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:16
+msgid "Configurable keyboard shortcuts"
+msgstr "Instelbare sneltoetsen"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:17
+msgid "Modern interface which integrates the palette with the window styling"
+msgstr ""
+"Moderne interface die het kleurenpalet integreert met de styling van het "
+"venster"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:18
+msgid "User-installable color palettes"
+msgstr "Door de gebruiker beheerde kleurenpaletten"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:19
+msgid "Support for preferences profiles with container integration"
+msgstr "Ondersteuning voor voorkeursprofielen met containerintegratie"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:20
+msgid "Integrated color palettes with light and dark support"
+msgstr "Geïntegreerde lichte en donkere kleurenpaletten"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:21
+msgid "Tabbed interface with tab overviews"
+msgstr "Interface met tabbladen en tabbladoverzichten"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:22
+msgid "Efficient foreground process tracking denoting sudo and SSH"
+msgstr ""
+"Efficiënte tracking van voorgrondprocessen met indicatoren voor sudo en SSH"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:23
+msgid "Support for tansparent terminal backgrounds"
+msgstr "Ondersteuning voor transparante terminalachtergronden"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:24
+msgid "Seperate process mode for terminal-based applications"
+msgstr "Aparte proces-modus voor terminal-gebaseerde applicaties"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:25
+msgid "Support for pinned tabs and saved sessions"
+msgstr "Ondersteuning voor gepinde tabbladen en het opslaan van sessies"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:26
+msgid "Terminal tabs are run within separate cgroups"
+msgstr "Terminal-tabbladen worden in aparte cgroups gedraaid"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:27
+msgid "Terminal inspector to help when writing terminal-based applicatiosn"
+msgstr ""
+"Inspector die helpt bij het schrijven van terminal-gebaseerde applicaties"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:47
+msgid "A column and row size indicator is displayed when resizing the window"
+msgstr ""
+"Een indicator die het aantal kolommen en rijen weergeeft wordt getoond "
+"wanneer het venster van grootte verandert"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:52
+msgid "Containers are automatically discovered and displayed"
+msgstr "Containers worden automatisch ontdekt en weergegeven"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:57
+msgid "Many behaviors of the terminal may be tweaked to user preference"
+msgstr "Het meeste gedrag van de terminal kan naar voorkeur aangepast worden"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:62
+msgid "You may rename a tab by providing a prefix to the title"
+msgstr "Je kan tabbladen hernomen door een prefix aan de titel toe te voegen"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:67
+msgid "Palettes provide an integrated dark mode"
+msgstr "Kleurenpaletten hebben een geïntegreerde donkere modus"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:72
+msgid "You can see an overview of your tabs at any time"
+msgstr "Je kan op elk moment een overzicht van je tabbladen zien"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:77
+msgid "Many shortcuts may be remapped to user preference"
+msgstr "Veel sneltoetsen kunnen naar voorkeur aangepast worden"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:82
+msgid "Built-in color palettes provide both dark and light mode variants"
+msgstr "Ingebouwde kleurenpaletten met donkere en lichte varianten"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:87
+msgid ""
+"Profiles allow for overriding a number of features such as default container"
+msgstr ""
+"Profielen laten toe om een aantal functies te overschrijven, zoals de "
+"standaardcontainer"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:92
+msgid "The terminal will remind you when you're root on the local system"
+msgstr ""
+"De terminal helpt je eraan denken dat je root bent op een lokaal systeem"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:97
+msgid "The terminal will remind you when you're on a remote system"
+msgstr "De terminal helpt je eraan denken dat je op een ander systeem werkt"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:95
+msgid "Default Profile UUID"
+msgstr "UUID van standaardprofiel"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:96
+msgid "The UUID of the default profile"
+msgstr "De UUID van het standaardprofiel"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:101
+msgid "UUIDs of all Profiles"
+msgstr "UUIDs van alle profielen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:102
+msgid "A list of UUID for every profile"
+msgstr "Een lijst van UUIDs, voor elk profiel"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:107 src/ptyxis-preferences-window.ui:289
+msgid "New Tab Position"
+msgstr "Positie nieuwe tabbladen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:108
+msgid "Where to place new tabs"
+msgstr "Waar nieuwe tabbladen geplaatst moeten worden"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:113 src/ptyxis-preferences-window.ui:335
+msgid "Audible Bell"
+msgstr "Hoorbare bel"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:114
+msgid "If an audible bell should be used"
+msgstr "Of een hoorbaar belsignaal gebruikt moet worden"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:119
+msgid "Visible Bell"
+msgstr "Zichtbare bel"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:120
+msgid "If a visual bell should be used"
+msgstr "Of een visueel belsignaal gebruikt moet worden"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:125
+msgid "Use System Font"
+msgstr "Systeemlettertype gebruiken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:126
+msgid "If the default system monospace font should be used"
+msgstr ""
+"Of het standaard monospace-lettertype van het systeem gebruikt moet worden"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:131
+msgid "Font Name"
+msgstr "Lettertypenaam"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:132
+msgid "The font description to use if use-system-font is set to False"
+msgstr ""
+"De lettertypebeschrijving om te gebruiken als use-system-font uit staat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:137 src/ptyxis-preferences-window.ui:216
+msgid "Cursor Shape"
+msgstr "Cursorvorm"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:138
+msgid "The default shape of the cursor"
+msgstr "De standaardvorm van de invoercursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:143
+msgid "Cursor Blink Mode"
+msgstr "Knippermodus cursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:144
+msgid "The default blink mode cursor"
+msgstr "De standaardknippermodus van de invoercursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:149
+msgid "Scrollbar Policy"
+msgstr "Scrollbalk-beleid"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:150
+msgid "If scrollbars should be displayed"
+msgstr "Of scrollbars getoond moeten worden"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:155
+msgid "Text Blink Mode"
+msgstr "Knippermodus tekst"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:156
+msgid "When text blinking is allowed"
+msgstr "Of knipperen van tekst toegelaten is"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:161
+msgid "Interface Style"
+msgstr "Interfacestijl"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:162
+msgid "If light or dark interface style should be used"
+msgstr "Of een lichte of donkere stijl van interface gebruikt moet worden"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:167 src/ptyxis-preferences-window.ui:318
+msgid "Restore Session"
+msgstr "Sessie herstellen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:168
+msgid "Restore tabs from previous session when starting Ptyxis"
+msgstr "Herstel tabs van een vorige sessie bij het opstarten"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:173 src/ptyxis-preferences-window.ui:324
+msgid "Restore Window Size"
+msgstr "Venstergrootte herstellen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:174
+msgid "Restore the previous window size when creating new windows"
+msgstr ""
+"Of de vorige venstergrootte herstelt moet worden bij het openen van nieuwe "
+"vensters"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:187
+msgid "Label"
+msgstr "Label"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:188
+msgid "The label for the profile"
+msgstr "Het label van het profiel"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:193
+msgid "Login Shell"
+msgstr "Inlog-shell"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:194
+msgid "Use a login shell"
+msgstr "Of een inlog-shell gebruikt moet worden"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:199 src/ptyxis-preferences-window.ui:403
+#: src/ptyxis-profile-editor.ui:294
+msgid "Limit Scrollback"
+msgstr "Beperk terugscrollen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:200
+msgid "Limit the number of lines to keep for scrollback"
+msgstr "Beperk het aantal lijnen dat bijgehouden wordt om terug te scrollen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:206 src/ptyxis-preferences-window.ui:412
+#: src/ptyxis-profile-editor.ui:303
+msgid "Scrollback Lines"
+msgstr "Aantal terugscroll-lijnen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:207
+msgid "The number of lines to keep in the scrollback, zero for no scrollback"
+msgstr "Het aantal lijnen om bij te houden om terug te kunnen scrollen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:212 src/ptyxis-preferences-window.ui:393
+#: src/ptyxis-profile-editor.ui:284
+msgid "Scroll on Output"
+msgstr "Scrollen bij uitvoer"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:213
+msgid "Scroll to the bottom upon new output"
+msgstr ""
+"Scroll automatisch naar de laatste uitvoer zodra er nieuwe uitvoer verschijnt"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:218 src/ptyxis-preferences-window.ui:387
+#: src/ptyxis-profile-editor.ui:278
+msgid "Scroll on Keystroke"
+msgstr "Scrollen bij toetsaanslag"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:219
+msgid "Scroll to the bottom upon user keystroke"
+msgstr "Scroll naar de laatste uitvoer zodra een toets ingedrukt wordt"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:224 src/ptyxis-profile-editor.ui:148
+msgid "Use Custom Command"
+msgstr "Aangepast commando gebruiken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:225
+msgid "If a custom command should be used"
+msgstr "Of een aangepast commando gebruikt moet worden bij het opstarten"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:230 src/ptyxis-profile-editor.ui:153
+msgid "Custom Command"
+msgstr "Aangepast commando"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:231
+msgid "A custom command for the shell"
+msgstr "Een aangepast commando om uit te voeren"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:236 src/ptyxis-profile-editor.ui:172
+msgid "Default Container"
+msgstr "Standaardcontainer"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:237
+msgid "The default container to run the command in"
+msgstr "De standaardcontainer om het commando in te starten"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:242 src/ptyxis-profile-editor.ui:181
+msgid "Preserve Container"
+msgstr "Container behouden"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:243
+msgid "Preserve the active container when creating new tabs and windows"
+msgstr ""
+"Behoud de actieve container bij het aanmaken van nieuwe tabbladen en vensters"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:248 src/ptyxis-preferences-window.ui:472
+#: src/ptyxis-profile-editor.ui:242
+msgid "Exit Action"
+msgstr "Actie bij afsluiten"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:249
+msgid "The action to take when the shell exits"
+msgstr "De actie om te nemen als de shell afsluit"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:254
+msgid "Preserve Directory"
+msgstr "Map behouden"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:255
+msgid "If the directory should be preserved for new terminals"
+msgstr "Of de map behouden moet blijven voor nieuwe terminals"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:260 src/ptyxis-inspector.ui:102
+#: src/ptyxis-preferences-window.ui:38 src/ptyxis-profile-editor.ui:69
+msgid "Palette"
+msgstr "Kleurenpalet"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:261
+msgid "The color palette to use for the profile, by name"
+msgstr "De naam van het kleurenpalet om te gebruiken voor het profiel"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:267
+msgid "Opacity"
+msgstr "Opaciteit"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:268
+msgid "The opacity of the palette background"
+msgstr "De opaciteit van de achtergrond uit het kleurenpalet"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:273
+msgid "Bold is Bright"
+msgstr "Vet is helder"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:274
+msgid ""
+"Setting bold on one of the lower 8 colors in the palette will use bright "
+"variant (upper 8 colors)"
+msgstr ""
+"Het instellen van vet op één van de lagere acht kleuren in het kleurenpalet "
+"zal de heldere variant gebruiken (bovenste acht kleuren)"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:279
+msgid "CJK Ambiguous Width"
+msgstr "Ambigue breedte CJK"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:280
+msgid "The size to apply to ambiguous width characters"
+msgstr "De grootte om toe te passen op karakters met een ambigue breedte"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:285
+#: src/org.gnome.Ptyxis.gschema.xml.in:291
+msgid "Backspace Binding"
+msgstr "Backspacewerking"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:286
+#: src/org.gnome.Ptyxis.gschema.xml.in:292
+msgid "What to send to the PTY when a backspace is entered"
+msgstr "Wat te sturen naar de PTY als backspace gebruikt wordt"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:301 src/ptyxis-preferences-window.ui:565
+msgid "Copy to Clipboard"
+msgstr "Naar klembord kopiëren"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:302
+msgid "The shortcut to copy to clipboard"
+msgstr "De sneltoets om naar het klembord te kopiëren"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:307 src/ptyxis-preferences-window.ui:570
+msgid "Paste from Clipboard"
+msgstr "Uit klembord plakken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:308
+msgid "The shortcut to paste from the clipboard"
+msgstr "De sneltoets om te plakken vanuit het klembord"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:313 src/ptyxis-preferences-window.ui:626
+msgid "New Tab"
+msgstr "Nieuw tabblad"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:314
+msgid "The shortcut to create a new tab in the current window"
+msgstr "De sneltoets om een nieuw tabblad in het huidig venster aan te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:320
+msgid "The shortcut to create a new tab in a new window"
+msgstr "De sneltoets om een nieuw tabblad in een nieuw venster aan te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:325
+msgid "Tab Overview"
+msgstr "Tabbladoverzicht"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:326
+msgid "The shortcut to show the tab overview"
+msgstr "De sneltoets om het tabbladoverzicht te tonen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:332
+msgid "The shortcut to show application preferences"
+msgstr "De sneltoets om de applicatievoorkeuren te tonen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:337 src/ptyxis-preferences-window.ui:770
+#: src/ptyxis-window.c:1170 src/ptyxis-window.c:1178
+msgid "Zoom Out"
+msgstr "Uitzoomen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:338
+msgid "The shortcut to zoom out"
+msgstr "De sneltoets om uit te zoomen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:343 src/ptyxis-preferences-window.ui:775
+#: src/ptyxis-window.c:1186
+msgid "Reset Zoom"
+msgstr "Zoom herstellen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:344
+msgid "The shortcut to reset zoom"
+msgstr "De sneltoets om de zoom te herstellen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:349 src/ptyxis-preferences-window.ui:765
+#: src/ptyxis-window.c:1156 src/ptyxis-window.c:1164
+msgid "Zoom In"
+msgstr "Inzoomen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:350
+msgid "The shortcut to zoom in"
+msgstr "De sneltoets om in te zoomen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:355 src/ptyxis-preferences-window.ui:785
+msgid "Toggle Fullscreen"
+msgstr "Volledig venster omschakelen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:356
+msgid "The shortcut to toggle fullscreen"
+msgstr "De sneltoets om van en naar een volledig venster te schakelen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:361
+msgid "Reset Terminal"
+msgstr "Terminal opnieuw instellen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:362
+msgid "Reset the terminal state for misbehaving clients"
+msgstr "Stel de terminal opnieuw in indien clients zich slecht gedragen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:367
+msgid "Reset Terminal and Clear History"
+msgstr "Terminal opnieuw instellen en geschiedenis wissen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:368
+msgid "Reset the terminal state and clear history for misbehaving clients"
+msgstr ""
+"Stel de staat van de terminal opnieuw in en verwijder de geschiedenis indien "
+"clients zich slecht gedragen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:373 src/ptyxis-preferences-window.ui:607
+msgid "Search History"
+msgstr "Zoekgeschiedenis"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:374
+msgid "Shortcut to begin searching the terminal history"
+msgstr "De sneltoets om de terminalgeschiedenis te doorzoeken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:379 src/ptyxis-preferences-window.ui:579
+msgid "Select All"
+msgstr "Alles selecteren"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:380
+msgid "Shortcut to select all the entire terminal scrollback"
+msgstr "De sneltoets om alle terminalinhoud te selecteren"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:385
+msgid "Select None"
+msgstr "Niets selecteren"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:386
+msgid "Shortcut to clear the terminal selection"
+msgstr "De sneltoets om de huidige selectie te wissen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:391
+msgid "Popup Menu"
+msgstr "Pop-up-menu"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:392
+msgid "Shortcut to show the popup menu for the terminal"
+msgstr "De sneltoets om het pop-up-menu voor de terminal te tonen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:397 src/ptyxis-preferences-window.ui:674
+msgid "Move to Previous Tab"
+msgstr "Naar vorig tabblad gaan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:398
+msgid "Shortcut to move to the previous tab"
+msgstr "De sneltoets om naar de vorige tabblad te gaan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:403 src/ptyxis-preferences-window.ui:679
+msgid "Move to Next Tab"
+msgstr "Naar volgend tabblad gaan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:404
+msgid "Shortcut to move to the next tab"
+msgstr "De sneltoets om naar het volgend tabblad te gaan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:409 src/ptyxis-preferences-window.ui:688
+msgid "Move Tab Left"
+msgstr "Tabblad naar links verplaatsen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:410
+msgid "Shortcut to move the current tab to the left one position"
+msgstr "De sneltoets om het tabblad één naar links te verplaatsen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:415 src/ptyxis-preferences-window.ui:694
+msgid "Move Tab Right"
+msgstr "Tabblad naar rechts verplaatsen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:416
+msgid "Shortcut to move the current tab to the right one position"
+msgstr "De sneltoets om het tabblad één naar rechts te verplaatsen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:421 src/ptyxis-preferences-window.ui:700
+msgid "Move Tab to New Window"
+msgstr "Tabblad naar nieuw venster verplaatsen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:422
+msgid "Shortcut to move the current tab into a new window"
+msgstr ""
+"De sneltoets om het huidig tabblad naar een nieuw venster te verplaatsen"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:427 src/ptyxis-preferences-window.ui:652
+msgid "Close Tab"
+msgstr "Tabblad sluiten"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:428
+msgid "Shortcut to close the current tab"
+msgstr "De sneltoets om het huidig tabblad te sluiten"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:433 src/ptyxis-preferences-window.ui:658
+msgid "Close Other Tabs"
+msgstr "Andere tabbladen sluiten"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:434
+msgid "Shortcut to close all tabs in the window but the current one"
+msgstr ""
+"De sneltoets om alle tabbladen behalve het huidig tabblad in het venster te "
+"sluiten"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:439
+msgid "Focus Tab 1"
+msgstr "Tabblad 1 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:440
+msgid "Shortcut to focus tab 1"
+msgstr "De sneltoets tabblad 1 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:445
+msgid "Focus Tab 2"
+msgstr "Tabblad 2 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:446
+msgid "Shortcut to focus tab 2"
+msgstr "De sneltoets tabblad 2 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:451
+msgid "Focus Tab 3"
+msgstr "Tabblad 3 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:452
+msgid "Shortcut to focus tab 3"
+msgstr "De sneltoets tabblad 3 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:457
+msgid "Focus Tab 4"
+msgstr "Tabblad 4 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:458
+msgid "Shortcut to focus tab 4"
+msgstr "De sneltoets tabblad 4 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:463
+msgid "Focus Tab 5"
+msgstr "Tabblad 5 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:464
+msgid "Shortcut to focus tab 5"
+msgstr "De sneltoets tabblad 5 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:469
+msgid "Focus Tab 6"
+msgstr "Tabblad 6 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:470
+msgid "Shortcut to focus tab 6"
+msgstr "De sneltoets tabblad 6 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:475
+msgid "Focus Tab 7"
+msgstr "Tabblad 7 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:476
+msgid "Shortcut to focus tab 7"
+msgstr "De sneltoets tabblad 7 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:481
+msgid "Focus Tab 8"
+msgstr "Tabblad 8 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:482
+msgid "Shortcut to focus tab 8"
+msgstr "De sneltoets tabblad 8 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:487
+msgid "Focus Tab 9"
+msgstr "Tabblad 9 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:488
+msgid "Shortcut to focus tab 9"
+msgstr "De sneltoets tabblad 9 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:493
+msgid "Focus Tab 10"
+msgstr "Tabblad 10 actief maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:494
+msgid "Shortcut to focus tab 10"
+msgstr "De sneltoets tabblad 10 actief te maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:499 src/ptyxis-preferences-window.ui:664
+msgid "Undo Close Tab"
+msgstr "Gesloten tabblad ongedaan maken"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:500
+msgid "Undo closing of last tab"
+msgstr "Maak het sluiten van het laatste tabblad ongedaan"
+
+#: src/ptyxis-application.c:235
+msgid "--tab, --tab-with-profile, or --new-window may not be used together"
+msgstr ""
+"--tab, --tab-with-profile, of --new-window kunnen niet samen gebruikt worden"
+
+#: src/ptyxis-application.c:272
+#, c-format
+msgid "Cannot parse command: %s"
+msgstr "Kon commando niet ontleden: %s"
+
+#: src/ptyxis-application.c:666
+msgid "Examples:"
+msgstr "Voorbeelden:"
+
+#: src/ptyxis-application.c:691
+msgid "Run Separate Instance"
+msgstr "Aparte instantie uitvoeren"
+
+#: src/ptyxis-application.c:695
+msgid "Open Preferences"
+msgstr "Voorkeuren openen"
+
+#: src/ptyxis-application.c:699
+msgid "Run Custom Command in New Window"
+msgstr "Voer aangepast commando uit in nieuw venster"
+
+#: src/ptyxis-application.c:703
+msgid "[-- COMMAND ARGUMENTS]"
+msgstr "[-- COMMAND ARGUMENTS]"
+
+#: src/ptyxis-application.c:837
+msgid "translator-credits"
+msgstr "Gert-dev"
+
+#: src/ptyxis-close-dialog.c:112
+msgid "_Close"
+msgstr "_Sluiten"
+
+#: src/ptyxis-close-dialog.c:112
+msgid "_Close All"
+msgstr "_Alles sluiten"
+
+#: src/ptyxis-close-dialog.c:115
+msgid "Close Window?"
+msgstr "Venster sluiten?"
+
+#: src/ptyxis-close-dialog.c:116
+msgid "Some processes are still running."
+msgstr "Enkele processen zijn nog actief."
+
+#: src/ptyxis-close-dialog.c:120 src/ptyxis-shortcut-accel-dialog.ui:42
+msgid "_Cancel"
+msgstr "_Annuleren"
+
+#: src/ptyxis-close-dialog.c:153
+#, c-format
+msgid "Process %d"
+msgstr "Proces %d"
+
+#: src/ptyxis-container-menu.c:101
+msgid "Unknown Container"
+msgstr "Onbekende container"
+
+#: src/ptyxis-find-bar.ui:50
+msgid "Search up to next result"
+msgstr "Resultaat naar boven zoeken"
+
+#: src/ptyxis-find-bar.ui:57
+msgid "Search down to next result"
+msgstr "Resultaat naar onder zoeken"
+
+#: src/ptyxis-find-bar.ui:66
+msgid "Search Options"
+msgstr "Zoekinstellingen"
+
+#: src/ptyxis-find-bar.ui:77
+msgid "Match _Case"
+msgstr "Op _hoofdletters matchen"
+
+#: src/ptyxis-find-bar.ui:83
+msgid "Whole _Words"
+msgstr "Volledige _woorden"
+
+#: src/ptyxis-find-bar.ui:89
+msgid "Use _Regular Expressions"
+msgstr "Gebruik _reguliere expressies"
+
+#: src/ptyxis-find-bar.ui:109 src/ptyxis-preferences-window.ui:493
+#: src/ptyxis-profile-editor.ui:263
+msgid "Close"
+msgstr "Sluiten"
+
+#: src/ptyxis-find-bar.ui:110
+msgid "Close the search bar"
+msgstr "Zoekbalk sluiten"
+
+#: src/ptyxis-inspector.ui:4
+msgid "Inspector"
+msgstr "Inspector"
+
+#: src/ptyxis-inspector.ui:7
+msgid "Process"
+msgstr "Proces"
+
+#: src/ptyxis-inspector.ui:13
+msgid "Foreground Process"
+msgstr "Voorgrondproces"
+
+#: src/ptyxis-inspector.ui:33
+msgid "Window Title"
+msgstr "Venstertitel"
+
+#: src/ptyxis-inspector.ui:45
+msgid "Current Directory"
+msgstr "Huidige map"
+
+#: src/ptyxis-inspector.ui:53
+msgid "Current File"
+msgstr "Huidig bestand"
+
+#: src/ptyxis-inspector.ui:63
+msgid "Container"
+msgstr "Container"
+
+#: src/ptyxis-inspector.ui:66
+msgid "Runtime"
+msgstr "Runtime"
+
+#: src/ptyxis-inspector.ui:74 src/ptyxis-inspector.ui:228
+#: src/ptyxis-profile-editor.ui:38
+msgid "Name"
+msgstr "Naam"
+
+#: src/ptyxis-inspector.ui:86 src/ptyxis-preferences-window.ui:34
+msgid "Appearance"
+msgstr "Uiterlijk"
+
+#: src/ptyxis-inspector.ui:92
+msgid "Grid Size"
+msgstr "Grid-grootte"
+
+#: src/ptyxis-inspector.ui:105
+msgid "Colors"
+msgstr "Kleuren"
+
+#: src/ptyxis-inspector.ui:225 src/ptyxis-preferences-window.ui:120
+msgid "Font"
+msgstr "Lettertype"
+
+#: src/ptyxis-inspector.ui:233
+msgid "Cell Size"
+msgstr "Celgrootte"
+
+#: src/ptyxis-inspector.ui:242
+msgid "Input"
+msgstr "Invoer"
+
+#: src/ptyxis-inspector.ui:246 src/ptyxis-preferences-window.ui:213
+msgid "Cursor"
+msgstr "Cursor"
+
+#: src/ptyxis-inspector.ui:249 src/ptyxis-inspector.ui:262
+msgid "Position"
+msgstr "Positie"
+
+#: src/ptyxis-inspector.ui:259
+msgid "Mouse"
+msgstr "Muis"
+
+#: src/ptyxis-inspector.ui:270
+msgid "Hyperlink"
+msgstr "Hyperlink"
+
+# Pangram. Tema seçiminde kullanılıyor.
+#: src/ptyxis-palette-preview.ui:12
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "De snelle bruine vos springt over de luie hond"
+
+#: src/ptyxis-preferences-window.c:236
+msgid "Select Font"
+msgstr "Lettertype selecteren"
+
+#: src/ptyxis-preferences-window.c:286
+msgid "Show fewer…"
+msgstr "Minder tonen…"
+
+#: src/ptyxis-preferences-window.c:288 src/ptyxis-preferences-window.ui:41
+msgid "Show more…"
+msgstr "Meer tonen…"
+
+#: src/ptyxis-preferences-window.ui:62 src/ptyxis-profile-editor.ui:78
+msgid "Transparency"
+msgstr "Transparantie"
+
+#: src/ptyxis-preferences-window.ui:63 src/ptyxis-profile-editor.ui:79
+msgid "Reduces the opacity of the background window"
+msgstr "Vermindert de opaciteit van het achtergrondvenster"
+
+#: src/ptyxis-preferences-window.ui:124
+msgid "Use System _Font"
+msgstr "Systeemlettertype gebruiken"
+
+#: src/ptyxis-preferences-window.ui:136
+msgid "Custom Font"
+msgstr "Aangepast lettertype"
+
+#: src/ptyxis-preferences-window.ui:165 src/ptyxis-profile-editor.ui:138
+msgid "Use Bright Colors for Bold"
+msgstr "Gebruik heldere kleuren voor vet"
+
+#: src/ptyxis-preferences-window.ui:174
+msgid "Blinking Text"
+msgstr "Knipperende tekst"
+
+#: src/ptyxis-preferences-window.ui:183 src/ptyxis-preferences-window.ui:361
+#: src/ptyxis-preferences-window.ui:450 src/ptyxis-profile-editor.ui:191
+#: src/ptyxis-profile-editor.ui:220
+msgid "Never"
+msgstr "Nooit"
+
+#: src/ptyxis-preferences-window.ui:189
+msgid "Focused"
+msgstr "Gefocust"
+
+#: src/ptyxis-preferences-window.ui:195
+msgid "Unfocused"
+msgstr "Niet gefocust"
+
+#: src/ptyxis-preferences-window.ui:201 src/ptyxis-preferences-window.ui:373
+#: src/ptyxis-preferences-window.ui:462 src/ptyxis-profile-editor.ui:197
+#: src/ptyxis-profile-editor.ui:232
+msgid "Always"
+msgstr "Altijd"
+
+#: src/ptyxis-preferences-window.ui:225
+msgid "Block"
+msgstr "Blok"
+
+#: src/ptyxis-preferences-window.ui:231
+msgid "I-Beam"
+msgstr "I-Beam"
+
+#: src/ptyxis-preferences-window.ui:237
+msgid "Underline"
+msgstr "Onderlijning"
+
+#: src/ptyxis-preferences-window.ui:247
+msgid "Cursor Blinking"
+msgstr "Knipperen cursor"
+
+#: src/ptyxis-preferences-window.ui:256 src/ptyxis-preferences-window.ui:367
+msgid "Follow System"
+msgstr "Systeem volgen"
+
+#: src/ptyxis-preferences-window.ui:262
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: src/ptyxis-preferences-window.ui:268
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: src/ptyxis-preferences-window.ui:282
+msgid "Behavior"
+msgstr "Gedrag"
+
+#: src/ptyxis-preferences-window.ui:286
+msgid "Interface"
+msgstr "Interface"
+
+#: src/ptyxis-preferences-window.ui:298
+msgid "Next"
+msgstr "Volgende"
+
+#: src/ptyxis-preferences-window.ui:304
+msgid "Last"
+msgstr "Laatste"
+
+#: src/ptyxis-preferences-window.ui:319
+msgid "Attempt to restore previous tabs when Ptyxis starts"
+msgstr "Tracht vorige tabbladen te herstellen bij opstarten"
+
+#: src/ptyxis-preferences-window.ui:325
+msgid "Restore the previous window size when creating a new window"
+msgstr ""
+"Herstel de vorige venstergrootte bij het aanmaken van een nieuw venster"
+
+#: src/ptyxis-preferences-window.ui:332
+msgid "Bell"
+msgstr "Bel"
+
+#: src/ptyxis-preferences-window.ui:336
+msgid "Emit an audible bell when requested by active tab"
+msgstr ""
+"Speel een hoorbaar belsignaal af wanneer het actieve tabblad dit verzoekt"
+
+#: src/ptyxis-preferences-window.ui:341
+msgid "Visual Bell"
+msgstr "Visuele bel"
+
+#: src/ptyxis-preferences-window.ui:342
+msgid "Emit a visual bell when requested by active tab"
+msgstr "Toon een visueel belsignaal wanneer het actieve tabblad dit verzoekt"
+
+#: src/ptyxis-preferences-window.ui:349 src/ptyxis-profile-editor.ui:275
+msgid "Scrolling"
+msgstr "Scrollen"
+
+#: src/ptyxis-preferences-window.ui:352
+msgid "Use Scrollbars"
+msgstr "Gebruik scrollbalken"
+
+#: src/ptyxis-preferences-window.ui:388 src/ptyxis-profile-editor.ui:279
+msgid "Scroll to the bottom upon input keystroke"
+msgstr "Scroll naar de onderkant bij een toetsaanslag"
+
+#: src/ptyxis-preferences-window.ui:394 src/ptyxis-profile-editor.ui:285
+msgid "Scroll to the bottom when new content is available"
+msgstr "Scroll naar de onderkant wanneer nieuwe inhoud beschikbaar komt"
+
+#: src/ptyxis-preferences-window.ui:404 src/ptyxis-profile-editor.ui:295
+msgid "Restrict the number of lines saved for scrollback"
+msgstr "Beperk het aantal lijnen dat teruggescrolld kan worden"
+
+#: src/ptyxis-preferences-window.ui:413 src/ptyxis-profile-editor.ui:304
+msgid "The number of lines to keep for scrollback"
+msgstr "Het aantal lijnen om terug te kunnen scrollen"
+
+#: src/ptyxis-preferences-window.ui:429 src/ptyxis-profile-editor.ui:145
+msgid "Shell"
+msgstr "Shell"
+
+#: src/ptyxis-preferences-window.ui:432 src/ptyxis-profile-editor.ui:163
+msgid "Use Login Shell"
+msgstr "Gebruik login-shell"
+
+#: src/ptyxis-preferences-window.ui:441 src/ptyxis-profile-editor.ui:211
+msgid "Preserve Working Directory"
+msgstr "Werkmap behouden"
+
+#: src/ptyxis-preferences-window.ui:456 src/ptyxis-profile-editor.ui:226
+msgid "Safe"
+msgstr "Veilig"
+
+#: src/ptyxis-preferences-window.ui:481 src/ptyxis-profile-editor.ui:251
+msgid "No Action"
+msgstr "Geen actie"
+
+#: src/ptyxis-preferences-window.ui:487 src/ptyxis-profile-editor.ui:257
+msgid "Restart"
+msgstr "Herstarten"
+
+#: src/ptyxis-preferences-window.ui:505 src/ptyxis-profile-editor.ui:320
+msgid "Compatibility"
+msgstr "Compatibiliteit"
+
+#: src/ptyxis-preferences-window.ui:508 src/ptyxis-profile-editor.ui:323
+msgid "Backspace Key"
+msgstr "Backspace-toets"
+
+#: src/ptyxis-preferences-window.ui:509 src/ptyxis-profile-editor.ui:324
+msgid "Sequence to send for Backspace key"
+msgstr "Sequentie om te versturen voor de backspace-toets"
+
+#: src/ptyxis-preferences-window.ui:518 src/ptyxis-profile-editor.ui:333
+msgid "Delete Key"
+msgstr "Delete-toets"
+
+#: src/ptyxis-preferences-window.ui:519 src/ptyxis-profile-editor.ui:334
+msgid "Sequence to send for Delete key"
+msgstr "Sequentie om te versturen voor de delete-toets"
+
+#: src/ptyxis-preferences-window.ui:528 src/ptyxis-profile-editor.ui:343
+msgid "Ambiguous-width Characters"
+msgstr "Karakters met ambigue breedte"
+
+#: src/ptyxis-preferences-window.ui:537 src/ptyxis-profile-editor.ui:352
+msgid "Narrow"
+msgstr "Eng"
+
+#: src/ptyxis-preferences-window.ui:543 src/ptyxis-profile-editor.ui:358
+msgid "Wide"
+msgstr "Breed"
+
+#: src/ptyxis-preferences-window.ui:558
+msgid "Shortcuts"
+msgstr "Sneltoetsen"
+
+#: src/ptyxis-preferences-window.ui:562 src/ptyxis-tab.c:1213
+msgid "Terminal"
+msgstr "Terminal"
+
+#: src/ptyxis-preferences-window.ui:584
+msgid "Clear Selection"
+msgstr "Selectie wissen"
+
+#: src/ptyxis-preferences-window.ui:593 src/ptyxis-terminal.ui:202
+msgid "Reset"
+msgstr "Herstellen"
+
+#: src/ptyxis-preferences-window.ui:598 src/ptyxis-terminal.ui:208
+msgid "Reset and Clear"
+msgstr "Herstellen en wissen"
+
+#: src/ptyxis-preferences-window.ui:616
+msgid "Show Context Menu"
+msgstr "Contextmenu tonen"
+
+#: src/ptyxis-preferences-window.ui:623
+msgid "Tabs"
+msgstr "Tabbladen"
+
+#: src/ptyxis-preferences-window.ui:627
+msgid "Open a new tab in the current window"
+msgstr "Nieuwe tabbladen in het huidig venster openen"
+
+#: src/ptyxis-preferences-window.ui:633
+msgid "Open a new tab in a new window"
+msgstr "Nieuwe tabbladen in een nieuw venster openen"
+
+#: src/ptyxis-preferences-window.ui:642
+msgid "View Tab Overview"
+msgstr "Tabbladoverzicht tonen"
+
+#: src/ptyxis-preferences-window.ui:643
+msgid "Show an overview of all tabs within the window"
+msgstr "Toon een overzicht van alle tabbladen in het venster"
+
+#: src/ptyxis-preferences-window.ui:653
+msgid "Close the current tab"
+msgstr "Huidig tabblad sluiten"
+
+#: src/ptyxis-preferences-window.ui:659
+msgid "Close all tabs except the active tab"
+msgstr "Alle tabbladen behalve sluiten"
+
+#: src/ptyxis-preferences-window.ui:665
+msgid "Undo closing the last tab"
+msgstr "Maak sluiten van het laatste tabblad ongedaan"
+
+#: src/ptyxis-preferences-window.ui:689
+msgid "Move the tab one position to the left"
+msgstr "Verplaats het tabblad één positie naar links"
+
+#: src/ptyxis-preferences-window.ui:695
+msgid "Move the tab one position to the right"
+msgstr "Verplaats het tabblad één positie naar rechts"
+
+#: src/ptyxis-preferences-window.ui:701
+msgid "Detach the current tab and move it to a new window"
+msgstr "Ontkoppel het huidige tabblad en verplaats het naar een nieuw venster"
+
+#: src/ptyxis-preferences-window.ui:710
+msgid "Switch to Tab 1"
+msgstr "Naar tabblad 1 wisselen"
+
+#: src/ptyxis-preferences-window.ui:715
+msgid "Switch to Tab 2"
+msgstr "Naar tabblad 2 wisselen"
+
+#: src/ptyxis-preferences-window.ui:720
+msgid "Switch to Tab 3"
+msgstr "Naar tabblad 3 wisselen"
+
+#: src/ptyxis-preferences-window.ui:725
+msgid "Switch to Tab 4"
+msgstr "Naar tabblad 4 wisselen"
+
+#: src/ptyxis-preferences-window.ui:730
+msgid "Switch to Tab 5"
+msgstr "Naar tabblad 5 wisselen"
+
+#: src/ptyxis-preferences-window.ui:735
+msgid "Switch to Tab 6"
+msgstr "Naar tabblad 6 wisselen"
+
+#: src/ptyxis-preferences-window.ui:740
+msgid "Switch to Tab 7"
+msgstr "Naar tabblad 7 wisselen"
+
+#: src/ptyxis-preferences-window.ui:745
+msgid "Switch to Tab 8"
+msgstr "Naar tabblad 8 wisselen"
+
+#: src/ptyxis-preferences-window.ui:750
+msgid "Switch to Tab 9"
+msgstr "Naar tabblad 9 wisselen"
+
+#: src/ptyxis-preferences-window.ui:755
+msgid "Switch to Tab 10"
+msgstr "Naar tabblad 10 wisselen"
+
+#: src/ptyxis-preferences-window.ui:762
+msgid "Zoom"
+msgstr "Zoomen"
+
+#: src/ptyxis-preferences-window.ui:782
+msgid "Application"
+msgstr "Applicatie"
+
+#: src/ptyxis-preferences-window.ui:786
+msgid "Toggle in and out of fullscreen"
+msgstr "Schakel van en naar een volledig venster"
+
+#: src/ptyxis-preferences-window.ui:796
+msgid "Show this preferences window"
+msgstr "Toon dit venster met voorkeuren"
+
+#: src/ptyxis-preferences-window.ui:805 src/ptyxis-preferences-window.ui:809
+#: src/ptyxis-window.c:1261
+msgid "Profiles"
+msgstr "Profielen"
+
+#: src/ptyxis-preferences-window.ui:844 src/ptyxis-profile-editor.ui:379
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: src/ptyxis-preferences-window.ui:850 src/ptyxis-profile-editor.ui:385
+msgid "Control-H"
+msgstr "Control-H"
+
+#: src/ptyxis-preferences-window.ui:856 src/ptyxis-profile-editor.ui:391
+msgid "ASCII DEL"
+msgstr "ASCII DEL"
+
+#: src/ptyxis-preferences-window.ui:862 src/ptyxis-profile-editor.ui:397
+msgid "Escape Sequence"
+msgstr "Escape Sequence"
+
+#: src/ptyxis-preferences-window.ui:868 src/ptyxis-profile-editor.ui:403
+msgid "TTY Erase"
+msgstr "TTY Erase"
+
+#: src/ptyxis-profile.c:540
+msgid "Untitled Profile"
+msgstr "Nieuw profiel"
+
+#: src/ptyxis-profile-editor.c:132 src/ptyxis-terminal.c:426
+#: src/ptyxis-terminal.c:458
+msgid "Copied to clipboard"
+msgstr "Gekopieerd naar klembord"
+
+#: src/ptyxis-profile-editor.c:150
+msgid "My Computer"
+msgstr "Mijn computer"
+
+#: src/ptyxis-profile-editor.ui:22 src/ptyxis-tab.c:325 src/ptyxis-tab.c:378
+msgid "Edit Profile"
+msgstr "Profiel bewerken"
+
+#: src/ptyxis-profile-editor.ui:33
+msgid "Profile"
+msgstr "Profiel"
+
+#: src/ptyxis-profile-editor.ui:43
+msgid "Identifier"
+msgstr "Identificatiecode"
+
+#: src/ptyxis-profile-editor.ui:54
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: src/ptyxis-profile-editor.ui:66
+msgid "Color"
+msgstr "Kleur"
+
+#: src/ptyxis-profile-editor.ui:173
+msgid "The default container to use with this profile"
+msgstr "De standaardcontainer om bij dit profiel te gebruiken"
+
+#: src/ptyxis-profile-editor.ui:182
+msgid "Preserve the current container when opening new tabs and windows"
+msgstr ""
+"De huidige container behouden bij het openen van nieuwe tabbladen en vensters"
+
+#: src/ptyxis-profile-row.c:102
+#, c-format
+msgid "Removed profile “%s”"
+msgstr "Profiel \"%s\" verwijderd"
+
+#: src/ptyxis-profile-row.c:104
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+#: src/ptyxis-profile-row.ui:42
+msgid "_Make Default"
+msgstr "_Standaard maken"
+
+#: src/ptyxis-profile-row.ui:48
+msgid "_Duplicate…"
+msgstr "_Dupliceren…"
+
+#: src/ptyxis-profile-row.ui:52
+msgid "_Edit…"
+msgstr "_Bewerken…"
+
+#: src/ptyxis-profile-row.ui:58
+msgid "_Remove"
+msgstr "_Verwijderen"
+
+#. Translators: <b>%s</b> is used to show the provided text in bold
+#: src/ptyxis-shortcut-accel-dialog.c:430
+#, c-format
+msgid "Enter new shortcut to change <b>%s</b>."
+msgstr "Geef nieuwe sneltoets in om <b>%s</b> te veranderen."
+
+#: src/ptyxis-shortcut-accel-dialog.ui:49
+msgid "_Set"
+msgstr "_Instellen"
+
+#: src/ptyxis-shortcut-accel-dialog.ui:90
+msgid "Press Escape to cancel or Backspace to disable."
+msgstr "Druk op Escape om te annuleren of Backspace om uit te schakelen."
+
+#: src/ptyxis-shortcut-row.c:74
+msgid "Set Shortcut"
+msgstr "Sneltoets instellen"
+
+#: src/ptyxis-shortcut-row.c:195
+msgid "disabled"
+msgstr "uitgeschakeld"
+
+#: src/ptyxis-tab.c:245
+#, c-format
+msgid "Process Exited from Signal %d"
+msgstr "Proces afgerond van signaal %d"
+
+#: src/ptyxis-tab.c:248 src/ptyxis-tab.c:271
+msgid "_Restart"
+msgstr "_Herstarten"
+
+#. Always prepare the banner even if we don't show it because we may
+#. * display it again if the tab is removed from the parking lot and
+#. * restored into the window.
+#.
+#: src/ptyxis-tab.c:270
+msgid "Process Exited"
+msgstr "Proces afgerond"
+
+#: src/ptyxis-tab.c:324
+msgid "Failed to launch terminal"
+msgstr "Terminal starten mislukt"
+
+#: src/ptyxis-tab.c:376
+#, c-format
+msgid "Cannot locate container “%s”"
+msgstr "Kon container \"%s\" niet vinden"
+
+#: src/ptyxis-tab.c:400
+msgid "Failed to create pseudo terminal device"
+msgstr "Aanmaken pseudo-terminal-apparaat mislukt"
+
+#: src/ptyxis-tab.c:1216
+msgid "Exited"
+msgstr "Afgerond"
+
+#: src/ptyxis-tab.c:1218
+msgid "Failed"
+msgstr "Gefaald"
+
+#: src/ptyxis-tab-notify.h:89
+msgid "Command completed"
+msgstr "Commando afgerond"
+
+#: src/ptyxis-terminal.ui:148
+msgid "Search…"
+msgstr "Zoeken…"
+
+#: src/ptyxis-terminal.ui:154
+msgid "_Open Link"
+msgstr "_Link openen"
+
+#: src/ptyxis-terminal.ui:162
+msgid "_Copy"
+msgstr "_Kopiëren"
+
+#: src/ptyxis-terminal.ui:163
+msgid "Copy selection from terminal to clipboard"
+msgstr "Kopieer de selectie van de terminal naar het klembord"
+
+#: src/ptyxis-terminal.ui:167
+msgid "_Copy Link"
+msgstr "_Link kopiëren"
+
+#: src/ptyxis-terminal.ui:173
+msgid "_Paste"
+msgstr "_Plakken"
+
+#: src/ptyxis-terminal.ui:174
+msgid "Paste from clipboard into the terminal"
+msgstr "Plak van het klembord naar de terminal"
+
+#: src/ptyxis-terminal.ui:181
+msgid "Select _All"
+msgstr "_Alles selecteren"
+
+#: src/ptyxis-terminal.ui:182
+msgid "Selection all text from terminal including scrollback"
+msgstr "Selecteer alle tekst in de terminal, inclusief de terugscrollijnen"
+
+#: src/ptyxis-terminal.ui:188
+msgid "Select _None"
+msgstr "_Niets selecteren"
+
+#: src/ptyxis-terminal.ui:195
+msgid "Read-Only"
+msgstr "Alleen lezen"
+
+#: src/ptyxis-terminal.ui:216 src/ptyxis-window.ui:491
+msgid "Leave Fullscreen"
+msgstr "Volledig venster verlaten"
+
+#: src/ptyxis-terminal.ui:222
+msgid "_Inspect Terminal"
+msgstr "Terminal _inspecteren"
+
+#: src/ptyxis-theme-selector.ui:21 src/ptyxis-theme-selector.ui:23
+msgid "Follow system style"
+msgstr "Systeemstijl volgen"
+
+#: src/ptyxis-theme-selector.ui:37 src/ptyxis-theme-selector.ui:39
+msgid "Light style"
+msgstr "Lichte stijl"
+
+#: src/ptyxis-theme-selector.ui:54 src/ptyxis-theme-selector.ui:56
+msgid "Dark style"
+msgstr "Donkere stijl"
+
+#: src/ptyxis-window.c:315
+#, c-format
+#| msgid "Ptyxis"
+msgid "%s — Ptyxis"
+msgstr "%s — Ptyxis"
+
+#: src/ptyxis-window.c:956 src/ptyxis-window.ui:544
+msgid "Set Title"
+msgstr "Titel instellen"
+
+#: src/ptyxis-window.c:1167
+msgid "Zoom in"
+msgstr "Inzoomen"
+
+#: src/ptyxis-window.c:1181
+msgid "Zoom out"
+msgstr "Uitzoomen"
+
+#: src/ptyxis-window.c:1264
+msgid "Containers"
+msgstr "Containers"
+
+#: src/ptyxis-window.ui:338
+msgid "New Terminal"
+msgstr "Nieuwe terminal"
+
+#: src/ptyxis-window.ui:392
+msgid "Menu"
+msgstr "Menu"
+
+#: src/ptyxis-window.ui:400
+msgid "Show Open Tabs"
+msgstr "Open tabbladen tonen"
+
+#: src/ptyxis-window.ui:461
+msgid "New _Tab"
+msgstr "NIeuw _tabblad"
+
+#: src/ptyxis-window.ui:468
+msgid "New _Window"
+msgstr "Nieuw _venster"
+
+#: src/ptyxis-window.ui:477
+msgid "View Open Tabs"
+msgstr "Open tabbladen tonen"
+
+#: src/ptyxis-window.ui:485
+msgid "Fullscreen"
+msgstr "Volledig venster"
+
+#: src/ptyxis-window.ui:499
+msgid "_Preferences"
+msgstr "_Voorkeuren"
+
+#: src/ptyxis-window.ui:503
+msgid "_Keyboard Shortcuts"
+msgstr "_Sneltoetsen"
+
+#: src/ptyxis-window.ui:507
+msgid "_About Ptyxis"
+msgstr "_Over Ptyxis"
+
+#: src/ptyxis-window.ui:516
+msgid "Move _Left"
+msgstr "Naar _links verplaatsen"
+
+#: src/ptyxis-window.ui:521
+msgid "Move _Right"
+msgstr "Naar _rechts verplaatsen"
+
+#: src/ptyxis-window.ui:526
+msgid "Move to New _Window"
+msgstr "Naar nieuw _venster verplaatsen"
+
+#: src/ptyxis-window.ui:532
+msgid "_Pin Tab"
+msgstr "Tabblad _vastmaken"
+
+#: src/ptyxis-window.ui:537
+msgid "Un_pin Tab"
+msgstr "Tabblad _losmaken"
+
+#: src/ptyxis-window.ui:551
+msgid "Close _Other Tabs"
+msgstr "_Andere tabbladen sluiten"
+
+#: src/ptyxis-window.ui:556
+msgid "_Close Tab"
+msgstr "Tabblad _sluiten"
+
+#: src/ptyxis-window.ui:563
+msgid "_My Computer"
+msgstr "Mijn _Computer"

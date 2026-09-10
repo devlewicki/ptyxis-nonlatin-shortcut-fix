@@ -1,0 +1,99 @@
+From: Alessandro Astone <alessandro.astone@canonical.com>
+Date: Thu, 2 Apr 2026 10:12:23 +0200
+Subject: Treat new-window plus command as single-terminal mode
+
+--new-window -x /usr/bin/foo should be considered a request to get a standalone
+terminal similar to --standalone, but in-process if one already exists.
+
+That means skip session-restore/save, disable tabs, etc...
+
+Forwarded: https://gitlab.gnome.org/chergert/ptyxis/-/merge_requests/140
+Bug: https://gitlab.gnome.org/chergert/ptyxis/-/issues/563
+Bug-Ubuntu: https://launchpad.net/bugs/2143649
+---
+ src/ptyxis-application.c | 15 ++++++++-------
+ src/ptyxis-window.c      | 16 +++++++++-------
+ 2 files changed, 17 insertions(+), 14 deletions(-)
+
+diff --git a/src/ptyxis-application.c b/src/ptyxis-application.c
+index e8b31ed..e06d672 100644
+--- a/src/ptyxis-application.c
++++ b/src/ptyxis-application.c
+@@ -485,19 +485,20 @@ ptyxis_application_command_line (GApplication            *app,
+         cwd_uri = g_strdup_printf ("file://%s", working_directory);
+     }
+ 
++  if (g_variant_dict_contains (dict, "execute"))
++    g_variant_dict_lookup (dict, "execute", "s", &command);
++
+   /* First restore our session state so it won't be lost when closing the
+-   * application down. No matter what the options, if we're not single instance
+-   * mode then we need to restore state.
++   * application down, unless we're single-instance or were requested a command
+    */
+-  if (!is_standalone (self))
++  if (!is_standalone (self) && !(new_window && command))
+     did_restore = ptyxis_application_restore (self);
+ 
+   if (g_variant_dict_contains (dict, "preferences"))
+     {
+       g_action_group_activate_action (G_ACTION_GROUP (self), "preferences", NULL);
+     }
+-  else if (g_variant_dict_contains (dict, "execute") &&
+-           g_variant_dict_lookup (dict, "execute", "s", &command))
++  else if (command)
+     {
+       g_autoptr(GError) error = NULL;
+ 
+@@ -547,8 +548,8 @@ ptyxis_application_command_line (GApplication            *app,
+           PtyxisWindow *window;
+           PtyxisTab *tab;
+ 
+-          window = ptyxis_window_new_empty ();
+-          tab = ptyxis_window_add_tab_for_command (window, NULL, (const char * const *)argv, cwd_uri);
++          window = ptyxis_window_new_for_command (NULL, (const char * const *)argv, cwd_uri);
++          tab = ptyxis_window_get_active_tab (window);
+ 
+           ptyxis_tab_set_title_prefix (tab, title);
+           ptyxis_tab_set_ignore_osc_title (tab, should_ignore_osc_title (self, title));
+diff --git a/src/ptyxis-window.c b/src/ptyxis-window.c
+index ac565dd..58b6e26 100644
+--- a/src/ptyxis-window.c
++++ b/src/ptyxis-window.c
+@@ -388,7 +388,7 @@ update_visible_and_maybe_close (PtyxisWindow *self)
+ 
+   if (n_pages == 0 && !adw_tab_view_get_is_transferring_page (self->tab_view))
+     {
+-      if (!self->in_close_request)
++      if (!self->in_close_request && !self->single_terminal_mode)
+         ptyxis_application_save_session (PTYXIS_APPLICATION_DEFAULT);
+       gtk_window_destroy (GTK_WINDOW (self));
+       return;
+@@ -1365,8 +1365,13 @@ is_last_window (PtyxisWindow *self)
+        iter;
+        iter = iter->next)
+     {
+-      if (PTYXIS_IS_WINDOW (iter->data) && iter->data != (gpointer)self)
+-        return FALSE;
++      if (PTYXIS_IS_WINDOW (iter->data))
++        {
++          PtyxisWindow *window = PTYXIS_WINDOW (iter->data);
++
++          if (window != self && !window->single_terminal_mode)
++            return FALSE;
++        }
+     }
+ 
+   return TRUE;
+@@ -2372,10 +2377,7 @@ ptyxis_window_new_for_command (PtyxisProfile      *profile,
+ 
+   if (self != NULL)
+     {
+-      GApplication *app = G_APPLICATION (PTYXIS_APPLICATION_DEFAULT);
+-      GApplicationFlags flags = g_application_get_flags (app);
+-
+-      self->single_terminal_mode = !!(flags & G_APPLICATION_NON_UNIQUE);
++      self->single_terminal_mode = TRUE;
+ 
+       gtk_widget_action_set_enabled (GTK_WIDGET (self), "win.new-tab", FALSE);
+       gtk_widget_action_set_enabled (GTK_WIDGET (self), "win.new-window", FALSE);

@@ -1,0 +1,23 @@
+[Palette]
+Name=Chameleon
+Background=#2C2C2C
+Foreground=#DEDEDE
+Cursor=#DEDEDE
+Color0=#2C2C2C
+Color1=#CC231C
+Color2=#689D69
+Color3=#D79922
+Color4=#366B71
+Color5=#4E5165
+Color6=#458587
+Color7=#C8BB97
+Color8=#777777
+Color9=#CC231C
+Color10=#689D69
+Color11=#D79922
+Color12=#366B71
+Color13=#4E5165
+Color14=#458587
+Color15=#C8BB97
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Chameleon.yml

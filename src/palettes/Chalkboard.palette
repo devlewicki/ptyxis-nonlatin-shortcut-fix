@@ -1,0 +1,23 @@
+[Palette]
+Name=Chalkboard
+Background=#29262F
+Foreground=#D9E6F2
+Cursor=#D9E6F2
+Color0=#000000
+Color1=#C37372
+Color2=#72C373
+Color3=#C2C372
+Color4=#7372C3
+Color5=#C372C2
+Color6=#72C2C3
+Color7=#D9D9D9
+Color8=#323232
+Color9=#DBAAAA
+Color10=#AADBAA
+Color11=#DADBAA
+Color12=#AAAADB
+Color13=#DBAADA
+Color14=#AADADB
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Chalkboard.yml

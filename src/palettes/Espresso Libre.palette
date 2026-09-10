@@ -1,0 +1,23 @@
+[Palette]
+Name=Espresso Libre
+Background=#2A211C
+Foreground=#B8A898
+Cursor=#B8A898
+Color0=#000000
+Color1=#CC0000
+Color2=#1A921C
+Color3=#F0E53A
+Color4=#0066FF
+Color5=#C5656B
+Color6=#06989A
+Color7=#D3D7CF
+Color8=#555753
+Color9=#EF2929
+Color10=#9AFF87
+Color11=#FFFB5C
+Color12=#43A8ED
+Color13=#FF818A
+Color14=#34E2E2
+Color15=#EEEEEC
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Espresso Libre.yml

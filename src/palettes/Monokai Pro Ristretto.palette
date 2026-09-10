@@ -1,0 +1,23 @@
+[Palette]
+Name=Monokai Pro Ristretto
+Background=#3E3838
+Foreground=#FBF2F3
+Cursor=#FBF2F3
+Color0=#3E3838
+Color1=#DF7484
+Color2=#BBD87E
+Color3=#EDCE73
+Color4=#DC9373
+Color5=#A9AAE9
+Color6=#A4D7CC
+Color7=#FBF2F3
+Color8=#70696A
+Color9=#DF7484
+Color10=#BBD87E
+Color11=#EDCE73
+Color12=#DC9373
+Color13=#A9AAE9
+Color14=#A4D7CC
+Color15=#FBF2F3
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Monokai Pro Ristretto.yml

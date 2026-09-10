@@ -1,0 +1,23 @@
+[Palette]
+Name=Sat
+Background=#758480
+Foreground=#23476A
+Cursor=#23476A
+Color0=#000000
+Color1=#DD0007
+Color2=#07DD00
+Color3=#DDD600
+Color4=#0007DD
+Color5=#D600DD
+Color6=#00DDD6
+Color7=#F2F2F2
+Color8=#7D7D7D
+Color9=#FF7478
+Color10=#78FF74
+Color11=#FFFA74
+Color12=#7478FF
+Color13=#FA74FF
+Color14=#74FFFA
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Sat.yml

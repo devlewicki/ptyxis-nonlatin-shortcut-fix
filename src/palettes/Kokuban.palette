@@ -1,0 +1,23 @@
+[Palette]
+Name=Kokuban
+Background=#0D4A08
+Foreground=#D8E2D7
+Cursor=#D8E2D7
+Color0=#2E8744
+Color1=#D84E4C
+Color2=#95DA5A
+Color3=#D6E264
+Color4=#4B9ED7
+Color5=#945FC5
+Color6=#D89B25
+Color7=#D8E2D7
+Color8=#34934F
+Color9=#FF4F59
+Color10=#AFF56A
+Color11=#FCFF75
+Color12=#57AEFF
+Color13=#AE63E9
+Color14=#FFAA2B
+Color15=#FFFEFE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Kokuban.yml

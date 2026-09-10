@@ -1,0 +1,23 @@
+[Palette]
+Name=Gogh
+Background=#292D3E
+Foreground=#BFC7D5
+Cursor=#BFC7D5
+Color0=#292D3E
+Color1=#F07178
+Color2=#62DE84
+Color3=#FFCB6B
+Color4=#75A1FF
+Color5=#F580FF
+Color6=#60BAEC
+Color7=#ABB2BF
+Color8=#959DCB
+Color9=#F07178
+Color10=#C3E88D
+Color11=#FF5572
+Color12=#82AAFF
+Color13=#FFCB6B
+Color14=#676E95
+Color15=#FFFEFE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Gogh.yml

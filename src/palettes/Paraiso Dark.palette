@@ -1,0 +1,23 @@
+[Palette]
+Name=Paraiso Dark
+Background=#2F1E2E
+Foreground=#A39E9B
+Cursor=#A39E9B
+Color0=#2F1E2E
+Color1=#EF6155
+Color2=#48B685
+Color3=#FEC418
+Color4=#06B6EF
+Color5=#815BA4
+Color6=#5BC4BF
+Color7=#A39E9B
+Color8=#776E71
+Color9=#EF6155
+Color10=#48B685
+Color11=#FEC418
+Color12=#06B6EF
+Color13=#815BA4
+Color14=#5BC4BF
+Color15=#E7E9DB
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Paraiso Dark.yml

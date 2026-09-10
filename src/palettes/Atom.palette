@@ -1,0 +1,23 @@
+[Palette]
+Name=Atom
+Background=#161719
+Foreground=#C5C8C6
+Cursor=#C5C8C6
+Color0=#000000
+Color1=#FD5FF1
+Color2=#87C38A
+Color3=#FFD7B1
+Color4=#85BEFD
+Color5=#B9B6FC
+Color6=#85BEFD
+Color7=#E0E0E0
+Color8=#000000
+Color9=#FD5FF1
+Color10=#94FA36
+Color11=#F5FFA8
+Color12=#96CBFE
+Color13=#B9B6FC
+Color14=#85BEFD
+Color15=#E0E0E0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Atom.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Material
+Background=#1E282C
+Foreground=#C3C7D1
+Cursor=#657B83
+Color0=#073641
+Color1=#EB606B
+Color2=#C3E88D
+Color3=#F7EB95
+Color4=#80CBC3
+Color5=#FF2490
+Color6=#AEDDFF
+Color7=#FFFFFF
+Color8=#002B36
+Color9=#EB606B
+Color10=#C3E88D
+Color11=#F7EB95
+Color12=#7DC6BF
+Color13=#6C71C3
+Color14=#34434D
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Material.yml

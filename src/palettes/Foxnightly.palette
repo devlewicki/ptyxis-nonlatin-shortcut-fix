@@ -1,0 +1,23 @@
+[Palette]
+Name=Foxnightly
+Background=#2A2A2E
+Foreground=#D7D7DB
+Cursor=#D7D7DB
+Color0=#2A2A2E
+Color1=#B98EFF
+Color2=#FF7DE9
+Color3=#729FCF
+Color4=#66A05B
+Color5=#75507B
+Color6=#ACACAE
+Color7=#FFFFFF
+Color8=#A40000
+Color9=#BF4040
+Color10=#66A05B
+Color11=#FFB86C
+Color12=#729FCF
+Color13=#8F5902
+Color14=#C4A000
+Color15=#5C3566
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Foxnightly.yml

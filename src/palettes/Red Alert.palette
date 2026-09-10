@@ -1,0 +1,23 @@
+[Palette]
+Name=Red Alert
+Background=#762423
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#000000
+Color1=#D62E4E
+Color2=#71BE6B
+Color3=#BEB86B
+Color4=#489BEE
+Color5=#E979D7
+Color6=#6BBEB8
+Color7=#D6D6D6
+Color8=#262626
+Color9=#E02553
+Color10=#AFF08C
+Color11=#DFDDB7
+Color12=#65AAF1
+Color13=#DDB7DF
+Color14=#B7DFDD
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Red Alert.yml

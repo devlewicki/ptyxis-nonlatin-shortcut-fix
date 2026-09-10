@@ -1,0 +1,23 @@
+[Palette]
+Name=Solarized Darcula
+Background=#3D3F41
+Foreground=#D2D8D9
+Cursor=#D2D8D9
+Color0=#25292A
+Color1=#F24840
+Color2=#629655
+Color3=#B68800
+Color4=#2075C7
+Color5=#797FD4
+Color6=#15968D
+Color7=#D2D8D9
+Color8=#25292A
+Color9=#F24840
+Color10=#629655
+Color11=#B68800
+Color12=#2075C7
+Color13=#797FD4
+Color14=#15968D
+Color15=#D2D8D9
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Solarized Darcula.yml

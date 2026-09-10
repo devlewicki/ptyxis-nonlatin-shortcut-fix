@@ -1,0 +1,23 @@
+[Palette]
+Name=Blazer
+Background=#0D1926
+Foreground=#D9E6F2
+Cursor=#D9E6F2
+Color0=#000000
+Color1=#B87A7A
+Color2=#7AB87A
+Color3=#B8B87A
+Color4=#7A7AB8
+Color5=#B87AB8
+Color6=#7AB8B8
+Color7=#D9D9D9
+Color8=#262626
+Color9=#DBBDBD
+Color10=#BDDBBD
+Color11=#DBDBBD
+Color12=#BDBDDB
+Color13=#DBBDDB
+Color14=#BDDBDB
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Blazer.yml

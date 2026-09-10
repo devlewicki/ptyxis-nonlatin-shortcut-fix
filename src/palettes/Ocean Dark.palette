@@ -1,0 +1,23 @@
+[Palette]
+Name=Ocean Dark
+Background=#1C1F27
+Foreground=#979CAC
+Cursor=#979CAC
+Color0=#4F4F4F
+Color1=#AF4B57
+Color2=#AFD383
+Color3=#E5C079
+Color4=#7D90A4
+Color5=#A4799D
+Color6=#85A6A5
+Color7=#EEEDEE
+Color8=#7B7B7B
+Color9=#AF4B57
+Color10=#CEFFAB
+Color11=#FFFECC
+Color12=#B5DCFE
+Color13=#FB9BFE
+Color14=#DFDFFD
+Color15=#FEFFFE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ocean Dark.yml

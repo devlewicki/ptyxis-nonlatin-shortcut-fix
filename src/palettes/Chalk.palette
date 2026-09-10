@@ -1,0 +1,23 @@
+[Palette]
+Name=Chalk
+Background=#2D2D2D
+Foreground=#D4D4D4
+Cursor=#D4D4D4
+Color0=#646464
+Color1=#F58E8E
+Color2=#A9D3AB
+Color3=#FED37E
+Color4=#7AABD4
+Color5=#D6ADD5
+Color6=#79D4D5
+Color7=#D4D4D4
+Color8=#646464
+Color9=#F58E8E
+Color10=#A9D3AB
+Color11=#FED37E
+Color12=#7AABD4
+Color13=#D6ADD5
+Color14=#79D4D5
+Color15=#D4D4D4
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Chalk.yml

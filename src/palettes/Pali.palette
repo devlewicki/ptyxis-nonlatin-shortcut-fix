@@ -1,0 +1,23 @@
+[Palette]
+Name=Pali
+Background=#232E37
+Foreground=#D9E6F2
+Cursor=#D9E6F2
+Color0=#0A0A0A
+Color1=#AB8F74
+Color2=#74AB8F
+Color3=#8FAB74
+Color4=#8F74AB
+Color5=#AB748F
+Color6=#748FAB
+Color7=#F2F2F2
+Color8=#5D5D5D
+Color9=#FF1D62
+Color10=#9CC3AF
+Color11=#FFD00A
+Color12=#AF9CC3
+Color13=#FF1D62
+Color14=#4BB8FD
+Color15=#A020F0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Pali.yml

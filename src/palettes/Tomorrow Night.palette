@@ -1,0 +1,23 @@
+[Palette]
+Name=Tomorrow Night
+Background=#1D1F21
+Foreground=#C5C8C6
+Cursor=#C4C8C5
+Color0=#000000
+Color1=#CC6666
+Color2=#B5BD68
+Color3=#F0C674
+Color4=#81A2BE
+Color5=#B293BB
+Color6=#8ABEB7
+Color7=#FFFEFE
+Color8=#000000
+Color9=#CC6666
+Color10=#B5BD68
+Color11=#F0C574
+Color12=#80A1BD
+Color13=#B294BA
+Color14=#8ABDB6
+Color15=#FFFEFE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Tomorrow Night.yml

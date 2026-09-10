@@ -1,0 +1,23 @@
+[Palette]
+Name=Fishtank
+Background=#232537
+Foreground=#ECF0FE
+Cursor=#ECF0FE
+Color0=#03073C
+Color1=#C6004A
+Color2=#ACF157
+Color3=#FECD5E
+Color4=#525FB8
+Color5=#986F82
+Color6=#968763
+Color7=#ECF0FC
+Color8=#6C5B30
+Color9=#DA4B8A
+Color10=#DBFFA9
+Color11=#FEE6A9
+Color12=#B2BEFA
+Color13=#FDA5CD
+Color14=#A5BD86
+Color15=#F6FFEC
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Fishtank.yml

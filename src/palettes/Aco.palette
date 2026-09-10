@@ -1,0 +1,23 @@
+[Palette]
+Name=Aco
+Background=#1F1305
+Foreground=#B4E1FD
+Cursor=#B4E1FD
+Color0=#3F3F3F
+Color1=#FF0883
+Color2=#83FF08
+Color3=#FF8308
+Color4=#0883FF
+Color5=#8308FF
+Color6=#08FF83
+Color7=#BEBEBE
+Color8=#474747
+Color9=#FF1E8E
+Color10=#8EFF1E
+Color11=#FF8E1E
+Color12=#1E8EFF
+Color13=#8E1EFF
+Color14=#1EFF8E
+Color15=#C4C4C4
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Aco.yml

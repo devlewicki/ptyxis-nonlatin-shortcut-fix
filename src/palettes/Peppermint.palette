@@ -1,0 +1,23 @@
+[Palette]
+Name=Peppermint
+Background=#000000
+Foreground=#C7C7C7
+Cursor=#BBBBBB
+Color0=#353535
+Color1=#E64569
+Color2=#89D287
+Color3=#DAB752
+Color4=#439ECF
+Color5=#D961DC
+Color6=#64AAAF
+Color7=#B3B3B3
+Color8=#535353
+Color9=#E4859A
+Color10=#A2CCA1
+Color11=#E1E387
+Color12=#6FBBE2
+Color13=#E586E7
+Color14=#96DCDA
+Color15=#DEDEDE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Peppermint.yml

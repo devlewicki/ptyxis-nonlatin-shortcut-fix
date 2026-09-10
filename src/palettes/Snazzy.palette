@@ -1,0 +1,23 @@
+[Palette]
+Name=Snazzy
+Background=#282A36
+Foreground=#EFF0EB
+Cursor=#97979B
+Color0=#282A36
+Color1=#FF5C57
+Color2=#5AF78E
+Color3=#F3F99D
+Color4=#57C7FF
+Color5=#FF6AC1
+Color6=#9AEDFE
+Color7=#F1F1F0
+Color8=#686868
+Color9=#FF5C57
+Color10=#5AF78E
+Color11=#F3F99D
+Color12=#57C7FF
+Color13=#FF6AC1
+Color14=#9AEDFE
+Color15=#EFF0EB
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Snazzy.yml

@@ -1,0 +1,33 @@
+Source: ptyxis
+Standards-Version: 4.7.3
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Alex Myczko <tar@debian.org>, Jeremy Bícha <jbicha@ubuntu.com>
+Section: gnome
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-gnome,
+               desktop-file-utils,
+               libadwaita-1-dev (>= 1.8~),
+               libglib2.0-dev (>= 2.80),
+               libgtk-4-dev,
+               libjson-glib-dev,
+               libportal-gtk4-dev,
+               libvte-2.91-gtk4-dev (>= 0.79),
+               libxml2-utils,
+               meson
+XS-Debian-Vcs-Browser: https://salsa.debian.org/gnome-team/ptyxis
+XS-Debian-Vcs-Git: https://salsa.debian.org/gnome-team/ptyxis.git
+Vcs-Browser: https://salsa.debian.org/gnome-team/ptyxis/-/tree/ubuntu/latest
+Vcs-Git: https://salsa.debian.org/gnome-team/ptyxis.git -b ubuntu/latest
+Homepage: https://devsuite.app/ptyxis/
+
+Package: ptyxis
+Architecture: any
+Multi-Arch: foreign
+Depends: xdg-terminal-exec, ${misc:Depends}, ${shlibs:Depends}
+Provides: x-terminal-emulator
+Description: Modern terminal emulator for GNOME
+ Ptyxis is a terminal for GNOME with first-class support for containers.
+ This app provides significantly more preferences than gnome-console
+ while arranging them in a simpler layout than gnome-terminal. Ptyxis
+ is also crafted to be both fast and efficient.

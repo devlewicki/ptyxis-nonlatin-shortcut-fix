@@ -1,0 +1,23 @@
+[Palette]
+Name=Ciapre
+Background=#191C27
+Foreground=#AEA47A
+Cursor=#AEA47A
+Color0=#181818
+Color1=#810009
+Color2=#48513B
+Color3=#CC8B3F
+Color4=#576D8C
+Color5=#724D7C
+Color6=#5C4F4B
+Color7=#AEA47F
+Color8=#555555
+Color9=#AC3835
+Color10=#A6A75D
+Color11=#DCDF7C
+Color12=#3097C6
+Color13=#D33061
+Color14=#F3DBB2
+Color15=#F4F4F4
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ciapre.yml

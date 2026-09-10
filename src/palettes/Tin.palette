@@ -1,0 +1,23 @@
+[Palette]
+Name=Tin
+Background=#2E2E35
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#000000
+Color1=#8D534E
+Color2=#4E8D53
+Color3=#888D4E
+Color4=#534E8D
+Color5=#8D4E88
+Color6=#4E888D
+Color7=#FFFFFF
+Color8=#000000
+Color9=#B57D78
+Color10=#78B57D
+Color11=#B0B578
+Color12=#7D78B5
+Color13=#B578B0
+Color14=#78B0B5
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Tin.yml

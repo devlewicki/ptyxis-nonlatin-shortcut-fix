@@ -1,0 +1,23 @@
+[Palette]
+Name=Clrs
+Background=#FFFFFF
+Foreground=#262626
+Cursor=#262626
+Color0=#000000
+Color1=#F8282A
+Color2=#328A5D
+Color3=#FA701D
+Color4=#135CD0
+Color5=#9F00BD
+Color6=#33C3C1
+Color7=#B3B3B3
+Color8=#555753
+Color9=#FB0416
+Color10=#2CC631
+Color11=#FDD727
+Color12=#1670FF
+Color13=#E900B0
+Color14=#3AD5CE
+Color15=#EEEEEC
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Clrs.yml

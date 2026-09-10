@@ -1,0 +1,23 @@
+[Palette]
+Name=Dimmed Monokai
+Background=#1F1F1F
+Foreground=#B9BCBA
+Cursor=#B9BCBA
+Color0=#3A3D43
+Color1=#BE3F48
+Color2=#879A3B
+Color3=#C5A635
+Color4=#4F76A1
+Color5=#855C8D
+Color6=#578FA4
+Color7=#B9BCBA
+Color8=#888987
+Color9=#FB001F
+Color10=#0F722F
+Color11=#C47033
+Color12=#186DE3
+Color13=#FB0067
+Color14=#2E706D
+Color15=#FDFFB9
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Dimmed Monokai.yml

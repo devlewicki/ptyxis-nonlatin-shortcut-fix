@@ -1,0 +1,23 @@
+[Palette]
+Name=Jackie Brown
+Background=#2C1D16
+Foreground=#FFCC2F
+Cursor=#FFCC2F
+Color0=#2C1D16
+Color1=#EF5734
+Color2=#2BAF2B
+Color3=#BEBF00
+Color4=#246EB2
+Color5=#D05EC1
+Color6=#00ACEE
+Color7=#BFBFBF
+Color8=#666666
+Color9=#E50000
+Color10=#86A93E
+Color11=#E5E500
+Color12=#0000FF
+Color13=#E500E5
+Color14=#00E5E5
+Color15=#E5E5E5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Jackie Brown.yml

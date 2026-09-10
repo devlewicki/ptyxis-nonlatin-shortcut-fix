@@ -1,0 +1,23 @@
+[Palette]
+Name=Paul Millr
+Background=#000000
+Foreground=#F2F2F2
+Cursor=#F2F2F2
+Color0=#2A2A2A
+Color1=#FF0000
+Color2=#79FF0F
+Color3=#D3BF00
+Color4=#396BD7
+Color5=#B449BE
+Color6=#66CCFF
+Color7=#BBBBBB
+Color8=#666666
+Color9=#FF0080
+Color10=#66FF66
+Color11=#F3D64E
+Color12=#709AED
+Color13=#DB67E6
+Color14=#7ADFF2
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Paul Millr.yml

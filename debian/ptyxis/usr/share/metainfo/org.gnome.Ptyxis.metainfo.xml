@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.gnome.Ptyxis</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Terminal</name>
+  <name xml:lang="zh-Hant-TW">終端機</name>
+  <name xml:lang="zh-Hans-CN">终端</name>
+  <name xml:lang="uk">Термінал</name>
+  <name xml:lang="tr">Uçbirim</name>
+  <name xml:lang="th">เทอร์มินัล</name>
+  <name xml:lang="sv">Terminal</name>
+  <name xml:lang="sr-Cyrl">Терминал</name>
+  <name xml:lang="sl">Terminal</name>
+  <name xml:lang="ru">Терминал</name>
+  <name xml:lang="pt-BR">Terminal</name>
+  <name xml:lang="pt">Terminal</name>
+  <name xml:lang="oc">Terminal</name>
+  <name xml:lang="nl">Terminal</name>
+  <name xml:lang="nb">Terminal</name>
+  <name xml:lang="ko">터미널</name>
+  <name xml:lang="kk-Cyrl">Терминал</name>
+  <name xml:lang="kab">Ixf</name>
+  <name xml:lang="ka">ტერმინალი</name>
+  <name xml:lang="ja">ターミナル</name>
+  <name xml:lang="it">Terminale</name>
+  <name xml:lang="id">Terminal</name>
+  <name xml:lang="hu">Terminál</name>
+  <name xml:lang="hi">टर्मिनल</name>
+  <name xml:lang="he">מסוף</name>
+  <name xml:lang="fr">Terminal</name>
+  <name xml:lang="fi">Pääte</name>
+  <name xml:lang="fa">پایانه</name>
+  <name xml:lang="eu">Terminala</name>
+  <name xml:lang="es">Terminal</name>
+  <name xml:lang="en-GB">Terminal</name>
+  <name xml:lang="de">Terminal</name>
+  <name xml:lang="cs">Terminál</name>
+  <name xml:lang="ca">Terminal</name>
+  <name xml:lang="bg">Терминал</name>
+  <name xml:lang="be-Cyrl">Тэрмінал</name>
+  <summary>Container-oriented terminal</summary>
+  <summary xml:lang="zh-Hant-TW">容器導向式終端機</summary>
+  <summary xml:lang="zh-Hans-CN">面向容器的终端</summary>
+  <summary xml:lang="uk">Орієнтований на контейнери термінал</summary>
+  <summary xml:lang="tr">Konteyner odaklı uçbirim</summary>
+  <summary xml:lang="sv">Behållarorienterad terminal</summary>
+  <summary xml:lang="sr-Cyrl">Терминал са контејнерима</summary>
+  <summary xml:lang="sl">Zabojnikom posvečen terminal</summary>
+  <summary xml:lang="ru">Терминал ориентированный на контейнеры</summary>
+  <summary xml:lang="pt-BR">Terminal orientado a contêineres</summary>
+  <summary xml:lang="pt">Terminal orientado a contentores</summary>
+  <summary xml:lang="nb">Konteinerbasert terminal</summary>
+  <summary xml:lang="ko">컨테이너 지향 터미널</summary>
+  <summary xml:lang="kk-Cyrl">Контейнерге бағытталған терминал</summary>
+  <summary xml:lang="ka">კონტეინერებზე ორიენტირებული ტერმინალი</summary>
+  <summary xml:lang="ja">コンテナ志向のターミナル</summary>
+  <summary xml:lang="it">Un terminale rivolto ai container</summary>
+  <summary xml:lang="id">Terminal berorientasi kontainer</summary>
+  <summary xml:lang="hu">Konténerorientált terminál</summary>
+  <summary xml:lang="hi">कंटेनर-उन्मुख टर्मिनल</summary>
+  <summary xml:lang="he">מסוף מוכוון מיכלים</summary>
+  <summary xml:lang="fr">Terminal orienté conteneur</summary>
+  <summary xml:lang="fi">Konttisuuntautunut pääte</summary>
+  <summary xml:lang="fa">پایانهٔ بارگنج‌محور</summary>
+  <summary xml:lang="eu">Edukiontziekin erabiltzeko terminala</summary>
+  <summary xml:lang="es">Terminal orientada al trabajo con contenedores</summary>
+  <summary xml:lang="en-GB">Container-orientated terminal</summary>
+  <summary xml:lang="de">Auf Container ausgerichtetes Terminal</summary>
+  <summary xml:lang="cs">Kontejnerově orientovaný terminál</summary>
+  <summary xml:lang="ca">Terminal orientat a contenidors</summary>
+  <summary xml:lang="bg">Терминал за работа с контейнери</summary>
+  <summary xml:lang="be-Cyrl">Кантэйнера-арыентаваны тэрмінал</summary>
+  <description>
+    <p>
+      Ptyxis is a terminal for GNOME that focuses on ease-of-use in a
+      world of containers.
+    </p>
+    <p xml:lang="zh-Hant-TW">Ptyxis 是個專為 GNOME 設計的終端機，主要專注於提升容器化世界中的便利性。</p>
+    <p xml:lang="zh-Hans-CN">Ptyxis 是 GNOME 的一个专注易于在容器环境中使用的终端。</p>
+    <p xml:lang="uk">Ptyxis — термінал для GNOME, акцент у якому зроблено на простоту користування у світі контейнерів.</p>
+    <p xml:lang="tr">Ptyxis, konteyner dünyasında kullanım kolaylığına odaklanan GNOME için bir uçbirimdir.</p>
+    <p xml:lang="sv">Ptyxis är en terminal för GNOME som fokuserar på användarvänlighet i en värld av behållare.</p>
+    <p xml:lang="sr-Cyrl">Птиксис је терминал за Гном који је усредсређен на лакоћу употребе у свету контејнера.</p>
+    <p xml:lang="sl">Ptyxis je terminal za GNOME, ki se osredotoča na enostavnost uporabe v svetu vsebnikov.</p>
+    <p xml:lang="ru">Ptyxis - это терминал для GNOME, ориентированный на простоту использования в мире контейнеров.</p>
+    <p xml:lang="pt-BR">Ptyxis é um terminal para GNOME que se concentra na facilidade de uso em um mundo de contêineres.</p>
+    <p xml:lang="pt">O Ptyxis é um terminal para GNOME que se concentra na facilidade de uso num mundo de contentores.</p>
+    <p xml:lang="nl">Ptyxis is een terminal voor GNOME die zich specialiseert in gebruiksgemak bij het gebruik van containers.</p>
+    <p xml:lang="nb">Ptyxis er en enkel og brukervennlig terminal som gjør det lett å jobbe med konteinere.</p>
+    <p xml:lang="ko">Ptyxis는 컨테이너 세계에서 사용하기 쉽도록 설계된 GNOME용 터미널입니다.</p>
+    <p xml:lang="kk-Cyrl">Ptyxis - бұл контейнерлер әлемінде қолданудың жеңілдігіне бағытталған GNOME-ға арналған терминал.</p>
+    <p xml:lang="ja">Ptyxis はコンテナの使いやすさにフォーカスした GNOME 向けのターミナルです。</p>
+    <p xml:lang="it">Ptyxis è un terminale per GNOME che si concentra sulla facilità d'uso in un mondo di container.</p>
+    <p xml:lang="id">Ptyxis adalah terminal untuk GNOME yang berfokus pada kemudahan penggunaan di dunia kontainer.</p>
+    <p xml:lang="hu">A Ptyxis egy terminál GNOME-hoz, amely a könnyű használhatóságra összpontosít a konténerek világában.</p>
+    <p xml:lang="hi">Ptyxis गनोम के लिए एक टर्मिनल है जो कंटेनरों की दुनिया में प्रयोग में आसानी पर केंद्रित है।</p>
+    <p xml:lang="he">‏Ptyxis הוא מסוף עבור GNOME שמתמקד בשימוש קל בעולם המיכלים.</p>
+    <p xml:lang="fr">Ptyxis est un terminal pour GNOME qui se concentre sur la facilité d’utilisation dans un monde de conteneurs.</p>
+    <p xml:lang="fi">Ptyxis on pääteohjelma Gnomelle, joka keskittyy helppokäyttöisyyteen konttimaailmassa.</p>
+    <p xml:lang="fa">چنبره پایانه‌ای برای گنوم است که روی سادگی استفاده در دنیای بارگنج‌ها تمرکز دارد.</p>
+    <p xml:lang="eu">Ptyxis GNOMErako terminal bat da, edukiontzien mundu batean erraz erabiltzeko modukoa.</p>
+    <p xml:lang="es">Ptyxis es una terminal para GNOME centrada en la facilidad de uso en un mundo de contenedores.</p>
+    <p xml:lang="en-GB">Ptyxis is a terminal for GNOME that focuses on ease-of-use in a world of containers.</p>
+    <p xml:lang="de">Ptyxis ist ein Terminal für GNOME, das sich auf Benutzerfreundlichkeit in einer Welt voller Container fokussiert.</p>
+    <p xml:lang="cs">Ptyxis je terminál pro prostředí GNOME, který se zaměřuje na snadné použití ve světě kontejnerů.</p>
+    <p xml:lang="ca">Ptyxis és un terminal per a GNOME focalitzat en la facilitat d'ús en un món de contenidors.</p>
+    <p xml:lang="bg">„Ptyxis“ е терминал за GNOME, който се фокусира върху лекотата на използване в свят пълен с контейнерите.</p>
+    <p xml:lang="be-Cyrl">Ptyxis — гэта тэрмінал для GNOME, які арыентаваны на прастае выкарыстанне ў кантэйнерах.</p>
+    <p>Features:</p>
+    <p xml:lang="zh-Hant-TW">功能特色：</p>
+    <p xml:lang="zh-Hans-CN">特性：</p>
+    <p xml:lang="uk">Можливості:</p>
+    <p xml:lang="tr">Özellikler:</p>
+    <p xml:lang="sv">Funktioner:</p>
+    <p xml:lang="sr-Cyrl">Могућности:</p>
+    <p xml:lang="sl">Zmožnosti:</p>
+    <p xml:lang="ru">Особенности:</p>
+    <p xml:lang="pt-BR">Recursos:</p>
+    <p xml:lang="pt">Funcionalidades:</p>
+    <p xml:lang="oc">Foncionalitats :</p>
+    <p xml:lang="nl">Functies:</p>
+    <p xml:lang="nb">Fordeler med Ptyxis:</p>
+    <p xml:lang="ko">기능:</p>
+    <p xml:lang="kk-Cyrl">Мүмкіндіктері:</p>
+    <p xml:lang="kab">Timahilin:</p>
+    <p xml:lang="ka">თვისებები:</p>
+    <p xml:lang="ja">機能:</p>
+    <p xml:lang="it">Funzionalità:</p>
+    <p xml:lang="id">Fitur:</p>
+    <p xml:lang="hu">Funkciók:</p>
+    <p xml:lang="hi">विशेषताएं:</p>
+    <p xml:lang="he">תכונות:</p>
+    <p xml:lang="fr">Fonctionnalités :</p>
+    <p xml:lang="fi">Ominaisuudet:</p>
+    <p xml:lang="fa">ویژگی‌ها:</p>
+    <p xml:lang="eu">Eginbideak:</p>
+    <p xml:lang="es">Características:</p>
+    <p xml:lang="en-GB">Features:</p>
+    <p xml:lang="de">Funktionen:</p>
+    <p xml:lang="cs">Funkce:</p>
+    <p xml:lang="ca">Característiques:</p>
+    <p xml:lang="bg">Функции:</p>
+    <p xml:lang="be-Cyrl">Магчымасці:</p>
+    <ul>
+      <li>Remembers current container when opening a new tab with support for podman, toolbox, distrobox, and more</li>
+      <li xml:lang="zh-Hant-TW">開啟新分頁時會記住目前的容器，支援 podman、toolbox、distrobox 等管理工具</li>
+      <li xml:lang="zh-Hans-CN">打开新标签页时记住当前容器，支持 podman、toolbox、distrobox 等容器管理工具</li>
+      <li xml:lang="uk">Запам'ятовує поточний контейнер при відкритті нової вкладки із підтримкою podman, toolbox, distrobox тощо</li>
+      <li xml:lang="tr">Podman, toolbox, distrobox ve daha fazlası için destek ile yeni sekme açarken geçerli konteyneri hatırlar</li>
+      <li xml:lang="sv">Kommer ihåg nuvarande behållare när du öppnar en ny flik med stöd för podman, toolbox, distrobox med mera</li>
+      <li xml:lang="sl">Zapomni si trenutni vsebnik pri odpiranju novega zavihka s podporo za podman, toolbox, distrobox in drugo</li>
+      <li xml:lang="ru">Запоминает текущий контейнер при открытии новой вкладки с поддержкой podman, toolbox, distrobox и т. д. </li>
+      <li xml:lang="pt-BR">Lembra o contêiner atual ao abrir uma nova aba com suporte para podman, toolbox, distrobox e mais</li>
+      <li xml:lang="pt">Lembra o contentor atual ao abrir um novo separador com suporte para podman, toolbox, distrobox e mais</li>
+      <li xml:lang="nl">Onthoudt de huidige container bij het openen van een nieuw tabblad, met ondersteuning voor podman, toolbox, distrobox en meer</li>
+      <li xml:lang="nb">Husker gjeldende konteiner når en ny fane åpnes, uansett om du bruker Podman, Toolbx eller Distrobox eller noe annet</li>
+      <li xml:lang="ko">새 탭을 열 때 현재 컨테이너를 기억하며 podman, toolbox, distrobox 등을 지원합니다</li>
+      <li xml:lang="kk-Cyrl">Podman, toolbox, distrobox және т.б. қолдауымен жаңа бетті ашқанда ағымдағы контейнерді есте сақтайды</li>
+      <li xml:lang="ja">podman、toolbox、distrobox などをサポートし、新しいタブを開く際に現在のコンテナを記憶する</li>
+      <li xml:lang="it">Ricorda il container in uso quando si apre una nuova scheda con supporto per podman, toolbox, distrobox e altri.</li>
+      <li xml:lang="id">Mengingat container saat ini saat membuka tab baru dengan dukungan untuk podman, toolbox, distrobox, dan lainnya</li>
+      <li xml:lang="hu">Megjegyzi a jelenlegi konténert új lap megnyitásakor podman, toolbox, distrobox és egyebek támogatásával</li>
+      <li xml:lang="hi">पॉडमैन, टूलबॉक्स, डिस्ट्रोबॉक्स और अन्य के समर्थन के साथ नया टैब खोलते समय वर्तमान कंटेनर को याद रखता है</li>
+      <li xml:lang="fr">Mémorise le conteneur actuel lors de l’ouverture d’un nouvel onglet avec prise en charge de podman, toolbox, distrobox et plus</li>
+      <li xml:lang="fi">Muistaa nykyisen kontin, kun uusi välilehti avataan. Tukee podmania, toolboxia, distroboxia ja muita</li>
+      <li xml:lang="eu">Uneko edukiontzia gogoratzen du fitxa bat irekitzean, eta podman, toolbox, distrobox eta beste hainbat onartzen ditu</li>
+      <li xml:lang="es">Recuerda el contenedor actual al abrir una nueva pestaña, con soporte para podman, toolbox, distrobox y más</li>
+      <li xml:lang="en-GB">Remembers current container when opening a new tab with support for podman, toolbox, distrobox, and more</li>
+      <li xml:lang="de">Erinnert sich an den aktuellen Container, wenn ein neuer Reiter geöffnet wird. Unterstützt werden podman, toolbox, distrobox und weitere</li>
+      <li xml:lang="cs">Pamatuje si aktuální kontejner při otevření nové karty s podporou pro podman, toolbox, distrobox a další</li>
+      <li xml:lang="ca">Recorda el contenidor actual en obrir una pestanya nova amb suport per a podman, toolbox, distrobox i més</li>
+      <li xml:lang="bg">Запомня текущия контейнер при отваряне на нов подпрозорец с поддръжка за podman, toolbox, distrobox и други</li>
+      <li xml:lang="be-Cyrl">Запамінанне бягучага кантэйнера пры адкрыцці новай укладкі з падтрымкай podman, toolbox, distrobox і іншых</li>
+      <li>Configurable keyboard shortcuts</li>
+      <li xml:lang="zh-Hant-TW">可設定鍵盤快捷鍵組態</li>
+      <li xml:lang="zh-Hans-CN">可配置的键盘快捷键</li>
+      <li xml:lang="uk">Придатні до налаштовування клавіатурні скорочення</li>
+      <li xml:lang="tr">Yapılandırılabilir klavye kısayolları</li>
+      <li xml:lang="sv">Konfigurerbara tangentbordsgenvägar</li>
+      <li xml:lang="sl">Nastavljive tipke za bližnjice</li>
+      <li xml:lang="ru">Настраиваемые комбинации клавиш</li>
+      <li xml:lang="pt-BR">Atalhos de teclado configuráveis</li>
+      <li xml:lang="pt">Teclas de atalho configuráveis</li>
+      <li xml:lang="nl">Instelbare sneltoetsen</li>
+      <li xml:lang="nb">Tilpassbare tastatursnarveier</li>
+      <li xml:lang="ko">구성 가능한 바로 가기</li>
+      <li xml:lang="kk-Cyrl">Теңшелетін пернетақта жарлықтары</li>
+      <li xml:lang="ka">მორგებადი კლავიატურის მალსახმობები</li>
+      <li xml:lang="ja">構成可能なキーボードショートカット</li>
+      <li xml:lang="it">Scorciatoie da tastiera personalizzabili</li>
+      <li xml:lang="id">Pintasan papan ketik yang dapat dikonfigurasi</li>
+      <li xml:lang="hu">Beállítható gyorsbillentyűk</li>
+      <li xml:lang="hi">विन्यास योग्य कीबोर्ड शॉर्टकट</li>
+      <li xml:lang="fr">Raccourcis clavier configurables</li>
+      <li xml:lang="fi">Mukautettavat pikanäppäimet</li>
+      <li xml:lang="eu">Laster-tekla konfiguragarriak</li>
+      <li xml:lang="es">Atajos de teclado configurables</li>
+      <li xml:lang="en-GB">Configurable keyboard shortcuts</li>
+      <li xml:lang="de">Konfigurierbare Tastenkürzel</li>
+      <li xml:lang="cs">Nastavitelné klávesové zkratky</li>
+      <li xml:lang="ca">Dreceres de teclat configurables</li>
+      <li xml:lang="bg">Конфигурируеми клавишни комбинации</li>
+      <li xml:lang="be-Cyrl">Змяняльныя налады спалучэнняў клавіш</li>
+      <li>Modern interface which integrates the palette with the window styling</li>
+      <li xml:lang="zh-Hant-TW">現代化介面，整合調色盤與視窗風格調整功能</li>
+      <li xml:lang="zh-Hans-CN">将调色板与窗口样式融为一体的现代化界面</li>
+      <li xml:lang="uk">Сучасний інтерфейс із інтеграцією палітри зі стилем вікон</li>
+      <li xml:lang="tr">Paleti pencere biçimiyle bütünleyen modern arayüz</li>
+      <li xml:lang="sv">Modernt gränssnitt som integrerar paletten med fönsterstilen</li>
+      <li xml:lang="sl">Sodoben vmesnik, ki integrira paleto s slogom oken</li>
+      <li xml:lang="ru">Современный интерфейс, который объединяет палитру со стилем окна</li>
+      <li xml:lang="pt-BR">Interface moderna que integra a paleta com o estilo da janela</li>
+      <li xml:lang="pt">Interface moderna que integra a paleta com o estilo da janela</li>
+      <li xml:lang="nl">Moderne interface die het kleurenpalet integreert met de styling van het venster</li>
+      <li xml:lang="nb">Moderne utseende som tilpasser seg fargepaletten brukt på selve terminalen</li>
+      <li xml:lang="ko">현대적인 인터페이스로 팔레트를 창 스타일링과 통합</li>
+      <li xml:lang="kk-Cyrl">Палитраны терезе стилімен біріктіретін заманауи интерфейс</li>
+      <li xml:lang="ja">ウィンドウスタイルがパレットと調和するモダンなインターフェイス</li>
+      <li xml:lang="it">Interfaccia moderna che integra la tavolozza con lo schema di colori della finestra</li>
+      <li xml:lang="id">Antarmuka modern yang mengintegrasikan palet dengan gaya jendela</li>
+      <li xml:lang="hu">Modern felület, amely integrálja a palettát az ablak stílusával</li>
+      <li xml:lang="hi">आधुनिक इंटरफ़ेस जो विंडो स्टाइलिंग के साथ पैलेट को एकीकृत करता है</li>
+      <li xml:lang="fr">Une interface moderne qui intègre la palette avec le style de la fenêtre</li>
+      <li xml:lang="fi">Nykyaikainen käyttöliittymä, joka sisällyttää värimaailman ikkunan tyyliin</li>
+      <li xml:lang="eu">Interfaze modernoa, paleta eta leihoei estiloa ematea integratzen duena</li>
+      <li xml:lang="es">Interfaz moderna que integra la paleta con el estilo de la ventana</li>
+      <li xml:lang="en-GB">Modern interface which integrates the palette with the window styling</li>
+      <li xml:lang="de">Moderne Oberfläche, die die Palette mit der Fensterdarstellung integriert</li>
+      <li xml:lang="cs">Moderní rozhraní, které integruje paletu se stylem okna</li>
+      <li xml:lang="ca">Interfície moderna que integra la paleta amb l'estil de finestres</li>
+      <li xml:lang="bg">Модерен интерфейс, който интегрира палитрата със стила на прозореца</li>
+      <li xml:lang="be-Cyrl">Сучасны інтэрфейс, які аб'ядноўвае палітру і стыль акна</li>
+      <li>User-installable color palettes</li>
+      <li xml:lang="zh-Hant-TW">使用者可安裝風格調色盤</li>
+      <li xml:lang="zh-Hans-CN">用户可安装的调色板</li>
+      <li xml:lang="uk">Можливість встановлення палітр кольорів користувачем</li>
+      <li xml:lang="tr">Kullanıcı tarafından kurulabilen renk paletleri</li>
+      <li xml:lang="sv">Färgpaletter installerbara av användare</li>
+      <li xml:lang="sl">Barvne palete, ki jih lahko namesti uporabnik</li>
+      <li xml:lang="ru">Устанавливаемые пользователем цветовые палитры</li>
+      <li xml:lang="pt-BR">Paletas de cores instaláveis ​​pelo usuário</li>
+      <li xml:lang="pt">Paletas de cores instaláveis ​​pelo utilizador</li>
+      <li xml:lang="nl">Door de gebruiker beheerde kleurenpaletten</li>
+      <li xml:lang="nb">Installerbare fargepaletter</li>
+      <li xml:lang="ko">사용자 설치 가능한 색상 팔레트</li>
+      <li xml:lang="kk-Cyrl">Пайдаланушы орната алатын түс палитралары</li>
+      <li xml:lang="ja">ユーザーがインストール可能なカラーパレット</li>
+      <li xml:lang="it">Tavolozze di colori installabili dall'utente</li>
+      <li xml:lang="id">Palet warna yang dapat dipasang pengguna</li>
+      <li xml:lang="hu">Felhasználó által telepíthető színpaletták</li>
+      <li xml:lang="hi">उपयोक्ता-स्थापित करने योग्य रंग पैलेट</li>
+      <li xml:lang="fr">Palettes de couleurs installables par l’utilisateur</li>
+      <li xml:lang="fi">Käyttäjän asennettavissa olevat väripaletit</li>
+      <li xml:lang="eu">Erabiltzaileak instalatu ditzakeen kolore-paletak</li>
+      <li xml:lang="es">Paletas de colores personalizables por el usuario</li>
+      <li xml:lang="en-GB">User-installable colour palettes</li>
+      <li xml:lang="de">Durch den Nutzer installierbare Farbpaletten</li>
+      <li xml:lang="cs">Uživatelem instalovatelné barevné palety</li>
+      <li xml:lang="ca">Paletes de colors instal·lables per l'usuari</li>
+      <li xml:lang="bg">Потребителски цветови палитри</li>
+      <li xml:lang="be-Cyrl">Усталяванне палітры колераў карыстальнікам</li>
+      <li>Support for preferences profiles with container integration</li>
+      <li xml:lang="zh-Hant-TW">支援與容器整合的個人偏好設定檔</li>
+      <li xml:lang="zh-Hans-CN">支持与容器集成的首选项配置文件</li>
+      <li xml:lang="uk">Підтримка профілів налаштувань з інтеграцією до контейнерів</li>
+      <li xml:lang="tr">Konteyner tümleşimi ile tercih profilleri desteği</li>
+      <li xml:lang="sv">Stöd för inställningsprofiler med behållarintegration</li>
+      <li xml:lang="sl">Podpora za profile nastavitev z integracijo zabojnikov</li>
+      <li xml:lang="ru">Поддержка профилей предпочтений с интеграцией контейнеров</li>
+      <li xml:lang="pt-BR">Suporte para perfis de preferências com integração com contêineres</li>
+      <li xml:lang="pt">Suporte para perfis de preferências com integração com contentores</li>
+      <li xml:lang="nl">Ondersteuning voor voorkeursprofielen met containerintegratie</li>
+      <li xml:lang="nb">Profilsystem integrert med konteinerbaserte arbeidsmetoder</li>
+      <li xml:lang="ko">컨테이너 통합을 지원하는 환경 설정 프로필</li>
+      <li xml:lang="kk-Cyrl">Контейнерлермен интеграцияланған баптаулар профильдерін қолдау</li>
+      <li xml:lang="ja">コンテナ統合による設定プロファイルのサポート</li>
+      <li xml:lang="it">Supporto per profili di preferenze con integrazione per i container</li>
+      <li xml:lang="id">Dukungan untuk profil preferensi dengan integrasi kontainer</li>
+      <li xml:lang="hu">Beállítási profilok támogatása konténerintegrációval</li>
+      <li xml:lang="hi">कंटेनर एकीकरण के साथ प्राथमिकता प्रोफाइल के लिए समर्थन</li>
+      <li xml:lang="fr">Prise en charge des profils de préférences avec intégration de conteneur</li>
+      <li xml:lang="fi">Tuki asetusprofiileille, joissa on kontti-integraatio</li>
+      <li xml:lang="eu">Hobespen-profilen euskarria edukiontzi-integrazioarekin</li>
+      <li xml:lang="es">Compatibilidad para perfiles de configuración con integración para contenedores</li>
+      <li xml:lang="en-GB">Support for preferences profiles with container integration</li>
+      <li xml:lang="de">Unterstützung von Einstellungsprofilen mit Container-Integration</li>
+      <li xml:lang="cs">Podpora profilů předvoleb s integrací kontejnerů</li>
+      <li xml:lang="ca">Suport per a perfils de preferències amb integració de contenidors</li>
+      <li xml:lang="bg">Профили за настройки с интеграция за контейнери</li>
+      <li xml:lang="be-Cyrl">Падтрымка профіляў налад з інтэграцыяй кантэйнераў</li>
+      <li>Integrated color palettes with light and dark support</li>
+      <li xml:lang="zh-Hant-TW">支援亮色與暗色模式的整合調色盤</li>
+      <li xml:lang="zh-Hans-CN">支持亮色和暗色模式的集成调色板</li>
+      <li xml:lang="uk">Вбудовані палітри кольорів із підтримкою світлих та темних тем</li>
+      <li xml:lang="tr">Açık ve koyu destekli tümleşik renk paletleri</li>
+      <li xml:lang="sv">Integrerade färgpaletter med ljust och mörkt stöd</li>
+      <li xml:lang="sl">Integrirane barvne palete s podporo za svetlo in temno temo</li>
+      <li xml:lang="ru">Интегрированные цветовые палитры с поддержкой светлых и тёмных тонов</li>
+      <li xml:lang="pt-BR">Paletas de cores integradas com suporte claro e escuro</li>
+      <li xml:lang="pt">Paletas de cores integradas com suporte claro e escuro</li>
+      <li xml:lang="nl">Geïntegreerde lichte en donkere kleurenpaletten</li>
+      <li xml:lang="nb">Innebygde fargepaletter med støtte for lys og mørk modus</li>
+      <li xml:lang="ko">라이트와 다크 지원을 갖춘 통합 색상 팔레트</li>
+      <li xml:lang="kk-Cyrl">Ашық және күңгірт режимдерді қолдайтын кірістірілген түс палитралары</li>
+      <li xml:lang="ja">ライトとダークに対応した調和したカラーバレット</li>
+      <li xml:lang="it">Tavolozze di colori integrate con supporto per temi chiari e scuri</li>
+      <li xml:lang="id">Palet warna terintegrasi dengan dukungan terang dan gelap</li>
+      <li xml:lang="hu">Beépített színpaletták világos és sötét mód támogatással</li>
+      <li xml:lang="hi">हल्के और गहरे रंग के समर्थन के साथ एकीकृत रंग पैलेट</li>
+      <li xml:lang="fr">Palettes de couleurs intégrées avec prise en charge des modes clair et sombre</li>
+      <li xml:lang="fi">Sisäänrakennetut väripaletit vaalean ja tumman teeman tuella</li>
+      <li xml:lang="eu">Kolore-paleta integratuak gai ilun eta argiarekin</li>
+      <li xml:lang="es">Paletas de colores integradas con soporte para claros y oscuros</li>
+      <li xml:lang="en-GB">Integrated colour palettes with light and dark support</li>
+      <li xml:lang="de">Integrierte Farbpaletten mit heller und dunkler Unterstützung</li>
+      <li xml:lang="cs">Integrované barevné palety s podporou světlých a tmavých</li>
+      <li xml:lang="ca">Paletes de colors integrades compatibles amb temes clars i foscos</li>
+      <li xml:lang="bg">Интегрирани цветови палитри с поддръжка на светли и тъмни цветове</li>
+      <li xml:lang="be-Cyrl">Інтэграваная палітра колераў з падтрымкай светлага і цёмнага рэжыму</li>
+      <li>Tabbed interface with tab overviews</li>
+      <li xml:lang="zh-Hant-TW">有分頁概覽的頁籤式介面</li>
+      <li xml:lang="zh-Hans-CN">带有标签页概览的标签页式界面</li>
+      <li xml:lang="uk">Інтерфейс із вкладками та панелями огляду</li>
+      <li xml:lang="tr">Sekme genel görünümüne sahip sekmeli arayüz</li>
+      <li xml:lang="sv">Gränssnitt med flikar och fliköversikter</li>
+      <li xml:lang="sl">Vmesnik z zavihki s pregledi zavihkov</li>
+      <li xml:lang="ru">Интерфейс с вкладками и обзором вкладок</li>
+      <li xml:lang="pt-BR">Interface com abas e visões gerais das abas</li>
+      <li xml:lang="pt">Interface com separadores e visões gerais dos separadores</li>
+      <li xml:lang="nl">Interface met tabbladen en tabbladoverzichten</li>
+      <li xml:lang="nb">Fanebasert oppsett med en egen faneoversikt</li>
+      <li xml:lang="ko">탭 개요가 있는 탭 인터페이스</li>
+      <li xml:lang="kk-Cyrl">Беттерге шолу мүмкіндігі бар беттік интерфейс</li>
+      <li xml:lang="ja">タブの一覧表示ができるタブインターフェース</li>
+      <li xml:lang="it">Interfaccia a schede con panoramica</li>
+      <li xml:lang="id">Antarmuka tab dengan gambaran umum tab</li>
+      <li xml:lang="hu">Lapozható felület lapáttekintésekkel</li>
+      <li xml:lang="hi">टैब अवलोकन के साथ टैब्ड इंटरफ़ेस</li>
+      <li xml:lang="fr">Interface à onglets avec aperçus d’onglets</li>
+      <li xml:lang="fi">Välilehtiin pohjautuva käyttöliittymä ja yhteenvetonäkymä välilehdistä</li>
+      <li xml:lang="eu">Fitxadun interfazea fitxen ikuspegiarekin</li>
+      <li xml:lang="es">Interfaz de pestañas con vista previa</li>
+      <li xml:lang="en-GB">Tabbed interface with tab overviews</li>
+      <li xml:lang="de">Unterstützung von Reitern und Reiterübersichten</li>
+      <li xml:lang="cs">Rozhraní s kartami a přehledy karet</li>
+      <li xml:lang="ca">Interfície de pestanyes amb visió general d'aquestes</li>
+      <li xml:lang="bg">Интерфейс с подпрозорци и преглед на подпрозорците</li>
+      <li xml:lang="be-Cyrl">Укладкі і агляд укладак</li>
+      <li>Efficient foreground process tracking denoting sudo and SSH</li>
+      <li xml:lang="zh-Hant-TW">前景程序標出 sudo 和 SSH 狀態，追蹤程序更有效率</li>
+      <li xml:lang="zh-Hans-CN">标识 sudo 和 SSH 的高效前台进程跟踪</li>
+      <li xml:lang="uk">Ефективне стеження за основними процесами з позначенням sudo і SSH</li>
+      <li xml:lang="tr">Sudo ve SSH'yi gösteren verimli ön plan süreç takibi</li>
+      <li xml:lang="sv">Effektiv spårning av förgrundsprocesser som anger sudo och SSH</li>
+      <li xml:lang="sl">Učinkovito sledenje procesom v ospredju, ki označujejo sudo in SSH</li>
+      <li xml:lang="ru">Эффективное отслеживание приоритетных процессов, обозначающее sudo и SSH</li>
+      <li xml:lang="pt-BR">Rastreamento eficiente de processos em primeiro plano denotando sudo e SSH</li>
+      <li xml:lang="nl">Efficiënte tracking van voorgrondprocessen met indicatoren voor sudo en SSH</li>
+      <li xml:lang="nb">Effektiv sporing av forgrunnsprosesser for å indikere bruk av Sudo og SSH</li>
+      <li xml:lang="ko">sudo 및 SSH를 나타내는 효율적인 포어그라운드 프로세스 추적</li>
+      <li xml:lang="kk-Cyrl">Sudo және SSH белгілейтін алдыңғы қатардағы процестерді тиімді бақылау</li>
+      <li xml:lang="ja">フォアグラウンドプロセスを効率的に追跡し sudo や SSH をお知らせ</li>
+      <li xml:lang="it">Tracciamento efficiente dei processi in primo piano, con indicazione di sudo e SSH</li>
+      <li xml:lang="id">Pelacakan proses latar depan yang efisien menunjukkan sudo dan SSH</li>
+      <li xml:lang="hu">Hatékony előtérifolyamat-követés sudo és SSH megjelöléssel</li>
+      <li xml:lang="hi">sudo और SSH को दर्शाते हुए कुशल अग्रभूमि प्रक्रिया ट्रैकिंग</li>
+      <li xml:lang="fr">Suivi efficace des processus en premier plan indiquant sudo et SSH</li>
+      <li xml:lang="fi">Tehokas edustaprosessien seuranta ilmaisten sudon ja SSH:n käytön</li>
+      <li xml:lang="eu">Aurreko planoko prozesu-jarraipen eraginkorra sudo eta SSH adieraziz</li>
+      <li xml:lang="es">Seguimiento eficiente de procesos en primer plano resaltando sudo y SSH</li>
+      <li xml:lang="en-GB">Efficient foreground process tracking denoting sudo and SSH</li>
+      <li xml:lang="de">Effiziente Verfolgung von Vordergrundprozessen, die als sudo und SSH gekennzeichnet sind</li>
+      <li xml:lang="cs">Efektivní sledování procesů na popředí označující sudo a SSH</li>
+      <li xml:lang="ca">Seguiment eficient del procés de primer pla denotant sudo i SSH</li>
+      <li xml:lang="bg">Ефективно проследяване на процесите на преден фон, обозначаващи sudo и SSH</li>
+      <li>Support for transparent terminal backgrounds</li>
+      <li xml:lang="zh-Hant-TW">支援終端機背景透明</li>
+      <li xml:lang="zh-Hans-CN">支持终端背景透明化</li>
+      <li xml:lang="uk">Підтримка прозорих фонових зображень у терміналі</li>
+      <li xml:lang="tr">Saydam uçbirim arka planları için destek</li>
+      <li xml:lang="sv">Stöd för transparenta terminalbakgrunder</li>
+      <li xml:lang="sl">Podpora za prozorna ozadja terminala</li>
+      <li xml:lang="ru">Поддержка прозрачного фона терминала</li>
+      <li xml:lang="pt-BR">Suporte para fundos de tela transparentes de terminal</li>
+      <li xml:lang="nb">Støtte for gjennomsiktig terminalbakgrunn</li>
+      <li xml:lang="ko">투명한 터미널 배경 지원</li>
+      <li xml:lang="kk-Cyrl">Терминалдың мөлдір фондарына қолдау көрсету</li>
+      <li xml:lang="ja">ターミナル背景の透明化に対応</li>
+      <li xml:lang="it">Supporto per sfondi trasparenti del terminale</li>
+      <li xml:lang="id">Dukungan untuk latar belakang terminal transparan</li>
+      <li xml:lang="hu">Átlátszó terminálhátterek támogatása</li>
+      <li xml:lang="hi">पारदर्शी टर्मिनल पृष्ठभूमि के लिए समर्थन</li>
+      <li xml:lang="fr">Prise en charge des arrière-plans de terminal transparents</li>
+      <li xml:lang="fi">Tuki läpinäkyville päätetaustoille</li>
+      <li xml:lang="eu">Terminalaren atzeko plano gardenak onartzen ditu</li>
+      <li xml:lang="es">Soporte para fondos transparentes</li>
+      <li xml:lang="en-GB">Support for transparent terminal backgrounds</li>
+      <li xml:lang="de">Unterstützung von transparenten Terminal-Hintergründen</li>
+      <li xml:lang="cs">Podpora průhledných pozadí terminálu</li>
+      <li xml:lang="ca">Compatible amb fons de terminal transparents</li>
+      <li xml:lang="bg">Прозрачни фонове на терминала</li>
+      <li xml:lang="be-Cyrl">Падтрымка празрыстых фонаў тэрмінала</li>
+      <li>Separate process mode for terminal-based applications</li>
+      <li xml:lang="zh-Hant-TW">為以終端機作基底的應用程式提供獨立程序模式</li>
+      <li xml:lang="zh-Hans-CN">终端应用程序的分离进程模式</li>
+      <li xml:lang="uk">Режим окремих процесів для заснованих на терміналі програм</li>
+      <li xml:lang="tr">Uçbirim tabanlı uygulamalar için ayrı süreç kipi</li>
+      <li xml:lang="sv">Separat processläge för terminalbaserade program</li>
+      <li xml:lang="sl">Ločen procesni način za terminalske programe</li>
+      <li xml:lang="ru">Отдельный режим процесса для терминальных приложений</li>
+      <li xml:lang="pt-BR">Modo de processo separado para aplicativos de terminais</li>
+      <li xml:lang="nb">Separering av terminalbaserte apper fra hovedprosessen</li>
+      <li xml:lang="ko">터미널 기반 프로그램을 위한 별도 프로세스 모드</li>
+      <li xml:lang="kk-Cyrl">Терминалға негізделген қолданбалар үшін бөлек процесс режимі</li>
+      <li xml:lang="ja">ターミナルベースのアプリケーション用にプロセスモードを分離</li>
+      <li xml:lang="it">Modalità a processo separato per applicazioni basate sul terminale</li>
+      <li xml:lang="id">Mode proses terpisah untuk aplikasi berbasis terminal</li>
+      <li xml:lang="hu">Különálló folyamatmód terminálalapú alkalmazásokhoz</li>
+      <li xml:lang="hi">टर्मिनल-आधारित अनुप्रयोगों के लिए अलग प्रक्रिया मोड</li>
+      <li xml:lang="fr">Mode de processus séparé pour les applications basées sur terminal</li>
+      <li xml:lang="fi">Erillinen prosessitila päätepohjaisiin sovelluksiin</li>
+      <li xml:lang="eu">Prozesu-modu bereizia terminalean oinarritutako aplikazioetarako</li>
+      <li xml:lang="es">Modo de proceso independiente para aplicaciones basadas en terminal</li>
+      <li xml:lang="en-GB">Separate process mode for terminal-based applications</li>
+      <li xml:lang="de">Separater Prozessmodus für terminalbasierte Anwendungen</li>
+      <li xml:lang="cs">Samostatný procesní režim pro aplikace založené na terminálu</li>
+      <li xml:lang="ca">Mode de procés separat per a aplicacions basades en terminal</li>
+      <li xml:lang="bg">Отделен режим на работа за програми за терминала</li>
+      <li xml:lang="be-Cyrl">Асобны рэжым працэсаў для тэрмінальных праграм</li>
+      <li>Support for pinned tabs and saved sessions</li>
+      <li xml:lang="zh-Hant-TW">支援固定分頁與儲存作業階段</li>
+      <li xml:lang="zh-Hans-CN">支持固定标签页和保存会话</li>
+      <li xml:lang="uk">Підтримка пришпилених вкладок і збережених сеансів</li>
+      <li xml:lang="tr">Sabitlenmiş sekmeler ve kaydedilmiş oturumlar desteği</li>
+      <li xml:lang="sv">Stöd för fastnålade flikar och sparade sessioner</li>
+      <li xml:lang="sl">Podpora za pripete zavihke in shranjene seje</li>
+      <li xml:lang="ru">Поддержка закреплённых вкладок и сохранённых сеансов</li>
+      <li xml:lang="pt-BR">Suporte para abas fixadas e sessões salvas</li>
+      <li xml:lang="pt">Suporte para separadores afixados e sessões guardadas</li>
+      <li xml:lang="nl">Ondersteuning voor gepinde tabbladen en het opslaan van sessies</li>
+      <li xml:lang="nb">Støtte for festing av faner og lagring av økter</li>
+      <li xml:lang="ko">고정된 탭 및 저장된 세션 지원</li>
+      <li xml:lang="kk-Cyrl">Бекітілген беттер мен сақталған сессияларды қолдау</li>
+      <li xml:lang="ja">タブのピン留め、セッションの保存に対応</li>
+      <li xml:lang="it">Supporto per fissare le schede e salvare le sessioni</li>
+      <li xml:lang="id">Dukungan untuk tab yang disematkan dan sesi yang disimpan</li>
+      <li xml:lang="hu">Kitűzött lapok és mentett munkamenetek támogatása</li>
+      <li xml:lang="hi">पिन किए गए टैब और सहेजे गए सत्रों के लिए समर्थन</li>
+      <li xml:lang="fr">Prise en charge des onglets épinglés et des sessions enregistrées</li>
+      <li xml:lang="fi">Tuki kiinnitetyille välilehdille ja tallennetuille istunnoille</li>
+      <li xml:lang="eu">Ainguratutako fitxak eta gordetako saioak onartzen ditu</li>
+      <li xml:lang="es">Compatibilidad con pestañas fijadas y guardado de sesión</li>
+      <li xml:lang="en-GB">Support for pinned tabs and saved sessions</li>
+      <li xml:lang="de">Unterstützung von angehefteten Reitern und gespeicherten Sitzungen</li>
+      <li xml:lang="cs">Podpora pro připnuté karty a uložená sezení</li>
+      <li xml:lang="ca">Compatibilitat amb pestanyes ancorades i sessions desades</li>
+      <li xml:lang="bg">Закачване на подпрозорци и запазване на сесии</li>
+      <li xml:lang="be-Cyrl">Падтрымка замацаваных укладак і захаваных сеансаў</li>
+      <li>Terminal tabs are run within separate cgroups</li>
+      <li xml:lang="zh-Hant-TW">終端機分頁在獨立的 cgroup 中執行</li>
+      <li xml:lang="zh-Hans-CN">终端标签页运行在各自的 cgroup 内</li>
+      <li xml:lang="uk">Вкладки термінала запускаються у межах окремих c-груп</li>
+      <li xml:lang="tr">Uçbirim sekmeleri ayrı cgrouplar içinde çalıştırılır</li>
+      <li xml:lang="sv">Terminalflikar körs inom separata cgroup:er</li>
+      <li xml:lang="sl">Zavihki terminalov se izvajajo znotraj ločenih skupin cgroup</li>
+      <li xml:lang="ru">Вкладки терминала запускаются в отдельных контрольных группах</li>
+      <li xml:lang="pt-BR">Abas de terminal são executadas com cgroups separados</li>
+      <li xml:lang="nl">Terminal-tabbladen worden in aparte cgroups gedraaid</li>
+      <li xml:lang="nb">Terminalfaner kjøres i separate kontrollgrupper</li>
+      <li xml:lang="ko">터미널 탭은 별도의 cgroup 내에서 실행됩니다</li>
+      <li xml:lang="kk-Cyrl">Терминал беттері бөлек cgroups ішінде орындалады</li>
+      <li xml:lang="ja">ターミナルのタブは分離された cgroups で実行されます</li>
+      <li xml:lang="it">Le schede del terminale sono eseguire all'interno di cgroup separati</li>
+      <li xml:lang="id">Tab terminal dijalankan dalam cgroup terpisah</li>
+      <li xml:lang="hu">A terminállapok különálló cgroupokban futnak</li>
+      <li xml:lang="hi">टर्मिनल टैब अलग-अलग cgroups के भीतर चलाए जाते हैं</li>
+      <li xml:lang="fr">Les onglets de terminal sont exécutés dans des cgroups séparés</li>
+      <li xml:lang="fi">Päätteen välilehdet suoritetaan erillisissä cgroupeissa</li>
+      <li xml:lang="eu">Terminaleko fitxak cgroups bereizietan exekutatzen dira</li>
+      <li xml:lang="es">Las pestañas de Terminal se ejecutan dentro de cgroups independientes</li>
+      <li xml:lang="en-GB">Terminal tabs are run within separate cgroups</li>
+      <li xml:lang="de">Terminal-Reiter werden in separaten cgroups ausgeführt</li>
+      <li xml:lang="cs">Karty terminálu se spouštějí v samostatných cgroups</li>
+      <li xml:lang="ca">Les pestanyes de terminal s'executen en «cgroups» separats</li>
+      <li xml:lang="bg">Подпрозорците терминали се изпълняват в отделни cgroups</li>
+      <li xml:lang="be-Cyrl">Запуск укладак тэрмінала ў асобных кантрольных групах</li>
+      <li>Terminal inspector to help when writing terminal-based applications</li>
+      <li xml:lang="zh-Hant-TW">有終端機檢查器，可協助編寫以終端機作基底的應用程式</li>
+      <li xml:lang="zh-Hans-CN">终端检查器可帮助编写基于终端的应用程序</li>
+      <li xml:lang="uk">Інспектор термінала, який допоможе у написанні заснованих на терміналі програм</li>
+      <li xml:lang="tr">Terminal tabanlı uygulamalar yazarken yardımcı olacak uçbirim denetçisi</li>
+      <li xml:lang="sv">Terminalinspektör som hjälper dig när du skriver terminalbaserade program</li>
+      <li xml:lang="sl">Terminalski inšpektor za pomoč pri pisanju terminalskih programov</li>
+      <li xml:lang="ru">Инспектор терминала для помощи при написании приложений на основе терминала</li>
+      <li xml:lang="pt-BR">Inspetor de terminal para ajudar ao escrever aplicativos baseadas de terminal</li>
+      <li xml:lang="nb">Inspektørverktøy til hjelp ved bygging av terminalbaserte apper</li>
+      <li xml:lang="ko">터미널 기반 프로그램 작성 시 도움이 되는 터미널 인스펙터</li>
+      <li xml:lang="kk-Cyrl">Терминалға негізделген қолданбаларды жазу кезінде көмектесетін терминал инспекторы</li>
+      <li xml:lang="ja">ターミナルベースのアプリケーション開発を支援するターミナルインスペクター</li>
+      <li xml:lang="it">Ispettore del terminale per aiutare a scrivere applicazioni basate sul terminale</li>
+      <li xml:lang="id">Inspektur terminal untuk membantu saat menulis aplikasi berbasis terminal</li>
+      <li xml:lang="hu">Terminálvizsgáló, hogy segítsen terminálalapú alkalmazások írásakor</li>
+      <li xml:lang="hi">टर्मिनल-आधारित अनुप्रयोग लिखते समय सहायता के लिए टर्मिनल इंस्पेक्टर</li>
+      <li xml:lang="fr">Inspecteur de terminal pour aider lors de l’écriture d’applications basées sur terminal</li>
+      <li xml:lang="fi">Päätteen tarkastelutoiminnallisuus auttaa kirjoittamaan päätepohjaisia sovelluksia</li>
+      <li xml:lang="eu">Terminal-ikuskatzailea, terminalean oinarritutako aplikazioak idazten laguntzeko</li>
+      <li xml:lang="es">El inspector de Terminal le ayuda cuando escribe aplicaciones basadas en terminal</li>
+      <li xml:lang="en-GB">Terminal inspector to help when writing terminal-based applications</li>
+      <li xml:lang="de">Terminal-Inspektor als Hilfe beim Schreiben terminalbasierter Anwendungen</li>
+      <li xml:lang="cs">Terminálový inspektor pro pomoc při psaní aplikací založených na terminálu</li>
+      <li xml:lang="ca">Inspector de terminal per ajudar quan es programen aplicacions basades en terminal</li>
+      <li xml:lang="bg">Инспектор за терминала за помощ при писането на програми за терминал</li>
+      <li xml:lang="be-Cyrl">Інспектар тэрмінала, які дапамагае пры напісанні тэрмінальных праграм</li>
+    </ul>
+  </description>
+  <project_group>GNOME</project_group>
+  <!-- developer_name tag deprecated with Appstream 1.0 -->
+  <developer_name translate="no">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="zh-Hant-TW">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="zh-Hans-CN">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="uk">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="tr">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="sv">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="sr-Cyrl">Кристијан Хергерт (Christian Hergert)</developer_name>
+  <developer_name translate="no" xml:lang="sl">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="ru">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="pt-BR">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="nb">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="kk-Cyrl">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="kab">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="ka">კრისტიან ჰერგერტი</developer_name>
+  <developer_name translate="no" xml:lang="ja">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="hu">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="fi">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="fa">کریستین هرگرت</developer_name>
+  <developer_name translate="no" xml:lang="eu">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="es">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="de">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="cs">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="ca">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="bg">Christian Hergert</developer_name>
+  <developer_name translate="no" xml:lang="be-Cyrl">Christian Hergert</developer_name>
+  <developer id="org.gnome">
+    <name translate="no">Christian Hergert</name>
+  </developer>
+  <url type="homepage">https://gitlab.gnome.org/chergert/ptyxis</url>
+  <url type="bugtracker">https://gitlab.gnome.org/chergert/ptyxis/issues</url>
+  <url type="translate">https://gitlab.gnome.org/chergert/ptyxis/-/tree/main/po</url>
+  <url type="vcs-browser">https://gitlab.gnome.org/chergert/ptyxis</url>
+  <update_contact>chergert@gnome.org</update_contact>
+  <translation type="gettext">ptyxis</translation>
+  <launchable type="desktop-id">org.gnome.Ptyxis.desktop</launchable>
+  <releases>
+    <release version="50.1" date="2026-03-16"/>
+    <release version="50.0" date="2026-03-16"/>
+    <release version="49.0" date="2025-09-12"/>
+  </releases>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/columns-and-rows.png</image>
+      <caption>A column and row size indicator is displayed when resizing the window</caption>
+      <caption xml:lang="zh-Hant-TW">調整視窗大小時，會顯示欄和列大小的指示器</caption>
+      <caption xml:lang="zh-Hans-CN">调整窗口大小时会显示列和行的大小指示器</caption>
+      <caption xml:lang="uk">Індикатор розміру стовпчику та рядка буде показано при зміні розмірів вікна</caption>
+      <caption xml:lang="tr">Pencere yeniden boyutlandırılırken sütun ve satır boyutu göstergesi görüntülenir</caption>
+      <caption xml:lang="sv">En kolumn- och radstorleksindikator visas när du ändrar storlek på fönstret</caption>
+      <caption xml:lang="sl">Pri spreminjanju velikosti okna se prikaže indikator velikosti stolpca in vrstice</caption>
+      <caption xml:lang="ru">Индикатор размера столбца и строки отображается при изменении размера окна</caption>
+      <caption xml:lang="pt-BR">Um indicador de tamanho de coluna e linha é exibido ao redimensionar a janela</caption>
+      <caption xml:lang="nl">Een indicator die het aantal kolommen en rijen weergeeft wordt getoond wanneer het venster van grootte verandert</caption>
+      <caption xml:lang="nb">Den tegnmessige høyden og bredden på terminalvinduet vises når størrelsen endres</caption>
+      <caption xml:lang="ko">창 크기 조정 시 열 및 행 크기 표시기가 표시됩니다</caption>
+      <caption xml:lang="kk-Cyrl">Терезе өлшемін өзгерткен кезде баған мен жол өлшемінің индикаторы көрсетіледі</caption>
+      <caption xml:lang="ja">ウィンドウサイズ変更時に、列と行のサイズインジケーターが表示されます</caption>
+      <caption xml:lang="it">Quando si ridimensiona la finestra viene mostrato un indicatore della dimensione di righe e colonne</caption>
+      <caption xml:lang="id">Indikator ukuran kolom dan baris ditampilkan saat mengubah ukuran jendela</caption>
+      <caption xml:lang="hu">Oszlop- és sorméretjelző jelenik meg az ablak átméretezésekor</caption>
+      <caption xml:lang="hi">विंडो का आकार बदलते समय कॉलम और पंक्ति आकार सूचक प्रदर्शित होता है</caption>
+      <caption xml:lang="fr">Un indicateur de taille de colonne et de ligne est affiché lors du redimensionnement de la fenêtre</caption>
+      <caption xml:lang="fi">Sarakkeen ja rivien koon ilmaisin ikkunan kokoa muuttaessa</caption>
+      <caption xml:lang="eu">Zutabeen eta errenkaden tamainaren adierazle bat bistaratzen da leihoaren tamaina aldatzean</caption>
+      <caption xml:lang="es">Se muestra un indicador de tamaño de columna y fila al cambiar el tamaño de la ventana</caption>
+      <caption xml:lang="en-GB">A column and row size indicator is displayed when resizing the window</caption>
+      <caption xml:lang="de">Anzeigen der Spalten- und Zeilengröße beim Ändern der Fenstergröße</caption>
+      <caption xml:lang="cs">Při změně velikosti okna se zobrazí indikátor velikosti sloupce a řádku</caption>
+      <caption xml:lang="ca">Es mostra un indicador amb fila i columna quan es redimensiona la finestra</caption>
+      <caption xml:lang="bg">При промяна на размера на прозореца се показва индикатор за размера на колоните и редовете</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/containers-menu.png</image>
+      <caption>Containers are automatically discovered and displayed</caption>
+      <caption xml:lang="zh-Hant-TW">會自動探索並顯示容器</caption>
+      <caption xml:lang="zh-Hans-CN">自动发现并显示容器</caption>
+      <caption xml:lang="uk">Автоматичне виявлення та показ контейнерів</caption>
+      <caption xml:lang="tr">Konteynerler kendiliğinden keşfedilir ve görüntülenir</caption>
+      <caption xml:lang="sv">Behållare upptäcks och visas automatiskt</caption>
+      <caption xml:lang="sl">Vsebniki se samodejno odkrijejo in prikažejo</caption>
+      <caption xml:lang="ru">Контейнеры автоматически обнаруживаются и отображаются</caption>
+      <caption xml:lang="pt-BR">Os contêineres são descobertos e exibidos automaticamente</caption>
+      <caption xml:lang="nl">Containers worden automatisch ontdekt en weergegeven</caption>
+      <caption xml:lang="nb">Automatisk oppdaging og visning av konteinere</caption>
+      <caption xml:lang="ko">컨테이너가 자동으로 발견되어 표시됩니다</caption>
+      <caption xml:lang="kk-Cyrl">Контейнерлер автоматты түрде анықталады және көрсетіледі</caption>
+      <caption xml:lang="ja">コンテナーを自動検出して表示します</caption>
+      <caption xml:lang="it">I container vengono scoperti e mostrati automaticamente</caption>
+      <caption xml:lang="id">Kontainer ditemukan dan ditampilkan secara otomatis</caption>
+      <caption xml:lang="hu">A konténerek automatikus felfedezésre és megjelenítésre kerülnek</caption>
+      <caption xml:lang="hi">कंटेनर स्वचालित रूप से खोजे और प्रदर्शित किए जाते हैं</caption>
+      <caption xml:lang="fr">Les conteneurs sont automatiquement découverts et affichés</caption>
+      <caption xml:lang="fi">Kontit havaitaan ja esitetään automaattisesti</caption>
+      <caption xml:lang="eu">Edukiontziak automatikoki aurkitu eta bistaratzen dira</caption>
+      <caption xml:lang="es">Los contenedores se reconocen y muestran automáticamente</caption>
+      <caption xml:lang="en-GB">Containers are automatically discovered and displayed</caption>
+      <caption xml:lang="de">Container werden automatisch erkannt und angezeigt</caption>
+      <caption xml:lang="cs">Kontejnery jsou automaticky objeveny a zobrazeny</caption>
+      <caption xml:lang="ca">Els contenidors són automàticament detectats i mostrats</caption>
+      <caption xml:lang="bg">Контейнерите се откриват и показват автоматично</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/change-behavior.png</image>
+      <caption>Many behaviors of the terminal may be tweaked to user preference</caption>
+      <caption xml:lang="zh-Hant-TW">終端機的許多行為，都可以根據使用者的偏好設定作調整</caption>
+      <caption xml:lang="zh-Hans-CN">终端的很多行为都可以根据用户首选项进行调整</caption>
+      <caption xml:lang="uk">Багато параметрів роботи термінала може бути скориговано за уподобаннями користувача</caption>
+      <caption xml:lang="tr">Uçbirimini birçok davranışı kullanıcı tercihine göre değiştirilebilir</caption>
+      <caption xml:lang="sv">Många beteenden hos terminalen kan anpassas efter användarens önskemål</caption>
+      <caption xml:lang="sl">Veliko vedenja terminala je mogoče prilagoditi željam uporabnika</caption>
+      <caption xml:lang="ru">Многие функции терминала могут быть настроены в соответствии с предпочтениями пользователя</caption>
+      <caption xml:lang="pt-BR">Muitos comportamentos do terminal podem ser ajustados de acordo com a preferência do usuário</caption>
+      <caption xml:lang="nl">Het meeste gedrag van de terminal kan naar voorkeur aangepast worden</caption>
+      <caption xml:lang="nb">Et stort utvalg innstillinger til finjustering av terminalens oppførsel</caption>
+      <caption xml:lang="ko">터미널의 많은 동작을 사용자 선호에 맞게 조정할 수 있습니다</caption>
+      <caption xml:lang="kk-Cyrl">Терминалдың көптеген мінез-құлықтарын пайдаланушы қалауы бойынша баптауға болады</caption>
+      <caption xml:lang="ja">ユーザーの好みに合わせて、ターミナルの多くの動作を調整できます</caption>
+      <caption xml:lang="it">Gran parte del comportamento del terminale può essere configurato secondo le preferenze dell'utente</caption>
+      <caption xml:lang="id">Banyak perilaku terminal dapat disesuaikan dengan preferensi pengguna</caption>
+      <caption xml:lang="hu">A terminál számos viselkedése a felhasználói beállítások szerint finomhangolható</caption>
+      <caption xml:lang="hi">टर्मिनल के कई व्यवहारों को उपयोक्ता की पसंद के अनुसार बदला जा सकता है</caption>
+      <caption xml:lang="fr">De nombreux comportements du terminal peuvent être ajustés selon les préférences de l’utilisateur</caption>
+      <caption xml:lang="fi">Päätteen useimmat toiminnallisuudet ovat mukautettavissa käyttäjän mieltymysten mukaan</caption>
+      <caption xml:lang="eu">Erabiltzaileak terminalaren portaera batzuk doitu ditzake</caption>
+      <caption xml:lang="es">Muchos comportamientos de la terminal pueden ajustarse según las preferencias del usuario</caption>
+      <caption xml:lang="en-GB">Many behaviors of the terminal may be tweaked to user preference</caption>
+      <caption xml:lang="de">Viele Verhaltensweisen des Terminals können nach den Wünschen des Benutzers angepasst werden</caption>
+      <caption xml:lang="cs">Mnoho chování terminálu lze upravit podle preferencí uživatele</caption>
+      <caption xml:lang="ca">Molts dels comportaments del terminal poden ser retocats segons les preferències de l'usuari</caption>
+      <caption xml:lang="bg">Много от функциите на терминала могат да бъдат настроени според предпочитанията на потребителя</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/rename-tab.png </image>
+      <caption>You may rename a tab by providing a prefix to the title</caption>
+      <caption xml:lang="zh-Hant-TW">您可以為標題加前綴來重新命名分頁</caption>
+      <caption xml:lang="zh-Hans-CN">您可以通过为标题添加前缀来重命名标签页</caption>
+      <caption xml:lang="uk">Ви можете перейменувати вкладку, додавши префікс до заголовка</caption>
+      <caption xml:lang="tr">Başlığa önek sağlayarak sekmeyi yeniden adlandırabilirsiniz</caption>
+      <caption xml:lang="sv">Du kan byta namn på en flik genom att ange ett prefix till titeln</caption>
+      <caption xml:lang="sl">Zavihek lahko preimenujete tako, da naslovu dodate predpono</caption>
+      <caption xml:lang="ru">Вы можете переименовать вкладку, указав префикс к заголовку</caption>
+      <caption xml:lang="pt-BR">Você pode renomear uma aba fornecendo um prefixo para o título</caption>
+      <caption xml:lang="pt">Pode renomear um separador fornecendo um prefixo para o título</caption>
+      <caption xml:lang="nl">Je kan tabbladen hernomen door een prefix aan de titel toe te voegen</caption>
+      <caption xml:lang="nb">Tilpassbare fanenavn</caption>
+      <caption xml:lang="ko">탭 이름을 변경하려면 제목에 접두사를 제공할 수 있습니다</caption>
+      <caption xml:lang="kk-Cyrl">Тақырыпқа префикс қосу арқылы беттің атын өзгертуге болады</caption>
+      <caption xml:lang="ja">タイトルにプレフィックスを付けることで、タブの名前を変更できます</caption>
+      <caption xml:lang="it">È possibile rinominare una scheda aggiungendo un prefisso al titolo</caption>
+      <caption xml:lang="id">Anda dapat mengganti nama tab dengan memberikan awalan pada judul</caption>
+      <caption xml:lang="hu">Átnevezhet egy lapot a címhez való előtag megadásával</caption>
+      <caption xml:lang="hi">आप शीर्षक में उपसर्ग प्रदान करके टैब का नाम बदल सकते हैं</caption>
+      <caption xml:lang="fr">Vous pouvez renommer un onglet en fournissant un préfixe au titre</caption>
+      <caption xml:lang="fi">Voit nimetä välilehden antamalla etuliitteen otsikolle</caption>
+      <caption xml:lang="eu">Fitxen izena aldatu daiteke izenburuari aurrizki bat jarriz</caption>
+      <caption xml:lang="es">Puede cambiar el nombre de una pestaña proporcionando un prefijo al título</caption>
+      <caption xml:lang="en-GB">You may rename a tab by providing a prefix to the title</caption>
+      <caption xml:lang="de">Sie können einen Reiter umbenennen, indem Sie dem Titel ein Präfix voranstellen</caption>
+      <caption xml:lang="cs">Kartu můžete přejmenovat zadáním předpony názvu</caption>
+      <caption xml:lang="ca">Es pot reanomenar una pestanya proporcionant un prefix per al títol</caption>
+      <caption xml:lang="bg">Може да преименувате подпрозорец, като добавите представка към заглавието</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/integrated-dark-mode.png</image>
+      <caption>Palettes provide an integrated dark mode</caption>
+      <caption xml:lang="zh-Hant-TW">調色盤提供整合的暗色模式</caption>
+      <caption xml:lang="zh-Hans-CN">调色板提供集成的暗色模式</caption>
+      <caption xml:lang="uk">У палітри вбудовано темний режим</caption>
+      <caption xml:lang="tr">Paletler tümleşik koyu kip sağlar</caption>
+      <caption xml:lang="sv">Paletter tillhandahåller ett integrerat mörkt läge</caption>
+      <caption xml:lang="sl">Palete zagotavljajo integriran temni način</caption>
+      <caption xml:lang="ru">Палитры обеспечивают интегрированный темный режим</caption>
+      <caption xml:lang="pt-BR">As paletas fornecem um modo escuro integrado</caption>
+      <caption xml:lang="nl">Kleurenpaletten hebben een geïntegreerde donkere modus</caption>
+      <caption xml:lang="nb">Fargepaletter med innebygget mørk modus</caption>
+      <caption xml:lang="ko">팔레트는 통합 다크 모드를 제공합니다</caption>
+      <caption xml:lang="kk-Cyrl">Палитралар кірістірілген күңгірт режимді қамтамасыз етеді</caption>
+      <caption xml:lang="ja">パレットは調和したダークモードを提供します</caption>
+      <caption xml:lang="it">Le tavolozze forniscono una modalità scura integrata</caption>
+      <caption xml:lang="id">Palet menyediakan mode gelap terintegrasi</caption>
+      <caption xml:lang="hu">A paletták integrált sötét módot biztosítanak</caption>
+      <caption xml:lang="hi">पैलेट्स एकीकृत गहरा मोड प्रदान करते हैं</caption>
+      <caption xml:lang="fr">Les palettes fournissent un mode sombre intégré</caption>
+      <caption xml:lang="fi">Paletit tarjoavat sisäänrakennetun tuen tummalle teemalle</caption>
+      <caption xml:lang="eu">Paletek modu ilun integratua eskaintzen dute</caption>
+      <caption xml:lang="es">Las paletas proporcionan un modo oscuro integrado</caption>
+      <caption xml:lang="en-GB">Palettes provide an integrated dark mode</caption>
+      <caption xml:lang="de">Paletten bieten einen integrierten dunklen Modus</caption>
+      <caption xml:lang="cs">Palety poskytují integrovaný tmavý režim</caption>
+      <caption xml:lang="ca">Les paletes proporcionen un mode fosc integrat</caption>
+      <caption xml:lang="bg">Цветовите палитри предоставят интегриран тъмен режим</caption>
+      <caption xml:lang="be-Cyrl">Палітры колераў з убудаваным цёмным рэжымам</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/tab-overview.png</image>
+      <caption>You can see an overview of your tabs at any time</caption>
+      <caption xml:lang="zh-Hant-TW">您可以在任何時候查看所有分頁的活動概覽</caption>
+      <caption xml:lang="zh-Hans-CN">您可以在任何时候查看所有标签页的总览</caption>
+      <caption xml:lang="uk">Ви будь-коли можете переглянути огляд ваших вкладок</caption>
+      <caption xml:lang="tr">Sekmelerinizin genel görünümünü istediğiniz zaman görebilirsiniz</caption>
+      <caption xml:lang="sv">Du kan se en översikt över dina flikar när som helst</caption>
+      <caption xml:lang="sl">Pregled zavihkov si lahko kadar koli ogledate</caption>
+      <caption xml:lang="ru">Вы можете просмотреть обзор своих вкладок в любое время</caption>
+      <caption xml:lang="pt-BR">Você pode ver uma visão geral de suas abas a qualquer momento</caption>
+      <caption xml:lang="pt">Pode ter uma visão geral dos seus separadores a qualquer momento</caption>
+      <caption xml:lang="nl">Je kan op elk moment een overzicht van je tabbladen zien</caption>
+      <caption xml:lang="nb">Faneoversikt</caption>
+      <caption xml:lang="ko">언제든지 탭 개요를 볼 수 있습니다</caption>
+      <caption xml:lang="kk-Cyrl">Кез келген уақытта беттерге шолуды көруге болады</caption>
+      <caption xml:lang="ja">いつでもタブ一覧を表示できます</caption>
+      <caption xml:lang="it">È possibile vedere una panoramica delle proprie schede in ogni momento</caption>
+      <caption xml:lang="id">Anda dapat melihat ringkasan tab Anda kapan saja</caption>
+      <caption xml:lang="hu">Bármikor megnézheti a lapjai áttekintését</caption>
+      <caption xml:lang="hi">आप किसी भी समय अपने टैब का अवलोकन देख सकते हैं</caption>
+      <caption xml:lang="fr">Vous pouvez voir un aperçu de vos onglets à tout moment</caption>
+      <caption xml:lang="fi">Välilehtien yhteenveto on nähtävissä milloin tahansa</caption>
+      <caption xml:lang="eu">Zure fitxen ikuspegi orokorra eduki dezakezu edonoiz</caption>
+      <caption xml:lang="es">Puede visualizar una vista de sus pestañas en cualquier momento</caption>
+      <caption xml:lang="en-GB">You can see an overview of your tabs at any time</caption>
+      <caption xml:lang="de">Sie können sich jederzeit einen Überblick über Ihre Reiter verschaffen</caption>
+      <caption xml:lang="cs">Přehled svých karet můžete kdykoli zobrazit</caption>
+      <caption xml:lang="ca">Es pot veure una vista general de les pestanyes en qualsevol moment</caption>
+      <caption xml:lang="bg">Може да видите общ преглед на вашите подпрозорци по всяко време</caption>
+      <caption xml:lang="be-Cyrl">Агляд усіх укладах у любы момант</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/shortcut-editing.png</image>
+      <caption>Many shortcuts may be remapped to user preference</caption>
+      <caption xml:lang="zh-Hant-TW">許多快捷鍵可根據使用者偏好設定重新對應</caption>
+      <caption xml:lang="zh-Hans-CN">很多快捷键可根据用户首选项重新映射</caption>
+      <caption xml:lang="uk">Багато клавіатурних скорочень може бути перевизначено за уподобаннями користувача</caption>
+      <caption xml:lang="tr">Birçok kısayol kullanıcı tercihine göre yeniden eşleştirilebilir</caption>
+      <caption xml:lang="sv">Många genvägar kan anpassas till användarens preferenser</caption>
+      <caption xml:lang="sl">Številne bližnjice je možno preslikati v uporabniške nastavitve</caption>
+      <caption xml:lang="ru">Многие комбинации клавиш могут быть переназначены в соответствии с предпочтениями пользователя</caption>
+      <caption xml:lang="pt-BR">Muitos atalhos pode ser remapeado para as preferências do usuário</caption>
+      <caption xml:lang="pt">Muitos atalhos pode ser remapeados para as preferências do utilizador</caption>
+      <caption xml:lang="nl">Veel sneltoetsen kunnen naar voorkeur aangepast worden</caption>
+      <caption xml:lang="nb">Tilpassbare tastatursnarveier</caption>
+      <caption xml:lang="ko">많은 바로 가기를 사용자 선호에 맞게 다시 매핑할 수 있습니다</caption>
+      <caption xml:lang="kk-Cyrl">Көптеген жарлықтарды пайдаланушы қалауы бойынша қайта тағайындауға болады</caption>
+      <caption xml:lang="ja">ユーザーの好みに合わせて、多くのショートカットを再割り当てできます</caption>
+      <caption xml:lang="it">Molte scorciatoie possono essere rimappate come preferisce l'utente</caption>
+      <caption xml:lang="id">Banyak pintasan dapat dipetakan ulang ke preferensi pengguna</caption>
+      <caption xml:lang="hu">Számos gyorsbillentyű átállítható a felhasználói beállítások szerint</caption>
+      <caption xml:lang="hi">उपयोक्ता की प्राथमिकता के अनुसार कई शॉर्टकट दोबारा मैप किए जा सकते हैं</caption>
+      <caption xml:lang="fr">De nombreux raccourcis peuvent être réassignés selon les préférences de l’utilisateur</caption>
+      <caption xml:lang="fi">Päätteen useimmat pikanäppäimet ovat mukautettavissa käyttäjän mieltymysten mukaan</caption>
+      <caption xml:lang="eu">Lasterbide asko birmapatu egin daitezke erabiltzailearen gogoaren arabera</caption>
+      <caption xml:lang="es">Muchos atajos pueden reasignarse según las preferencias del usuario</caption>
+      <caption xml:lang="en-GB">Many shortcuts may be remapped to user preference</caption>
+      <caption xml:lang="de">Viele Tastenkürzel können nach den Wünschen des Benutzers angepasst werden</caption>
+      <caption xml:lang="cs">Mnoho zkratek může být přemapováno podle preferencí uživatele</caption>
+      <caption xml:lang="ca">Moltes dreceres es poden canviar segons la preferència de l'usuari</caption>
+      <caption xml:lang="bg">Много от клавишните комбинации могат да бъдат пренастроени според предпочитанията на потребителя</caption>
+      <caption xml:lang="be-Cyrl">Большасць спалучэнняў клавіш можна перапрызначыць пад патрэбы карыстальніка</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/palette-selector.png</image>
+      <caption>Built-in color palettes provide both dark and light mode variants</caption>
+      <caption xml:lang="zh-Hant-TW">內建的調色盤同時提供暗色與亮色模式的風格變化</caption>
+      <caption xml:lang="zh-Hans-CN">内置调色板同时提供暗色和亮色模式变种</caption>
+      <caption xml:lang="uk">У вбудованих палітрах кольорів передбачено темний та світлий варіанти</caption>
+      <caption xml:lang="tr">Yerleşik renk paletleri hem koyu hem de açık kip türevlerini sağlar</caption>
+      <caption xml:lang="sv">Inbyggda färgpaletter ger varianter för både mörkt och ljust läge</caption>
+      <caption xml:lang="sl">Vgrajene barvne palete zagotavljajo različice temnega in svetlega načina</caption>
+      <caption xml:lang="ru">Встроенные цветовые палитры предоставляют варианты как для тёмного, так и для светлого режимов</caption>
+      <caption xml:lang="pt-BR">Paletas de cores embutidos oferecem variantes de modo claro e escuro</caption>
+      <caption xml:lang="nl">Ingebouwde kleurenpaletten met donkere en lichte varianten</caption>
+      <caption xml:lang="nb">Innebygde fargepaletter med støtte for lys og mørk modus</caption>
+      <caption xml:lang="ko">내장된 색상 팔레트는 다크 모드 및 라이트 모드 변형을 모두 제공합니다</caption>
+      <caption xml:lang="kk-Cyrl">Кірістірілген түс палитралары күңгірт және ашық режим нұсқаларын ұсынады</caption>
+      <caption xml:lang="ja">組み込みのカラーパレットはダークとライトモードの両方に対応</caption>
+      <caption xml:lang="it">Le tavolozze preconfezionate forniscono sia una variante scura che una chiara</caption>
+      <caption xml:lang="id">Palet warna bawaan menyediakan varian mode gelap dan terang</caption>
+      <caption xml:lang="hu">A beépített színpaletták sötét és világos módú változatokat is biztosítanak</caption>
+      <caption xml:lang="hi">अंतर्निर्मित रंग पैलेट गहरे और हल्के दोनों मोड वेरिएंट प्रदान करते हैं</caption>
+      <caption xml:lang="fr">Les palettes de couleurs intégrées fournissent des variantes de mode sombre et clair</caption>
+      <caption xml:lang="fi">Sisäänrakennetut paletit tarjoavat tumman ja vaalean värimaailman</caption>
+      <caption xml:lang="eu">Kolore-paleta integratuek modu iluna zein argia eskaintzen dute</caption>
+      <caption xml:lang="es">Las paletas de colores integradas proporcionan variantes para el modo oscuro y claro</caption>
+      <caption xml:lang="en-GB">Built-in colour palettes provide both dark and light mode variants</caption>
+      <caption xml:lang="de">Integrierte Farbpaletten bieten sowohl dunkle als auch helle Modusvarianten</caption>
+      <caption xml:lang="cs">Vestavěné barevné palety poskytují varianty tmavého i světlého režimu</caption>
+      <caption xml:lang="ca">Les paletes de color integrades proporcionen tant variants de mode clar com de mode fosc</caption>
+      <caption xml:lang="bg">Вградените цветови палитри предлагат варианти както за тъмен, така и за светъл режим</caption>
+      <caption xml:lang="be-Cyrl">Убудаваныя палітры колераў з цёмным і светлым рэжымам</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/edit-profile.png</image>
+      <caption>Profiles allow for overriding a number of features such as default container</caption>
+      <caption xml:lang="zh-Hant-TW">設定檔能允許凌駕多項功能，例如預設容器</caption>
+      <caption xml:lang="zh-Hans-CN">配置文件允许覆盖一些功能如默认容器</caption>
+      <caption xml:lang="uk">Профілі забезпечують перевизначення багатьох можливостей, зокрема типового контейнера</caption>
+      <caption xml:lang="tr">Profiller, öntanımlı konteyner gibi bir dizi özelliğin üzerine yazılmasına izin verir</caption>
+      <caption xml:lang="sv">Profiler gör det möjligt att åsidosätta ett antal funktioner som standardbehållare</caption>
+      <caption xml:lang="sl">Profili omogočajo preglasitev številnih funkcionalnosti, kot je privzeti vsebnik</caption>
+      <caption xml:lang="ru">Профили позволяют переопределить ряд функций, таких как контейнер по умолчанию</caption>
+      <caption xml:lang="pt-BR">Perfis permitem substituir uma série de recursos, como contêiner padrão</caption>
+      <caption xml:lang="nl">Profielen laten toe om een aantal functies te overschrijven, zoals de standaardcontainer</caption>
+      <caption xml:lang="nb">Profiler muliggjør overstyring av flere innstillinger, som standardkonteineren</caption>
+      <caption xml:lang="ko">프로필을 사용하면 기본 컨테이너와 같은 여러 기능을 재정의할 수 있습니다</caption>
+      <caption xml:lang="kk-Cyrl">Профильдер әдепкі контейнер сияқты бірқатар мүмкіндіктерді қайта анықтауға мүмкіндік береді</caption>
+      <caption xml:lang="ja">プロファイルを使用すると、デフォルトコンテナーなど、多くの機能を上書きできます</caption>
+      <caption xml:lang="it">I profili permettono di superare alcune funzionalità, come il container predefinito</caption>
+      <caption xml:lang="id">Profil memungkinkan untuk mengganti sejumlah fitur seperti kontainer baku</caption>
+      <caption xml:lang="hu">A profilok lehetővé teszik számos funkció felülbírálását, például az alapértelmezett konténert</caption>
+      <caption xml:lang="hi">प्रोफाइल कई सुविधाओं को अध्यारोहण करने की अनुमति देता है जैसे कि तयशुदा कंटेनर</caption>
+      <caption xml:lang="fr">Les profils permettent de remplacer un certain nombre de fonctionnalités telles que le conteneur par défaut</caption>
+      <caption xml:lang="fi">Profiilit mahdollistavat useimpien ominaisuuksien ohittamisen, kuten oletuskontin</caption>
+      <caption xml:lang="eu">Profilen bidez, eginbideetako batzuk indargabetu daitezke, adibidez edukiontzi lehenetsia</caption>
+      <caption xml:lang="es">Los perfiles permiten controlar una serie de características, como el contenedor predeterminado</caption>
+      <caption xml:lang="en-GB">Profiles allow for overriding a number of features such as default container</caption>
+      <caption xml:lang="de">Profile ermöglichen es, eine Reihe von Funktionen zu überschreiben, wie z. B. den Standard-Container</caption>
+      <caption xml:lang="cs">Profily umožňují přepsat řadu funkcí, jako je výchozí kontejner</caption>
+      <caption xml:lang="ca">Els perfils permeten afinar diverses característiques com ara el contenidor predeterminat</caption>
+      <caption xml:lang="bg">Профилите позволяват заменяне на редица функции, като например стандартния контейнер</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/sudo-tracking.png</image>
+      <caption>The terminal will remind you when you're root on the local system</caption>
+      <caption xml:lang="zh-Hant-TW">當您是本機系統的 root 使用者時，終端機會提醒您</caption>
+      <caption xml:lang="zh-Hans-CN">当您是本地系统的 root 用户时终端会提醒您</caption>
+      <caption xml:lang="uk">Термінал нагадає вам, якщо ви працюєте від імені адміністратора у локальній системі</caption>
+      <caption xml:lang="tr">Uçbirim, yerel sistemde root olduğunuzu size hatırlatır</caption>
+      <caption xml:lang="sv">Terminalen kommer att påminna dig när du är root på det lokala systemet</caption>
+      <caption xml:lang="sl">Terminal vas bo spomnil, ko ste korenski uporabnik v krajevnem sistemu</caption>
+      <caption xml:lang="ru">Терминал напомнит вам, когда вы являетесь пользователем root в локальной системе</caption>
+      <caption xml:lang="pt-BR">O terminal irá lembrá-lo quando você estiver como root no sistema local</caption>
+      <caption xml:lang="nl">De terminal helpt je eraan denken dat je root bent op een lokaal systeem</caption>
+      <caption xml:lang="nb">Terminalen indikerer når kommandoer kjøres gjennom systembrukeren</caption>
+      <caption xml:lang="ko">터미널은 로컬 시스템에서 root일 때 알림을 표시합니다</caption>
+      <caption xml:lang="kk-Cyrl">Локалды жүйеде root болған кезде терминал сізге ескертеді</caption>
+      <caption xml:lang="ja">ローカルシステムで root 権限の時にお知らせします</caption>
+      <caption xml:lang="it">Il terminale ricorda all'utente quando è root nel sistema locale</caption>
+      <caption xml:lang="id">Terminal akan mengingatkan Anda saat Anda sebagai root pada sistem lokal</caption>
+      <caption xml:lang="hu">A terminál emlékeztetni fogja, ha Ön rendszergazda a helyi rendszeren</caption>
+      <caption xml:lang="hi">जब आप स्थानीय सिस्टम पर रूट होंगे तो टर्मिनल आपको याद दिलाएगा</caption>
+      <caption xml:lang="fr">Le terminal vous rappellera lorsque vous êtes root sur le système local</caption>
+      <caption xml:lang="fi">Pääte muistuttaa, kun olet root-oikeuksin paikallisessa järjestelmässä</caption>
+      <caption xml:lang="eu">Terminalak gogoraraziko dizu sistema lokalean erroa zarela</caption>
+      <caption xml:lang="es">La terminal le recordará si ha iniciado sesión como root en el sistema</caption>
+      <caption xml:lang="en-GB">The terminal will remind you when you're root on the local system</caption>
+      <caption xml:lang="de">Das Terminal wird Sie daran erinnern, wenn Sie administrative Rechte (root) auf dem lokalen System haben</caption>
+      <caption xml:lang="cs">Terminál vás upozorní, pokud jste root v místním systému</caption>
+      <caption xml:lang="ca">El terminal us recordarà quan sou «root» al sistema local</caption>
+      <caption xml:lang="bg">Терминалът ще ви напомни, когато сте администратор в локалната система</caption>
+      <caption xml:lang="be-Cyrl">Тэрмінал пакажа, калі вы працуеце ад імя root у лакальнай сістэме</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/ssh-tracking.png</image>
+      <caption>The terminal will remind you when you're on a remote system</caption>
+      <caption xml:lang="zh-Hant-TW">當您位於遠端系統中時，終端機會提醒您</caption>
+      <caption xml:lang="zh-Hans-CN">当您在远程系统中时终端会提醒您</caption>
+      <caption xml:lang="uk">Термінал нагадає вам, якщо ви працюєте у віддаленій системі</caption>
+      <caption xml:lang="tr">Terminal, uzak sistemde olduğunuzu size hatırlatır</caption>
+      <caption xml:lang="sv">Terminalen kommer att påminna dig när du är på ett fjärrsystem</caption>
+      <caption xml:lang="sl">Terminal vas bo opomnil, ko ste v oddaljenem sistemu</caption>
+      <caption xml:lang="ru">Терминал напомнит вам, когда вы находитесь на удалённой системе</caption>
+      <caption xml:lang="pt-BR">O terminal irá lembrá-lo quando você estiver em um sistema remoto</caption>
+      <caption xml:lang="nl">De terminal helpt je eraan denken dat je op een ander systeem werkt</caption>
+      <caption xml:lang="nb">Terminalen indikerer når du fjernstyrer et annet system</caption>
+      <caption xml:lang="ko">터미널은 원격 시스템에 있을 때 알림을 표시합니다</caption>
+      <caption xml:lang="kk-Cyrl">Қашықтағы жүйеде болған кезде терминал сізге ескертеді</caption>
+      <caption xml:lang="ja">リモートシステムに接続中であることをお知らせします</caption>
+      <caption xml:lang="it">Il terminale ricorda all'utente quando è su un sistema remoto</caption>
+      <caption xml:lang="id">Terminal akan mengingatkan Anda saat Anda berada di sistem jarak jauh</caption>
+      <caption xml:lang="hu">A terminál emlékeztetni fogja, ha távoli rendszeren van</caption>
+      <caption xml:lang="hi">जब आप किसी रिमोट सिस्टम पर होंगे तो टर्मिनल आपको याद दिलाएगा</caption>
+      <caption xml:lang="fr">Le terminal vous rappellera lorsque vous êtes sur un système distant</caption>
+      <caption xml:lang="fi">Pääte muistuttaa, kun olet root-oikeuksin etäjärjestelmässä</caption>
+      <caption xml:lang="eu">Terminalak gogoraraziko dizu urruneko sistema batean zaudela</caption>
+      <caption xml:lang="es">La terminal le recordará si ha iniciado sesión en un sistema remoto</caption>
+      <caption xml:lang="en-GB">The terminal will remind you when you're on a remote system</caption>
+      <caption xml:lang="de">Das Terminal wird Sie daran erinnern, wenn Sie sich auf einem entfernten System befinden</caption>
+      <caption xml:lang="cs">Terminál vás upozorní, pokud jste na vzdáleném systému</caption>
+      <caption xml:lang="ca">El terminal us recordarà quan sou en un sistema remot</caption>
+      <caption xml:lang="bg">Терминалът ще ви напомни, когато сте в отдалечена система</caption>
+      <caption xml:lang="be-Cyrl">Тэрмінал пакажа, калі вы знаходзіцеся ў аддаленай сістэме</caption>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+</component>

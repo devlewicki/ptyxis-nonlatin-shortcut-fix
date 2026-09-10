@@ -1,0 +1,23 @@
+[Palette]
+Name=Mathias
+Background=#000000
+Foreground=#BBBBBB
+Cursor=#BBBBBB
+Color0=#000000
+Color1=#E52222
+Color2=#A6E32D
+Color3=#FC951E
+Color4=#C48DFF
+Color5=#FA2573
+Color6=#67D9F0
+Color7=#F2F2F2
+Color8=#555555
+Color9=#FF5555
+Color10=#55FF55
+Color11=#FFFF55
+Color12=#5555FF
+Color13=#FF55FF
+Color14=#55FFFF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Mathias.yml

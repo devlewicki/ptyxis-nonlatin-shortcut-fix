@@ -1,0 +1,23 @@
+[Palette]
+Name=Desert
+Background=#333333
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#4D4D4D
+Color1=#FF2B2B
+Color2=#98FB98
+Color3=#F0E68C
+Color4=#CD853F
+Color5=#FFDEAD
+Color6=#FFA0A0
+Color7=#F5DEB3
+Color8=#555555
+Color9=#FF5555
+Color10=#55FF55
+Color11=#FFFF55
+Color12=#87CEFF
+Color13=#FF55FF
+Color14=#FFD700
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Desert.yml

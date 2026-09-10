@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2023 Christian Hergert
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<interface>
+  <template class="PtyxisTerminal" parent="VteTerminal">
+    <property name="pointer-autohide">true</property>
+    <property name="allow-hyperlink">true</property>
+    <property name="scroll-unit-is-pixels">true</property>
+    <property name="enable-fallback-scrolling">false</property>
+    <property name="enable-legacy-osc777">true</property>
+    <child>
+      <object class="GtkShortcutController" id="shortcuts">
+        <property name="propagation-phase">capture</property>
+        <child>
+          <object class="GtkShortcut">
+            <binding name="trigger">
+              <lookup name="popup-menu" type="PtyxisShortcuts">
+                <lookup name="shortcuts">PtyxisTerminal</lookup>
+              </lookup>
+            </binding>
+            <property name="action">action(menu.popup)</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkShortcut">
+            <property name="trigger">Menu</property>
+            <property name="action">action(menu.popup)</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkShortcut">
+            <binding name="trigger">
+              <lookup name="copy-clipboard" type="PtyxisShortcuts">
+                <lookup name="shortcuts">PtyxisTerminal</lookup>
+              </lookup>
+            </binding>
+            <property name="action">action(clipboard.copy)</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkShortcut">
+            <binding name="trigger">
+              <lookup name="paste-clipboard" type="PtyxisShortcuts">
+                <lookup name="shortcuts">PtyxisTerminal</lookup>
+              </lookup>
+            </binding>
+            <property name="action">action(clipboard.paste)</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkShortcut">
+            <binding name="trigger">
+              <lookup name="select-all" type="PtyxisShortcuts">
+                <lookup name="shortcuts">PtyxisTerminal</lookup>
+              </lookup>
+            </binding>
+            <property name="action">action(terminal.select-all)</property>
+            <property name="arguments">true</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkShortcut">
+            <binding name="trigger">
+              <lookup name="select-none" type="PtyxisShortcuts">
+                <lookup name="shortcuts">PtyxisTerminal</lookup>
+              </lookup>
+            </binding>
+            <property name="action">action(terminal.select-all)</property>
+            <property name="arguments">false</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkShortcut">
+            <binding name="trigger">
+              <lookup name="reset" type="PtyxisShortcuts">
+                <lookup name="shortcuts">PtyxisTerminal</lookup>
+              </lookup>
+            </binding>
+            <property name="action">action(tab.reset)</property>
+            <property name="arguments">false</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkShortcut">
+            <binding name="trigger">
+              <lookup name="reset-and-clear" type="PtyxisShortcuts">
+                <lookup name="shortcuts">PtyxisTerminal</lookup>
+              </lookup>
+            </binding>
+            <property name="action">action(tab.reset)</property>
+            <property name="arguments">true</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkGestureClick" id="click_capture">
+        <signal name="pressed" handler="ptyxis_terminal_capture_click_pressed_cb" swapped="1" object="PtyxisTerminal"/>
+        <property name="button">0</property>
+        <property name="propagation-phase">capture</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkEventControllerKey" id="key_controller">
+        <signal name="key-pressed" handler="ptyxis_terminal_capture_key_pressed_cb" swapped="1" object="PtyxisTerminal"/>
+        <property name="propagation-phase">capture</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkDropTargetAsync" id="drop_target">
+        <signal name="drop" handler="ptyxis_terminal_drop_target_drop" swapped="1" object="PtyxisTerminal"/>
+        <signal name="drag-enter" handler="ptyxis_terminal_drop_target_drag_enter" swapped="1" object="PtyxisTerminal"/>
+        <signal name="drag-leave" handler="ptyxis_terminal_drop_target_drag_leave" swapped="1" object="PtyxisTerminal"/>
+      </object>
+    </child>
+    <property name="context-menu">
+      <object class="GtkPopoverMenu" id="popover">
+        <property name="has-arrow">false</property>
+        <property name="menu-model">terminal_menu</property>
+      </object>
+    </property>
+    <child>
+      <object class="GtkRevealer" id="size_revealer">
+        <property name="transition-type">crossfade</property>
+        <property name="reveal-child">false</property>
+        <style>
+          <class name="size"/>
+        </style>
+        <property name="halign">end</property>
+        <property name="valign">end</property>
+        <child>
+          <object class="GtkLabel" id="size_label">
+            <attributes>
+              <attribute name="family" value="Sans"/>
+              <attribute name="font-features" value="tnum"/>
+            </attributes>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwBin" id="drop_highlight">
+        <property name="visible">false</property>
+        <style>
+          <class name="drop-highlight"/>
+        </style>
+      </object>
+    </child>
+  </template>
+  <menu id="terminal_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Open Link</attribute>
+        <attribute name="action">terminal.open-link</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Copy Link</attribute>
+        <attribute name="action">clipboard.copy-link</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="id">search</attribute>
+        <attribute name="label" translatable="yes">Search…</attribute>
+        <attribute name="action">win.search</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="id">copy-clipboard</attribute>
+        <attribute name="label" translatable="yes">_Copy</attribute>
+        <attribute name="description" translatable="yes">Copy selection from terminal to clipboard</attribute>
+        <attribute name="action">clipboard.copy</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Copy as _HTML</attribute>
+        <attribute name="description" translatable="yes">Copy selection from terminal to clipboard with HTML formatting</attribute>
+        <attribute name="action">clipboard.copy-as-html</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+      <item>
+        <attribute name="id">paste-clipboard</attribute>
+        <attribute name="label" translatable="yes">_Paste</attribute>
+        <attribute name="description" translatable="yes">Paste from clipboard into the terminal</attribute>
+        <attribute name="action">clipboard.paste</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="id">select-all</attribute>
+        <attribute name="label" translatable="yes">Select _All</attribute>
+        <attribute name="description" translatable="yes">Selection all text from terminal including scrollback</attribute>
+        <attribute name="action">terminal.select-all</attribute>
+        <attribute name="target" type="b">true</attribute>
+      </item>
+      <item>
+        <attribute name="id">select-none</attribute>
+        <attribute name="label" translatable="yes">Select _None</attribute>
+        <attribute name="action">terminal.select-all</attribute>
+        <attribute name="target" type="b">false</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Read-Only</attribute>
+        <attribute name="action">win.tab.read-only</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="id">reset</attribute>
+        <attribute name="label" translatable="yes">Reset</attribute>
+        <attribute name="action">tab.reset</attribute>
+        <attribute name="target" type="b">false</attribute>
+      </item>
+      <item>
+        <attribute name="id">reset-and-clear</attribute>
+        <attribute name="label" translatable="yes">Reset and Clear</attribute>
+        <attribute name="action">tab.reset</attribute>
+        <attribute name="target" type="b">true</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="id">set-title</attribute>
+        <attribute name="label" translatable="yes">Set Title</attribute>
+        <attribute name="action">win.set-title</attribute>
+      </item>
+      <item>
+        <attribute name="id">change-profile</attribute>
+        <attribute name="label" translatable="yes">Change Profile</attribute>
+        <attribute name="action">win.set-profile</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="id">toggle-fullscreen</attribute>
+        <attribute name="label" translatable="yes">Leave Fullscreen</attribute>
+        <attribute name="action">win.unfullscreen</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+      <item>
+        <attribute name="id">show-inspector</attribute>
+        <attribute name="label" translatable="yes">_Inspect Terminal</attribute>
+        <attribute name="action">tab.inspect</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

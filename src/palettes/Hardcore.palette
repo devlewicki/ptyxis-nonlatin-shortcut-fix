@@ -1,0 +1,23 @@
+[Palette]
+Name=Hardcore
+Background=#121212
+Foreground=#A0A0A0
+Cursor=#A0A0A0
+Color0=#1B1D1E
+Color1=#F92672
+Color2=#A6E22E
+Color3=#FD971F
+Color4=#66D9EF
+Color5=#9E6FFE
+Color6=#5E7175
+Color7=#CCCCC6
+Color8=#505354
+Color9=#FF669D
+Color10=#BEED5F
+Color11=#E6DB74
+Color12=#66D9EF
+Color13=#9E6FFE
+Color14=#A3BABF
+Color15=#F8F8F2
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Hardcore.yml

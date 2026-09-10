@@ -1,0 +1,23 @@
+[Palette]
+Name=Bluloco Light
+Background=#F9F9F9
+Foreground=#383A42
+Cursor=#383A42
+Color0=#D5D6DD
+Color1=#D52753
+Color2=#23974A
+Color3=#DF631C
+Color4=#275FE4
+Color5=#823FF1
+Color6=#27618D
+Color7=#000000
+Color8=#E4E5ED
+Color9=#FF6480
+Color10=#3CBC66
+Color11=#C5A332
+Color12=#0099E1
+Color13=#CE33C0
+Color14=#6D93BB
+Color15=#26272D
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Bluloco Light.yml

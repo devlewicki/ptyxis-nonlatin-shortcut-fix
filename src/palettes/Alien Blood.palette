@@ -1,0 +1,23 @@
+[Palette]
+Name=Alien Blood
+Background=#0F1610
+Foreground=#637D75
+Cursor=#637D75
+Color0=#112616
+Color1=#7F2B27
+Color2=#2F7E25
+Color3=#717F24
+Color4=#2F6A7F
+Color5=#47587F
+Color6=#327F77
+Color7=#647D75
+Color8=#3C4812
+Color9=#E08009
+Color10=#18E000
+Color11=#BDE000
+Color12=#00AAE0
+Color13=#0058E0
+Color14=#00E0C4
+Color15=#73FA91
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Alien Blood.yml

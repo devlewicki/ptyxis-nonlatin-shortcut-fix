@@ -1,0 +1,23 @@
+[Palette]
+Name=Oxocarbon Dark
+Background=#161616
+Foreground=#FFFFFF
+Cursor=#6F6F6F
+Color0=#262626
+Color1=#EE5396
+Color2=#42BE65
+Color3=#FFE97B
+Color4=#33B1FF
+Color5=#FF7EB6
+Color6=#3DDBD9
+Color7=#DDE1E6
+Color8=#393939
+Color9=#EE5396
+Color10=#42BE65
+Color11=#FFE97B
+Color12=#33B1FF
+Color13=#FF7EB6
+Color14=#3DDBD9
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Oxocarbon Dark.yml

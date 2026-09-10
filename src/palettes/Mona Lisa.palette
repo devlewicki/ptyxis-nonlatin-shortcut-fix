@@ -1,0 +1,23 @@
+[Palette]
+Name=Mona Lisa
+Background=#120B0D
+Foreground=#F7D66A
+Cursor=#F7D66A
+Color0=#351B0E
+Color1=#9B291C
+Color2=#636232
+Color3=#C36E28
+Color4=#515C5D
+Color5=#9B1D29
+Color6=#588056
+Color7=#F7D75C
+Color8=#874228
+Color9=#FF4331
+Color10=#B4B264
+Color11=#FF9566
+Color12=#9EB2B4
+Color13=#FF5B6A
+Color14=#8ACD8F
+Color15=#FFE598
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Mona Lisa.yml

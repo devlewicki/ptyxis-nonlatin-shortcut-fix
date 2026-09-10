@@ -1,0 +1,23 @@
+[Palette]
+Name=Spring
+Background=#0A1E24
+Foreground=#ECF0C1
+Cursor=#ECF0C1
+Color0=#000000
+Color1=#FF4D83
+Color2=#1F8C3B
+Color3=#1FC95B
+Color4=#1DD3EE
+Color5=#8959A8
+Color6=#3E999F
+Color7=#FFFFFF
+Color8=#000000
+Color9=#FF0021
+Color10=#1FC231
+Color11=#D5B807
+Color12=#15A9FD
+Color13=#8959A8
+Color14=#3E999F
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Spring.yml

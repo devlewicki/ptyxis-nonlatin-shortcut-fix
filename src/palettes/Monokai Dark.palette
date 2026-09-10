@@ -1,0 +1,23 @@
+[Palette]
+Name=Monokai Dark
+Background=#272822
+Foreground=#F8F8F2
+Cursor=#F8F8F2
+Color0=#75715E
+Color1=#F92672
+Color2=#A6E22E
+Color3=#F4BF75
+Color4=#66D9EF
+Color5=#AE81FF
+Color6=#2AA198
+Color7=#F9F8F5
+Color8=#272822
+Color9=#F92672
+Color10=#A6E22E
+Color11=#F4BF75
+Color12=#66D9EF
+Color13=#AE81FF
+Color14=#2AA198
+Color15=#F8F8F2
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Monokai Dark.yml

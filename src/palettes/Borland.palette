@@ -1,0 +1,23 @@
+[Palette]
+Name=Borland
+Background=#0000A4
+Foreground=#FFFF4E
+Cursor=#FFFF4E
+Color0=#4F4F4F
+Color1=#FF6C60
+Color2=#A8FF60
+Color3=#FFFFB6
+Color4=#96CBFE
+Color5=#FF73FD
+Color6=#C6C5FE
+Color7=#EEEEEE
+Color8=#7C7C7C
+Color9=#FFB6B0
+Color10=#CEFFAC
+Color11=#FFFFCC
+Color12=#B5DCFF
+Color13=#FF9CFE
+Color14=#DFDFFE
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Borland.yml

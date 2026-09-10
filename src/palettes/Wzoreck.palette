@@ -1,0 +1,23 @@
+[Palette]
+Name=Wzoreck
+Background=#424043
+Foreground=#FCFCFA
+Cursor=#FCFCFA
+Color0=#2E3436
+Color1=#FC6386
+Color2=#424043
+Color3=#FCE94F
+Color4=#FB976B
+Color5=#75507B
+Color6=#34E2E2
+Color7=#FFFFFF
+Color8=#989595
+Color9=#FC6386
+Color10=#A9DC76
+Color11=#FCE94F
+Color12=#FB976B
+Color13=#AB9DF2
+Color14=#34E2E2
+Color15=#D1D1C0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Wzoreck.yml

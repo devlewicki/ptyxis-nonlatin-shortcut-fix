@@ -1,0 +1,23 @@
+[Palette]
+Name=Elio
+Background=#041A3B
+Foreground=#F2F2F2
+Cursor=#F2F2F2
+Color0=#303030
+Color1=#E1321A
+Color2=#6AB017
+Color3=#FFC005
+Color4=#729FCF
+Color5=#EC0048
+Color6=#2AA7E7
+Color7=#F2F2F2
+Color8=#5D5D5D
+Color9=#FF361E
+Color10=#7BC91F
+Color11=#FFD00A
+Color12=#0071FF
+Color13=#FF1D62
+Color14=#4BB8FD
+Color15=#A020F0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Elio.yml

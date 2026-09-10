@@ -1,0 +1,23 @@
+[Palette]
+Name=Cai
+Background=#09111A
+Foreground=#D9E6F2
+Cursor=#D9E6F2
+Color0=#000000
+Color1=#CA274D
+Color2=#4DCA27
+Color3=#CAA427
+Color4=#274DCA
+Color5=#A427CA
+Color6=#27CAA4
+Color7=#808080
+Color8=#808080
+Color9=#E98DA3
+Color10=#A3E98D
+Color11=#E9D48D
+Color12=#8DA3E9
+Color13=#D48DE9
+Color14=#8DE9D4
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Cai.yml

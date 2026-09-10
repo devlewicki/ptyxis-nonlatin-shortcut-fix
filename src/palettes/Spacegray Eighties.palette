@@ -1,0 +1,23 @@
+[Palette]
+Name=Spacegray Eighties
+Background=#222222
+Foreground=#BDBAAE
+Cursor=#BDBAAE
+Color0=#15171C
+Color1=#EC5F67
+Color2=#81A764
+Color3=#FEC254
+Color4=#5486C0
+Color5=#BF83C1
+Color6=#57C2C1
+Color7=#EFECE7
+Color8=#555555
+Color9=#FF6973
+Color10=#93D493
+Color11=#FFD256
+Color12=#4D84D1
+Color13=#FF55FF
+Color14=#83E9E4
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Spacegray Eighties.yml

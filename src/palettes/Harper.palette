@@ -1,0 +1,23 @@
+[Palette]
+Name=Harper
+Background=#010101
+Foreground=#A8A49D
+Cursor=#A8A49D
+Color0=#010101
+Color1=#F8B63F
+Color2=#7FB5E1
+Color3=#D6DA25
+Color4=#489E48
+Color5=#B296C6
+Color6=#F5BFD7
+Color7=#A8A49D
+Color8=#726E6A
+Color9=#F8B63F
+Color10=#7FB5E1
+Color11=#D6DA25
+Color12=#489E48
+Color13=#B296C6
+Color14=#F5BFD7
+Color15=#FEFBEA
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Harper.yml

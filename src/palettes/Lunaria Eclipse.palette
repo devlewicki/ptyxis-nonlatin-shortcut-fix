@@ -1,0 +1,23 @@
+[Palette]
+Name=Lunaria Eclipse
+Background=#323F46
+Foreground=#C9CDD7
+Cursor=#C9CDD7
+Color0=#323F46
+Color1=#83615B
+Color2=#7F9781
+Color3=#A69875
+Color4=#53516F
+Color5=#856880
+Color6=#7D96B2
+Color7=#C9CDD7
+Color8=#3D4950
+Color9=#BA9088
+Color10=#BEDBC1
+Color11=#F1DFB4
+Color12=#767495
+Color13=#BE9CB8
+Color14=#BCDBFF
+Color15=#DFE2ED
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Lunaria Eclipse.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Mar
+Background=#FFFFFF
+Foreground=#23476A
+Cursor=#23476A
+Color0=#000000
+Color1=#B5407B
+Color2=#7BB540
+Color3=#B57B40
+Color4=#407BB5
+Color5=#7B40B5
+Color6=#40B57B
+Color7=#F8F8F8
+Color8=#737373
+Color9=#CD73A0
+Color10=#A0CD73
+Color11=#CDA073
+Color12=#73A0CD
+Color13=#A073CD
+Color14=#73CDA0
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Mar.yml

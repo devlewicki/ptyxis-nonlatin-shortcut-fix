@@ -1,0 +1,23 @@
+[Palette]
+Name=Spacedust
+Background=#0A1E24
+Foreground=#ECF0C1
+Cursor=#ECF0C1
+Color0=#6E5346
+Color1=#E35B00
+Color2=#5CAB96
+Color3=#E3CD7B
+Color4=#0F548B
+Color5=#E35B00
+Color6=#06AFC7
+Color7=#F0F1CE
+Color8=#684C31
+Color9=#FF8A3A
+Color10=#AECAB8
+Color11=#FFC878
+Color12=#67A0CE
+Color13=#FF8A3A
+Color14=#83A7B4
+Color15=#FEFFF1
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Spacedust.yml

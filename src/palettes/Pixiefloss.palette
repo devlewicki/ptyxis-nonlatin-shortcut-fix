@@ -1,0 +1,23 @@
+[Palette]
+Name=Pixiefloss
+Background=#241F33
+Foreground=#D1CAE8
+Cursor=#D1CAE8
+Color0=#2F2942
+Color1=#FF857F
+Color2=#48B685
+Color3=#E6C000
+Color4=#AE81FF
+Color5=#EF6155
+Color6=#C2FFDF
+Color7=#F8F8F2
+Color8=#75507B
+Color9=#F1568E
+Color10=#5ADBA2
+Color11=#D5A425
+Color12=#C5A3FF
+Color13=#EF6155
+Color14=#C2FFFF
+Color15=#F8F8F0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Pixiefloss.yml

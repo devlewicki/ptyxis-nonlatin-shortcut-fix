@@ -1,0 +1,23 @@
+[Palette]
+Name=Spacegray
+Background=#20242D
+Foreground=#B3B8C3
+Cursor=#B3B8C3
+Color0=#000000
+Color1=#B04B57
+Color2=#87B379
+Color3=#E5C179
+Color4=#7D8FA4
+Color5=#A47996
+Color6=#85A7A5
+Color7=#B3B8C3
+Color8=#000000
+Color9=#B04B57
+Color10=#87B379
+Color11=#E5C179
+Color12=#7D8FA4
+Color13=#A47996
+Color14=#85A7A5
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Spacegray.yml

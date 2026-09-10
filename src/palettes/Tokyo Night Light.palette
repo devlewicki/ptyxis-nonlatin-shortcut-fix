@@ -1,0 +1,23 @@
+[Palette]
+Name=Tokyo Night Light
+Background=#D5D6DB
+Foreground=#565A6E
+Cursor=#565A6E
+Color0=#0F0F14
+Color1=#8C4351
+Color2=#485E30
+Color3=#8F5E15
+Color4=#34548A
+Color5=#5A4A78
+Color6=#0F4B6E
+Color7=#343B58
+Color8=#9699A3
+Color9=#8C4351
+Color10=#485E30
+Color11=#8F5E15
+Color12=#34548A
+Color13=#5A4A78
+Color14=#0F4B6E
+Color15=#343B58
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Tokyo Night Light.yml

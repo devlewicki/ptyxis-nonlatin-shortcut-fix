@@ -1,0 +1,23 @@
+[Palette]
+Name=Seti
+Background=#111213
+Foreground=#CACECD
+Cursor=#CACECD
+Color0=#323232
+Color1=#C22832
+Color2=#8EC43D
+Color3=#E0C64F
+Color4=#43A5D5
+Color5=#8B57B5
+Color6=#8EC43D
+Color7=#EEEEEE
+Color8=#323232
+Color9=#C22832
+Color10=#8EC43D
+Color11=#E0C64F
+Color12=#43A5D5
+Color13=#8B57B5
+Color14=#8EC43D
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Seti.yml

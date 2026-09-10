@@ -1,0 +1,23 @@
+[Palette]
+Name=Azu
+Background=#09111A
+Foreground=#D9E6F2
+Cursor=#D9E6F2
+Color0=#000000
+Color1=#AC6D74
+Color2=#74AC6D
+Color3=#ACA46D
+Color4=#6D74AC
+Color5=#A46DAC
+Color6=#6DACA4
+Color7=#E6E6E6
+Color8=#262626
+Color9=#D6B8BC
+Color10=#BCD6B8
+Color11=#D6D3B8
+Color12=#B8BCD6
+Color13=#D3B8D6
+Color14=#B8D6D3
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Azu.yml

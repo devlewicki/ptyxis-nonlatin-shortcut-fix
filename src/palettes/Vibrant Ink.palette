@@ -1,0 +1,23 @@
+[Palette]
+Name=Vibrant Ink
+Background=#000000
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#878787
+Color1=#FF6600
+Color2=#CCFF04
+Color3=#FFCC00
+Color4=#44B4CC
+Color5=#9933CC
+Color6=#44B4CC
+Color7=#F5F5F5
+Color8=#555555
+Color9=#FF0000
+Color10=#00FF00
+Color11=#FFFF00
+Color12=#0000FF
+Color13=#FF00FF
+Color14=#00FFFF
+Color15=#E5E5E5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Vibrant Ink.yml

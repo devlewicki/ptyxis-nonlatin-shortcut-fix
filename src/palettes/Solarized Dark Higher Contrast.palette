@@ -1,0 +1,23 @@
+[Palette]
+Name=Solarized Dark Higher Contrast
+Background=#001E27
+Foreground=#9CC2C3
+Cursor=#9CC2C3
+Color0=#002831
+Color1=#D11C24
+Color2=#6CBE6C
+Color3=#A57706
+Color4=#2176C7
+Color5=#C61C6F
+Color6=#259286
+Color7=#EAE3CB
+Color8=#006488
+Color9=#F5163B
+Color10=#51EF84
+Color11=#B27E28
+Color12=#178EC8
+Color13=#E24D8E
+Color14=#00B39E
+Color15=#FCF4DC
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Solarized Dark Higher Contrast.yml

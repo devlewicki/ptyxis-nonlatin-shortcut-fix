@@ -1,0 +1,331 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH Ptyxis 1 "16 January 2026"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+ptyxis \- a container-oriented terminal
+
+.SH SYNOPSIS
+.B ptyxis
+.RI [OPTION]...
+[\-\- PROGRAM ARGUMENTS]
+.br
+
+.SH DESCRIPTION
+.B ptyxis
+is a container-oriented terminal, designed for the GNOME desktop.
+It provides tight integration with podman, toolbox, distrobox,
+and jhbuild to simplify container-based development and system
+management.
+.br
+
+.TP
+.B \-\-version
+Show the version of the program.
+
+.TP
+.B \-\-preferences
+Show the preferences window.
+
+.TP
+.BR \-\-new\-window
+Open a new window in an existing instance of Ptyxis. If Ptyxis
+is not running, a new instance is started.
+
+May be combined with
+.B \-\-working\-directory
+and
+.B \-\-execute
+and
+.B \-\-title
+options.
+
+.TP
+.BR \-\-tab
+Open a new tab in the most-recently-used window of an existing
+Ptyxis instance. If Ptyxis is not running, a new instance is
+started.
+
+May be combined with
+.B \-\-working\-directory
+and
+.B \-\-execute
+and
+.B \-\-title
+options.
+
+.TP
+.BR \-x ", " \-\-execute
+Execute a custom command.
+
+This is similar to using
+.BR \-\-
+to provide the custom command except that the entire command
+line should be provided as a single argument.
+
+In general, you should use
+.BR \-\-
+instead of this option. This is primarily available to be
+similar to
+.BR "bash -c 'command'"
+
+May be combined with
+.B \-\-working\-directory
+and
+.B \-\-title
+options.
+
+.TP
+.BR \-d ", " \-\-working\-directory
+Set the current working directory for a new tab [\-\-tab],
+window [\-\-window], or custom command [\-\- COMMAND...].
+
+.TP
+.BR \-\-title=TITLE
+Sets the title for a new terminal page created with either
+\-\-tab or \-\-new-window.
+
+.TP
+.BR \-\-maximize
+Maximize a newly created window.
+
+.TP
+.BR \-\-fullscreen
+Fullscreen a newly created window.
+
+.TP
+.BR \-\-tab\-with\-profile=PROFILE
+Creates a new tab in an existing instance using the specified
+profile. The profile should be a
+.B UUID
+string which can be found in the profile editor of the
+preferences dialog.
+
+.TP
+.BR \-s ", " \-\-standalone
+Start a new instance of Ptyxis, in single instance mode,
+ignoring any instances already running.
+
+Single instance mode is implied when running a
+.BR \-\-
+command.
+
+.TP
+.BR \-s ", " \-\-gapplication\-app\-id=ID
+Override the application
+.B ID
+in single instance mode.
+
+.TP
+.BR \-h ", " \-\-help
+Show a summary of options.
+
+.TP
+Other standard GNOME options not listed here are also supported.
+
+.SH PALETTE FILES
+Ptyxis supports custom color palettes defined in INI-style files with a
+.B .palette
+extension. Palette files can be placed in
+.B ~/.local/share/@app_id@/palettes/
+to be available in the palette selector.
+
+Palette files use the GKeyFile format (similar to INI files) and must contain
+at minimum a
+.B [Palette]
+section with a
+.B Name
+key. The palette can define colors in two ways:
+
+.TP
+.B Single Scheme
+If neither
+.B [Light]
+nor
+.B [Dark]
+sections are present, color keys may be placed directly in the
+.B [Palette]
+section. The same colors will be used for both light and dark themes, with
+Ptyxis automatically determining which theme to use based on the system
+color scheme.
+
+.TP
+.B Dual Scheme
+If both
+.B [Light]
+and
+.B [Dark]
+sections are present, each section defines colors for its respective theme.
+Both sections must contain the same required color keys.
+
+.PP
+The
+.B [Palette]
+section supports the following keys:
+
+.TP
+.B Name
+(Required) The display name of the palette as shown in the palette selector.
+
+.TP
+.B Primary
+(Optional) Boolean value (true/false). If set to true, marks this palette
+to be included in the initial set of palettes shown to the user. This is
+generally used for a limited set of palettes shipped with Ptyxis.
+
+.TP
+.B UseSystemAccent
+(Optional) Boolean value (true/false). If set to true, the palette will use
+the system accent color.
+
+.PP
+Each color scheme section (
+.B [Palette]
+,
+.B [Light]
+, or
+.B [Dark]
+) must contain the following required color keys:
+
+.TP
+.B Foreground
+Text foreground color.
+
+.TP
+.B Background
+Terminal background color.
+
+.TP
+.B Color0
+through
+.B Color15
+The 16 standard terminal colors (0-7 are normal colors, 8-15 are bright colors).
+
+.PP
+The following color keys are optional and will use computed defaults if omitted:
+
+.TP
+.B Cursor
+or
+.B CursorBackground
+Cursor background color. If not specified, defaults to the foreground color.
+
+.TP
+.B CursorForeground
+Cursor foreground color.
+
+.TP
+.B TitlebarBackground
+Titlebar background color. Defaults to a shaded version of the background.
+
+.TP
+.B TitlebarForeground
+Titlebar foreground color. Defaults to a shaded version of the foreground.
+
+.TP
+.B BellForeground
+Visual bell foreground color. Defaults to the titlebar foreground color.
+
+.TP
+.B BellBackground
+Visual bell background color. Defaults to a mix of Color11 and titlebar background.
+
+.TP
+.B SuperuserForeground
+Foreground color when running as superuser. Defaults to a shaded version of
+the titlebar foreground.
+
+.TP
+.B SuperuserBackground
+Background color when running as superuser. Defaults to a mix of Color1 and
+the background.
+
+.TP
+.B RemoteForeground
+Foreground color when connected remotely. Defaults to a shaded version of
+the titlebar foreground.
+
+.TP
+.B RemoteBackground
+Background color when connected remotely. Defaults to a mix of Color12 and
+the background.
+
+.PP
+All color values must be specified in hexadecimal format, either as
+.B #RRGGBB
+or
+.B #RRGGBBAA
+(with optional alpha channel). For example:
+.B #ffffff
+(white) or
+.B #000000ff
+(black with full opacity).
+
+.PP
+Example palette file:
+
+.nf
+[Palette]
+Name=My Custom Palette
+
+[Light]
+Foreground=#000000
+Background=#ffffff
+Color0=#000000
+Color1=#cc0000
+Color2=#00cc00
+Color3=#cccc00
+Color4=#0000cc
+Color5=#cc00cc
+Color6=#00cccc
+Color7=#cccccc
+Color8=#808080
+Color9=#ff0000
+Color10=#00ff00
+Color11=#ffff00
+Color12=#0000ff
+Color13=#ff00ff
+Color14=#00ffff
+Color15=#ffffff
+
+[Dark]
+Foreground=#ffffff
+Background=#000000
+Color0=#000000
+Color1=#cc0000
+Color2=#00cc00
+Color3=#cccc00
+Color4=#0000cc
+Color5=#cc00cc
+Color6=#00cccc
+Color7=#cccccc
+Color8=#808080
+Color9=#ff0000
+Color10=#00ff00
+Color11=#ffff00
+Color12=#0000ff
+Color13=#ff00ff
+Color14=#00ffff
+Color15=#ffffff
+.fi
+
+.SH SEE ALSO
+For further information, visit the website
+https://gitlab.gnome.org/chergert/ptyxis/
+
+.SH BUGS
+Bug reports can be found and filed at
+https://gitlab.gnome.org/chergert/ptyxis/issues

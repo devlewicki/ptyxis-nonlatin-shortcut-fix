@@ -1,0 +1,23 @@
+[Palette]
+Name=Brogrammer
+Background=#131313
+Foreground=#D6DBE5
+Cursor=#D6DBE5
+Color0=#1F1F1F
+Color1=#F81118
+Color2=#2DC55E
+Color3=#ECBA0F
+Color4=#2A84D2
+Color5=#4E5AB7
+Color6=#1081D6
+Color7=#D6DBE5
+Color8=#D6DBE5
+Color9=#DE352E
+Color10=#1DD361
+Color11=#F3BD09
+Color12=#1081D6
+Color13=#5350B9
+Color14=#0F7DDB
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Brogrammer.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Thayer Bright
+Background=#1B1D1E
+Foreground=#F8F8F8
+Cursor=#F8F8F8
+Color0=#1B1D1E
+Color1=#F92672
+Color2=#4DF840
+Color3=#F4FD22
+Color4=#2757D6
+Color5=#8C54FE
+Color6=#38C8B5
+Color7=#CCCCC6
+Color8=#505354
+Color9=#FF5995
+Color10=#B6E354
+Color11=#FEED6C
+Color12=#3F78FF
+Color13=#9E6FFE
+Color14=#23CFD5
+Color15=#F8F8F2
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Thayer Bright.yml

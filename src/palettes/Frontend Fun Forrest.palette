@@ -1,0 +1,23 @@
+[Palette]
+Name=Frontend Fun Forrest
+Background=#251200
+Foreground=#DEC165
+Cursor=#DEC165
+Color0=#000000
+Color1=#D6262B
+Color2=#919C00
+Color3=#BE8A13
+Color4=#4699A3
+Color5=#8D4331
+Color6=#DA8213
+Color7=#DDC265
+Color8=#7F6A55
+Color9=#E55A1C
+Color10=#BFC65A
+Color11=#FFCB1B
+Color12=#7CC9CF
+Color13=#D26349
+Color14=#E6A96B
+Color15=#FFEAA3
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Frontend Fun Forrest.yml

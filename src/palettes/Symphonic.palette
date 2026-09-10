@@ -1,0 +1,23 @@
+[Palette]
+Name=Symphonic
+Background=#000000
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#000000
+Color1=#DC322F
+Color2=#56DB3A
+Color3=#FF8400
+Color4=#0084D4
+Color5=#B729D9
+Color6=#CCCCFF
+Color7=#FFFFFF
+Color8=#1B1D21
+Color9=#DC322F
+Color10=#56DB3A
+Color11=#FF8400
+Color12=#0084D4
+Color13=#B729D9
+Color14=#CCCCFF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Symphonic.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Ayu Mirage
+Background=#1F2430
+Foreground=#CBCCC6
+Cursor=#FFCC66
+Color0=#1F2430
+Color1=#FF3333
+Color2=#BAE67E
+Color3=#FFA759
+Color4=#73D0FF
+Color5=#D4BFFF
+Color6=#95E6CB
+Color7=#CBCCC6
+Color8=#707A8C
+Color9=#FF3333
+Color10=#BAE67E
+Color11=#FFA759
+Color12=#73D0FF
+Color13=#D4BFFF
+Color14=#95E6CB
+Color15=#CBCCC6
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ayu Mirage.yml

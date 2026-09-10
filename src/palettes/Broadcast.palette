@@ -1,0 +1,23 @@
+[Palette]
+Name=Broadcast
+Background=#2B2B2B
+Foreground=#E6E1DC
+Cursor=#E6E1DC
+Color0=#000000
+Color1=#DA4939
+Color2=#519F50
+Color3=#FFD24A
+Color4=#6D9CBE
+Color5=#D0D0FF
+Color6=#6E9CBE
+Color7=#FFFFFF
+Color8=#323232
+Color9=#FF7B6B
+Color10=#83D182
+Color11=#FFFF7C
+Color12=#9FCEF0
+Color13=#FFFFFF
+Color14=#A0CEF0
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Broadcast.yml

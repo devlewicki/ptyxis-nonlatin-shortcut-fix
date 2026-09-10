@@ -1,0 +1,266 @@
+<!DOCTYPE node PUBLIC
+        "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+        "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd" >
+<!--
+  Copyright 2023 Christian Hergert <chergert@redhat.com>
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<node xmlns:doc="http://www.freedesktop.org/dbus/1.0/doc.dtd">
+  <interface name="org.gnome.Ptyxis.Agent">
+    <!-- The NAME= field from /etc/os-release -->
+    <property name="OsName" access="read" type="s"/>
+
+    <!-- XDG uesr data dir outside of Flatpak -->
+    <property name="UserDataDir" access="read" type="s"/>
+
+    <!--
+      GetPreferredShell:
+
+      Discover the users preferred shell.
+    -->
+    <method name="GetPreferredShell">
+      <arg name="shell" direction="out" type="ay"/>
+    </method>
+
+    <!--
+      ContainersChanged:
+
+      This signal is emitted when the list of containers has changed.
+      This can happen when a new podman container is registered as well
+      as any other backend.
+
+      The format is somewhat analogous to GListModel::items-changed
+      except the list of object paths are provided.
+    -->
+    <signal name="ContainersChanged">
+      <arg name="position" direction="in" type="u"/>
+      <arg name="removed" direction="in" type="u"/>
+      <arg name="added" direction="in" type="ao"/>
+    </signal>
+
+    <!--
+      ListContainers:
+
+      Gets a list of object paths for all of the registered containers.
+      This can be combined with ContainersChanged to build a GListModel
+      in the UI process observing the ptyxis-agent.
+    -->
+    <method name="ListContainers">
+      <arg name="containers" direction="out" type="ao"/>
+    </method>
+
+    <!--
+      CreatePty:
+
+      This method is used to create a new PTY.
+    -->
+    <method name="CreatePty">
+      <annotation name="org.gtk.GDBus.C.UnixFD" value="true"/>
+      <arg name="fd" direction="out" type="h"/>
+    </method>
+
+    <!--
+      CreatePtyProducer:
+
+      This method is used to create producing side of a PTY, which is
+      generally mapped to stdin/out/err of the child process.
+    -->
+    <method name="CreatePtyProducer">
+      <annotation name="org.gtk.GDBus.C.UnixFD" value="true"/>
+      <arg name="pty_fd" direction="in" type="h"/>
+      <arg name="fd" direction="out" type="h"/>
+    </method>
+
+    <!--
+      DiscoverCurrentContainer:
+
+      Attempts to discover the current container that is being used within a PTY.
+      This may change based on the user doing things such as "toolbox enter" and
+      we make a best attempt to discover what that was, possibly by parsing
+      information about foreground processes.
+    -->
+    <method name="DiscoverCurrentContainer">
+      <annotation name="org.gtk.GDBus.C.UnixFD" value="true"/>
+      <arg name="pty_fd" direction="in" type="h"/>
+      <arg name="container" direction="out" type="o"/>
+    </method>
+
+    <!--
+      DiscoverProxyEnvironment:
+
+      Requests the current environment settings for the system. On GNOME, this
+      will try to look at the hosts GSettings to apply the correct environment
+      variables.
+
+      On other systems, it will just check what the agent's environment is
+      for the appropriate variables to pass across.
+    -->
+    <method name="DiscoverProxyEnvironment">
+      <arg name="proxy_environment" direction="out" type="as"/>
+    </method>
+
+    <!--
+      ProcessExited:
+      @process: the object path of the process
+      @exit_code: the exit code of the process
+
+      This signal allows a client to monitor for exits of multiple
+      processes. That is useful in situations where you might otherwise
+      race to connect to the processes exit signal.
+    -->
+    <signal name="ProcessExited">
+      <arg name="process" direction="in" type="o"/>
+      <arg name="exit_code" direction="in" type="i"/>
+    </signal>
+
+  </interface>
+
+  <interface name="org.gnome.Ptyxis.Container">
+    <!--
+      Provider:
+
+      The provider property contains the name of the backend that
+      is used for the container. Such as "host" or "podman".
+    -->
+    <property name="Provider" access="read" type="s"/>
+
+    <!--
+      Id:
+
+      The identifier of the container. This is meant to be stable
+      across runs of ptyxis-agent and may map to an underlying
+      container identifier by @Provider.
+    -->
+    <property name="Id" access="read" type="s"/>
+
+    <!--
+      IconName:
+
+      An icon name suitable for the container.
+    -->
+    <property name="IconName" access="read" type="s"/>
+
+    <!--
+      DisplayName:
+
+      A user-visible display name for the container.
+    -->
+    <property name="DisplayName" access="read" type="s"/>
+
+    <!--
+      Spawn:
+
+      Spawns the process within the container and returns an object
+      path that can be used to monitor the process lifetime.
+    -->
+    <method name="Spawn">
+      <annotation name="org.gtk.GDBus.C.UnixFD" value="true"/>
+      <arg name="cwd" direction="in" type="ay"/>
+      <arg name="argv" direction="in" type="aay"/>
+      <arg name="fds" direction="in" type="a{uh}"/>
+      <arg name="env" direction="in" type="a{ss}"/>
+      <arg name="process" direction="out" type="o"/>
+    </method>
+
+    <!--
+      FindProgramInPath:
+      @program: the name of the program (e.g. "bash")
+
+      Locates the path of @program in the container if it is found.
+
+      This can be used to determine if a $SHELL is available in the
+      container and fallback to something more reasonable.
+    -->
+    <method name="FindProgramInPath">
+      <arg name="program" direction="in" type="s"/>
+      <arg name="path" direction="out" type="s"/>
+    </method>
+
+    <!--
+      TranslateURI:
+      @uri: the URI to translate
+
+      Translates a URI from the container to something that is available from
+      the host. The receiver is still responsible for translating a second
+      pass if they are inside a container as well (say Flatpak).
+    -->
+    <method name="TranslateURI">
+      <arg name="uri" direction="in" type="s"/>
+      <arg name="translated" direction="out" type="s"/>
+    </method>
+  </interface>
+
+  <interface name="org.gnome.Ptyxis.Process">
+    <!--
+      HasForegroundProcess:
+
+      Checks to see if there is a foreground process other than the process
+      that is running (such as vim, a long running process, etc).
+    -->
+    <method name="HasForegroundProcess">
+      <annotation name="org.gtk.GDBus.C.UnixFD" value="true"/>
+      <arg name="pty_fd" direction="in" type="h"/>
+      <arg name="has_foreground_process" direction="out" type="b"/>
+      <arg name="pid" direction="out" type="i"/>
+      <arg name="cmdline" direction="out" type="s"/>
+      <arg name="leader_kind" direction="out" type="s"/>
+    </method>
+
+    <!--
+      Exited:
+
+      The Exited signal is emitted when the process exits. It includes
+      the exit status which can be parsed into exit code or termination
+      signal number.
+    -->
+    <signal name="Exited">
+      <arg name="exit_status" direction="in" type="i"/>
+    </signal>
+
+    <!--
+      Signaled:
+
+      The Signaled signal is emitted when the process exits due to a
+      termination signal such as SIGKILL.
+    -->
+    <signal name="Signaled">
+      <arg name="term_sig" direction="in" type="i"/>
+    </signal>
+
+    <!--
+      SendSignal:
+
+      The SendSignal method is used to deliver a signal to the target
+      process.
+    -->
+    <method name="SendSignal">
+      <arg name="signum" direction="in" type="i"/>
+    </method>
+
+    <!--
+      GetWorkingDirectory:
+
+      This RPC is unused by Ptyxis upstream but provides a way to peek
+      at the current working directory of the process.
+    -->
+    <method name="GetWorkingDirectory">
+      <annotation name="org.gtk.GDBus.C.UnixFD" value="true"/>
+      <arg name="pty_fd" direction="in" type="h"/>
+      <arg name="path" direction="out" type="ay"/>
+    </method>
+  </interface>
+</node>

@@ -1,0 +1,23 @@
+[Palette]
+Name=Ibm 3270 (High Contrast)
+Background=#000000
+Foreground=#FDFDFD
+Cursor=#FDFDFD
+Color0=#000000
+Color1=#FF0000
+Color2=#00FF00
+Color3=#FFFF00
+Color4=#00BFFF
+Color5=#FFC0CB
+Color6=#40E0D0
+Color7=#BEBEBE
+Color8=#414141
+Color9=#FFA500
+Color10=#98FB98
+Color11=#FFFF00
+Color12=#0000CD
+Color13=#A020F0
+Color14=#AEEEEE
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ibm 3270 (High Contrast).yml

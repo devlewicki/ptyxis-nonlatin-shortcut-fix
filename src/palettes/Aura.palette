@@ -1,0 +1,23 @@
+[Palette]
+Name=Aura
+Background=#15141B
+Foreground=#EDECEE
+Cursor=#EDECEE
+Color0=#110F18
+Color1=#FF6767
+Color2=#61FFCA
+Color3=#FFCA85
+Color4=#A277FF
+Color5=#A277FF
+Color6=#61FFCA
+Color7=#EDECEE
+Color8=#6D6D6D
+Color9=#FFCA85
+Color10=#A277FF
+Color11=#FFCA85
+Color12=#A277FF
+Color13=#A277FF
+Color14=#61FFCA
+Color15=#EDECEE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Aura.yml

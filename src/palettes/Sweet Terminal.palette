@@ -1,0 +1,23 @@
+[Palette]
+Name=Sweet Terminal
+Background=#222235
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#3F3F54
+Color1=#F60055
+Color2=#06C993
+Color3=#9700BE
+Color4=#F69154
+Color5=#EC89CB
+Color6=#60ADEC
+Color7=#ABB2BF
+Color8=#959DCB
+Color9=#F60055
+Color10=#06C993
+Color11=#9700BE
+Color12=#F69154
+Color13=#EC89CB
+Color14=#00DDED
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Sweet Terminal.yml

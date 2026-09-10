@@ -1,0 +1,23 @@
+[Palette]
+Name=Idle Toes
+Background=#323232
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#323232
+Color1=#D25252
+Color2=#7FE173
+Color3=#FFC66D
+Color4=#4099FF
+Color5=#F680FF
+Color6=#BED6FF
+Color7=#EEEEEC
+Color8=#535353
+Color9=#F07070
+Color10=#9DFF91
+Color11=#FFE48B
+Color12=#5EB7F7
+Color13=#FF9DFF
+Color14=#DCF4FF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Idle Toes.yml

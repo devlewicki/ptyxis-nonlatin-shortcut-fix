@@ -1,0 +1,23 @@
+[Palette]
+Name=Novel
+Background=#DFDBC3
+Foreground=#3B2322
+Cursor=#3B2322
+Color0=#000000
+Color1=#CC0000
+Color2=#009600
+Color3=#D06B00
+Color4=#0000CC
+Color5=#CC00CC
+Color6=#0087CC
+Color7=#CCCCCC
+Color8=#808080
+Color9=#CC0000
+Color10=#009600
+Color11=#D06B00
+Color12=#0000CC
+Color13=#CC00CC
+Color14=#0087CC
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Novel.yml

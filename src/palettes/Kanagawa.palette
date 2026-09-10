@@ -1,0 +1,23 @@
+[Palette]
+Name=Kanagawa
+Background=#1F1F28
+Foreground=#DCD7BA
+Cursor=#DCD7BA
+Color0=#090618
+Color1=#C34043
+Color2=#76946A
+Color3=#C0A36E
+Color4=#7E9CD8
+Color5=#957FB8
+Color6=#6A9589
+Color7=#DCD7BA
+Color8=#727169
+Color9=#E82424
+Color10=#98BB6C
+Color11=#E6C384
+Color12=#7FB4CA
+Color13=#938AA9
+Color14=#7AA89F
+Color15=#C8C093
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Kanagawa.yml

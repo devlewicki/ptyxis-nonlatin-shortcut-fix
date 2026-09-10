@@ -1,0 +1,23 @@
+[Palette]
+Name=Wild Cherry
+Background=#1F1726
+Foreground=#DAFAFF
+Cursor=#DAFAFF
+Color0=#000507
+Color1=#D94085
+Color2=#2AB250
+Color3=#FFD16F
+Color4=#883CDC
+Color5=#ECECEC
+Color6=#C1B8B7
+Color7=#FFF8DE
+Color8=#009CC9
+Color9=#DA6BAC
+Color10=#F4DCA5
+Color11=#EAC066
+Color12=#308CBA
+Color13=#AE636B
+Color14=#FF919D
+Color15=#E4838D
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Wild Cherry.yml

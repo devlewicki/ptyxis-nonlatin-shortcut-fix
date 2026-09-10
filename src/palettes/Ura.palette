@@ -1,0 +1,23 @@
+[Palette]
+Name=Ura
+Background=#FEFFEE
+Foreground=#23476A
+Cursor=#23476A
+Color0=#000000
+Color1=#C21B6F
+Color2=#6FC21B
+Color3=#C26F1B
+Color4=#1B6FC2
+Color5=#6F1BC2
+Color6=#1BC26F
+Color7=#808080
+Color8=#808080
+Color9=#EE84B9
+Color10=#B9EE84
+Color11=#EEB984
+Color12=#84B9EE
+Color13=#B984EE
+Color14=#84EEB9
+Color15=#E5E5E5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ura.yml

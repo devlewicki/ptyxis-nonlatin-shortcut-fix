@@ -1,0 +1,23 @@
+[Palette]
+Name=Panda
+Background=#1D1E20
+Foreground=#F0F0F0
+Cursor=#F0F0F0
+Color0=#1F1F20
+Color1=#FB055A
+Color2=#26FFD4
+Color3=#FDAA5A
+Color4=#5C9FFF
+Color5=#FC59A6
+Color6=#26FFD4
+Color7=#F0F0F0
+Color8=#5C6370
+Color9=#FB055A
+Color10=#26FFD4
+Color11=#FEBE7E
+Color12=#55ADFF
+Color13=#FD95D0
+Color14=#26FFD4
+Color15=#F0F0F0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Panda.yml

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2017-2023 Christian Hergert
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="PtyxisTitleDialog" parent="AdwDialog">
+    <child>
+      <object class="AdwToolbarView">
+        <child type="top">
+          <object class="AdwHeaderBar"/>
+        </child>
+        <property name="content">
+          <object class="AdwPreferencesGroup">
+            <property name="margin-bottom">18</property>
+            <property name="margin-end">18</property>
+            <property name="margin-start">18</property>
+            <property name="margin-top">9</property>
+            <child>
+              <object class="AdwEntryRow" id="entry">
+                <property name="title" translatable="yes">Title</property>
+                <signal name="activate" handler="ptyxis_title_dialog_activate_cb" swapped="true"/>
+              </object>
+            </child>
+            <child>
+              <object class="AdwSwitchRow" id="toggle_prefix_only">
+                <property name="title" translatable="yes">Include Process Title</property>
+                <property name="subtitle" translatable="yes">Append title from Shell application</property>
+              </object>
+            </child>
+          </object>
+        </property>
+      </object>
+    </child>
+  </template>
+</interface>

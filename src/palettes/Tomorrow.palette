@@ -1,0 +1,23 @@
+[Palette]
+Name=Tomorrow
+Background=#FFFFFF
+Foreground=#4D4D4C
+Cursor=#4C4C4C
+Color0=#000000
+Color1=#C82828
+Color2=#718C00
+Color3=#EAB700
+Color4=#4171AE
+Color5=#8959A8
+Color6=#3E999F
+Color7=#FFFEFE
+Color8=#000000
+Color9=#C82828
+Color10=#708B00
+Color11=#E9B600
+Color12=#4170AE
+Color13=#8958A7
+Color14=#3D999F
+Color15=#FFFEFE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Tomorrow.yml

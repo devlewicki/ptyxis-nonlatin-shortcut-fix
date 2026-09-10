@@ -1,0 +1,23 @@
+[Palette]
+Name=Purple People Eater
+Background=#161B22
+Foreground=#C9D1D9
+Cursor=#C9D1D9
+Color0=#0D1117
+Color1=#E34C26
+Color2=#238636
+Color3=#ED9A51
+Color4=#A5D6FF
+Color5=#6EB0E8
+Color6=#C09AEB
+Color7=#C9D1D9
+Color8=#0D1117
+Color9=#FF7B72
+Color10=#3BAB4A
+Color11=#FFA657
+Color12=#A5D6FF
+Color13=#79C0FF
+Color14=#B694DF
+Color15=#C9D1D9
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Purple People Eater.yml

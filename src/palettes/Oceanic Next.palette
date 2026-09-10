@@ -1,0 +1,23 @@
+[Palette]
+Name=Oceanic Next
+Background=#121B21
+Foreground=#B3B8C3
+Cursor=#B3B8C3
+Color0=#121C21
+Color1=#E44754
+Color2=#89BD82
+Color3=#F7BD51
+Color4=#5486C0
+Color5=#B77EB8
+Color6=#50A5A4
+Color7=#FFFFFF
+Color8=#52606B
+Color9=#E44754
+Color10=#89BD82
+Color11=#F7BD51
+Color12=#5486C0
+Color13=#B77EB8
+Color14=#50A5A4
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Oceanic Next.yml

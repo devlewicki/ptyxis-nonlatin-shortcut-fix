@@ -1,0 +1,23 @@
+[Palette]
+Name=Mono Red
+Background=#2B0C00
+Foreground=#FF3600
+Cursor=#FF3600
+Color0=#401200
+Color1=#FF3600
+Color2=#FF3600
+Color3=#FF3600
+Color4=#FF3600
+Color5=#FF3600
+Color6=#FF3600
+Color7=#FF3600
+Color8=#FF3600
+Color9=#FF3600
+Color10=#FF3600
+Color11=#FF3600
+Color12=#FF3600
+Color13=#FF3600
+Color14=#FF3600
+Color15=#FF3600
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Mono Red.yml

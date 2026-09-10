@@ -1,0 +1,14 @@
+Package: ptyxis-dbgsym
+Package-Type: ddeb
+Source: ptyxis
+Version: 50.1-1ubuntu2local1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1365
+Depends: ptyxis (= 50.1-1ubuntu2local1)
+Section: debug
+Priority: optional
+Description: debug symbols for ptyxis
+Build-Ids: 49c850726e7f498027cc99518efd519295911e85 d95ddb9e817f70b05801c476cf04132be7fc3cda
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>

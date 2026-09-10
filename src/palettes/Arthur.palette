@@ -1,0 +1,23 @@
+[Palette]
+Name=Arthur
+Background=#1C1C1C
+Foreground=#DDEEDD
+Cursor=#DDEEDD
+Color0=#3D352A
+Color1=#CD5C5C
+Color2=#86AF80
+Color3=#E8AE5B
+Color4=#6495ED
+Color5=#DEB887
+Color6=#B0C4DE
+Color7=#BBAA99
+Color8=#554444
+Color9=#CC5533
+Color10=#88AA22
+Color11=#FFA75D
+Color12=#87CEEB
+Color13=#996600
+Color14=#B0C4DE
+Color15=#DDCCBB
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Arthur.yml

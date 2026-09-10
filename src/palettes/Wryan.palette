@@ -1,0 +1,23 @@
+[Palette]
+Name=Wryan
+Background=#101010
+Foreground=#999993
+Cursor=#999993
+Color0=#333333
+Color1=#8C4665
+Color2=#287373
+Color3=#7C7C99
+Color4=#395573
+Color5=#5E468C
+Color6=#31658C
+Color7=#899CA1
+Color8=#3D3D3D
+Color9=#BF4D80
+Color10=#53A6A6
+Color11=#9E9ECB
+Color12=#477AB3
+Color13=#7E62B3
+Color14=#6096BF
+Color15=#C0C0C0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Wryan.yml

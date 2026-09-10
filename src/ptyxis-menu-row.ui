@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="PtyxisMenuRow" parent="GtkWidget">
+    <child>
+      <object class="GtkLabel" id="label">
+        <property name="xalign">0</property>
+        <property name="ellipsize">middle</property>
+        <property name="use-underline">false</property>
+      </object>
+    </child>
+  </template>
+</interface>

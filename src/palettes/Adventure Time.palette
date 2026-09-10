@@ -1,0 +1,23 @@
+[Palette]
+Name=Adventure Time
+Background=#1F1D45
+Foreground=#F8DCC0
+Cursor=#F8DCC0
+Color0=#050404
+Color1=#BD0013
+Color2=#4AB118
+Color3=#E7741E
+Color4=#0F4AC6
+Color5=#665993
+Color6=#70A598
+Color7=#F8DCC0
+Color8=#4E7CBF
+Color9=#FC5F5A
+Color10=#9EFF6E
+Color11=#EFC11A
+Color12=#1997C6
+Color13=#9B5953
+Color14=#C8FAF4
+Color15=#F6F5FB
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Adventure Time.yml

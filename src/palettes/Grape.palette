@@ -1,0 +1,23 @@
+[Palette]
+Name=Grape
+Background=#171423
+Foreground=#9F9FA1
+Cursor=#9F9FA1
+Color0=#2D283F
+Color1=#ED2261
+Color2=#1FA91B
+Color3=#8DDC20
+Color4=#487DF4
+Color5=#8D35C9
+Color6=#3BDEED
+Color7=#9E9EA0
+Color8=#59516A
+Color9=#F0729A
+Color10=#53AA5E
+Color11=#B2DC87
+Color12=#A9BCEC
+Color13=#AD81C2
+Color14=#9DE3EB
+Color15=#A288F7
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Grape.yml

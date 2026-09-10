@@ -1,0 +1,23 @@
+[Palette]
+Name=Tokyo Night Moon
+Background=#222436
+Foreground=#c8d3f5
+Cursor=#c8d3f5
+Color0=#1b1d2b
+Color1=#ff757f
+Color2=#c3e88d
+Color3=#ffc777
+Color4=#82aaff
+Color5=#c099ff
+Color6=#86e1fc
+Color7=#828bb8
+Color8=#444a73
+Color9=#ff757f
+Color10=#c3e88d
+Color11=#ffc777
+Color12=#82aaff
+Color13=#c099ff
+Color14=#86e1fc
+Color15=#c8d3f5
+
+# This file was generated from https://github.com/folke/tokyonight.nvim/tree/main/extras

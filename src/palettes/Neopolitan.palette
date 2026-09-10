@@ -1,0 +1,23 @@
+[Palette]
+Name=Neopolitan
+Background=#271F19
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#000000
+Color1=#800000
+Color2=#61CE3C
+Color3=#FBDE2D
+Color4=#253B76
+Color5=#FF0080
+Color6=#8DA6CE
+Color7=#F8F8F8
+Color8=#000000
+Color9=#800000
+Color10=#61CE3C
+Color11=#FBDE2D
+Color12=#253B76
+Color13=#FF0080
+Color14=#8DA6CE
+Color15=#F8F8F8
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Neopolitan.yml

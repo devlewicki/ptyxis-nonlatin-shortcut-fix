@@ -1,0 +1,23 @@
+[Palette]
+Name=Apprentice
+Background=#262626
+Foreground=#BCBCBC
+Cursor=#BCBCBC
+Color0=#1C1C1C
+Color1=#AF5F5F
+Color2=#5F875F
+Color3=#87875F
+Color4=#5F87AF
+Color5=#5F5F87
+Color6=#5F8787
+Color7=#6C6C6C
+Color8=#444444
+Color9=#FF8700
+Color10=#87AF87
+Color11=#FFFFAF
+Color12=#8FAFD7
+Color13=#8787AF
+Color14=#5FAFAF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Apprentice.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Homebrew Light
+Background=#FFFFFF
+Foreground=#000000
+Cursor=#000000
+Color0=#000000
+Color1=#990000
+Color2=#00A600
+Color3=#999900
+Color4=#0000B2
+Color5=#B200B2
+Color6=#00A6B2
+Color7=#BFBFBF
+Color8=#666666
+Color9=#E50000
+Color10=#00D900
+Color11=#E5E500
+Color12=#0000FF
+Color13=#E500E5
+Color14=#00E5E5
+Color15=#E5E5E5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Homebrew Light.yml

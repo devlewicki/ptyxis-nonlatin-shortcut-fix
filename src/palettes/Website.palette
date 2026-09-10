@@ -1,0 +1,23 @@
+[Palette]
+Name=Website
+Background=#132f35
+Foreground=#d1b890
+Cursor=#d1b890
+Color0=#183c44
+Color1=#da4949
+Color2=#bcca15
+Color3=#ffb02e
+Color4=#35a6e6
+Color5=#d343a2
+Color6=#38c995
+Color7=#ffe8c1
+Color8=#235662
+Color9=#ff5757
+Color10=#ecff14
+Color11=#ffd694
+Color12=#4cbfff
+Color13=#ff4cc2
+Color14=#35ffb6
+Color15=#ffd48f
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Website.yml

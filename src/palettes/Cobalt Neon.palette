@@ -1,0 +1,23 @@
+[Palette]
+Name=Cobalt Neon
+Background=#142838
+Foreground=#8FF586
+Cursor=#8FF586
+Color0=#142631
+Color1=#FF2320
+Color2=#3BA5FF
+Color3=#E9E75C
+Color4=#8FF586
+Color5=#781AA0
+Color6=#8FF586
+Color7=#BA46B2
+Color8=#FFF688
+Color9=#D4312E
+Color10=#8FF586
+Color11=#E9F06D
+Color12=#3C7DD2
+Color13=#8230A7
+Color14=#6CBC67
+Color15=#8FF586
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Cobalt Neon.yml

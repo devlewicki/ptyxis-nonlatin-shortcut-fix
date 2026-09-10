@@ -1,0 +1,1923 @@
+# Basque translation for ptyxis.
+# Copyright (C) 2024 ptyxis's COPYRIGHT HOLDER
+# This file is distributed under the same license as the ptyxis package.
+# Asier Saratsua Garmendia <asiersarasua@ni.eus>,  2024, 2025.
+#
+msgid ""
+msgstr "Project-Id-Version: ptyxis main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/chergert/ptyxis/issues\n"
+"POT-Creation-Date: 2025-08-26 09:47+0000\n"
+"PO-Revision-Date: 2025-08-27 22:02+0000\n"
+"Last-Translator: Asier Saratsua Garmendia <asiersarasua@ni.eus>\n"
+"Language-Team: Basque <eu@li.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:2
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:6
+msgid "@APP_NAME@"
+msgstr "@APP_NAME@"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:3
+msgid "A container-oriented terminal for GNOME"
+msgstr "Edukiontziekin erabiltzeko terminala GNOMErako"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:12 src/ptyxis-preferences-window.ui:655
+#: src/ptyxis-tab.c:1465 src/ptyxis-util.c:318
+msgid "Terminal"
+msgstr "Terminala"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Ptyxis.desktop.in.in:14
+msgid "terminal;prompt;ptyxis;shell;command;commandline;cmd;cli;console;container;podman;toolbox;distrobox;"
+msgstr "terminala;gonbita;ptyxis;shell-a;komandoa;komando-lerroa;cmd;cli;kontsola;edukiontzia;podman;tresna-kutxa"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:23
+#: src/org.gnome.Ptyxis.gschema.xml.in:405 src/ptyxis-preferences-window.ui:720
+msgid "New Window"
+msgstr "Leiho berria"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:27
+#: src/org.gnome.Ptyxis.gschema.xml.in:399 src/ptyxis-preferences-window.ui:746
+msgid "New Tab"
+msgstr "Fitxa berria"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:31
+#: src/org.gnome.Ptyxis.gschema.xml.in:417 src/ptyxis-preferences-window.ui:921
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:7
+msgid "Container-oriented terminal"
+msgstr "Edukiontziekin erabiltzeko terminala"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:9
+msgid ""
+"Ptyxis is a terminal for GNOME that focuses on ease-of-use in a world of "
+"containers."
+msgstr "Ptyxis GNOMErako terminal bat da, edukiontzien mundu batean erraz erabiltzeko modukoa."
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:13
+msgid "Features:"
+msgstr "Eginbideak:"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:15
+msgid ""
+"Remembers current container when opening a new tab with support for podman, "
+"toolbox, distrobox, and more"
+msgstr "Uneko edukiontzia gogoratzen du fitxa bat irekitzean, eta podman, toolbox, distrobox eta beste hainbat onartzen ditu"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:16
+msgid "Configurable keyboard shortcuts"
+msgstr "Laster-tekla konfiguragarriak"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:17
+msgid "Modern interface which integrates the palette with the window styling"
+msgstr "Interfaze modernoa, paleta eta leihoei estiloa ematea integratzen duena"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:18
+msgid "User-installable color palettes"
+msgstr "Erabiltzaileak instalatu ditzakeen kolore-paletak"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:19
+msgid "Support for preferences profiles with container integration"
+msgstr "Hobespen-profilen euskarria edukiontzi-integrazioarekin"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:20
+msgid "Integrated color palettes with light and dark support"
+msgstr "Kolore-paleta integratuak gai ilun eta argiarekin"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:21
+msgid "Tabbed interface with tab overviews"
+msgstr "Fitxadun interfazea fitxen ikuspegiarekin"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:22
+msgid "Efficient foreground process tracking denoting sudo and SSH"
+msgstr "Aurreko planoko prozesu-jarraipen eraginkorra sudo eta SSH adieraziz"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:23
+msgid "Support for transparent terminal backgrounds"
+msgstr "Terminalaren atzeko plano gardenak onartzen ditu"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:24
+msgid "Separate process mode for terminal-based applications"
+msgstr "Prozesu-modu bereizia terminalean oinarritutako aplikazioetarako"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:25
+msgid "Support for pinned tabs and saved sessions"
+msgstr "Ainguratutako fitxak eta gordetako saioak onartzen ditu"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:26
+msgid "Terminal tabs are run within separate cgroups"
+msgstr "Terminaleko fitxak cgroups bereizietan exekutatzen dira"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:27
+msgid "Terminal inspector to help when writing terminal-based applications"
+msgstr "Terminal-ikuskatzailea, terminalean oinarritutako aplikazioak idazten laguntzeko"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:32
+msgid "Christian Hergert"
+msgstr "Christian Hergert"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:52
+msgid "A column and row size indicator is displayed when resizing the window"
+msgstr "Zutabeen eta errenkaden tamainaren adierazle bat bistaratzen da leihoaren tamaina aldatzean"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:57
+msgid "Containers are automatically discovered and displayed"
+msgstr "Edukiontziak automatikoki aurkitu eta bistaratzen dira"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:62
+msgid "Many behaviors of the terminal may be tweaked to user preference"
+msgstr "Erabiltzaileak terminalaren portaera batzuk doitu ditzake"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:67
+msgid "You may rename a tab by providing a prefix to the title"
+msgstr "Fitxen izena aldatu daiteke izenburuari aurrizki bat jarriz"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:72
+msgid "Palettes provide an integrated dark mode"
+msgstr "Paletek modu ilun integratua eskaintzen dute"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:77
+msgid "You can see an overview of your tabs at any time"
+msgstr "Zure fitxen ikuspegi orokorra eduki dezakezu edonoiz"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:82
+msgid "Many shortcuts may be remapped to user preference"
+msgstr "Lasterbide asko birmapatu egin daitezke erabiltzailearen gogoaren arabera"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:87
+msgid "Built-in color palettes provide both dark and light mode variants"
+msgstr "Kolore-paleta integratuek modu iluna zein argia eskaintzen dute"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:92
+msgid ""
+"Profiles allow for overriding a number of features such as default container"
+msgstr "Profilen bidez, eginbideetako batzuk indargabetu daitezke, adibidez edukiontzi lehenetsia"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:97
+msgid "The terminal will remind you when you're root on the local system"
+msgstr "Terminalak gogoraraziko dizu sistema lokalean erroa zarela"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:102
+msgid "The terminal will remind you when you're on a remote system"
+msgstr "Terminalak gogoraraziko dizu urruneko sistema batean zaudela"
+
+#: src/main.c:142 src/main.c:149 src/main.c:161
+msgid "Error"
+msgstr "Errorea"
+
+#: src/main.c:155
+#, c-format
+msgid ""
+"Error: %s already exists.\n"
+"Please remove it first.\n"
+msgstr "Errorea: %s badago lehendik.\n"
+"Kendu hura lehenengo.\n"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:101
+msgid "Default Profile UUID"
+msgstr "Profil lehenetsiaren UUIDa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:102
+msgid "The UUID of the default profile"
+msgstr "Profil lehenetsiaren UUIDa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:107
+msgid "UUIDs of all Profiles"
+msgstr "Profil guztien UUIDak"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:108
+msgid "A list of UUID for every profile"
+msgstr "Profil bakoitzaren UUIDaren zerrenda"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:113 src/ptyxis-preferences-window.ui:308
+msgid "New Tab Position"
+msgstr "Fitxa berriaren posizioa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:114
+msgid "Where to place new tabs"
+msgstr "Non kokatu fitxa berriak"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:119 src/ptyxis-preferences-window.ui:400
+msgid "Audible Bell"
+msgstr "Kanpai entzungarria"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:120
+msgid "If an audible bell should be used"
+msgstr "Entzuten den kanpaia erabiliko den"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:125
+msgid "Visible Bell"
+msgstr "Kanpai ikusgarria"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:126
+msgid "If a visual bell should be used"
+msgstr "Ikusten den kanpaia erabiliko den"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:131
+msgid "Visual Process Leader"
+msgstr "Ikusizko prozesu-liderra"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:132
+msgid ""
+"Display a visual window highlight when process leader is SSH, sudo, or other "
+"specialized tooling"
+msgstr "Bistaratu leihoaren ikusizko nabarmentzea prozesu-liderra SSH, sudo edo beste tresna espezializatu bat denean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:137
+msgid "Use System Font"
+msgstr "Erabili sistemaren letra-tipoa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:138
+msgid "If the default system monospace font should be used"
+msgstr "Sistemaren tarte bakarreko letra-tipo lehenetsia erabiliko den ala ez"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:143
+msgid "Font Name"
+msgstr "Letra-izena"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:144
+msgid "The font description to use if use-system-font is set to False"
+msgstr "use-system-font ezarpenean faltsua ezartzen bada erabiliko den letra-deskribapena"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:149 src/ptyxis-preferences-window.ui:235
+msgid "Cursor Shape"
+msgstr "Kurtsorearen forma"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:150
+msgid "The default shape of the cursor"
+msgstr "Kurtsorearen forma lehenetsia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:155
+msgid "Cursor Blink Mode"
+msgstr "Kurtsorearen keinuaren modua"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:156
+msgid "The default blink mode cursor"
+msgstr "Kurtsorea keinuaren modu lehenetsia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:161
+msgid "List of punctuation characters that are treated as word characters"
+msgstr "Hitz-karakteretzat hartzen diren puntuazio-karaktereen zerrenda"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:162
+msgid ""
+"By default, when doing word-wise selection, most punctuation breaks up word "
+"boundaries. This list of exceptions will instead be treated as part of the "
+"word."
+msgstr "Modu lehenetsian, hitzak hautatzean, puntuazioak hitzak hausten ditu. Salbuespenen zerrenda honetakoak, berriz, hitzaren partetzat hartuko dira."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:167
+msgid "Scrollbar Policy"
+msgstr "Korritze-barraren politika"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:168
+msgid "If scrollbars should be displayed"
+msgstr "Korritze-barrak bistaratu behar diren ala ez"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:177
+msgid "Text Blink Mode"
+msgstr "Testuaren keinuaren modua"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:178
+msgid "When text blinking is allowed"
+msgstr "Testuaren keinuak onartzen diren ala ez"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:183
+msgid "Interface Style"
+msgstr "Interfazearen estiloa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:184
+msgid "If light or dark interface style should be used"
+msgstr "Interfaze argia ala iluna erabiliko den"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:189 src/ptyxis-preferences-window.ui:337
+msgid "Restore Session"
+msgstr "Leheneratu saioa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:190
+msgid "Restore tabs from previous session when starting Ptyxis"
+msgstr "Leheneratu aurreko saioaren fitxak Ptyxis abiaraztean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:195 src/ptyxis-preferences-window.ui:343
+msgid "Restore Window Size"
+msgstr "Leheneratu leiho-tamaina"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:196
+msgid "Restore the previous window size when creating new windows"
+msgstr "Leheneratu aurreko leiho-tamaina leiho berriak sortzean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:206
+msgid "Default Column Size"
+msgstr "Zutabe-tamaina lehenetsia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:207
+#: src/org.gnome.Ptyxis.gschema.xml.in:214
+msgid "Default window size when restore-window-size is not true."
+msgstr "Leihoaren tamaina lehenetsia restore-window-size egia ez denean."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:213
+msgid "Default Row Size"
+msgstr "Errenkada-tamaina lehenetsia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:219
+msgid "Toast on Copy Clipboard"
+msgstr "Jakinarazpena arbelean kopiatzean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:220
+msgid "Show the user when text has copied to the clipboard."
+msgstr "Erakutsi erabiltzaileari testua arbelean kopiatu dela."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:225
+msgid "Enable Accessibility"
+msgstr "Gaitu irisgarritasuna"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:226
+msgid ""
+"Currently experimental feature to send accessibility information to screen "
+"readers."
+msgstr "Eginbide esperimentala, irisgarritasun-informazioa pantaila-irakurleei bidaltzeko."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:231
+msgid "Disable Padding around Terminal Emulator"
+msgstr "Desgaitu terminal-emulatzailearen inguruko betegarria"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:232
+msgid ""
+"Do not pad around the terminal emulator widget. Setting to true may have "
+"significant performance impacts."
+msgstr "Ez erantsi betegarririk terminal-emulatzailearen trepetaren inguruan. Egia ezartzen bada, errendimenduan aldaketa esanguratsuak egon daitezke."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:237
+msgid "Prompt when active tab is closed"
+msgstr "Galdetu fitxa aktiboa ixten denean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:238
+msgid ""
+"If a tab (or window) is closed with active foreground processes, prompt the "
+"user for confirmation."
+msgstr "Aurreko planoko prozesu aktiboak dituen fitxa (edo leiho) bat ixten denean, galdetu erabiltzaileari berresteko."
+
+#. Translators: OSC stands for "Operating System Command" and is referencing in-band escape sequences from the child process to set the title
+#: src/org.gnome.Ptyxis.gschema.xml.in:244
+msgid "Ignore OSC Title"
+msgstr "Ez ikusiarena egin OSC izenburuari"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:245
+msgid "If OSC title should be ignored in tab titles."
+msgstr "OSC izenburuari ez ikusiarena egingo zaion ala ez fitxen izenburuetan."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:254
+msgid "Label"
+msgstr "Etiketa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:255
+msgid "The label for the profile"
+msgstr "Profilaren etiketa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:260
+msgid "Login Shell"
+msgstr "Saio-hasierako shell-a"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:261
+msgid "Use a login shell"
+msgstr "Erabili saio-hasierako shell-a"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:266 src/ptyxis-preferences-window.ui:468
+#: src/ptyxis-profile-editor.ui:319
+msgid "Limit Scrollback"
+msgstr "Mugatu atzeranzko korritzea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:267
+msgid "Limit the number of lines to keep for scrollback"
+msgstr "Mugatu atzeranzko korritzearen lerro kopurua"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:273 src/ptyxis-preferences-window.ui:477
+#: src/ptyxis-profile-editor.ui:328
+msgid "Scrollback Lines"
+msgstr "Atzeranzko korritzearen lerroak"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:274
+msgid "The number of lines to keep in the scrollback, zero for no scrollback"
+msgstr "Atzeranzko korritzearen lerro koopurua, zero korritzerik ez gertatzeko"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:279 src/ptyxis-preferences-window.ui:458
+#: src/ptyxis-profile-editor.ui:309
+msgid "Scroll on Output"
+msgstr "Korritu irteeran"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:280
+msgid "Scroll to the bottom upon new output"
+msgstr "Beheraino korritu irteera berri bat dagoenean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:285 src/ptyxis-preferences-window.ui:452
+#: src/ptyxis-profile-editor.ui:303
+msgid "Scroll on Keystroke"
+msgstr "Korritu tekla-sakatzean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:286
+msgid "Scroll to the bottom upon user keystroke"
+msgstr "Beheraino korritu erabiltzaileak tekla bat sakatzean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:291 src/ptyxis-profile-editor.ui:173
+msgid "Use Custom Command"
+msgstr "Erabili komando pertsonalizatua"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:292
+msgid "If a custom command should be used"
+msgstr "Komando pertsonalizatua erabiliko den"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:297
+msgid "Use Proxy"
+msgstr "Erabili proxya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:298
+msgid "Apply proxy settings from the host in the container"
+msgstr "Aplikatu ostalariaren proxy-ezarpenak edukiontzian"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:303 src/ptyxis-profile-editor.ui:178
+msgid "Custom Command"
+msgstr "Komando pertsonalizatua"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:304
+msgid "A custom command for the shell"
+msgstr "Komando pertsonalizatua shell-erako"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:309 src/ptyxis-profile-editor.ui:197
+msgid "Default Container"
+msgstr "Edukiontzi lehenetsia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:310
+msgid "The default container to run the command in"
+msgstr "Komandoa exekutatzeko erabiliko den edukiontzi lehenetsia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:315 src/ptyxis-profile-editor.ui:206
+msgid "Preserve Container"
+msgstr "Mantendu edukiontzia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:316
+msgid "Preserve the active container when creating new tabs and windows"
+msgstr "Mantendu edukiontzi aktiboa fitxa eta leiho berriak sortzean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:321 src/ptyxis-preferences-window.ui:537
+#: src/ptyxis-profile-editor.ui:267
+msgid "Exit Action"
+msgstr "Irteteko ekintza"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:322
+msgid "The action to take when the shell exits"
+msgstr "Gauzatuko den ekintza shell-etik irtetean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:327
+msgid "Preserve Directory"
+msgstr "Mantendu direktorioa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:328
+msgid "If the directory should be preserved for new terminals"
+msgstr "Direktorioa mantendu behar den ala ez terminal berrietan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:333 src/ptyxis-inspector.ui:102
+#: src/ptyxis-preferences-window.ui:40 src/ptyxis-profile-editor.ui:65
+msgid "Palette"
+msgstr "Paleta"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:334
+msgid "The color palette to use for the profile, by name"
+msgstr "Profilean erabiltzeko kolore-paleta, izenaren arabera"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:340
+msgid "Opacity"
+msgstr "Opakutasuna"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:341
+msgid "The opacity of the palette background"
+msgstr "Paletaren atzeko planoaren opakutasuna"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:346
+msgid "Bold is Bright"
+msgstr "Lodia distiratsua da"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:347
+msgid ""
+"Setting bold on one of the lower 8 colors in the palette will use bright "
+"variant (upper 8 colors)"
+msgstr "Paletaren beheko 8 koloretako baten bertio lodiak aldaera distiratsua (goiko 8 koloreak) erabiliko du"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:353 src/ptyxis-preferences-window.ui:175
+#: src/ptyxis-profile-editor.ui:143
+msgid "Line Spacing"
+msgstr "Lerroen arteko tartea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:354
+msgid "The terminal’s cell height scale"
+msgstr "Terminalaren gelaxka-altueraren eskala"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:359
+msgid "CJK Ambiguous Width"
+msgstr "CJK zabalera anbiguoa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:360
+msgid "The size to apply to ambiguous width characters"
+msgstr "Zabalera anbiguoa duten karaktereei aplikatuko zaien tamaina"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:365
+#: src/org.gnome.Ptyxis.gschema.xml.in:371
+msgid "Backspace Binding"
+msgstr "Atzerako teklaren lotura"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:366
+#: src/org.gnome.Ptyxis.gschema.xml.in:372
+msgid "What to send to the PTY when a backspace is entered"
+msgstr "PTYari zer bidaliko zaion atzerako tekla sakatzean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:377 src/ptyxis-preferences-window.ui:620
+#: src/ptyxis-profile-editor.ui:395
+msgid "Custom Links"
+msgstr "Esteka pertsonalizatuak"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:378
+msgid ""
+"A list of custom hyperlinks, each defined by a regular expression matching "
+"the text, and a replacement pattern"
+msgstr "Hiperesteka pertsonalizatuen zerrenda bat, haietako bakoitza testuarekin bat datoreen adierazpen erregular baten eta ordezte-eredu baten bidez definituta."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:387 src/ptyxis-preferences-window.ui:658
+msgid "Copy to Clipboard"
+msgstr "Kopiatu arbelean"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:388
+msgid "The shortcut to copy to clipboard"
+msgstr "Arbelean kopiatuko den lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:393 src/ptyxis-preferences-window.ui:663
+msgid "Paste from Clipboard"
+msgstr "Itsatsi arbeletik"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:394
+msgid "The shortcut to paste from the clipboard"
+msgstr "Arbeletik itsatsiko den lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:400
+msgid "The shortcut to create a new tab in the current window"
+msgstr "Uneko leihoan fitxa berria sortzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:406
+msgid "The shortcut to create a new tab in a new window"
+msgstr "Leiho berrian fitxa berria sortzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:411
+msgid "Tab Overview"
+msgstr "Fitxen ikuspegi orokorra"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:412
+msgid "The shortcut to show the tab overview"
+msgstr "Fitxen ikuspegi orokorrean erakusteko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:418
+msgid "The shortcut to show application preferences"
+msgstr "Aplikazio-hobespenak erakusteko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:423 src/ptyxis-preferences-window.ui:884
+#: src/ptyxis-window.c:1427 src/ptyxis-window.c:1435
+msgid "Zoom Out"
+msgstr "Txikiagotu"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:424
+msgid "The shortcut to zoom out"
+msgstr "Txikiagotzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:429 src/ptyxis-preferences-window.ui:889
+#: src/ptyxis-window.c:1444
+msgid "Reset Zoom"
+msgstr "Berrezarri zooma"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:430
+msgid "The shortcut to reset zoom"
+msgstr "Zooma berrezartzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:435 src/ptyxis-preferences-window.ui:879
+#: src/ptyxis-window.c:1412 src/ptyxis-window.c:1420
+msgid "Zoom In"
+msgstr "Handiagotu"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:436
+msgid "The shortcut to zoom in"
+msgstr "Handiagotzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:441 src/ptyxis-preferences-window.ui:899
+msgid "Toggle Fullscreen"
+msgstr "Ikusi pantaila osoan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:442
+msgid "The shortcut to toggle fullscreen"
+msgstr "Pantaila osoa txandakatzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:447
+msgid "Reset Terminal"
+msgstr "Berrezarri terminala"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:448
+msgid "Reset the terminal state for misbehaving clients"
+msgstr "Berrezarri terminalaren egoera gaizki portatzen diren bezeroekin"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:453
+msgid "Reset Terminal and Clear History"
+msgstr "Berrezarri terminala eta garbitu historia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:454
+msgid "Reset the terminal state and clear history for misbehaving clients"
+msgstr "Berrezarri terminalaren egoera eta garbitu historia gaizki portatzen diren bezeroekin"
+
+#. Translators: Refers to searching the terminal scrollback
+#: src/org.gnome.Ptyxis.gschema.xml.in:460 src/ptyxis-find-bar.ui:39
+#: src/ptyxis-preferences-window.ui:701
+msgid "Search History"
+msgstr "Bilatu historian"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:461
+msgid "Shortcut to begin searching the terminal history"
+msgstr "Terminal-historian bilaketa egiteko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:466 src/ptyxis-preferences-window.ui:672
+msgid "Select All"
+msgstr "Hautatu dena"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:467
+msgid "Shortcut to select all the entire terminal scrollback"
+msgstr "Terminalaren atzeranzko  korritze osoa hautatzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:472
+msgid "Select None"
+msgstr "Ez hautatu ezer"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:473
+msgid "Shortcut to clear the terminal selection"
+msgstr "Terminaleko hautapena garbitzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:478
+msgid "Popup Menu"
+msgstr "Laster-menua"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:479
+msgid "Shortcut to show the popup menu for the terminal"
+msgstr "Terminaleko laster-menua erakusteko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:484
+msgid "Primary Menu"
+msgstr "Menu nagusia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:485
+msgid "Shortcut to show the primary menu for the window"
+msgstr "Leihoaren menu nagusia erakusteko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:490
+msgid "Tab Menu"
+msgstr "Fitxa-menua"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:491
+msgid "Shortcut to show the new tab menu"
+msgstr "Fitxa-menu berria erakusteko lasterbidea"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:497 src/ptyxis-preferences-window.ui:788
+msgid "Move to Previous Tab"
+msgstr "Joan aurreko fitxara"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:499
+msgid "Shortcut to move to the previous tab"
+msgstr "Aurreko fitxara joateko lasterbidea"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:505 src/ptyxis-preferences-window.ui:793
+msgid "Move to Next Tab"
+msgstr "Joan hurrengo fitxara"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:507
+msgid "Shortcut to move to the next tab"
+msgstr "Hurrengo fitxara joateko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:512 src/ptyxis-preferences-window.ui:802
+msgid "Move Tab Left"
+msgstr "Eraman fitxa ezkerrera"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:513
+msgid "Shortcut to move the current tab to the left one position"
+msgstr "Uneko fitxa posizio bat ezkerrera eramateko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:518 src/ptyxis-preferences-window.ui:808
+msgid "Move Tab Right"
+msgstr "Eraman fitxa eskuinera"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:519
+msgid "Shortcut to move the current tab to the right one position"
+msgstr "Uneko fitxa posizio bat eskuinera eramateko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:524 src/ptyxis-preferences-window.ui:814
+msgid "Move Tab to New Window"
+msgstr "Eraman fitxa leiho berrira"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:525
+msgid "Shortcut to move the current tab into a new window"
+msgstr "Fitxa berria leiho berrira eramateko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:530 src/ptyxis-preferences-window.ui:766
+msgid "Close Tab"
+msgstr "Itxi fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:531
+msgid "Shortcut to close the current tab"
+msgstr "Uneko fitxa ixteko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:536 src/ptyxis-preferences-window.ui:772
+msgid "Close Other Tabs"
+msgstr "Itxi beste fitxak"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:537
+msgid "Shortcut to close all tabs in the window but the current one"
+msgstr "Leihoko fitxa guztiak, unekoa salbu, ixteko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:542 src/ptyxis-preferences-window.ui:726
+msgid "Close Window"
+msgstr "Itxi leihoa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:543
+msgid "Shortcut to close the current window"
+msgstr "Uneko leihoa ixteko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:548 src/ptyxis-preferences-window.ui:736
+#: src/ptyxis-terminal.ui:244 src/ptyxis-window.c:1152 src/ptyxis-window.ui:830
+msgid "Set Title"
+msgstr "Ezarri izenburua"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:549
+msgid "The shortcut to show set title"
+msgstr "Izenburua ezartzea erakusteko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:554
+msgid "Focus Tab 1"
+msgstr "Fokuratu 1. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:555
+msgid "Shortcut to focus tab 1"
+msgstr "1. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:560
+msgid "Focus Tab 2"
+msgstr "Fokuratu 2. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:561
+msgid "Shortcut to focus tab 2"
+msgstr "2. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:566
+msgid "Focus Tab 3"
+msgstr "Fokuratu 3. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:567
+msgid "Shortcut to focus tab 3"
+msgstr "3. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:572
+msgid "Focus Tab 4"
+msgstr "Fokuratu 4. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:573
+msgid "Shortcut to focus tab 4"
+msgstr "4. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:578
+msgid "Focus Tab 5"
+msgstr "Fokuratu 5. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:579
+msgid "Shortcut to focus tab 5"
+msgstr "5. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:584
+msgid "Focus Tab 6"
+msgstr "Fokuratu 6. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:585
+msgid "Shortcut to focus tab 6"
+msgstr "6. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:590
+msgid "Focus Tab 7"
+msgstr "Fokuratu 7. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:591
+msgid "Shortcut to focus tab 7"
+msgstr "7. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:596
+msgid "Focus Tab 8"
+msgstr "Fokuratu 8. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:597
+msgid "Shortcut to focus tab 8"
+msgstr "8. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:602
+msgid "Focus Tab 9"
+msgstr "Fokuratu 9. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:603
+msgid "Shortcut to focus tab 9"
+msgstr "9. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:608
+msgid "Focus Tab 10"
+msgstr "Fokuratu 10. fitxa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:609
+msgid "Shortcut to focus tab 10"
+msgstr "10. fitxa fokuratzeko lasterbidea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:614 src/ptyxis-preferences-window.ui:778
+msgid "Undo Close Tab"
+msgstr "Desegin fitxa ixtea"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:615
+msgid "Undo closing of last tab"
+msgstr "Desegin azken fitxa ixtea"
+
+#: src/ptyxis-application.c:465
+msgid "--tab, --tab-with-profile, or --new-window may not be used together"
+msgstr "--tab, --tab-with-profile eta --new-window ezin dira elkarrekin erabili"
+
+#: src/ptyxis-application.c:511
+#, c-format
+msgid "Cannot parse command: %s"
+msgstr "Ezin da komandoa analizatu: %s"
+
+#: src/ptyxis-application.c:1145
+msgid "Examples:"
+msgstr "Adibideak:"
+
+#: src/ptyxis-application.c:1147
+msgid "Show the application preferences"
+msgstr "Erakutsi aplikazioaren hobespenak"
+
+#. Used for new tabs/windows/etc when specified
+#: src/ptyxis-application.c:1150
+msgid "Use DIR for --tab, --tab-with-profile, --new-window, or -x"
+msgstr "Erabili DIR hauetarako: --tab, --tab-with-profile, --new-window edo -x"
+
+#: src/ptyxis-application.c:1150
+msgid "DIR"
+msgstr "DIR"
+
+#. By default, this implies a new ptyxis instance unless the options
+#. * below are provided to override that.
+#.
+#: src/ptyxis-application.c:1155
+msgid "Command to execute in new window"
+msgstr "Leiho berrian exekutatuko den komandoa"
+
+#. These options all imply we're using a shared Ptyxis instance. We do not support
+#. * short command options for these to make it easier to sniff them in early args
+#. * checking from `main.c`.
+#.
+#: src/ptyxis-application.c:1161
+msgid "New terminal window"
+msgstr "Terminal-leiho berria"
+
+#: src/ptyxis-application.c:1162
+msgid "New terminal tab in active window"
+msgstr "Terminal-fitxa berria leiho aktiboan"
+
+#: src/ptyxis-application.c:1163
+msgid "New terminal tab in active window using the profile UUID"
+msgstr "Terminal-fitxa berria leiho aktiboan profilaren UUIDa erabiliz"
+
+#: src/ptyxis-application.c:1163
+msgid "PROFILE_UUID"
+msgstr "PROFILAREN_UUIDA"
+
+#. Standalone (single instance mode)
+#: src/ptyxis-application.c:1166
+msgid "Start a new instance, ignoring existing instances"
+msgstr "Abiarazi instantzia berria, lehendik dauden instantziei ez ikusiarena eginez"
+
+#: src/ptyxis-application.c:1168
+msgid "Set title for new tab"
+msgstr "Ezarri fitxa berriaren izenburua"
+
+#: src/ptyxis-application.c:1169
+msgid "Maximize a newly created window"
+msgstr "Maximizatu leiho sortu berria"
+
+#: src/ptyxis-application.c:1170
+msgid "Fullscreen a newly created window"
+msgstr "Leiho sortu berria pantaila osoan"
+
+#. Import a custom .palette file. This works like dragging the file onto preferences
+#: src/ptyxis-application.c:1173
+msgid "Import a Ptyxis palette file"
+msgstr "Inportatu Ptyxis paleta-fitxategi bat"
+
+#: src/ptyxis-application.c:1173
+msgid "FILE"
+msgstr "FITXATEGIA"
+
+#: src/ptyxis-application.c:1180
+msgid "Run Separate Instance"
+msgstr "Exekutatu instantzia bereizia"
+
+#: src/ptyxis-application.c:1184
+msgid "Open Preferences"
+msgstr "Ireki hobespenak"
+
+#: src/ptyxis-application.c:1188
+msgid "Run Custom Command in New Window"
+msgstr "Exekutatu komando pertsonalizatua leiho berrian"
+
+#: src/ptyxis-application.c:1193
+msgid "Import a custom palette"
+msgstr "Inportatu paleta pertsonalizatu bat"
+
+#: src/ptyxis-application.c:1196
+msgid "[-- COMMAND ARGUMENTS]"
+msgstr "[-- KOMANDOA ARGUMENTUAK]"
+
+#: src/ptyxis-application.c:1434
+msgid "translator-credits"
+msgstr "Asier Sarasua Garmendia <asiersarasua@ni.eus>"
+
+#: src/ptyxis-close-dialog.c:109
+msgid "_Close"
+msgstr "It_xi"
+
+#: src/ptyxis-close-dialog.c:109
+msgid "_Close All"
+msgstr "It_xi dena"
+
+#: src/ptyxis-close-dialog.c:111
+msgid "Close Window?"
+msgstr "Itxi leihoa?"
+
+#: src/ptyxis-close-dialog.c:112
+msgid "Some processes are still running."
+msgstr "Zenbait prozesu abian daude oraindik."
+
+#: src/ptyxis-close-dialog.c:116
+msgid "_Cancel"
+msgstr "_Utzi"
+
+#: src/ptyxis-close-dialog.c:142
+#, c-format
+msgid "Process %d"
+msgstr "Prozesatu %d"
+
+#: src/ptyxis-custom-link-editor.ui:20
+msgid "Edit Custom Link"
+msgstr "Editatu esteka pertsonalizatu bat"
+
+#: src/ptyxis-custom-link-editor.ui:29
+msgid "Custom Link"
+msgstr "Esteka pertsonalizatua"
+
+#: src/ptyxis-custom-link-editor.ui:30
+msgid ""
+"A clickable link in the terminal that matches text patterns and opens custom "
+"URLs. Uses regex capture groups to build the final URL (e.g., $1 becomes the "
+"first matched group)."
+msgstr "Testu-ereduekin bat datorren eta URL pertsonalizatuak irekitzen dituen esteka klikagarri bat terminalean. Adierazpen erregularren bidez kapturatutako taldeak erabiltzen ditu azken URLa eraikitzeko (adibidez, $1 bat datorren lehen taldea bihurtzen da)."
+
+#: src/ptyxis-custom-link-editor.ui:35
+msgid "Regex Pattern"
+msgstr "Adierazpen erregularraren eredua"
+
+#: src/ptyxis-custom-link-editor.ui:40
+msgid "Target URL"
+msgstr "Helburuko URLa"
+
+#: src/ptyxis-custom-link-row.c:131
+#, c-format
+msgid "Removed custom link “%s”"
+msgstr "“%s” esteka pertsonalizatua kendu da"
+
+#: src/ptyxis-custom-link-row.c:133 src/ptyxis-profile-editor.c:185
+#: src/ptyxis-profile-row.c:106
+msgid "Undo"
+msgstr "Desegin"
+
+#: src/ptyxis-custom-link-row.ui:26 src/ptyxis-profile-row.ui:33
+msgid "View More"
+msgstr "Ikusi gehiago"
+
+#: src/ptyxis-custom-link-row.ui:36 src/ptyxis-profile-row.ui:53
+msgid "_Edit…"
+msgstr "_Editatu…"
+
+#: src/ptyxis-custom-link-row.ui:42 src/ptyxis-profile-row.ui:59
+msgid "_Remove"
+msgstr "_Kendu"
+
+#: src/ptyxis-find-bar.ui:69
+msgid "Search Up"
+msgstr "Bilatu gorantz"
+
+#: src/ptyxis-find-bar.ui:76
+msgid "Search Down"
+msgstr "Bilatu beherantz"
+
+#: src/ptyxis-find-bar.ui:85
+msgid "Search Options"
+msgstr "Bilaketaren aukerak"
+
+#: src/ptyxis-find-bar.ui:96
+msgid "Match _Case"
+msgstr "_Maiuskula/minuskula"
+
+#: src/ptyxis-find-bar.ui:102
+msgid "Whole _Words"
+msgstr "Hitz _osoak"
+
+#: src/ptyxis-find-bar.ui:108
+msgid "Use _Regular Expressions"
+msgstr "Erabili a_dierazpen erregularrak"
+
+#: src/ptyxis-find-bar.ui:128 src/ptyxis-preferences-window.ui:558
+#: src/ptyxis-profile-editor.ui:288
+msgid "Close"
+msgstr "Itxi"
+
+#: src/ptyxis-find-bar.ui:129
+msgid "Close the search bar"
+msgstr "Itxi bilaketa-barra"
+
+#: src/ptyxis-inspector.c:95 src/ptyxis-inspector.c:357
+msgid "unset"
+msgstr "ezarri gabea"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Row"
+msgstr "Errenkada"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Column"
+msgstr "Zutabea"
+
+#. NOTE: If we are in a container that also supports VTE patches
+#. * then it will send shell-precmd via escape sequences. The reality
+#. * is that our foreground is the `toolbox enter` process (until we
+#. * have better patches in VTE) but we show "Shell" instead.
+#. *
+#. * This is fine for now, but I'd like it to be better and actually
+#. * show the proper `tcgetpgrp()` foreground.
+#.
+#: src/ptyxis-inspector.c:177 src/ptyxis-inspector.c:197
+#: src/ptyxis-preferences-window.ui:494 src/ptyxis-profile-editor.ui:170
+msgid "Shell"
+msgstr "Shell-a"
+
+#: src/ptyxis-inspector.c:276
+msgid "untracked"
+msgstr "markatu gabea"
+
+#: src/ptyxis-inspector.ui:4
+msgid "Inspector"
+msgstr "Ikuskatzailea"
+
+#: src/ptyxis-inspector.ui:7
+msgid "Process"
+msgstr "Prozesua"
+
+#: src/ptyxis-inspector.ui:13
+msgid "Foreground Process"
+msgstr "Aurreko planoko prozesua"
+
+#: src/ptyxis-inspector.ui:33
+msgid "Window Title"
+msgstr "Leiho-izenburua"
+
+#: src/ptyxis-inspector.ui:45
+msgid "Current Directory"
+msgstr "Uneko direktorioa"
+
+#: src/ptyxis-inspector.ui:53
+msgid "Current File"
+msgstr "Uneko fitxategia"
+
+#: src/ptyxis-inspector.ui:63
+msgid "Container"
+msgstr "Edukiontzia"
+
+#: src/ptyxis-inspector.ui:66
+msgid "Runtime"
+msgstr "Exekuzio-denbora"
+
+#: src/ptyxis-inspector.ui:74 src/ptyxis-inspector.ui:228
+#: src/ptyxis-profile-editor.ui:36
+msgid "Name"
+msgstr "Izena"
+
+#: src/ptyxis-inspector.ui:86 src/ptyxis-preferences-window.ui:36
+msgid "Appearance"
+msgstr "Itxura"
+
+#: src/ptyxis-inspector.ui:92
+msgid "Grid Size"
+msgstr "Sareta-tamaina"
+
+#: src/ptyxis-inspector.ui:105
+msgid "Colors"
+msgstr "Koloreak"
+
+#: src/ptyxis-inspector.ui:225 src/ptyxis-preferences-window.ui:130
+msgid "Font"
+msgstr "Letra-tipoa"
+
+#: src/ptyxis-inspector.ui:233
+msgid "Cell Size"
+msgstr "Gelaxka-tamaina"
+
+#: src/ptyxis-inspector.ui:242
+msgid "Input"
+msgstr "Sarrera"
+
+#: src/ptyxis-inspector.ui:246 src/ptyxis-preferences-window.ui:232
+msgid "Cursor"
+msgstr "Kurtsorea"
+
+#: src/ptyxis-inspector.ui:249 src/ptyxis-inspector.ui:262
+msgid "Position"
+msgstr "Kokalekua"
+
+#: src/ptyxis-inspector.ui:259
+msgid "Mouse"
+msgstr "Sagua"
+
+#: src/ptyxis-inspector.ui:270
+msgid "Hyperlink"
+msgstr "Hiperesteka"
+
+#: src/ptyxis-menu-row.c:166 src/ptyxis-profile-editor.c:216
+#: src/ptyxis-window.c:1656
+msgid "My Computer"
+msgstr "Nire ordenagailua"
+
+#: src/ptyxis-palette-preview.ui:32
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "Eva eta Iñaxio quadez joan ziren flyscheko campingeko bungalowera"
+
+#: src/ptyxis-preferences-window.c:273
+msgid "Select Font"
+msgstr "Hautatu letra-tipoa"
+
+#: src/ptyxis-preferences-window.c:348
+msgid "Show Fewer Palettes"
+msgstr "Erakutsi paleta gutxiago"
+
+#: src/ptyxis-preferences-window.c:353 src/ptyxis-preferences-window.ui:46
+msgid "Show All Palettes"
+msgstr "Erakutsi paleta guztiak"
+
+#: src/ptyxis-preferences-window.c:378
+msgid "Add Profile"
+msgstr "Gehitu profila"
+
+#: src/ptyxis-preferences-window.c:480 src/ptyxis-profile-editor.c:269
+msgid "Add Link"
+msgstr "Gehitu esteka"
+
+#: src/ptyxis-preferences-window.ui:72 src/ptyxis-profile-editor.ui:74
+msgid "Transparency"
+msgstr "Gardentasuna"
+
+#: src/ptyxis-preferences-window.ui:73 src/ptyxis-profile-editor.ui:75
+msgid "Reduces the opacity of the background window"
+msgstr "Atzeko planoko leihoaren opakutasuna murrizten du"
+
+#: src/ptyxis-preferences-window.ui:134
+msgid "Use System _Font"
+msgstr "Erabili sistemaren _letra-tipoa"
+
+#: src/ptyxis-preferences-window.ui:146
+msgid "Custom Font"
+msgstr "Letra-tipo pertsonalizatua"
+
+#: src/ptyxis-preferences-window.ui:193
+msgid "Blinking Text"
+msgstr "Testu keinukaria"
+
+#: src/ptyxis-preferences-window.ui:202 src/ptyxis-preferences-window.ui:426
+#: src/ptyxis-preferences-window.ui:515 src/ptyxis-profile-editor.ui:216
+#: src/ptyxis-profile-editor.ui:245
+msgid "Never"
+msgstr "Inoiz ere ez"
+
+#: src/ptyxis-preferences-window.ui:208
+msgid "Focused"
+msgstr "Fokuratuta"
+
+#: src/ptyxis-preferences-window.ui:214
+msgid "Unfocused"
+msgstr "Fokuratu gabea"
+
+#: src/ptyxis-preferences-window.ui:220 src/ptyxis-preferences-window.ui:438
+#: src/ptyxis-preferences-window.ui:527 src/ptyxis-profile-editor.ui:222
+#: src/ptyxis-profile-editor.ui:257
+msgid "Always"
+msgstr "Beti"
+
+#: src/ptyxis-preferences-window.ui:244
+msgid "Block"
+msgstr "Blokea"
+
+#: src/ptyxis-preferences-window.ui:250
+msgid "I-Beam"
+msgstr "I kurtsorea"
+
+#: src/ptyxis-preferences-window.ui:256
+msgid "Underline"
+msgstr "Azpimarratua"
+
+#: src/ptyxis-preferences-window.ui:266
+msgid "Cursor Blinking"
+msgstr "Kurtsore-keinua"
+
+#: src/ptyxis-preferences-window.ui:275 src/ptyxis-preferences-window.ui:432
+msgid "Follow System"
+msgstr "Jarraitu sistemari"
+
+#: src/ptyxis-preferences-window.ui:281
+msgid "Enabled"
+msgstr "Gaituta"
+
+#: src/ptyxis-preferences-window.ui:287
+msgid "Disabled"
+msgstr "Desgaituta"
+
+#: src/ptyxis-preferences-window.ui:301
+msgid "Behavior"
+msgstr "Portaera"
+
+#: src/ptyxis-preferences-window.ui:305
+msgid "Interface"
+msgstr "Interfazea"
+
+#: src/ptyxis-preferences-window.ui:317
+msgid "Next"
+msgstr "Hurrengoa"
+
+#: src/ptyxis-preferences-window.ui:323
+msgid "Last"
+msgstr "Azkena"
+
+#: src/ptyxis-preferences-window.ui:338
+msgid "Attempt to restore previous tabs when Ptyxis starts"
+msgstr "Saiatu aurreko fitxak berreskuratzen Ptyxis abiarazten denean"
+
+#: src/ptyxis-preferences-window.ui:344
+msgid "Restore the previous window size when creating a new window"
+msgstr "Leheneratu aurreko leiho-tamaina leiho berria sortzean"
+
+#: src/ptyxis-preferences-window.ui:354
+msgid "Columns"
+msgstr "Zutabeak"
+
+#: src/ptyxis-preferences-window.ui:368
+msgid "Rows"
+msgstr "Erren."
+
+#: src/ptyxis-preferences-window.ui:386
+msgid "Accessibility"
+msgstr "Erabilerraztasuna"
+
+#: src/ptyxis-preferences-window.ui:389
+msgid "Allow Screen Readers"
+msgstr "Onartu pantaila-irakurleak"
+
+#: src/ptyxis-preferences-window.ui:390
+msgid ""
+"Permit screen readers such as Orca to read terminal content and typed text"
+msgstr "Ahalbidetu Orca bezalako pantaila-irakurleek terminaleko edukia eta idatzitako testua irakurri dezaten"
+
+#: src/ptyxis-preferences-window.ui:397
+msgid "Bell"
+msgstr "Kanpaia"
+
+#: src/ptyxis-preferences-window.ui:401
+msgid "Emit an audible bell when requested by active tab"
+msgstr "Igorri kanpai-soinu entzungarria fitxa aktiboak eskatzen duenean"
+
+#: src/ptyxis-preferences-window.ui:406
+msgid "Visual Bell"
+msgstr "Ikusizko kanpaia"
+
+#: src/ptyxis-preferences-window.ui:407
+msgid "Emit a visual bell when requested by active tab"
+msgstr "Igorri ikusizko kanpaia fitxa aktiboak eskatzen duenean"
+
+#: src/ptyxis-preferences-window.ui:414 src/ptyxis-profile-editor.ui:300
+msgid "Scrolling"
+msgstr "Korritzea"
+
+#: src/ptyxis-preferences-window.ui:417
+msgid "Use Scrollbars"
+msgstr "Erabili korritze-barrak"
+
+#: src/ptyxis-preferences-window.ui:453 src/ptyxis-profile-editor.ui:304
+msgid "Scroll to the bottom upon input keystroke"
+msgstr "Beheraino korritu tekla bat sakatzean"
+
+#: src/ptyxis-preferences-window.ui:459 src/ptyxis-profile-editor.ui:310
+msgid "Scroll to the bottom when new content is available"
+msgstr "Beheraino korritu eduki berria dagoenean"
+
+#: src/ptyxis-preferences-window.ui:469 src/ptyxis-profile-editor.ui:320
+msgid "Restrict the number of lines saved for scrollback"
+msgstr "Mugatu atzeranzko korritzerako gordeko den lerro kopurua"
+
+#: src/ptyxis-preferences-window.ui:478 src/ptyxis-profile-editor.ui:329
+msgid "The number of lines to keep for scrollback"
+msgstr "Atzeranzko korritzerako gordeko den lerro kopurua"
+
+#: src/ptyxis-preferences-window.ui:497 src/ptyxis-profile-editor.ui:188
+msgid "Use Login Shell"
+msgstr "Erabili saio-hasierako shell-a"
+
+#: src/ptyxis-preferences-window.ui:506 src/ptyxis-profile-editor.ui:236
+msgid "Preserve Working Directory"
+msgstr "Mantendu laneko direktorioa"
+
+#: src/ptyxis-preferences-window.ui:521 src/ptyxis-profile-editor.ui:251
+msgid "Safe"
+msgstr "Segurua"
+
+#: src/ptyxis-preferences-window.ui:546 src/ptyxis-profile-editor.ui:276
+msgid "No Action"
+msgstr "Ekintzarik ez"
+
+#: src/ptyxis-preferences-window.ui:552 src/ptyxis-profile-editor.ui:282
+msgid "Restart"
+msgstr "Berrabiarazi"
+
+#: src/ptyxis-preferences-window.ui:570 src/ptyxis-profile-editor.ui:345
+msgid "Compatibility"
+msgstr "Bateragarritasuna"
+
+#: src/ptyxis-preferences-window.ui:573 src/ptyxis-profile-editor.ui:348
+msgid "Backspace Key"
+msgstr "Atzerako tekla"
+
+#: src/ptyxis-preferences-window.ui:574 src/ptyxis-profile-editor.ui:349
+msgid "Sequence to send for Backspace key"
+msgstr "Atzerako teklak bidaliko duen sekuentzia"
+
+#: src/ptyxis-preferences-window.ui:583 src/ptyxis-profile-editor.ui:358
+msgid "Delete Key"
+msgstr "Ezabatzeko tekla"
+
+#: src/ptyxis-preferences-window.ui:584 src/ptyxis-profile-editor.ui:359
+msgid "Sequence to send for Delete key"
+msgstr "Ezabatzeko teklak bidaliko duen sekuentzia"
+
+#: src/ptyxis-preferences-window.ui:593 src/ptyxis-profile-editor.ui:368
+msgid "Ambiguous-width Characters"
+msgstr "Zabalera anbiguoko karaktereak"
+
+#: src/ptyxis-preferences-window.ui:602 src/ptyxis-profile-editor.ui:377
+msgid "Narrow"
+msgstr "Estua"
+
+#: src/ptyxis-preferences-window.ui:608 src/ptyxis-profile-editor.ui:383
+msgid "Wide"
+msgstr "Zabala"
+
+#: src/ptyxis-preferences-window.ui:641
+msgid "Set as Default Terminal"
+msgstr "Ezarri terminal lehenetsi gisa"
+
+#: src/ptyxis-preferences-window.ui:651
+msgid "Shortcuts"
+msgstr "Lasterbideak"
+
+#: src/ptyxis-preferences-window.ui:677
+msgid "Clear Selection"
+msgstr "Garbitu hautapena"
+
+#: src/ptyxis-preferences-window.ui:686 src/ptyxis-terminal.ui:230
+msgid "Reset"
+msgstr "Berrezarri"
+
+#: src/ptyxis-preferences-window.ui:691 src/ptyxis-terminal.ui:236
+msgid "Reset and Clear"
+msgstr "Berrezarri eta garbitu"
+
+#: src/ptyxis-preferences-window.ui:710
+msgid "Show Context Menu"
+msgstr "Erakutsi laster-menua"
+
+#: src/ptyxis-preferences-window.ui:717
+msgid "Windows"
+msgstr "Leihoak"
+
+#: src/ptyxis-preferences-window.ui:721
+msgid "Open a new tab in a new window"
+msgstr "Ireki fitxa berria leiho berrian"
+
+#: src/ptyxis-preferences-window.ui:727
+msgid "Close the current window"
+msgstr "Itxi uneko leihoa"
+
+#: src/ptyxis-preferences-window.ui:743
+msgid "Tabs"
+msgstr "Fitxak"
+
+#: src/ptyxis-preferences-window.ui:747
+msgid "Open a new tab in the current window"
+msgstr "Ireki fitxa berria uneko leihoan"
+
+#: src/ptyxis-preferences-window.ui:756
+msgid "View Tab Overview"
+msgstr "Bistaratu fitxen ikuspegia"
+
+#: src/ptyxis-preferences-window.ui:757
+msgid "Show an overview of all tabs within the window"
+msgstr "Erakutsi leiho barruko fitxa guztien ikuspegi orokorra"
+
+#: src/ptyxis-preferences-window.ui:767
+msgid "Close the current tab"
+msgstr "Itxi uneko fitxa"
+
+#: src/ptyxis-preferences-window.ui:773
+msgid "Close all tabs except the active tab"
+msgstr "Itxi fitxa guztiak aktiboa salbu"
+
+#: src/ptyxis-preferences-window.ui:779
+msgid "Undo closing the last tab"
+msgstr "Desegin azken fitxa ixtea"
+
+#: src/ptyxis-preferences-window.ui:803
+msgid "Move the tab one position to the left"
+msgstr "Eraman fitxa posizio bat ezkerrera"
+
+#: src/ptyxis-preferences-window.ui:809
+msgid "Move the tab one position to the right"
+msgstr "Eraman fitxa posizio bat eskuinera"
+
+#: src/ptyxis-preferences-window.ui:815
+msgid "Detach the current tab and move it to a new window"
+msgstr "Askatu uneko fitxa eta eraman leiho berri batera"
+
+#: src/ptyxis-preferences-window.ui:824
+msgid "Switch to Tab 1"
+msgstr "Joan 1. fitxara"
+
+#: src/ptyxis-preferences-window.ui:829
+msgid "Switch to Tab 2"
+msgstr "Joan 2. fitxara"
+
+#: src/ptyxis-preferences-window.ui:834
+msgid "Switch to Tab 3"
+msgstr "Joan 3. fitxara"
+
+#: src/ptyxis-preferences-window.ui:839
+msgid "Switch to Tab 4"
+msgstr "Joan 4. fitxara"
+
+#: src/ptyxis-preferences-window.ui:844
+msgid "Switch to Tab 5"
+msgstr "Joan 5. fitxara"
+
+#: src/ptyxis-preferences-window.ui:849
+msgid "Switch to Tab 6"
+msgstr "Joan 6. fitxara"
+
+#: src/ptyxis-preferences-window.ui:854
+msgid "Switch to Tab 7"
+msgstr "Joan 7. fitxara"
+
+#: src/ptyxis-preferences-window.ui:859
+msgid "Switch to Tab 8"
+msgstr "Joan 8. fitxara"
+
+#: src/ptyxis-preferences-window.ui:864
+msgid "Switch to Tab 9"
+msgstr "Joan 9. fitxara"
+
+#: src/ptyxis-preferences-window.ui:869
+msgid "Switch to Tab 10"
+msgstr "Aldatu 10. fitxara"
+
+#: src/ptyxis-preferences-window.ui:876
+msgid "Zoom"
+msgstr "Zooma"
+
+#: src/ptyxis-preferences-window.ui:896
+msgid "Application"
+msgstr "Aplikazioa"
+
+#: src/ptyxis-preferences-window.ui:900
+msgid "Toggle in and out of fullscreen"
+msgstr "Txandakatu pantaila osoa"
+
+#: src/ptyxis-preferences-window.ui:909
+msgid "Show Primary Menu"
+msgstr "Erakutsi menu nagusia"
+
+#: src/ptyxis-preferences-window.ui:910
+msgid "Displays the primary menu for the terminal window"
+msgstr "Terminal-leihoaren menu nagusia erakusten du"
+
+#: src/ptyxis-preferences-window.ui:915
+msgid "Show New Tab Menu"
+msgstr "Erakutsi fitxa berriaren menua"
+
+#: src/ptyxis-preferences-window.ui:916
+msgid "Displays the new tab menu for the terminal window"
+msgstr "Fitxa berriaren menua erakusten du terminal-leihorako"
+
+#: src/ptyxis-preferences-window.ui:922
+msgid "Show this preferences window"
+msgstr "Erakutsi hobespen-leiho hau"
+
+#: src/ptyxis-preferences-window.ui:931 src/ptyxis-preferences-window.ui:935
+#: src/ptyxis-window.c:1630 src/ptyxis-window.c:1792
+msgid "Profiles"
+msgstr "Profilak"
+
+#: src/ptyxis-preferences-window.ui:954 src/ptyxis-profile-editor.ui:428
+msgid "Automatic"
+msgstr "Automatikoa"
+
+#: src/ptyxis-preferences-window.ui:960 src/ptyxis-profile-editor.ui:434
+msgid "Control-H"
+msgstr "Kontrol-H"
+
+#: src/ptyxis-preferences-window.ui:966 src/ptyxis-profile-editor.ui:440
+msgid "ASCII DEL"
+msgstr "ASCII DEL"
+
+#: src/ptyxis-preferences-window.ui:972 src/ptyxis-profile-editor.ui:446
+msgid "Escape Sequence"
+msgstr "Ihes-sekuentzia"
+
+#: src/ptyxis-preferences-window.ui:978 src/ptyxis-profile-editor.ui:452
+msgid "TTY Erase"
+msgstr "TTY ezabatu"
+
+#: src/ptyxis-profile.c:711
+msgid "Untitled Profile"
+msgstr "Izenbururik gabeko profila"
+
+#: src/ptyxis-profile-editor.c:154 src/ptyxis-terminal.c:438
+#: src/ptyxis-terminal.c:470
+msgid "Copied to clipboard"
+msgstr "Arbelean kopiatu da"
+
+#: src/ptyxis-profile-editor.c:183 src/ptyxis-profile-row.c:104
+#, c-format
+msgid "Removed profile “%s”"
+msgstr "“%s” profila kendu da"
+
+#: src/ptyxis-profile-editor.ui:22 src/ptyxis-tab.c:411 src/ptyxis-tab.c:468
+msgid "Edit Profile"
+msgstr "Editatu profila"
+
+#: src/ptyxis-profile-editor.ui:31
+msgid "Profile"
+msgstr "Profila"
+
+#: src/ptyxis-profile-editor.ui:41
+msgid "Identifier"
+msgstr "Identifikatzailea"
+
+#: src/ptyxis-profile-editor.ui:50
+msgid "Copy"
+msgstr "Kopiatu"
+
+#: src/ptyxis-profile-editor.ui:62
+msgid "Color"
+msgstr "Kolorea"
+
+#: src/ptyxis-profile-editor.ui:134
+msgid "Use Bright Colors for Bold"
+msgstr "Erabili kolore distiratsuak lodirako"
+
+#: src/ptyxis-profile-editor.ui:159
+msgid "Network"
+msgstr "Sarea"
+
+#: src/ptyxis-profile-editor.ui:162
+msgid "Proxy"
+msgstr "Proxya"
+
+#: src/ptyxis-profile-editor.ui:163
+msgid "Applies the network proxy settings to the container environment"
+msgstr "Sarearen proxy-ezarpenak edukiontzi-ingurunean aplikatzen ditu"
+
+#: src/ptyxis-profile-editor.ui:198
+msgid "The default container to use with this profile"
+msgstr "Profil honekin erabiliko den edukiontzi lehenetsia"
+
+#: src/ptyxis-profile-editor.ui:207
+msgid "Preserve the current container when opening new tabs and windows"
+msgstr "Mantendu uneko edukiontzia fitxa eta leiho berriak irekitzean"
+
+#: src/ptyxis-profile-editor.ui:413
+msgid "Remove Profile"
+msgstr "Kendu profila"
+
+#: src/ptyxis-profile-row.ui:43
+msgid "_Make Default"
+msgstr "Bihurtu lehenetsia"
+
+#: src/ptyxis-profile-row.ui:49
+msgid "_Duplicate…"
+msgstr "_Bikoiztu…"
+
+#. Translators: <b>%s</b> is used to show the provided text in bold
+#: src/ptyxis-shortcut-accel-dialog.c:455
+#, c-format
+msgid "Enter new shortcut to change <b>%s</b>."
+msgstr "Sartu lasterbide berria <b>%s</b> aldatzeko."
+
+#. do not use underline as it prevents alt+c as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:42
+msgid "Cancel"
+msgstr "Utzi"
+
+#. do not use underline as it prevents alt+s as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:49
+msgid "Set"
+msgstr "Ezarri"
+
+#: src/ptyxis-shortcut-accel-dialog.ui:89
+msgid "Press Escape to cancel or Backspace to disable."
+msgstr "Sakatu Esc tekla bertan behera uzteko edo atzera-tekla desgaitzeko."
+
+#: src/ptyxis-shortcut-row.c:75
+msgid "Set Shortcut"
+msgstr "Ezarri lasterbidea"
+
+#: src/ptyxis-shortcut-row.ui:33
+msgid "disabled"
+msgstr "desgaitua"
+
+#: src/ptyxis-tab.c:319
+#, c-format
+msgid "Process Exited from Signal %d"
+msgstr "Prozesua %d seinaleagatik amaitu da"
+
+#: src/ptyxis-tab.c:322 src/ptyxis-tab.c:345
+msgid "_Restart"
+msgstr "_Berrabiarazi"
+
+#. Always prepare the banner even if we don't show it because we may
+#. * display it again if the tab is removed from the parking lot and
+#. * restored into the window.
+#.
+#: src/ptyxis-tab.c:344
+msgid "Process Exited"
+msgstr "Prozesua amaitu da"
+
+#: src/ptyxis-tab.c:410
+msgid "Failed to launch terminal"
+msgstr "Huts egin du terminala abiarazteak"
+
+#: src/ptyxis-tab.c:466
+#, c-format
+msgid "Cannot locate container “%s”"
+msgstr "Ezin da “%s” edukiontzia aurkitu"
+
+#: src/ptyxis-tab.c:490
+msgid "Failed to create pseudo terminal device"
+msgstr "Huts egin du sasiterminalaren gailua sortzeak"
+
+#: src/ptyxis-tab.c:1468
+msgid "Exited"
+msgstr "Irten da"
+
+#: src/ptyxis-tab.c:1470
+msgid "Failed"
+msgstr "Huts egin du"
+
+#: src/ptyxis-tab.c:2052
+msgid "Failed to open link"
+msgstr "Huts egin du esteka irekitzak"
+
+#: src/ptyxis-tab-notify.h:89
+msgid "Command completed"
+msgstr "Komandoa osatu da"
+
+#: src/ptyxis-terminal.ui:170
+msgid "Search…"
+msgstr "Bilatu…"
+
+#: src/ptyxis-terminal.ui:176
+msgid "_Open Link"
+msgstr "_Ireki esteka"
+
+#: src/ptyxis-terminal.ui:184
+msgid "_Copy"
+msgstr "_Kopiatu"
+
+#: src/ptyxis-terminal.ui:185
+msgid "Copy selection from terminal to clipboard"
+msgstr "Kopiatu hautapena terminaletik arbelean"
+
+#: src/ptyxis-terminal.ui:189
+msgid "Copy as _HTML"
+msgstr "Kopiatu _HTML gisa"
+
+#: src/ptyxis-terminal.ui:190
+msgid "Copy selection from terminal to clipboard with HTML formatting"
+msgstr "Kopiatu hautapena terminaletik arbelean HTML formatuarekin"
+
+#: src/ptyxis-terminal.ui:195
+msgid "_Copy Link"
+msgstr "_Kopiatu esteka"
+
+#: src/ptyxis-terminal.ui:201
+msgid "_Paste"
+msgstr "_Itsatsi"
+
+#: src/ptyxis-terminal.ui:202
+msgid "Paste from clipboard into the terminal"
+msgstr "Itsatsi arbeletik terminalean"
+
+#: src/ptyxis-terminal.ui:209
+msgid "Select _All"
+msgstr "Hautatu _dena"
+
+#: src/ptyxis-terminal.ui:210
+msgid "Selection all text from terminal including scrollback"
+msgstr "Terminaleko testu guztiaren hautapena, atzeranzko korritzea barne"
+
+#: src/ptyxis-terminal.ui:216
+msgid "Select _None"
+msgstr "Ez hautatu e_zer"
+
+#: src/ptyxis-terminal.ui:223
+msgid "Read-Only"
+msgstr "Irakurtzeko soilik"
+
+#: src/ptyxis-terminal.ui:251 src/ptyxis-window.ui:385 src/ptyxis-window.ui:776
+msgid "Leave Fullscreen"
+msgstr "Irten pantaila osotik"
+
+#: src/ptyxis-terminal.ui:257
+msgid "_Inspect Terminal"
+msgstr "_Ikuskatu terminala"
+
+#: src/ptyxis-theme-selector.ui:21
+msgid "Follow System Style"
+msgstr "Jarraitu sistemaren estiloa"
+
+#: src/ptyxis-theme-selector.ui:23
+msgid "Follow system style"
+msgstr "Jarraitu sistemaren estiloa"
+
+#: src/ptyxis-theme-selector.ui:37
+msgid "Light Style"
+msgstr "Estilo argia"
+
+#: src/ptyxis-theme-selector.ui:39
+msgid "Light style"
+msgstr "Estilo argia"
+
+#: src/ptyxis-theme-selector.ui:54
+msgid "Dark Style"
+msgstr "Estilo iluna"
+
+#: src/ptyxis-theme-selector.ui:56
+msgid "Dark style"
+msgstr "Estilo iluna"
+
+#: src/ptyxis-title-dialog.ui:36
+msgid "Title"
+msgstr "Titulua"
+
+#: src/ptyxis-title-dialog.ui:42
+msgid "Include Process Title"
+msgstr "Sartu prozesuaren izenburua"
+
+#: src/ptyxis-title-dialog.ui:43
+msgid "Append title from Shell application"
+msgstr "Erantsi izenburua Shell aplikaziotik"
+
+#. translators: Builder Terminal means this is a terminal bundled with GNOME Builder
+#: src/ptyxis-util.c:316
+msgid "Builder Terminal"
+msgstr "Builder terminala"
+
+#: src/ptyxis-util.c:320
+msgid "Ptyxis"
+msgstr "Ptyxis"
+
+#: src/ptyxis-window.c:1423
+msgid "Zoom in"
+msgstr "Handiagotu"
+
+#: src/ptyxis-window.c:1438
+msgid "Zoom out"
+msgstr "Txikiagotu"
+
+#: src/ptyxis-window.c:1624 src/ptyxis-window.c:1796
+msgid "Containers"
+msgstr "Edukiontziak"
+
+#: src/ptyxis-window.ui:400
+msgid "New Terminal"
+msgstr "Terminal berria"
+
+#: src/ptyxis-window.ui:413
+msgid "Show Profiles and Containers"
+msgstr "Erakutsi profilak eta edukiontziak"
+
+#: src/ptyxis-window.ui:433
+msgid "Filter…"
+msgstr "Iragazkia…"
+
+#: src/ptyxis-window.ui:595
+msgid "No Matching Results"
+msgstr "Bilaketak ez du emaitzarik"
+
+#: src/ptyxis-window.ui:637
+msgid "Main Menu"
+msgstr "Menu nagusia"
+
+#: src/ptyxis-window.ui:645 src/ptyxis-window.ui:762
+msgid "Show Open Tabs"
+msgstr "Erakutsi fitxa irekiak"
+
+#: src/ptyxis-window.ui:746
+msgid "New _Tab"
+msgstr "_Fitxa berria"
+
+#: src/ptyxis-window.ui:753
+msgid "New _Window"
+msgstr "Leiho _berria"
+
+#: src/ptyxis-window.ui:770
+msgid "Fullscreen"
+msgstr "Pantaila osoa"
+
+#: src/ptyxis-window.ui:784
+msgid "_Preferences"
+msgstr "_Hobespenak"
+
+#: src/ptyxis-window.ui:788
+msgid "_Keyboard Shortcuts"
+msgstr "Las_ter-teklak"
+
+#: src/ptyxis-window.ui:792
+msgid "_About"
+msgstr "Honi _buruz"
+
+#: src/ptyxis-window.ui:801
+msgid "Move _Left"
+msgstr "Eraman e_zkerrera"
+
+#: src/ptyxis-window.ui:806
+msgid "Move _Right"
+msgstr "Eraman e_skuinera"
+
+#: src/ptyxis-window.ui:811
+msgid "Move to New _Window"
+msgstr "Eraman leiho _berrira"
+
+#: src/ptyxis-window.ui:817
+msgid "_Pin Tab"
+msgstr "_Ainguratu fitxa"
+
+#: src/ptyxis-window.ui:822
+msgid "Un_pin Tab"
+msgstr "Kendu a_ingura fitxari"
+
+#: src/ptyxis-window.ui:837
+msgid "Close _Other Tabs"
+msgstr "Itxi _beste fitxak"
+
+#: src/ptyxis-window.ui:842
+msgid "_Close Tab"
+msgstr "It_xi fitxa"
+
+#~ msgid "Unknown Container"
+#~ msgstr "Edukiontzi ezezaguna"
+
+#~ msgid "Search up to next result"
+#~ msgstr "Bilatu gorantz hurrengo emaitza"
+
+#~ msgid "Search down to next result"
+#~ msgstr "Bilatu beherantz hurrengo emaitza"
+
+#~ msgid "Show fewer…"
+#~ msgstr "Erakutsi gutxiago…"
+
+#~ msgid "Show more…"
+#~ msgstr "Erakutsi gehiago…"
+
+#~ msgid "_My Computer"
+#~ msgstr "_Nire ordenagailua"

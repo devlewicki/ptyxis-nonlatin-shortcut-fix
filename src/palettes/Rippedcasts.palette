@@ -1,0 +1,23 @@
+[Palette]
+Name=Rippedcasts
+Background=#2B2B2B
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#000000
+Color1=#CDAF95
+Color2=#A8FF60
+Color3=#BFBB1F
+Color4=#75A5B0
+Color5=#FF73FD
+Color6=#5A647E
+Color7=#BFBFBF
+Color8=#666666
+Color9=#EECBAD
+Color10=#BCEE68
+Color11=#E5E500
+Color12=#86BDC9
+Color13=#E500E5
+Color14=#8C9BC4
+Color15=#E5E5E5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Rippedcasts.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Synthwave
+Background=#262335
+Foreground=#FFFFFF
+Cursor=#03EDF9
+Color0=#011627
+Color1=#FE4450
+Color2=#72F1B8
+Color3=#FEDE5D
+Color4=#03EDF9
+Color5=#FF7EDB
+Color6=#03EDF9
+Color7=#FFFFFF
+Color8=#575656
+Color9=#FE4450
+Color10=#72F1B8
+Color11=#FEDE5D
+Color12=#03EDF9
+Color13=#FF7EDB
+Color14=#03EDF9
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Synthwave.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Cobalt 2
+Background=#132738
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#000000
+Color1=#FF0000
+Color2=#38DE21
+Color3=#FFE50A
+Color4=#1460D2
+Color5=#FF005D
+Color6=#00BBBB
+Color7=#BBBBBB
+Color8=#555555
+Color9=#F40E17
+Color10=#3BD01D
+Color11=#EDC809
+Color12=#5555FF
+Color13=#FF55FF
+Color14=#6AE3FA
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Cobalt 2.yml

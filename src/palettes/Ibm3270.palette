@@ -1,0 +1,23 @@
+[Palette]
+Name=Ibm3270
+Background=#000000
+Foreground=#FDFDFD
+Cursor=#FDFDFD
+Color0=#222222
+Color1=#F01818
+Color2=#24D830
+Color3=#F0D824
+Color4=#7890F0
+Color5=#F078D8
+Color6=#54E4E4
+Color7=#A5A5A5
+Color8=#888888
+Color9=#EF8383
+Color10=#7ED684
+Color11=#EFE28B
+Color12=#B3BFEF
+Color13=#EFB3E3
+Color14=#9CE2E2
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ibm3270.yml

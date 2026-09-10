@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="PtyxisInspector" parent="AdwPreferencesWindow">
+    <property name="title" translatable="yes">Inspector</property>
+    <child>
+      <object class="AdwPreferencesPage" id="page">
+        <property name="title" translatable="yes">Process</property>
+        <property name="icon-name">application-x-executable-symbolic</property>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwActionRow" id="command">
+                <property name="title" translatable="yes">Foreground Process</property>
+                <style>
+                  <class name="property"/>
+                </style>
+                <child type="suffix">
+                  <object class="GtkLabel" id="pid">
+                    <style>
+                      <class name="dim-label"/>
+                      <class name="numeric"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwActionRow" id="window_title">
+                <property name="title" translatable="yes">Window Title</property>
+                <style>
+                  <class name="property"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwActionRow" id="current_directory">
+                <property name="title" translatable="yes">Current Directory</property>
+                <style>
+                  <class name="property"/>
+                </style>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow" id="current_file">
+                <property name="title" translatable="yes">Current File</property>
+                <style>
+                  <class name="property"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Container</property>
+            <child>
+              <object class="AdwActionRow" id="container_runtime">
+                <property name="title" translatable="yes">Runtime</property>
+                <style>
+                  <class name="property"/>
+                </style>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow" id="container_name">
+                <property name="title" translatable="yes">Name</property>
+                <style>
+                  <class name="property"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesPage">
+        <property name="title" translatable="yes">Appearance</property>
+        <property name="icon-name">font-select-symbolic</property>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwActionRow" id="grid_size">
+                <property name="title" translatable="yes">Grid Size</property>
+                <style>
+                  <class name="numeric"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Palette</property>
+            <child>
+              <object class="AdwActionRow" id="palette_row">
+                <property name="title" translatable="yes">Colors</property>
+                <child type="suffix">
+                  <object class="GtkBox">
+                    <property name="orientation">vertical</property>
+                    <property name="valign">center</property>
+                    <property name="spacing">3</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">3</property>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color0">
+                            <property name="index">0</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color1">
+                            <property name="index">1</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color2">
+                            <property name="index">2</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color3">
+                            <property name="index">3</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color4">
+                            <property name="index">4</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color5">
+                            <property name="index">5</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color6">
+                            <property name="index">6</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color7">
+                            <property name="index">7</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">3</property>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color8">
+                            <property name="index">8</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color9">
+                            <property name="index">9</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color10">
+                            <property name="index">10</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color11">
+                            <property name="index">11</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color12">
+                            <property name="index">12</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color13">
+                            <property name="index">13</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color14">
+                            <property name="index">14</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="PtyxisPalettePreviewColor" id="color15">
+                            <property name="index">15</property>
+                            <property name="has-tooltip">true</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Font</property>
+            <child>
+              <object class="AdwActionRow" id="font_desc">
+                <property name="title" translatable="yes">Name</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow" id="cell_size">
+                <property name="title" translatable="yes">Cell Size</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesPage">
+        <property name="title" translatable="yes">Input</property>
+        <property name="icon-name">input-keyboard-symbolic</property>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Cursor</property>
+            <child>
+              <object class="AdwActionRow" id="cursor">
+                <property name="title" translatable="yes">Position</property>
+                <style>
+                  <class name="numeric"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Mouse</property>
+            <child>
+              <object class="AdwActionRow" id="pointer">
+                <property name="title" translatable="yes">Position</property>
+                <style>
+                  <class name="numeric"/>
+                </style>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow" id="hyperlink_hover">
+                <property name="title" translatable="yes">Hyperlink</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

@@ -1,0 +1,23 @@
+[Palette]
+Name=Earthsong
+Background=#292520
+Foreground=#E5C7A9
+Cursor=#E5C7A9
+Color0=#121418
+Color1=#C94234
+Color2=#85C54C
+Color3=#F5AE2E
+Color4=#1398B9
+Color5=#D0633D
+Color6=#509552
+Color7=#E5C6AA
+Color8=#675F54
+Color9=#FF645A
+Color10=#98E036
+Color11=#E0D561
+Color12=#5FDAFF
+Color13=#FF9269
+Color14=#84F088
+Color15=#F6F7EC
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Earthsong.yml

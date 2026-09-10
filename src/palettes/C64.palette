@@ -1,0 +1,23 @@
+[Palette]
+Name=C64
+Background=#40318D
+Foreground=#7869C4
+Cursor=#7869C4
+Color0=#090300
+Color1=#883932
+Color2=#55A049
+Color3=#BFCE72
+Color4=#40318D
+Color5=#8B3F96
+Color6=#67B6BD
+Color7=#FFFFFF
+Color8=#000000
+Color9=#883932
+Color10=#55A049
+Color11=#BFCE72
+Color12=#40318D
+Color13=#8B3F96
+Color14=#67B6BD
+Color15=#F7F7F7
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/C64.yml

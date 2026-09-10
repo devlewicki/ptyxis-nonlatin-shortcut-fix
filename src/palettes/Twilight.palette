@@ -1,0 +1,23 @@
+[Palette]
+Name=Twilight
+Background=#141414
+Foreground=#FFFFD4
+Cursor=#FFFFD4
+Color0=#141414
+Color1=#C06D44
+Color2=#AFB97A
+Color3=#C2A86C
+Color4=#44474A
+Color5=#B4BE7C
+Color6=#778385
+Color7=#FFFFD4
+Color8=#262626
+Color9=#DE7C4C
+Color10=#CCD88C
+Color11=#E2C47E
+Color12=#5A5E62
+Color13=#D0DC8E
+Color14=#8A989B
+Color15=#FFFFD4
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Twilight.yml

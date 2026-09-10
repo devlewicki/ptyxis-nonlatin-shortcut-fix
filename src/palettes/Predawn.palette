@@ -1,0 +1,23 @@
+[Palette]
+Name=Predawn
+Background=#282828
+Foreground=#F1F1F1
+Cursor=#F1F1F1
+Color0=#F18260
+Color1=#B51A20
+Color2=#A6CC75
+Color3=#FED33A
+Color4=#81B2B1
+Color5=#EB6C4E
+Color6=#81B2B1
+Color7=#EAEAEA
+Color8=#666666
+Color9=#FF000B
+Color10=#C4EE94
+Color11=#E8E06D
+Color12=#A5EBEA
+Color13=#EF8A50
+Color14=#A5EBEA
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Predawn.yml

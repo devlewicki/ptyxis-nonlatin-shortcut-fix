@@ -1,0 +1,74 @@
+From: Alessandro Astone <alessandro.astone@canonical.com>
+Date: Wed, 15 Apr 2026 10:42:39 +0200
+Subject: Changes to the Ubuntu color palette
+
+Set "Primary" so it's always listed even in collapsed view.
+Set "UseSystemAccent" so it uses the desktop accent color in menus
+Add Light variant and tweak Dark variant with colors from the
+Canonical Brand team, https://warthogs.atlassian.net/browse/BRND-3288
+
+Forwarded: not-necessary
+---
+ src/palettes/Ubuntu.palette | 41 ++++++++++++++++++++++++++++++++---------
+ 1 file changed, 32 insertions(+), 9 deletions(-)
+
+diff --git a/src/palettes/Ubuntu.palette b/src/palettes/Ubuntu.palette
+index 5230076..6cb466b 100644
+--- a/src/palettes/Ubuntu.palette
++++ b/src/palettes/Ubuntu.palette
+@@ -1,23 +1,46 @@
+ [Palette]
+ Name=Ubuntu
++Primary=true
++UseSystemAccent=true
++
++[Light]
++Background=#F8F8F8
++Foreground=#121212
++Cursor=#121212
++Color0=#F2F2F2
++Color1=#F93B2E
++Color2=#3F7E04
++Color3=#A88F00
++Color4=#5B91D7
++Color5=#A77DAD
++Color6=#047B7D
++Color7=#1B1B1B
++Color8=#707070
++Color9=#CE191C
++Color10=#26420C
++Color11=#80721B
++Color12=#395E86
++Color13=#80577C
++Color14=#064141
++Color15=#212121
++
++[Dark]
+ Background=#300A24
+ Foreground=#FFFFFF
+ Cursor=#FFFFFF
+-Color0=#2E3436
+-Color1=#CC0000
++Color0=#1B1B1B
++Color1=#CC1A12
+ Color2=#4E9A06
+ Color3=#C4A000
+-Color4=#3465A4
+-Color5=#75507B
++Color4=#3667A6
++Color5=#7F5985
+ Color6=#06989A
+-Color7=#D3D7CF
+-Color8=#555753
+-Color9=#EF2929
++Color7=#D5D5D5
++Color8=#838383
++Color9=#F93632
+ Color10=#8AE234
+ Color11=#FCE94F
+ Color12=#729FCF
+ Color13=#AD7FA8
+ Color14=#34E2E2
+ Color15=#EEEEEC
+-
+-# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Clone Of Ubuntu.yml

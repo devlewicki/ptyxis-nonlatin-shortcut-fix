@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright © 2013 Christian Persch
+ Copyright © 2023 Christian Hergert
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<interface>
+  <template class="PtyxisPreferencesWindow" parent="AdwPreferencesWindow">
+    <child>
+      <object class="GtkShortcutController">
+        <child>
+          <object class="GtkShortcut">
+            <property name="trigger">&lt;control&gt;w</property>
+            <property name="action">action(window.close)</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <property name="default-height">700</property>
+    <property name="height-request">294</property>
+    <property name="width-request">360</property>
+    <child>
+      <object class="AdwPreferencesPage">
+        <property name="title" translatable="yes">Appearance</property>
+        <property name="icon-name">font-select-symbolic</property>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Palette</property>
+            <child type="header-suffix">
+              <object class="GtkButton">
+                <child>
+                  <object class="AdwButtonContent" id="show_more_palettes">
+                    <property name="icon-name">down-small-symbolic</property>
+                    <property name="label" translatable="yes">Show All Palettes</property>
+                  </object>
+                </child>
+                <signal name="clicked" handler="ptyxis_preferences_window_show_all_cb" swapped="true"/>
+                <style>
+                  <class name="flat"/>
+                </style>
+              </object>
+            </child>
+            <child>
+              <object class="GtkFlowBox" id="palette_previews">
+                <property name="hexpand">true</property>
+                <property name="column-spacing">9</property>
+                <property name="row-spacing">9</property>
+                <property name="max-children-per-line">3</property>
+                <property name="selection-mode">none</property>
+                <property name="homogeneous">true</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup" id="opacity_group">
+            <property name="visible">false</property>
+            <child>
+              <object class="AdwActionRow">
+                <property name="title" translatable="yes">Transparency</property>
+                <property name="subtitle" translatable="yes">Reduces the opacity of the background window</property>
+                <property name="activatable-widget">opacity</property>
+                <child type="suffix">
+                  <object class="GtkMenuButton">
+                    <style>
+                      <class name="flat"/>
+                    </style>
+                    <property name="valign">center</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">6</property>
+                        <child>
+                          <object class="GtkLabel" id="opacity_label">
+                            <property name="width-chars">6</property>
+                            <property name="max-width-chars">6</property>
+                            <attributes>
+                              <attribute name="font-features" value="'tnum'"/>
+                            </attributes>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkImage">
+                            <property name="icon-name">pan-down-symbolic</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <property name="popover">
+                      <object class="GtkPopover">
+                        <child>
+                          <object class="GtkScale" id="opacity">
+                            <property name="width-request">200</property>
+                            <property name="adjustment">
+                              <object class="GtkAdjustment" id="opacity_adjustment">
+                                <property name="lower">0</property>
+                                <property name="upper">1</property>
+                                <property name="step-increment">.05</property>
+                                <property name="page-increment">.25</property>
+                              </object>
+                            </property>
+                            <marks>
+                              <mark value="0.25"/>
+                              <mark value="0.5"/>
+                              <mark value="0.75"/>
+                            </marks>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Font</property>
+
+            <child>
+              <object class="AdwExpanderRow">
+                <property name="title" translatable="yes">Use System _Font</property>
+                <property name="use-underline">true</property>
+                <property name="expanded" bind-source="use_system_font" bind-property="active" bind-flags="sync-create|bidirectional|invert-boolean"/>
+                <child type="action">
+                  <object class="GtkSwitch" id="use_system_font">
+                    <property name="halign">end</property>
+                    <property name="valign">center</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwActionRow" id="font_name_row">
+                    <property name="action-name">settings.select-custom-font</property>
+                    <property name="title" translatable="yes">Custom Font</property>
+                    <child type="suffix">
+                      <object class="GtkBox">
+                        <property name="hexpand">true</property>
+                        <property name="spacing">12</property>
+                        <child>
+                          <object class="GtkLabel" id="font_name">
+                            <property name="hexpand">true</property>
+                            <property name="xalign">1</property>
+                            <property name="ellipsize">end</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkImage">
+                            <property name="icon-name">go-next-symbolic</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwSpinRow" id="cell_height_scale">
+                <property name="title" translatable="yes">Line Spacing</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment">
+                    <property name="lower">1.0</property>
+                    <property name="upper">2.0</property>
+                    <property name="step-increment">0.1</property>
+                    <property name="page-increment">0.5</property>
+                  </object>
+                </property>
+                <signal name="output" handler="ptyxis_preferences_window_spin_row_show_decimal_cb" swapped="true"/>
+              </object>
+            </child>
+            <child>
+              <object class="AdwSpinRow" id="cell_width_scale">
+                <property name="title" translatable="yes">Column Spacing</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment">
+                    <property name="lower">1.0</property>
+                    <property name="upper">2.0</property>
+                    <property name="step-increment">0.1</property>
+                    <property name="page-increment">0.5</property>
+                  </object>
+                </property>
+                <signal name="output" handler="ptyxis_preferences_window_spin_row_show_decimal_cb" swapped="true"/>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwComboRow" id="text_blink_mode">
+                <property name="title" translatable="yes">Blinking Text</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">
+                  <object class="GListStore" id="text_blink_modes">
+                    <property name="item-type">PtyxisPreferencesListItem</property>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Never</property>
+                        <property name="value">'never'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Focused</property>
+                        <property name="value">'focused'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Unfocused</property>
+                        <property name="value">'unfocused'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Always</property>
+                        <property name="value">'always'</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Cursor</property>
+            <child>
+              <object class="AdwComboRow" id="cursor_shape">
+                <property name="title" translatable="yes">Cursor Shape</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">
+                  <object class="GListStore" id="cursor_shapes">
+                    <property name="item-type">PtyxisPreferencesListItem</property>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Block</property>
+                        <property name="value">'block'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">I-Beam</property>
+                        <property name="value">'ibeam'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Underline</property>
+                        <property name="value">'underline'</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwComboRow" id="cursor_blink_mode">
+                <property name="title" translatable="yes">Cursor Blinking</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">
+                  <object class="GListStore" id="cursor_blink_modes">
+                    <property name="item-type">PtyxisPreferencesListItem</property>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Follow System</property>
+                        <property name="value">'system'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Enabled</property>
+                        <property name="value">'on'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Disabled</property>
+                        <property name="value">'off'</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesPage">
+        <property name="title" translatable="yes">Behavior</property>
+        <property name="icon-name">preferences-desktop-accessibility-symbolic</property>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Interface</property>
+            <child>
+              <object class="AdwComboRow" id="tab_position">
+                <property name="title" translatable="yes">New Tab Position</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">
+                  <object class="GListStore" id="tab_positions">
+                    <property name="item-type">PtyxisPreferencesListItem</property>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Next</property>
+                        <property name="value">'next'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Last</property>
+                        <property name="value">'last'</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwSwitchRow" id="restore_session">
+                <property name="title" translatable="yes">Restore Session</property>
+                <property name="subtitle" translatable="yes">Attempt to restore previous tabs when Ptyxis starts</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwExpanderRow">
+                <property name="title" translatable="yes">Restore Window Size</property>
+                <property name="subtitle" translatable="yes">Restore the previous window size when creating a new window</property>
+                <property name="show-enable-switch">false</property>
+                <property name="expanded" bind-source="restore_window_size" bind-property="active" bind-flags="sync-create|invert-boolean|bidirectional"/>
+                <child type="suffix">
+                  <object class="GtkSwitch" id="restore_window_size">
+                    <property name="valign">center</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwSpinRow" id="default_columns">
+                    <property name="title" translatable="yes">Columns</property>
+                    <property name="numeric">1</property>
+                    <property name="adjustment">
+                      <object class="GtkAdjustment">
+                        <property name="lower">1</property>
+                        <property name="upper">65535</property>
+                        <property name="step-increment">1</property>
+                        <property name="page-increment">10</property>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwSpinRow" id="default_rows">
+                    <property name="title" translatable="yes">Rows</property>
+                    <property name="numeric">1</property>
+                    <property name="adjustment">
+                      <object class="GtkAdjustment">
+                        <property name="lower">1</property>
+                        <property name="upper">65535</property>
+                        <property name="step-increment">1</property>
+                        <property name="page-increment">10</property>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Accessibility</property>
+            <child>
+              <object class="AdwSwitchRow" id="enable_a11y">
+                <property name="title" translatable="yes">Allow Screen Readers</property>
+                <property name="subtitle" translatable="yes">Permit screen readers such as Orca to read terminal content and typed text</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Bell</property>
+            <child>
+              <object class="AdwSwitchRow" id="audible_bell">
+                <property name="title" translatable="yes">Audible Bell</property>
+                <property name="subtitle" translatable="yes">Emit an audible bell when requested by active tab</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwSwitchRow" id="visual_bell">
+                <property name="title" translatable="yes">Visual Bell</property>
+                <property name="subtitle" translatable="yes">Emit a visual bell when requested by active tab</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Scrolling</property>
+            <child>
+              <object class="AdwComboRow" id="scrollbar_policy">
+                <property name="title" translatable="yes">Use Scrollbars</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">
+                  <object class="GListStore" id="scrollbar_policies">
+                    <property name="item-type">PtyxisPreferencesListItem</property>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Never</property>
+                        <property name="value">'never'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Follow System</property>
+                        <property name="value">'system'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Always</property>
+                        <property name="value">'always'</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwSwitchRow" id="scroll_on_keystroke">
+                <property name="title" translatable="yes">Scroll on Keystroke</property>
+                <property name="subtitle" translatable="yes">Scroll to the bottom upon input keystroke</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwSwitchRow" id="scroll_on_output">
+                <property name="title" translatable="yes">Scroll on Output</property>
+                <property name="subtitle" translatable="yes">Scroll to the bottom when new content is available</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwSwitchRow" id="limit_scrollback">
+                <property name="title" translatable="yes">Limit Scrollback</property>
+                <property name="subtitle" translatable="yes">Restrict the number of lines saved for scrollback</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwSpinRow" id="scrollback_lines">
+                <binding name="sensitive">
+                  <lookup name="active">limit_scrollback</lookup>
+                </binding>
+                <property name="title" translatable="yes">Scrollback Lines</property>
+                <property name="subtitle" translatable="yes">The number of lines to keep for scrollback</property>
+                <property name="numeric">1</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment">
+                    <property name="lower">0</property>
+                    <property name="upper">2147483647</property>
+                    <property name="step-increment">10</property>
+                    <property name="page-increment">100</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Shell</property>
+            <child>
+              <object class="AdwSwitchRow" id="login_shell">
+                <property name="title" translatable="yes">Use Login Shell</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwComboRow" id="preserve_directory">
+                <property name="title" translatable="yes">Preserve Working Directory</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">
+                  <object class="GListStore" id="preserve_directories">
+                    <property name="item-type">PtyxisPreferencesListItem</property>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Never</property>
+                        <property name="value">'never'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Safe</property>
+                        <property name="value">'safe'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Always</property>
+                        <property name="value">'always'</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwComboRow" id="exit_action">
+                <property name="title" translatable="yes">Exit Action</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">
+                  <object class="GListStore" id="exit_actions">
+                    <property name="item-type">PtyxisPreferencesListItem</property>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">No Action</property>
+                        <property name="value">'none'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Restart</property>
+                        <property name="value">'restart'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Close</property>
+                        <property name="value">'close'</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Compatibility</property>
+            <child>
+              <object class="AdwComboRow" id="backspace_binding">
+                <property name="title" translatable="yes">Backspace Key</property>
+                <property name="subtitle" translatable="yes">Sequence to send for Backspace key</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">erase_bindings</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwComboRow" id="delete_binding">
+                <property name="title" translatable="yes">Delete Key</property>
+                <property name="subtitle" translatable="yes">Sequence to send for Delete key</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">erase_bindings</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwComboRow" id="cjk_ambiguous_width">
+                <property name="title" translatable="yes">Ambiguous-width Characters</property>
+                <property name="expression">
+                  <lookup name="title" type="PtyxisPreferencesListItem"/>
+                </property>
+                <property name="model">
+                  <object class="GListStore" id="cjk_ambiguous_widths">
+                    <property name="item-type">PtyxisPreferencesListItem</property>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Narrow</property>
+                        <property name="value">'narrow'</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="PtyxisPreferencesListItem">
+                        <property name="title" translatable="yes">Wide</property>
+                        <property name="value">'wide'</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Custom Links</property>
+            <child>
+              <object class="GtkListBox" id="custom_links_list_box">
+                <style>
+                  <class name="boxed-list"/>
+                </style>
+                <property name="selection-mode">none</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="GtkButton">
+                <style>
+                  <class name="pill"/>
+                  <class name="suggested-action"/>
+                </style>
+                <property name="action-name">app.make-default</property>
+                <property name="halign">center</property>
+                <property name="label" translatable="yes">Set as Default Terminal</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesPage">
+        <property name="name">shortcuts</property>
+        <property name="title" translatable="yes">Shortcuts</property>
+        <property name="icon-name">preferences-desktop-keyboard-shortcuts-symbolic</property>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Terminal</property>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_copy_clipboard">
+                <property name="title" translatable="yes">Copy to Clipboard</property>
+                <property name="shortcut-name">copy-clipboard</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_paste_clipboard">
+                <property name="title" translatable="yes">Paste from Clipboard</property>
+                <property name="shortcut-name">paste-clipboard</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_select_all">
+                <property name="title" translatable="yes">Select All</property>
+                <property name="shortcut-name">select-all</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_select_none">
+                <property name="title" translatable="yes">Clear Selection</property>
+                <property name="shortcut-name">select-none</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_reset">
+                <property name="title" translatable="yes">Reset</property>
+                <property name="shortcut-name">reset</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_reset_and_clear">
+                <property name="title" translatable="yes">Reset and Clear</property>
+                <property name="shortcut-name">reset-and-clear</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_search">
+                <!-- Translators: Refers to searching the terminal scrollback -->
+                <property name="title" translatable="yes">Search History</property>
+                <property name="shortcut-name">search</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_popup_menu">
+                <property name="title" translatable="yes">Show Context Menu</property>
+                <property name="shortcut-name">popup-menu</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Windows</property>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_new_window">
+                <property name="title" translatable="yes">New Window</property>
+                <property name="subtitle" translatable="yes">Open a new tab in a new window</property>
+                <property name="shortcut-name">new-window</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_close_window">
+                <property name="title" translatable="yes">Close Window</property>
+                <property name="subtitle" translatable="yes">Close the current window</property>
+                <property name="shortcut-name">close-window</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_set_title">
+                <property name="title" translatable="yes">Set Title</property>
+                <property name="shortcut-name">set-title</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Tabs</property>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_new_tab">
+                <property name="title" translatable="yes">New Tab</property>
+                <property name="subtitle" translatable="yes">Open a new tab in the current window</property>
+                <property name="shortcut-name">new-tab</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_tab_overview">
+                <property name="title" translatable="yes">View Tab Overview</property>
+                <property name="subtitle" translatable="yes">Show an overview of all tabs within the window</property>
+                <property name="shortcut-name">tab-overview</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_close_tab">
+                <property name="title" translatable="yes">Close Tab</property>
+                <property name="subtitle" translatable="yes">Close the current tab</property>
+                <property name="shortcut-name">close-tab</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_close_other_tabs">
+                <property name="title" translatable="yes">Close Other Tabs</property>
+                <property name="subtitle" translatable="yes">Close all tabs except the active tab</property>
+                <property name="shortcut-name">close-other-tabs</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_undo_close_tab">
+                <property name="title" translatable="yes">Undo Close Tab</property>
+                <property name="subtitle" translatable="yes">Undo closing the last tab</property>
+                <property name="shortcut-name">undo-close-tab</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_move_previous_tab">
+                <property name="title" translatable="yes">Move to Previous Tab</property>
+                <property name="shortcut-name">move-previous-tab</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_move_next_tab">
+                <property name="title" translatable="yes">Move to Next Tab</property>
+                <property name="shortcut-name">move-next-tab</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_move_tab_left">
+                <property name="title" translatable="yes">Move Tab Left</property>
+                <property name="subtitle" translatable="yes">Move the tab one position to the left</property>
+                <property name="shortcut-name">move-tab-left</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_move_tab_right">
+                <property name="title" translatable="yes">Move Tab Right</property>
+                <property name="subtitle" translatable="yes">Move the tab one position to the right</property>
+                <property name="shortcut-name">move-tab-right</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_detach_tab">
+                <property name="title" translatable="yes">Move Tab to New Window</property>
+                <property name="subtitle" translatable="yes">Detach the current tab and move it to a new window</property>
+                <property name="shortcut-name">detach-tab</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_1">
+                <property name="title" translatable="yes">Switch to Tab 1</property>
+                <property name="shortcut-name">focus-tab-1</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_2">
+                <property name="title" translatable="yes">Switch to Tab 2</property>
+                <property name="shortcut-name">focus-tab-2</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_3">
+                <property name="title" translatable="yes">Switch to Tab 3</property>
+                <property name="shortcut-name">focus-tab-3</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_4">
+                <property name="title" translatable="yes">Switch to Tab 4</property>
+                <property name="shortcut-name">focus-tab-4</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_5">
+                <property name="title" translatable="yes">Switch to Tab 5</property>
+                <property name="shortcut-name">focus-tab-5</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_6">
+                <property name="title" translatable="yes">Switch to Tab 6</property>
+                <property name="shortcut-name">focus-tab-6</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_7">
+                <property name="title" translatable="yes">Switch to Tab 7</property>
+                <property name="shortcut-name">focus-tab-7</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_8">
+                <property name="title" translatable="yes">Switch to Tab 8</property>
+                <property name="shortcut-name">focus-tab-8</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_9">
+                <property name="title" translatable="yes">Switch to Tab 9</property>
+                <property name="shortcut-name">focus-tab-9</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_10">
+                <property name="title" translatable="yes">Switch to Tab 10</property>
+                <property name="shortcut-name">focus-tab-10</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_focus_tab_last">
+                <property name="title" translatable="yes">Switch to Last Tab</property>
+                <property name="shortcut-name">focus-tab-last</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Zoom</property>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_zoom_in">
+                <property name="title" translatable="yes">Zoom In</property>
+                <property name="shortcut-name">zoom-in</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_zoom_out">
+                <property name="title" translatable="yes">Zoom Out</property>
+                <property name="shortcut-name">zoom-out</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_zoom_one">
+                <property name="title" translatable="yes">Reset Zoom</property>
+                <property name="shortcut-name">zoom-one</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Application</property>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_toggle_fullscreen">
+                <property name="title" translatable="yes">Toggle Fullscreen</property>
+                <property name="subtitle" translatable="yes">Toggle in and out of fullscreen</property>
+                <property name="shortcut-name">toggle-fullscreen</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_primary_menu">
+                <property name="title" translatable="yes">Show Primary Menu</property>
+                <property name="subtitle" translatable="yes">Displays the primary menu for the terminal window</property>
+                <property name="shortcut-name">primary-menu</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_tab_menu">
+                <property name="title" translatable="yes">Show New Tab Menu</property>
+                <property name="subtitle" translatable="yes">Displays the new tab menu for the terminal window</property>
+                <property name="shortcut-name">tab-menu</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_preferences">
+                <property name="title" translatable="yes">Preferences</property>
+                <property name="subtitle" translatable="yes">Show this preferences window</property>
+                <property name="shortcut-name">preferences</property>
+              </object>
+            </child>
+            <child>
+              <object class="PtyxisShortcutRow" id="shortcut_show_keyboard_shortcuts">
+                <property name="title" translatable="yes">Keyboard Shortcuts</property>
+                <property name="subtitle" translatable="yes">Show the keyboard shortcuts configuration</property>
+                <property name="shortcut-name">show-keyboard-shortcuts</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesPage">
+        <property name="title" translatable="yes">Profiles</property>
+        <property name="icon-name">system-users-symbolic</property>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title" translatable="yes">Profiles</property>
+            <child>
+              <object class="GtkListBox" id="profiles_list_box">
+                <style>
+                  <class name="boxed-list"/>
+                </style>
+                <property name="selection-mode">none</property>
+                <signal name="row-activated" handler="ptyxis_preferences_window_profile_row_activated_cb" swapped="1"/>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+  <object class="GListStore" id="erase_bindings">
+    <property name="item-type">PtyxisPreferencesListItem</property>
+    <child>
+      <object class="PtyxisPreferencesListItem">
+        <property name="title" translatable="yes">Automatic</property>
+        <property name="value">'auto'</property>
+      </object>
+    </child>
+    <child>
+      <object class="PtyxisPreferencesListItem">
+        <property name="title" translatable="yes">Control-H</property>
+        <property name="value">'ascii-backspace'</property>
+      </object>
+    </child>
+    <child>
+      <object class="PtyxisPreferencesListItem">
+        <property name="title" translatable="yes">ASCII DEL</property>
+        <property name="value">'ascii-delete'</property>
+      </object>
+    </child>
+    <child>
+      <object class="PtyxisPreferencesListItem">
+        <property name="title" translatable="yes">Escape Sequence</property>
+        <property name="value">'delete-sequence'</property>
+      </object>
+    </child>
+    <child>
+      <object class="PtyxisPreferencesListItem">
+        <property name="title" translatable="yes">TTY Erase</property>
+        <property name="value">'tty'</property>
+      </object>
+    </child>
+  </object>
+</interface>

@@ -1,0 +1,23 @@
+[Palette]
+Name=Tomorrow Night Bright
+Background=#000000
+Foreground=#E9E9E9
+Cursor=#E9E9E9
+Color0=#000000
+Color1=#D54E53
+Color2=#B9CA49
+Color3=#E7C547
+Color4=#79A6DA
+Color5=#C397D8
+Color6=#70C0B1
+Color7=#FFFEFE
+Color8=#000000
+Color9=#D44D53
+Color10=#B9C949
+Color11=#E6C446
+Color12=#79A6DA
+Color13=#C396D7
+Color14=#70C0B1
+Color15=#FFFEFE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Tomorrow Night Bright.yml

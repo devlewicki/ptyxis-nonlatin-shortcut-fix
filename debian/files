@@ -1,0 +1,3 @@
+ptyxis-dbgsym_50.1-1ubuntu2local1_amd64.ddeb debug optional architecture=amd64 automatic=yes
+ptyxis_50.1-1ubuntu2local1_amd64.buildinfo gnome optional
+ptyxis_50.1-1ubuntu2local1_amd64.deb gnome optional architecture=amd64

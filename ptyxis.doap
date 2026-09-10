@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">Ptyxis</name>
+  <shortdesc xml:lang="en">A container oriented terminal</shortdesc>
+  <description xml:lang="en">Ptyxis is a terminal which attempts to simplify what it means to be a terminal in the age of operating systems which are themselves containers.</description>
+  <homepage rdf:resource="https://gitlab.gnome.org/chergert/ptyxis/" />
+  <download-page rdf:resource="https://download.gnome.org/sources/ptyxis/" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/chergert/ptyxis/issues" />
+  <developer-forum rdf:resource="https://discourse.gnome.org/tag/ptyxis" />
+
+  <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
+  <programming-language>C</programming-language>
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Christian Hergert</foaf:name>
+      <foaf:mbox rdf:resource="mailto:chergert@gnome.org" />
+      <gnome:userid>chergert</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+
+</Project>

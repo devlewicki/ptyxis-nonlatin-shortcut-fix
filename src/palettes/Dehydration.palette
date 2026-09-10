@@ -1,0 +1,23 @@
+[Palette]
+Name=Dehydration
+Background=#333333
+Foreground=#CCCCCC
+Cursor=#CCCCCC
+Color0=#333333
+Color1=#FF5555
+Color2=#5FD38D
+Color3=#FF9955
+Color4=#3771C8
+Color5=#BC5FD3
+Color6=#5FD3BC
+Color7=#999999
+Color8=#666666
+Color9=#FF8080
+Color10=#87DEAA
+Color11=#FFB380
+Color12=#5F8DD3
+Color13=#CD87DE
+Color14=#87DECD
+Color15=#CCCCCC
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Dehydration.yml

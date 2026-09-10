@@ -1,0 +1,23 @@
+[Palette]
+Name=Darkside
+Background=#222324
+Foreground=#BABABA
+Cursor=#BABABA
+Color0=#000000
+Color1=#E8341C
+Color2=#68C256
+Color3=#F2D42C
+Color4=#1C98E8
+Color5=#8E69C9
+Color6=#1C98E8
+Color7=#BABABA
+Color8=#000000
+Color9=#E05A4F
+Color10=#77B869
+Color11=#EFD64B
+Color12=#387CD3
+Color13=#957BBE
+Color14=#3D97E2
+Color15=#BABABA
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Darkside.yml

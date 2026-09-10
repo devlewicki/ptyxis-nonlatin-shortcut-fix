@@ -1,0 +1,23 @@
+[Palette]
+Name=Nightlion V1
+Background=#000000
+Foreground=#BBBBBB
+Cursor=#BBBBBB
+Color0=#4C4C4C
+Color1=#BB0000
+Color2=#5FDE8F
+Color3=#F3F167
+Color4=#276BD8
+Color5=#BB00BB
+Color6=#00DADF
+Color7=#BBBBBB
+Color8=#555555
+Color9=#FF5555
+Color10=#55FF55
+Color11=#FFFF55
+Color12=#5555FF
+Color13=#FF55FF
+Color14=#55FFFF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Nightlion V1.yml

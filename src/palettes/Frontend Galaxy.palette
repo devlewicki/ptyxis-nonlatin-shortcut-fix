@@ -1,0 +1,23 @@
+[Palette]
+Name=Frontend Galaxy
+Background=#1D2837
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#000000
+Color1=#F9555F
+Color2=#21B089
+Color3=#FEF02A
+Color4=#589DF6
+Color5=#944D95
+Color6=#1F9EE7
+Color7=#BBBBBB
+Color8=#555555
+Color9=#FA8C8F
+Color10=#35BB9A
+Color11=#FFFF55
+Color12=#589DF6
+Color13=#E75699
+Color14=#3979BC
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Frontend Galaxy.yml

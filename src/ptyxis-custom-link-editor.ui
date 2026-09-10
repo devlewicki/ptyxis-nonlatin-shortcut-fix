@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright © 2025 Marco Mastropaolo <marco@mastropaolo.com>
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<interface>
+  <template class="PtyxisCustomLinkEditor" parent="AdwNavigationPage">
+    <property name="title" translatable="yes">Edit Custom Link</property>
+    <child>
+      <object class="AdwToolbarView">
+        <child type="top">
+          <object class="AdwHeaderBar">
+          </object>
+        </child>
+        <property name="content">
+          <object class="AdwPreferencesPage">
+            <property name="title" translatable="yes">Custom Link</property>
+            <property name="description" translatable="yes">A clickable link in the terminal that matches text patterns and opens custom URLs. Uses regex capture groups to build the final URL (e.g., $1 becomes the first matched group).</property>
+            <child>
+              <object class="AdwPreferencesGroup">
+                <child>
+                  <object class="AdwEntryRow" id="pattern">
+                    <property name="title" translatable="yes">Regex Pattern</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwEntryRow" id="target">
+                    <property name="title" translatable="yes">Target URL</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </property>
+      </object>
+    </child>
+  </template>
+</interface>

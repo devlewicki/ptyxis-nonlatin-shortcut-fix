@@ -1,0 +1,23 @@
+[Palette]
+Name=Wombat
+Background=#171717
+Foreground=#DEDACF
+Cursor=#DEDACF
+Color0=#000000
+Color1=#FF615A
+Color2=#B1E969
+Color3=#EBD99C
+Color4=#5DA9F6
+Color5=#E86AFF
+Color6=#82FFF7
+Color7=#DEDACF
+Color8=#313131
+Color9=#F58C80
+Color10=#DDF88F
+Color11=#EEE5B2
+Color12=#A5C7FF
+Color13=#DDAAFF
+Color14=#B7FFF9
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Wombat.yml

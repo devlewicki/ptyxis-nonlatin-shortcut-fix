@@ -1,0 +1,23 @@
+[Palette]
+Name=Flatland
+Background=#1D1F21
+Foreground=#B8DBEF
+Cursor=#B8DBEF
+Color0=#1D1D19
+Color1=#F18339
+Color2=#9FD364
+Color3=#F4EF6D
+Color4=#5096BE
+Color5=#695ABC
+Color6=#D63865
+Color7=#FFFFFF
+Color8=#1D1D19
+Color9=#D22A24
+Color10=#A7D42C
+Color11=#FF8949
+Color12=#61B9D0
+Color13=#695ABC
+Color14=#D63865
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Flatland.yml

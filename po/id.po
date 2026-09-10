@@ -1,0 +1,1730 @@
+# Indonesian translation for ptyxis.
+# Copyright (C) 2024 ptyxis's COPYRIGHT HOLDER
+# This file is distributed under the same license as the ptyxis package.
+# Andika Triwidada <andika@gmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ptyxis main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/chergert/ptyxis/issues\n"
+"POT-Creation-Date: 2024-09-12 14:59+0000\n"
+"PO-Revision-Date: 2024-09-19 19:32+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <Indonesian>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:3
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:6
+msgid "@APP_NAME@"
+msgstr "@APP_NAME@"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:4
+msgid "A container-oriented terminal for GNOME"
+msgstr "Terminal berorientasi kontainer untuk GNOME"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:13 src/ptyxis-preferences-window.ui:618
+#: src/ptyxis-tab.c:1272 src/ptyxis-util.c:311
+msgid "Terminal"
+msgstr "Terminal"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Ptyxis.desktop.in.in:15
+msgid ""
+"terminal;prompt;ptyxis;shell;command;commandline;cmd;cli;container;podman;"
+"toolbox;distrobox;"
+msgstr ""
+"terminal;prompt;ptyxis;shell;perintah;perintah baris;cmd;cli;kontainer;"
+"podman;toolbox;distrobox;"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:21
+#: src/org.gnome.Ptyxis.gschema.xml.in:363 src/ptyxis-preferences-window.ui:688
+msgid "New Window"
+msgstr "Jendela Baru"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:25
+#: src/org.gnome.Ptyxis.gschema.xml.in:357 src/ptyxis-preferences-window.ui:682
+msgid "New Tab"
+msgstr "Tab Baru"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:29
+#: src/org.gnome.Ptyxis.gschema.xml.in:375 src/ptyxis-preferences-window.ui:857
+msgid "Preferences"
+msgstr "Preferensi"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:7
+msgid "Container-oriented terminal"
+msgstr "Terminal berorientasi kontainer"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:9
+msgid ""
+"Ptyxis is a terminal for GNOME that focuses on ease-of-use in a world of "
+"containers."
+msgstr ""
+"Ptyxis adalah terminal untuk GNOME yang berfokus pada kemudahan penggunaan "
+"di dunia kontainer."
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:13
+msgid "Features:"
+msgstr "Fitur:"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:15
+msgid ""
+"Remembers current container when opening a new tab with support for podman, "
+"toolbox, distrobox, and more"
+msgstr ""
+"Mengingat container saat ini saat membuka tab baru dengan dukungan untuk "
+"podman, toolbox, distrobox, dan lainnya"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:16
+msgid "Configurable keyboard shortcuts"
+msgstr "Pintasan papan ketik yang dapat dikonfigurasi"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:17
+msgid "Modern interface which integrates the palette with the window styling"
+msgstr "Antarmuka modern yang mengintegrasikan palet dengan gaya jendela"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:18
+msgid "User-installable color palettes"
+msgstr "Palet warna yang dapat dipasang pengguna"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:19
+msgid "Support for preferences profiles with container integration"
+msgstr "Dukungan untuk profil preferensi dengan integrasi kontainer"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:20
+msgid "Integrated color palettes with light and dark support"
+msgstr "Palet warna terintegrasi dengan dukungan terang dan gelap"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:21
+msgid "Tabbed interface with tab overviews"
+msgstr "Antarmuka tab dengan gambaran umum tab"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:22
+msgid "Efficient foreground process tracking denoting sudo and SSH"
+msgstr "Pelacakan proses latar depan yang efisien menunjukkan sudo dan SSH"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:23
+msgid "Support for transparent terminal backgrounds"
+msgstr "Dukungan untuk latar belakang terminal transparan"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:24
+msgid "Separate process mode for terminal-based applications"
+msgstr "Mode proses terpisah untuk aplikasi berbasis terminal"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:25
+msgid "Support for pinned tabs and saved sessions"
+msgstr "Dukungan untuk tab yang disematkan dan sesi yang disimpan"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:26
+msgid "Terminal tabs are run within separate cgroups"
+msgstr "Tab terminal dijalankan dalam cgroup terpisah"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:27
+msgid "Terminal inspector to help when writing terminal-based applications"
+msgstr ""
+"Inspektur terminal untuk membantu saat menulis aplikasi berbasis terminal"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:52
+msgid "A column and row size indicator is displayed when resizing the window"
+msgstr ""
+"Indikator ukuran kolom dan baris ditampilkan saat mengubah ukuran jendela"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:57
+msgid "Containers are automatically discovered and displayed"
+msgstr "Kontainer ditemukan dan ditampilkan secara otomatis"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:62
+msgid "Many behaviors of the terminal may be tweaked to user preference"
+msgstr "Banyak perilaku terminal dapat disesuaikan dengan preferensi pengguna"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:67
+msgid "You may rename a tab by providing a prefix to the title"
+msgstr "Anda dapat mengganti nama tab dengan memberikan awalan pada judul"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:72
+msgid "Palettes provide an integrated dark mode"
+msgstr "Palet menyediakan mode gelap terintegrasi"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:77
+msgid "You can see an overview of your tabs at any time"
+msgstr "Anda dapat melihat ringkasan tab Anda kapan saja"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:82
+msgid "Many shortcuts may be remapped to user preference"
+msgstr "Banyak pintasan dapat dipetakan ulang ke preferensi pengguna"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:87
+msgid "Built-in color palettes provide both dark and light mode variants"
+msgstr "Palet warna bawaan menyediakan varian mode gelap dan terang"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:92
+msgid ""
+"Profiles allow for overriding a number of features such as default container"
+msgstr ""
+"Profil memungkinkan untuk mengganti sejumlah fitur seperti kontainer baku"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:97
+msgid "The terminal will remind you when you're root on the local system"
+msgstr ""
+"Terminal akan mengingatkan Anda saat Anda sebagai root pada sistem lokal"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:102
+msgid "The terminal will remind you when you're on a remote system"
+msgstr "Terminal akan mengingatkan Anda saat Anda berada di sistem jarak jauh"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:95
+msgid "Default Profile UUID"
+msgstr "UUID Profil Baku"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:96
+msgid "The UUID of the default profile"
+msgstr "UUID dari profil baku"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:101
+msgid "UUIDs of all Profiles"
+msgstr "UUID dari semua Profil"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:102
+msgid "A list of UUID for every profile"
+msgstr "Daftar UUID untuk setiap profil"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:107 src/ptyxis-preferences-window.ui:299
+msgid "New Tab Position"
+msgstr "Posisi Tab Baru"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:108
+msgid "Where to place new tabs"
+msgstr "Di mana menempatkan tab baru"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:113 src/ptyxis-preferences-window.ui:391
+msgid "Audible Bell"
+msgstr "Bel Bersuara"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:114
+msgid "If an audible bell should be used"
+msgstr "Jika bel yang bersuara harus digunakan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:119
+msgid "Visible Bell"
+msgstr "Bel Terlihat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:120
+msgid "If a visual bell should be used"
+msgstr "Jika bel visual harus digunakan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:125
+msgid "Visual Process Leader"
+msgstr "Pemimpin Proses Visual"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:126
+msgid ""
+"Display a visual window highlight when process leader is SSH, sudo, or other "
+"specialized tooling"
+msgstr ""
+"Menampilkan sorotan jendela visual saat pemimpin proses adalah SSH, sudo, "
+"atau perkakas khusus lainnya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:131
+msgid "Use System Font"
+msgstr "Memakai Fonta Sistem"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:132
+msgid "If the default system monospace font should be used"
+msgstr "Bila fonta monospace sistem baku mesti dipakai"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:137
+msgid "Font Name"
+msgstr "Nama Fonta"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:138
+msgid "The font description to use if use-system-font is set to False"
+msgstr ""
+"Deskripsi fonta yang akan digunakan jika use-system-font diatur ke False"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:143 src/ptyxis-preferences-window.ui:226
+msgid "Cursor Shape"
+msgstr "Bentuk Kursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:144
+msgid "The default shape of the cursor"
+msgstr "Bentuk baku kursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:149
+msgid "Cursor Blink Mode"
+msgstr "Mode Berkedip Kursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:150
+msgid "The default blink mode cursor"
+msgstr "Kursor mode berkedip baku"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:155
+msgid "Scrollbar Policy"
+msgstr "Kebijakan Bilah Gulir"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:156
+msgid "If scrollbars should be displayed"
+msgstr "Jika bilah gulir harus ditampilkan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:161
+msgid "Text Blink Mode"
+msgstr "Mode Berkedip Teks"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:162
+msgid "When text blinking is allowed"
+msgstr "Saat teks berkedip diizinkan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:167
+msgid "Interface Style"
+msgstr "Gaya Antarmuka"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:168
+msgid "If light or dark interface style should be used"
+msgstr "Jika gaya antarmuka terang atau gelap harus digunakan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:173 src/ptyxis-preferences-window.ui:328
+msgid "Restore Session"
+msgstr "Memulihkan Sesi"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:174
+msgid "Restore tabs from previous session when starting Ptyxis"
+msgstr "Memulihkan tab dari sesi sebelumnya saat memulai Ptyxis"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:179 src/ptyxis-preferences-window.ui:334
+msgid "Restore Window Size"
+msgstr "Pulihkan Ukuran Jendela"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:180
+msgid "Restore the previous window size when creating new windows"
+msgstr "Memulihkan ukuran jendela sebelumnya saat membuat jendela baru"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:190
+msgid "Default Column Size"
+msgstr "Ukuran Kolom Baku"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:191
+#: src/org.gnome.Ptyxis.gschema.xml.in:198
+msgid "Default window size when restore-window-size is not true."
+msgstr "Ukuran jendela baku ketika restore-window-size bukan true."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:197
+msgid "Default Row Size"
+msgstr "Ukuran Baris Baku"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:203
+msgid "Toast on Copy Clipboard"
+msgstr "Toast di Salin Papan Klip"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:204
+msgid "Show the user when text has copied to the clipboard."
+msgstr "Perlihatkan kepada pengguna saat teks telah disalin ke papan klip."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:209
+msgid "Enable Accessibility"
+msgstr "Fungsikan Aksesibilitas"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:210
+msgid ""
+"Currently experimental feature to send accessibility information to screen "
+"readers."
+msgstr ""
+"Saat ini fitur eksperimental untuk mengirim informasi aksesibilitas ke "
+"pembaca layar."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:215
+msgid "Disable Padding around Terminal Emulator"
+msgstr "Nonaktifkan Padding di sekitar Emulator Terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:216
+msgid ""
+"Do not pad around the terminal emulator widget. Setting to true may have "
+"significant performance impacts."
+msgstr ""
+"Jangan melapisi di sekitar widget emulator terminal. Pengaturan ke true "
+"mungkin memiliki dampak kinerja yang signifikan."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:225
+msgid "Label"
+msgstr "Label"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:226
+msgid "The label for the profile"
+msgstr "Label untuk profil"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:231
+msgid "Login Shell"
+msgstr "Shell Log Masuk"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:232
+msgid "Use a login shell"
+msgstr "Gunakan shell log masuk"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:237 src/ptyxis-preferences-window.ui:459
+#: src/ptyxis-profile-editor.ui:301
+msgid "Limit Scrollback"
+msgstr "Batasi Gulir Balik"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:238
+msgid "Limit the number of lines to keep for scrollback"
+msgstr "Batasi cacah baris yang harus disimpan untuk gulir balik"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:244 src/ptyxis-preferences-window.ui:468
+#: src/ptyxis-profile-editor.ui:310
+msgid "Scrollback Lines"
+msgstr "Baris Gulir Balik"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:245
+msgid "The number of lines to keep in the scrollback, zero for no scrollback"
+msgstr ""
+"Cacah baris yang harus disimpan dalam gulir balik, nol untuk tidak ada gulir "
+"balik"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:250 src/ptyxis-preferences-window.ui:449
+#: src/ptyxis-profile-editor.ui:291
+msgid "Scroll on Output"
+msgstr "Gulir Saat Ada Keluaran"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:251
+msgid "Scroll to the bottom upon new output"
+msgstr "Gulir ke dasar saat ada keluaran baru"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:256 src/ptyxis-preferences-window.ui:443
+#: src/ptyxis-profile-editor.ui:285
+msgid "Scroll on Keystroke"
+msgstr "Gulir Saat Tombol Ditekan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:257
+msgid "Scroll to the bottom upon user keystroke"
+msgstr "Gulir ke dasar saat pengguna menekan tombol"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:262 src/ptyxis-profile-editor.ui:155
+msgid "Use Custom Command"
+msgstr "Gunakan Perintah Ubahan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:263
+msgid "If a custom command should be used"
+msgstr "Jika perintah ubahan harus digunakan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:268
+msgid "Use Proxy"
+msgstr "Gunakan Proksi"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:269
+msgid "Apply proxy settings from the host in the container"
+msgstr "Terapkan pengaturan proksi dari host di kontainer"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:274 src/ptyxis-profile-editor.ui:160
+msgid "Custom Command"
+msgstr "Perintah Ubahan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:275
+msgid "A custom command for the shell"
+msgstr "Perintah ubahan untuk shell"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:280 src/ptyxis-profile-editor.ui:179
+msgid "Default Container"
+msgstr "Kontainer Baku"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:281
+msgid "The default container to run the command in"
+msgstr "Kontainer baku tempat menjalankan perintah"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:286 src/ptyxis-profile-editor.ui:188
+msgid "Preserve Container"
+msgstr "Lestarikan Kontainer"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:287
+msgid "Preserve the active container when creating new tabs and windows"
+msgstr "Lestarikan kontainer aktif saat membuat tab dan jendela baru"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:292 src/ptyxis-preferences-window.ui:528
+#: src/ptyxis-profile-editor.ui:249
+msgid "Exit Action"
+msgstr "Aksi Keluar"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:293
+msgid "The action to take when the shell exits"
+msgstr "Tindakan yang harus diambil saat shell keluar"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:298
+msgid "Preserve Directory"
+msgstr "Lestarikan Direktori"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:299
+msgid "If the directory should be preserved for new terminals"
+msgstr "Jika direktori harus dipertahankan untuk terminal baru"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:304 src/ptyxis-inspector.ui:102
+#: src/ptyxis-preferences-window.ui:40 src/ptyxis-profile-editor.ui:65
+msgid "Palette"
+msgstr "Palet"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:305
+msgid "The color palette to use for the profile, by name"
+msgstr "Palet warna yang akan digunakan untuk profil, berdasarkan nama"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:311
+msgid "Opacity"
+msgstr "Kelegapan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:312
+msgid "The opacity of the palette background"
+msgstr "Kelegapan latar belakang palet"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:317
+msgid "Bold is Bright"
+msgstr "Tebal itu Cerah"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:318
+msgid ""
+"Setting bold on one of the lower 8 colors in the palette will use bright "
+"variant (upper 8 colors)"
+msgstr ""
+"Mengatur tebal pada salah satu dari 8 warna bawah dalam palet akan "
+"menggunakan varian cerah (8 warna atas)"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:323
+msgid "CJK Ambiguous Width"
+msgstr "Lebar Ambigu CJK"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:324
+msgid "The size to apply to ambiguous width characters"
+msgstr "Ukuran yang akan diterapkan pada karakter lebar ambigu"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:329
+#: src/org.gnome.Ptyxis.gschema.xml.in:335
+msgid "Backspace Binding"
+msgstr "Pengikatan Backspace"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:330
+#: src/org.gnome.Ptyxis.gschema.xml.in:336
+msgid "What to send to the PTY when a backspace is entered"
+msgstr "Apa yang harus dikirim ke PTY saat backspace dimasukkan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:345 src/ptyxis-preferences-window.ui:621
+msgid "Copy to Clipboard"
+msgstr "Salin ke Papan Klip"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:346
+msgid "The shortcut to copy to clipboard"
+msgstr "Pintasan untuk menyalin ke papan klip"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:351 src/ptyxis-preferences-window.ui:626
+msgid "Paste from Clipboard"
+msgstr "Tempel dari Papan Klip"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:352
+msgid "The shortcut to paste from the clipboard"
+msgstr "Pintasan untuk menempelkan dari papan klip"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:358
+msgid "The shortcut to create a new tab in the current window"
+msgstr "Pintasan untuk membuat tab baru di jendela saat ini"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:364
+msgid "The shortcut to create a new tab in a new window"
+msgstr "Pintasan untuk membuat tab baru di jendela baru"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:369
+msgid "Tab Overview"
+msgstr "Ikhtisar Tab"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:370
+msgid "The shortcut to show the tab overview"
+msgstr "Pintasan untuk menampilkan ringkasan tab"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:376
+msgid "The shortcut to show application preferences"
+msgstr "Pintasan untuk menampilkan preferensi aplikasi"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:381 src/ptyxis-preferences-window.ui:826
+#: src/ptyxis-window.c:1244 src/ptyxis-window.c:1252
+msgid "Zoom Out"
+msgstr "Perkecil"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:382
+msgid "The shortcut to zoom out"
+msgstr "Pintasan untuk memperkecil"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:387 src/ptyxis-preferences-window.ui:831
+#: src/ptyxis-window.c:1261
+msgid "Reset Zoom"
+msgstr "Atur Ulang Zum"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:388
+msgid "The shortcut to reset zoom"
+msgstr "Pintasan untuk mengatur ulang zum"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:393 src/ptyxis-preferences-window.ui:821
+#: src/ptyxis-window.c:1229 src/ptyxis-window.c:1237
+msgid "Zoom In"
+msgstr "Perbesar"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:394
+msgid "The shortcut to zoom in"
+msgstr "Pintasan untuk memperbesar"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:399 src/ptyxis-preferences-window.ui:841
+msgid "Toggle Fullscreen"
+msgstr "Jungkitkan Layar Penuh"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:400
+msgid "The shortcut to toggle fullscreen"
+msgstr "Pintasan untuk menjungkit layar penuh"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:405
+msgid "Reset Terminal"
+msgstr "Atur Ulang Terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:406
+msgid "Reset the terminal state for misbehaving clients"
+msgstr "Atur ulang status terminal untuk klien yang berperilaku buruk"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:411
+msgid "Reset Terminal and Clear History"
+msgstr "Atur Ulang Terminal dan Hapus Riwayat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:412
+msgid "Reset the terminal state and clear history for misbehaving clients"
+msgstr ""
+"Atur ulang status terminal dan hapus riwayat untuk klien yang berperilaku "
+"buruk"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:417 src/ptyxis-find-bar.ui:38
+#: src/ptyxis-preferences-window.ui:663
+msgid "Search History"
+msgstr "Riwayat Pencarian"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:418
+msgid "Shortcut to begin searching the terminal history"
+msgstr "Pintasan untuk mulai mencari riwayat terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:423 src/ptyxis-preferences-window.ui:635
+msgid "Select All"
+msgstr "Pilih Semua"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:424
+msgid "Shortcut to select all the entire terminal scrollback"
+msgstr "Pintasan untuk memilih seluruh gulir balik terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:429
+msgid "Select None"
+msgstr "Tiada Pilihan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:430
+msgid "Shortcut to clear the terminal selection"
+msgstr "Pintasan untuk menghapus pilihan terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:435
+msgid "Popup Menu"
+msgstr "Menu Popup"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:436
+msgid "Shortcut to show the popup menu for the terminal"
+msgstr "Pintasan untuk menampilkan menu popup bagi terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:441
+msgid "Primary Menu"
+msgstr "Menu Primer"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:442
+msgid "Shortcut to show the primary menu for the window"
+msgstr "Pintasan untuk menampilkan menu utama bagi jendela"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:447 src/ptyxis-preferences-window.ui:730
+msgid "Move to Previous Tab"
+msgstr "Pindah ke Tab Sebelumnya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:448
+msgid "Shortcut to move to the previous tab"
+msgstr "Pintasan untuk pindah ke tab sebelumnya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:453 src/ptyxis-preferences-window.ui:735
+msgid "Move to Next Tab"
+msgstr "Pindah ke Tab Berikutnya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:454
+msgid "Shortcut to move to the next tab"
+msgstr "Pintasan untuk pindah ke tab berikutnya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:459 src/ptyxis-preferences-window.ui:744
+msgid "Move Tab Left"
+msgstr "Pindahkan Tab ke Kiri"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:460
+msgid "Shortcut to move the current tab to the left one position"
+msgstr "Pintasan untuk memindahkan tab saat ini ke kiri satu posisi"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:465 src/ptyxis-preferences-window.ui:750
+msgid "Move Tab Right"
+msgstr "Pindahkan Tab ke Kanan"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:466
+msgid "Shortcut to move the current tab to the right one position"
+msgstr "Pintasan untuk memindahkan tab saat ini ke kanan satu posisi"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:471 src/ptyxis-preferences-window.ui:756
+msgid "Move Tab to New Window"
+msgstr "Pindahkan Tab ke Jendela Baru"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:472
+msgid "Shortcut to move the current tab into a new window"
+msgstr "Pintasan untuk memindahkan tab saat ini ke jendela baru"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:477 src/ptyxis-preferences-window.ui:708
+msgid "Close Tab"
+msgstr "Tutup Tab"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:478
+msgid "Shortcut to close the current tab"
+msgstr "Pintasan untuk menutup tab saat ini"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:483 src/ptyxis-preferences-window.ui:714
+msgid "Close Other Tabs"
+msgstr "Tutup Tab Lainnya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:484
+msgid "Shortcut to close all tabs in the window but the current one"
+msgstr "Pintasan untuk menutup semua tab di jendela kecuali yang saat ini"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:489
+msgid "Focus Tab 1"
+msgstr "Fokus Tab 1"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:490
+msgid "Shortcut to focus tab 1"
+msgstr "Pintasan ke fokus tab 1"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:495
+msgid "Focus Tab 2"
+msgstr "Fokus Tab 2"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:496
+msgid "Shortcut to focus tab 2"
+msgstr "Pintasan ke fokus tab 2"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:501
+msgid "Focus Tab 3"
+msgstr "Fokus Tab 3"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:502
+msgid "Shortcut to focus tab 3"
+msgstr "Pintasan ke fokus tab 3"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:507
+msgid "Focus Tab 4"
+msgstr "Fokus Tab 4"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:508
+msgid "Shortcut to focus tab 4"
+msgstr "Pintasan ke fokus tab 4"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:513
+msgid "Focus Tab 5"
+msgstr "Fokus Tab 5"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:514
+msgid "Shortcut to focus tab 5"
+msgstr "Pintasan ke fokus tab 5"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:519
+msgid "Focus Tab 6"
+msgstr "Fokus Tab 6"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:520
+msgid "Shortcut to focus tab 6"
+msgstr "Pintasan ke fokus tab 6"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:525
+msgid "Focus Tab 7"
+msgstr "Fokus Tab 7"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:526
+msgid "Shortcut to focus tab 7"
+msgstr "Pintasan ke fokus tab 7"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:531
+msgid "Focus Tab 8"
+msgstr "Fokus Tab 8"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:532
+msgid "Shortcut to focus tab 8"
+msgstr "Pintasan ke fokus tab 8"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:537
+msgid "Focus Tab 9"
+msgstr "Fokus Tab 9"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:538
+msgid "Shortcut to focus tab 9"
+msgstr "Pintasan ke fokus tab 9"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:543
+msgid "Focus Tab 10"
+msgstr "Fokus Tab 10"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:544
+msgid "Shortcut to focus tab 10"
+msgstr "Pintasan ke fokus tab 10"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:549 src/ptyxis-preferences-window.ui:720
+msgid "Undo Close Tab"
+msgstr "Batalkan Tutup Tab"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:550
+msgid "Undo closing of last tab"
+msgstr "Batalkan penutupan tab terakhir"
+
+#: src/ptyxis-application.c:332
+msgid "--tab, --tab-with-profile, or --new-window may not be used together"
+msgstr ""
+"--tab, --tab-with-profile, atau --new-window tidak boleh digunakan bersama"
+
+#: src/ptyxis-application.c:378
+#, c-format
+msgid "Cannot parse command: %s"
+msgstr "Tidak bisa mengurai perintah: %s"
+
+#: src/ptyxis-application.c:905
+msgid "Examples:"
+msgstr "Contoh:"
+
+#: src/ptyxis-application.c:907
+msgid "Show the application preferences"
+msgstr "Menampilkan preferensi aplikasi"
+
+#. Used for new tabs/windows/etc when specified
+#: src/ptyxis-application.c:910
+msgid "Use DIR for --tab, --tab-with-profile, --new-window, or -x"
+msgstr "Gunakan DIR untuk --tab, --tab-with-profile, --new-window, atau -x"
+
+#: src/ptyxis-application.c:910
+msgid "DIR"
+msgstr "DIR"
+
+#. By default, this implies a new ptyxis instance unless the options
+#. * below are provided to override that.
+#.
+#: src/ptyxis-application.c:915
+msgid "Command to execute in new window"
+msgstr "Perintah untuk dijalankan di jendela baru"
+
+#. These options all imply we're using a shared Ptyxis instance. We do not support
+#. * short command options for these to make it easier to sniff them in early args
+#. * checking from `main.c`.
+#.
+#: src/ptyxis-application.c:921
+msgid "New terminal window"
+msgstr "Jendela terminal baru"
+
+#: src/ptyxis-application.c:922
+msgid "New terminal tab in active window"
+msgstr "Tab terminal baru di jendela aktif"
+
+#: src/ptyxis-application.c:923
+msgid "New terminal tab in active window using PROFILE"
+msgstr "Tab terminal baru di jendela aktif menggunakan PROFIL"
+
+#: src/ptyxis-application.c:923
+msgid "PROFILE"
+msgstr "PROFIL"
+
+#: src/ptyxis-application.c:925
+msgid "Set title for new tab"
+msgstr "Atur judul untuk tab baru"
+
+#: src/ptyxis-application.c:932
+msgid "Run Separate Instance"
+msgstr "Jalankan Instansi Terpisah"
+
+#: src/ptyxis-application.c:936
+msgid "Open Preferences"
+msgstr "Buka Preferensi"
+
+#: src/ptyxis-application.c:940
+msgid "Run Custom Command in New Window"
+msgstr "Jalankan Perintah Ubahan di Jendela Baru"
+
+#: src/ptyxis-application.c:944
+msgid "[-- COMMAND ARGUMENTS]"
+msgstr "[-- PERINTAH ARGUMEN]"
+
+#: src/ptyxis-application.c:1182
+msgid "translator-credits"
+msgstr "Andika Triwidada <andika@gmail.com>, 2024."
+
+#: src/ptyxis-close-dialog.c:110
+msgid "_Close"
+msgstr "_Tutup"
+
+#: src/ptyxis-close-dialog.c:110
+msgid "_Close All"
+msgstr "_Tutup Semua"
+
+#: src/ptyxis-close-dialog.c:112
+msgid "Close Window?"
+msgstr "Tutup Jendela?"
+
+#: src/ptyxis-close-dialog.c:113
+msgid "Some processes are still running."
+msgstr "Beberapa proses masih berjalan."
+
+#: src/ptyxis-close-dialog.c:117
+msgid "_Cancel"
+msgstr "_Batal"
+
+#: src/ptyxis-close-dialog.c:147
+#, c-format
+msgid "Process %d"
+msgstr "Proses %d"
+
+#: src/ptyxis-container-menu.c:101
+msgid "Unknown Container"
+msgstr "Kontainer Tidak Dikenal"
+
+#: src/ptyxis-find-bar.ui:68
+msgid "Search up to next result"
+msgstr "Cari naik hingga hasil berikutnya"
+
+#: src/ptyxis-find-bar.ui:75
+msgid "Search down to next result"
+msgstr "Cari turun hingga hasil berikutnya"
+
+#: src/ptyxis-find-bar.ui:84
+msgid "Search Options"
+msgstr "Opsi Pencarian"
+
+#: src/ptyxis-find-bar.ui:95
+msgid "Match _Case"
+msgstr "_Cocok Huruf Besar/Kecil"
+
+#: src/ptyxis-find-bar.ui:101
+msgid "Whole _Words"
+msgstr "Seluruh _Kata"
+
+#: src/ptyxis-find-bar.ui:107
+msgid "Use _Regular Expressions"
+msgstr "Gunakan Ekspresi _Regular"
+
+#: src/ptyxis-find-bar.ui:127 src/ptyxis-preferences-window.ui:549
+#: src/ptyxis-profile-editor.ui:270
+msgid "Close"
+msgstr "Tutup"
+
+#: src/ptyxis-find-bar.ui:128
+msgid "Close the search bar"
+msgstr "Tutup bilah pencarian"
+
+#: src/ptyxis-inspector.c:95 src/ptyxis-inspector.c:357
+msgid "unset"
+msgstr "tak ditata"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Row"
+msgstr "Baris"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Column"
+msgstr "Kolom"
+
+#. NOTE: If we are in a container that also supports VTE patches
+#. * then it will send shell-precmd via escape sequences. The reality
+#. * is that our foreground is the `toolbox enter` process (until we
+#. * have better patches in VTE) but we show "Shell" instead.
+#. *
+#. * This is fine for now, but I'd like it to be better and actually
+#. * show the proper `tcgetpgrp()` foreground.
+#.
+#: src/ptyxis-inspector.c:177 src/ptyxis-inspector.c:197
+#: src/ptyxis-preferences-window.ui:485 src/ptyxis-profile-editor.ui:152
+msgid "Shell"
+msgstr "Shell"
+
+#: src/ptyxis-inspector.c:276
+msgid "untracked"
+msgstr "tak dilacak"
+
+#: src/ptyxis-inspector.ui:4
+msgid "Inspector"
+msgstr "Pemeriksa"
+
+#: src/ptyxis-inspector.ui:7
+msgid "Process"
+msgstr "Proses"
+
+#: src/ptyxis-inspector.ui:13
+msgid "Foreground Process"
+msgstr "Proses Latar Depan"
+
+#: src/ptyxis-inspector.ui:33
+msgid "Window Title"
+msgstr "Judul Jendela"
+
+#: src/ptyxis-inspector.ui:45
+msgid "Current Directory"
+msgstr "Direktori Saat Ini"
+
+#: src/ptyxis-inspector.ui:53
+msgid "Current File"
+msgstr "Berkas Saat Ini"
+
+#: src/ptyxis-inspector.ui:63
+msgid "Container"
+msgstr "Kontainer"
+
+#: src/ptyxis-inspector.ui:66
+msgid "Runtime"
+msgstr "Runtime"
+
+#: src/ptyxis-inspector.ui:74 src/ptyxis-inspector.ui:228
+#: src/ptyxis-profile-editor.ui:36
+msgid "Name"
+msgstr "Nama"
+
+#: src/ptyxis-inspector.ui:86 src/ptyxis-preferences-window.ui:36
+msgid "Appearance"
+msgstr "Penampilan"
+
+#: src/ptyxis-inspector.ui:92
+msgid "Grid Size"
+msgstr "Ukuran Kisi"
+
+#: src/ptyxis-inspector.ui:105
+msgid "Colors"
+msgstr "Warna"
+
+#: src/ptyxis-inspector.ui:225 src/ptyxis-preferences-window.ui:130
+msgid "Font"
+msgstr "Fonta"
+
+#: src/ptyxis-inspector.ui:233
+msgid "Cell Size"
+msgstr "Ukuran Sel"
+
+#: src/ptyxis-inspector.ui:242
+msgid "Input"
+msgstr "Masukan"
+
+#: src/ptyxis-inspector.ui:246 src/ptyxis-preferences-window.ui:223
+msgid "Cursor"
+msgstr "Kursor"
+
+#: src/ptyxis-inspector.ui:249 src/ptyxis-inspector.ui:262
+msgid "Position"
+msgstr "Posisi"
+
+#: src/ptyxis-inspector.ui:259
+msgid "Mouse"
+msgstr "Tetikus"
+
+#: src/ptyxis-inspector.ui:270
+msgid "Hyperlink"
+msgstr "Pranala"
+
+#: src/ptyxis-palette-preview.ui:12
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "The quick brown fox jumps over the lazy dog"
+
+#: src/ptyxis-preferences-window.c:248
+msgid "Select Font"
+msgstr "Pilih Fonta"
+
+#: src/ptyxis-preferences-window.c:323
+msgid "Show Fewer Palettes"
+msgstr "Tampilkan Lebih Sedikit Palet"
+
+#: src/ptyxis-preferences-window.c:328 src/ptyxis-preferences-window.ui:46
+msgid "Show All Palettes"
+msgstr "Tampilkan Semua Palet"
+
+#: src/ptyxis-preferences-window.ui:72 src/ptyxis-profile-editor.ui:74
+msgid "Transparency"
+msgstr "Transparansi"
+
+#: src/ptyxis-preferences-window.ui:73 src/ptyxis-profile-editor.ui:75
+msgid "Reduces the opacity of the background window"
+msgstr "Mengurangi kelegapan jendela latar belakang"
+
+#: src/ptyxis-preferences-window.ui:134
+msgid "Use System _Font"
+msgstr "Memakai _Fonta Sistem"
+
+#: src/ptyxis-preferences-window.ui:146
+msgid "Custom Font"
+msgstr "Fonta Ubahan"
+
+#: src/ptyxis-preferences-window.ui:175 src/ptyxis-profile-editor.ui:134
+msgid "Use Bright Colors for Bold"
+msgstr "Gunakan Warna Cerah untuk Tebal"
+
+#: src/ptyxis-preferences-window.ui:184
+msgid "Blinking Text"
+msgstr "Teks Berkedip"
+
+#: src/ptyxis-preferences-window.ui:193 src/ptyxis-preferences-window.ui:417
+#: src/ptyxis-preferences-window.ui:506 src/ptyxis-profile-editor.ui:198
+#: src/ptyxis-profile-editor.ui:227
+msgid "Never"
+msgstr "Tak Pernah"
+
+#: src/ptyxis-preferences-window.ui:199
+msgid "Focused"
+msgstr "Terfokus"
+
+#: src/ptyxis-preferences-window.ui:205
+msgid "Unfocused"
+msgstr "Tak terfokus"
+
+#: src/ptyxis-preferences-window.ui:211 src/ptyxis-preferences-window.ui:429
+#: src/ptyxis-preferences-window.ui:518 src/ptyxis-profile-editor.ui:204
+#: src/ptyxis-profile-editor.ui:239
+msgid "Always"
+msgstr "Selalu"
+
+#: src/ptyxis-preferences-window.ui:235
+msgid "Block"
+msgstr "Blok"
+
+#: src/ptyxis-preferences-window.ui:241
+msgid "I-Beam"
+msgstr "Batang-I"
+
+#: src/ptyxis-preferences-window.ui:247
+msgid "Underline"
+msgstr "Garis bawah"
+
+#: src/ptyxis-preferences-window.ui:257
+msgid "Cursor Blinking"
+msgstr "Kursor Berkedip"
+
+#: src/ptyxis-preferences-window.ui:266 src/ptyxis-preferences-window.ui:423
+msgid "Follow System"
+msgstr "Ikuti Sistem"
+
+#: src/ptyxis-preferences-window.ui:272
+msgid "Enabled"
+msgstr "Difungsikan"
+
+#: src/ptyxis-preferences-window.ui:278
+msgid "Disabled"
+msgstr "Dinonaktifkan"
+
+#: src/ptyxis-preferences-window.ui:292
+msgid "Behavior"
+msgstr "Perilaku"
+
+#: src/ptyxis-preferences-window.ui:296
+msgid "Interface"
+msgstr "Antarmuka"
+
+#: src/ptyxis-preferences-window.ui:308
+msgid "Next"
+msgstr "Selanjutnya"
+
+#: src/ptyxis-preferences-window.ui:314
+msgid "Last"
+msgstr "Terakhir"
+
+#: src/ptyxis-preferences-window.ui:329
+msgid "Attempt to restore previous tabs when Ptyxis starts"
+msgstr "Mencoba memulihkan tab-tab sebelumnya saat Ptyxis dimulai"
+
+#: src/ptyxis-preferences-window.ui:335
+msgid "Restore the previous window size when creating a new window"
+msgstr "Memulihkan ukuran jendela sebelumnya saat membuat jendela baru"
+
+#: src/ptyxis-preferences-window.ui:345
+msgid "Columns"
+msgstr "Kolom"
+
+#: src/ptyxis-preferences-window.ui:359
+msgid "Rows"
+msgstr "Baris"
+
+#: src/ptyxis-preferences-window.ui:377
+msgid "Accessibility"
+msgstr "Aksesibilitas"
+
+#: src/ptyxis-preferences-window.ui:380
+msgid "Allow Screen Readers"
+msgstr "Izinkan Pembaca Layar"
+
+#: src/ptyxis-preferences-window.ui:381
+msgid ""
+"Permit screen readers such as Orca to read terminal content and typed text"
+msgstr ""
+"Izinkan pembaca layar seperti Orca untuk membaca konten terminal dan teks "
+"yang diketik"
+
+#: src/ptyxis-preferences-window.ui:388
+msgid "Bell"
+msgstr "Bel"
+
+#: src/ptyxis-preferences-window.ui:392
+msgid "Emit an audible bell when requested by active tab"
+msgstr "Bunyikan bel bersuara saat diminta oleh tab aktif"
+
+#: src/ptyxis-preferences-window.ui:397
+msgid "Visual Bell"
+msgstr "Bel Visual"
+
+#: src/ptyxis-preferences-window.ui:398
+msgid "Emit a visual bell when requested by active tab"
+msgstr "Bunyikan bel visual saat diminta oleh tab aktif"
+
+#: src/ptyxis-preferences-window.ui:405 src/ptyxis-profile-editor.ui:282
+msgid "Scrolling"
+msgstr "Menggulir"
+
+#: src/ptyxis-preferences-window.ui:408
+msgid "Use Scrollbars"
+msgstr "Gunakan Bilah Gulir"
+
+#: src/ptyxis-preferences-window.ui:444 src/ptyxis-profile-editor.ui:286
+msgid "Scroll to the bottom upon input keystroke"
+msgstr "Gulir ke dasar saat penekanan tombol"
+
+#: src/ptyxis-preferences-window.ui:450 src/ptyxis-profile-editor.ui:292
+msgid "Scroll to the bottom when new content is available"
+msgstr "Gulir ke dasar saat konten baru tersedia"
+
+#: src/ptyxis-preferences-window.ui:460 src/ptyxis-profile-editor.ui:302
+msgid "Restrict the number of lines saved for scrollback"
+msgstr "Batasi cacah baris yang disimpan untuk gulir balik"
+
+#: src/ptyxis-preferences-window.ui:469 src/ptyxis-profile-editor.ui:311
+msgid "The number of lines to keep for scrollback"
+msgstr "Cacah baris yang disimpan untuk gulir balik"
+
+#: src/ptyxis-preferences-window.ui:488 src/ptyxis-profile-editor.ui:170
+msgid "Use Login Shell"
+msgstr "Gunakan Shell Log Masuk"
+
+#: src/ptyxis-preferences-window.ui:497 src/ptyxis-profile-editor.ui:218
+msgid "Preserve Working Directory"
+msgstr "Pertahankan Direktori Kerja"
+
+#: src/ptyxis-preferences-window.ui:512 src/ptyxis-profile-editor.ui:233
+msgid "Safe"
+msgstr "Aman"
+
+#: src/ptyxis-preferences-window.ui:537 src/ptyxis-profile-editor.ui:258
+msgid "No Action"
+msgstr "Tanpa Aksi"
+
+#: src/ptyxis-preferences-window.ui:543 src/ptyxis-profile-editor.ui:264
+msgid "Restart"
+msgstr "Mulai Ulang"
+
+#: src/ptyxis-preferences-window.ui:561 src/ptyxis-profile-editor.ui:327
+msgid "Compatibility"
+msgstr "Kompatibilitas"
+
+#: src/ptyxis-preferences-window.ui:564 src/ptyxis-profile-editor.ui:330
+msgid "Backspace Key"
+msgstr "Tombol Backspace"
+
+#: src/ptyxis-preferences-window.ui:565 src/ptyxis-profile-editor.ui:331
+msgid "Sequence to send for Backspace key"
+msgstr "Urutan yang akan dikirim untuk tombol Backspace"
+
+#: src/ptyxis-preferences-window.ui:574 src/ptyxis-profile-editor.ui:340
+msgid "Delete Key"
+msgstr "Tombol Hapus"
+
+#: src/ptyxis-preferences-window.ui:575 src/ptyxis-profile-editor.ui:341
+msgid "Sequence to send for Delete key"
+msgstr "Urutan yang akan dikirim untuk tombol Delete"
+
+#: src/ptyxis-preferences-window.ui:584 src/ptyxis-profile-editor.ui:350
+msgid "Ambiguous-width Characters"
+msgstr "Karakter Lebar Ambigu"
+
+#: src/ptyxis-preferences-window.ui:593 src/ptyxis-profile-editor.ui:359
+msgid "Narrow"
+msgstr "Sempit"
+
+#: src/ptyxis-preferences-window.ui:599 src/ptyxis-profile-editor.ui:365
+msgid "Wide"
+msgstr "Lebar"
+
+#: src/ptyxis-preferences-window.ui:614
+msgid "Shortcuts"
+msgstr "Pintasan"
+
+#: src/ptyxis-preferences-window.ui:640
+msgid "Clear Selection"
+msgstr "Bersihkan Pilihan"
+
+#: src/ptyxis-preferences-window.ui:649 src/ptyxis-terminal.ui:224
+msgid "Reset"
+msgstr "Atur Ulang"
+
+#: src/ptyxis-preferences-window.ui:654 src/ptyxis-terminal.ui:230
+msgid "Reset and Clear"
+msgstr "Atur Ulang dan Bersihkan"
+
+#: src/ptyxis-preferences-window.ui:672
+msgid "Show Context Menu"
+msgstr "Tampilkan Menu Konteks"
+
+#: src/ptyxis-preferences-window.ui:679
+msgid "Tabs"
+msgstr "Tab"
+
+#: src/ptyxis-preferences-window.ui:683
+msgid "Open a new tab in the current window"
+msgstr "Buka tab baru di jendela saat ini"
+
+#: src/ptyxis-preferences-window.ui:689
+msgid "Open a new tab in a new window"
+msgstr "Buka tab baru di jendela baru"
+
+#: src/ptyxis-preferences-window.ui:698
+msgid "View Tab Overview"
+msgstr "Lihat Ikhtisar Tab"
+
+#: src/ptyxis-preferences-window.ui:699
+msgid "Show an overview of all tabs within the window"
+msgstr "Menampilkan gambaran umum semua tab dalam jendela"
+
+#: src/ptyxis-preferences-window.ui:709
+msgid "Close the current tab"
+msgstr "Tutup tab saat ini"
+
+#: src/ptyxis-preferences-window.ui:715
+msgid "Close all tabs except the active tab"
+msgstr "Tutup semua tab kecuali tab aktif"
+
+#: src/ptyxis-preferences-window.ui:721
+msgid "Undo closing the last tab"
+msgstr "Batalkan penutupan tab terakhir"
+
+#: src/ptyxis-preferences-window.ui:745
+msgid "Move the tab one position to the left"
+msgstr "Pindahkan tab satu posisi ke kiri"
+
+#: src/ptyxis-preferences-window.ui:751
+msgid "Move the tab one position to the right"
+msgstr "Pindahkan tab satu posisi ke kanan"
+
+#: src/ptyxis-preferences-window.ui:757
+msgid "Detach the current tab and move it to a new window"
+msgstr "Lepaskan tab saat ini dan pindahkan ke jendela baru"
+
+#: src/ptyxis-preferences-window.ui:766
+msgid "Switch to Tab 1"
+msgstr "Beralih ke Tab 1"
+
+#: src/ptyxis-preferences-window.ui:771
+msgid "Switch to Tab 2"
+msgstr "Beralih ke Tab 2"
+
+#: src/ptyxis-preferences-window.ui:776
+msgid "Switch to Tab 3"
+msgstr "Beralih ke Tab 3"
+
+#: src/ptyxis-preferences-window.ui:781
+msgid "Switch to Tab 4"
+msgstr "Beralih ke Tab 4"
+
+#: src/ptyxis-preferences-window.ui:786
+msgid "Switch to Tab 5"
+msgstr "Beralih ke Tab 5"
+
+#: src/ptyxis-preferences-window.ui:791
+msgid "Switch to Tab 6"
+msgstr "Beralih ke Tab 6"
+
+#: src/ptyxis-preferences-window.ui:796
+msgid "Switch to Tab 7"
+msgstr "Beralih ke Tab 7"
+
+#: src/ptyxis-preferences-window.ui:801
+msgid "Switch to Tab 8"
+msgstr "Beralih ke Tab 8"
+
+#: src/ptyxis-preferences-window.ui:806
+msgid "Switch to Tab 9"
+msgstr "Beralih ke Tab 9"
+
+#: src/ptyxis-preferences-window.ui:811
+msgid "Switch to Tab 10"
+msgstr "Beralih ke Tab 10"
+
+#: src/ptyxis-preferences-window.ui:818
+msgid "Zoom"
+msgstr "Zum"
+
+#: src/ptyxis-preferences-window.ui:838
+msgid "Application"
+msgstr "Aplikasi"
+
+#: src/ptyxis-preferences-window.ui:842
+msgid "Toggle in and out of fullscreen"
+msgstr "Beralih masuk dan keluar dari layar penuh"
+
+#: src/ptyxis-preferences-window.ui:851
+msgid "Show Primary Menu"
+msgstr "Perlihatkan Menu Utama"
+
+#: src/ptyxis-preferences-window.ui:852
+msgid "Displays the primary menu for the terminal window"
+msgstr "Menampilkan menu utama untuk jendela terminal"
+
+#: src/ptyxis-preferences-window.ui:858
+msgid "Show this preferences window"
+msgstr "Tampilkan jendela preferensi ini"
+
+#: src/ptyxis-preferences-window.ui:867 src/ptyxis-preferences-window.ui:871
+#: src/ptyxis-window.c:1342
+msgid "Profiles"
+msgstr "Profil"
+
+#: src/ptyxis-preferences-window.ui:878
+msgid "_Add Profile"
+msgstr "T_ambah Profil"
+
+#: src/ptyxis-preferences-window.ui:905 src/ptyxis-profile-editor.ui:397
+msgid "Automatic"
+msgstr "Otomatis"
+
+#: src/ptyxis-preferences-window.ui:911 src/ptyxis-profile-editor.ui:403
+msgid "Control-H"
+msgstr "Control-H"
+
+#: src/ptyxis-preferences-window.ui:917 src/ptyxis-profile-editor.ui:409
+msgid "ASCII DEL"
+msgstr "ASCII DEL"
+
+#: src/ptyxis-preferences-window.ui:923 src/ptyxis-profile-editor.ui:415
+msgid "Escape Sequence"
+msgstr "Urutan Escape"
+
+#: src/ptyxis-preferences-window.ui:929 src/ptyxis-profile-editor.ui:421
+msgid "TTY Erase"
+msgstr "TTY Hapus"
+
+#: src/ptyxis-profile.c:559
+msgid "Untitled Profile"
+msgstr "Profil Tanpa Judul"
+
+#: src/ptyxis-profile-editor.c:131 src/ptyxis-terminal.c:415
+#: src/ptyxis-terminal.c:450
+msgid "Copied to clipboard"
+msgstr "Disalin ke papan klip"
+
+#: src/ptyxis-profile-editor.c:160 src/ptyxis-profile-row.c:104
+#, c-format
+msgid "Removed profile “%s”"
+msgstr "Menghapus profil \"%s\""
+
+#: src/ptyxis-profile-editor.c:162 src/ptyxis-profile-row.c:106
+msgid "Undo"
+msgstr "Tidak Jadi"
+
+#: src/ptyxis-profile-editor.c:193
+msgid "My Computer"
+msgstr "Komputerku"
+
+#: src/ptyxis-profile-editor.ui:22 src/ptyxis-tab.c:369 src/ptyxis-tab.c:426
+msgid "Edit Profile"
+msgstr "Sunting Profil"
+
+#: src/ptyxis-profile-editor.ui:31
+msgid "Profile"
+msgstr "Profil"
+
+#: src/ptyxis-profile-editor.ui:41
+msgid "Identifier"
+msgstr "Pengenal"
+
+#: src/ptyxis-profile-editor.ui:50
+msgid "Copy"
+msgstr "Salin"
+
+#: src/ptyxis-profile-editor.ui:62
+msgid "Color"
+msgstr "Warna"
+
+#: src/ptyxis-profile-editor.ui:141
+msgid "Network"
+msgstr "Jaringan"
+
+#: src/ptyxis-profile-editor.ui:144
+msgid "Proxy"
+msgstr "Proksi"
+
+#: src/ptyxis-profile-editor.ui:145
+msgid "Applies the network proxy settings to the container environment"
+msgstr "Menerapkan pengaturan proksi jaringan ke lingkungan kontainer"
+
+#: src/ptyxis-profile-editor.ui:180
+msgid "The default container to use with this profile"
+msgstr "Kontainer baku yang akan digunakan dengan profil ini"
+
+#: src/ptyxis-profile-editor.ui:189
+msgid "Preserve the current container when opening new tabs and windows"
+msgstr "Pertahankan kontainer saat ini saat membuka tab dan jendela baru"
+
+#: src/ptyxis-profile-editor.ui:382
+msgid "Remove Profile"
+msgstr "Hapus Profil"
+
+#: src/ptyxis-profile-row.ui:33
+msgid "View More"
+msgstr "Lihat Lebih Banyak"
+
+#: src/ptyxis-profile-row.ui:43
+msgid "_Make Default"
+msgstr "Jadikan _Baku"
+
+#: src/ptyxis-profile-row.ui:49
+msgid "_Duplicate…"
+msgstr "_Duplikat…"
+
+#: src/ptyxis-profile-row.ui:53
+msgid "_Edit…"
+msgstr "S_unting…"
+
+#: src/ptyxis-profile-row.ui:59
+msgid "_Remove"
+msgstr "_Buang"
+
+#. Translators: <b>%s</b> is used to show the provided text in bold
+#: src/ptyxis-shortcut-accel-dialog.c:442
+#, c-format
+msgid "Enter new shortcut to change <b>%s</b>."
+msgstr "Masukkan pintasan baru untuk mengubah <b>%s</b>."
+
+#. do not use underline as it prevents alt+c as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:42
+msgid "Cancel"
+msgstr "Batal"
+
+#. do not use underline as it prevents alt+s as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:49
+msgid "Set"
+msgstr "Atur"
+
+#: src/ptyxis-shortcut-accel-dialog.ui:89
+msgid "Press Escape to cancel or Backspace to disable."
+msgstr "Tekan Escape untuk membatalkan atau Backspace untuk menonaktifkan."
+
+#: src/ptyxis-shortcut-row.c:74
+msgid "Set Shortcut"
+msgstr "Atur Pintasan"
+
+#: src/ptyxis-shortcut-row.c:194
+msgid "disabled"
+msgstr "dinonaktifkan"
+
+#: src/ptyxis-tab.c:279
+#, c-format
+msgid "Process Exited from Signal %d"
+msgstr "Proses Keluar karena Sinyal %d"
+
+#: src/ptyxis-tab.c:282 src/ptyxis-tab.c:305
+msgid "_Restart"
+msgstr "Mu_lai Ulang"
+
+#. Always prepare the banner even if we don't show it because we may
+#. * display it again if the tab is removed from the parking lot and
+#. * restored into the window.
+#.
+#: src/ptyxis-tab.c:304
+msgid "Process Exited"
+msgstr "Proses Keluar"
+
+#: src/ptyxis-tab.c:368
+msgid "Failed to launch terminal"
+msgstr "Gagal meluncurkan terminal"
+
+#: src/ptyxis-tab.c:424
+#, c-format
+msgid "Cannot locate container “%s”"
+msgstr "Tidak bisa menemukan kontainer \"%s\""
+
+#: src/ptyxis-tab.c:448
+msgid "Failed to create pseudo terminal device"
+msgstr "Gagal membuat perangkat terminal semu"
+
+#: src/ptyxis-tab.c:1275
+msgid "Exited"
+msgstr "Keluar"
+
+#: src/ptyxis-tab.c:1277
+msgid "Failed"
+msgstr "Gagal"
+
+#: src/ptyxis-tab.c:1813
+msgid "Failed to open link"
+msgstr "Gagal membuka taut"
+
+#: src/ptyxis-tab-notify.h:89
+msgid "Command completed"
+msgstr "Perintah selesai"
+
+#: src/ptyxis-terminal.ui:170
+msgid "Search…"
+msgstr "Cari…"
+
+#: src/ptyxis-terminal.ui:176
+msgid "_Open Link"
+msgstr "_Buka Taut"
+
+#: src/ptyxis-terminal.ui:184
+msgid "_Copy"
+msgstr "_Salin"
+
+#: src/ptyxis-terminal.ui:185
+msgid "Copy selection from terminal to clipboard"
+msgstr "Salin pilihan dari terminal ke papan klip"
+
+#: src/ptyxis-terminal.ui:189
+msgid "_Copy Link"
+msgstr "_Salin Tautan"
+
+#: src/ptyxis-terminal.ui:195
+msgid "_Paste"
+msgstr "Tem_pel"
+
+#: src/ptyxis-terminal.ui:196
+msgid "Paste from clipboard into the terminal"
+msgstr "Tempelkan dari papan klip ke terminal"
+
+#: src/ptyxis-terminal.ui:203
+msgid "Select _All"
+msgstr "Pilih Semu_a"
+
+#: src/ptyxis-terminal.ui:204
+msgid "Selection all text from terminal including scrollback"
+msgstr "Memilih semua teks dari terminal termasuk gulir balik"
+
+#: src/ptyxis-terminal.ui:210
+msgid "Select _None"
+msgstr "Pilih Tak Satupu_n"
+
+#: src/ptyxis-terminal.ui:217
+msgid "Read-Only"
+msgstr "Hanya-Baca"
+
+#: src/ptyxis-terminal.ui:238 src/ptyxis-window.ui:512
+msgid "Leave Fullscreen"
+msgstr "Keluar dari Layar Penuh"
+
+#: src/ptyxis-terminal.ui:244
+msgid "_Inspect Terminal"
+msgstr "Per_iksa Terminal"
+
+#: src/ptyxis-theme-selector.ui:21 src/ptyxis-theme-selector.ui:23
+msgid "Follow system style"
+msgstr "Ikuti gaya sistem"
+
+#: src/ptyxis-theme-selector.ui:37 src/ptyxis-theme-selector.ui:39
+msgid "Light style"
+msgstr "Gaya terang"
+
+#: src/ptyxis-theme-selector.ui:54 src/ptyxis-theme-selector.ui:56
+msgid "Dark style"
+msgstr "Gaya gelap"
+
+#. translators: Builder Terminal means this is a terminal bundled with GNOME Builder
+#: src/ptyxis-util.c:309
+msgid "Builder Terminal"
+msgstr "Terminal Pembangun"
+
+#: src/ptyxis-util.c:313
+msgid "Ptyxis"
+msgstr "Ptyxis"
+
+#: src/ptyxis-window.c:991 src/ptyxis-window.ui:565
+msgid "Set Title"
+msgstr "Atur Judul"
+
+#: src/ptyxis-window.c:1240
+msgid "Zoom in"
+msgstr "Perbesar"
+
+#: src/ptyxis-window.c:1255
+msgid "Zoom out"
+msgstr "Perkecil"
+
+#: src/ptyxis-window.c:1345
+msgid "Containers"
+msgstr "Kontainer"
+
+#: src/ptyxis-window.ui:359
+msgid "New Terminal"
+msgstr "Terminal Baru"
+
+#: src/ptyxis-window.ui:372
+msgid "Show Profiles and Containers"
+msgstr "Tampilkan Profil dan Kontainer"
+
+#: src/ptyxis-window.ui:413
+msgid "Main Menu"
+msgstr "Menu Utama"
+
+#: src/ptyxis-window.ui:421 src/ptyxis-window.ui:498
+msgid "Show Open Tabs"
+msgstr "Tampilkan Tab Terbuka"
+
+#: src/ptyxis-window.ui:482
+msgid "New _Tab"
+msgstr "_Tab Baru"
+
+#: src/ptyxis-window.ui:489
+msgid "New _Window"
+msgstr "_Jendela Baru"
+
+#: src/ptyxis-window.ui:506
+msgid "Fullscreen"
+msgstr "Layar penuh"
+
+#: src/ptyxis-window.ui:520
+msgid "_Preferences"
+msgstr "_Preferensi"
+
+#: src/ptyxis-window.ui:524
+msgid "_Keyboard Shortcuts"
+msgstr "Pintasan Papan Ti_k"
+
+#: src/ptyxis-window.ui:528
+msgid "_About"
+msgstr "Tent_ang"
+
+#: src/ptyxis-window.ui:537
+msgid "Move _Left"
+msgstr "Pindah Ke K_iri"
+
+#: src/ptyxis-window.ui:542
+msgid "Move _Right"
+msgstr "Pindah Ke K_anan"
+
+#: src/ptyxis-window.ui:547
+msgid "Move to New _Window"
+msgstr "Pindah Ke _Jendela Baru"
+
+#: src/ptyxis-window.ui:553
+msgid "_Pin Tab"
+msgstr "Sematkan Ta_b"
+
+#: src/ptyxis-window.ui:558
+msgid "Un_pin Tab"
+msgstr "Le_pas Sematan Tab"
+
+#: src/ptyxis-window.ui:572
+msgid "Close _Other Tabs"
+msgstr "T_utup Tab Lain"
+
+#: src/ptyxis-window.ui:577
+msgid "_Close Tab"
+msgstr "_Tutup Tab"
+
+#: src/ptyxis-window.ui:584
+msgid "_My Computer"
+msgstr "Ko_mputerku"

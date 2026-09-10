@@ -1,0 +1,23 @@
+[Palette]
+Name=Tomorrow Night Eighties
+Background=#2C2C2C
+Foreground=#CCCCCC
+Cursor=#CCCCCC
+Color0=#000000
+Color1=#F27779
+Color2=#99CC99
+Color3=#FFCC66
+Color4=#6699CC
+Color5=#CC99CC
+Color6=#66CCCC
+Color7=#FFFEFE
+Color8=#000000
+Color9=#F17779
+Color10=#99CC99
+Color11=#FFCC66
+Color12=#6699CC
+Color13=#CC99CC
+Color14=#66CCCC
+Color15=#FFFEFE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Tomorrow Night Eighties.yml

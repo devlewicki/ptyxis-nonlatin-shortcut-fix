@@ -1,0 +1,23 @@
+[Palette]
+Name=Ir Black
+Background=#000000
+Foreground=#EEEEEE
+Cursor=#FFA560
+Color0=#4E4E4E
+Color1=#FF6C60
+Color2=#A8FF60
+Color3=#FFFFB6
+Color4=#69CBFE
+Color5=#FF73FD
+Color6=#C6C5FE
+Color7=#EEEEEE
+Color8=#7C7C7C
+Color9=#FFB6B0
+Color10=#CEFFAC
+Color11=#FFFFCB
+Color12=#B5DCFE
+Color13=#FF9CFE
+Color14=#DFDFFE
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ir Black.yml

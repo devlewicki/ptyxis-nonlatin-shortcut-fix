@@ -1,0 +1,23 @@
+[Palette]
+Name=Liquid Carbon
+Background=#303030
+Foreground=#AFC2C2
+Cursor=#AFC2C2
+Color0=#000000
+Color1=#FF3030
+Color2=#559A70
+Color3=#CCAC00
+Color4=#0099CC
+Color5=#CC69C8
+Color6=#7AC4CC
+Color7=#BCCCCC
+Color8=#000000
+Color9=#FF3030
+Color10=#559A70
+Color11=#CCAC00
+Color12=#0099CC
+Color13=#CC69C8
+Color14=#7AC4CC
+Color15=#BCCCCC
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Liquid Carbon.yml

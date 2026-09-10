@@ -1,0 +1,1958 @@
+# Japanese translation of Ptyxis.
+# Copyright (C) 2024-2026 THE Ptyxis' COPYRIGHT HOLDER
+# This file is distributed under the same license as the Ptyxis package.
+# Gnuey56 <gnuey56@proton.me>, 2024.
+# Makoto Sakaguchi <ycco34vx@gmail.com>, 2025-2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ptyxis main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/chergert/ptyxis/issues\n"
+"POT-Creation-Date: 2026-01-07 20:40+0000\n"
+"PO-Revision-Date: 2026-01-09 04:56+0900\n"
+"Last-Translator: Makoto Sakaguchi <ycco34vx@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.gnome.org/teams/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:2 data/org.gnome.Ptyxis.metainfo.xml.in.in:6
+msgid "@APP_NAME@"
+msgstr "@APP_NAME@"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:3
+msgid "A container-oriented terminal for GNOME"
+msgstr "コンテナ志向の GNOME 向けターミナル"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:12 src/ptyxis-preferences-window.ui:669 src/ptyxis-tab.c:1647
+#: src/ptyxis-util.c:318
+msgid "Terminal"
+msgstr "ターミナル"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Ptyxis.desktop.in.in:14
+msgid "terminal;prompt;ptyxis;shell;command;commandline;cmd;cli;console;container;podman;toolbox;distrobox;"
+msgstr ""
+"terminal;prompt;ptyxis;shell;command;commandline;cmd;cli;console;container;podman;toolbox;distrobox;ターミ"
+"ナル;端末;プロンプト;シェル;コマンド;コマンドライン;コンテナー;"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:23 src/org.gnome.Ptyxis.gschema.xml.in:424
+#: src/ptyxis-preferences-window.ui:742
+msgid "New Window"
+msgstr "新しいウィンドウ"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:27 src/org.gnome.Ptyxis.gschema.xml.in:418
+#: src/ptyxis-preferences-window.ui:771
+msgid "New Tab"
+msgstr "新しいタブ"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:31 src/org.gnome.Ptyxis.gschema.xml.in:436
+#: src/ptyxis-preferences-window.ui:972
+msgid "Preferences"
+msgstr "設定"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:7
+msgid "Container-oriented terminal"
+msgstr "コンテナ志向のターミナル"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:9
+msgid "Ptyxis is a terminal for GNOME that focuses on ease-of-use in a world of containers."
+msgstr "Ptyxis はコンテナの使いやすさにフォーカスした GNOME 向けのターミナルです。"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:13
+msgid "Features:"
+msgstr "機能:"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:15
+msgid ""
+"Remembers current container when opening a new tab with support for podman, toolbox, distrobox, and more"
+msgstr "podman、toolbox、distrobox などをサポートし、新しいタブを開く際に現在のコンテナを記憶する"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:16
+msgid "Configurable keyboard shortcuts"
+msgstr "構成可能なキーボードショートカット"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:17
+msgid "Modern interface which integrates the palette with the window styling"
+msgstr "ウィンドウスタイルがパレットと調和するモダンなインターフェイス"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:18
+msgid "User-installable color palettes"
+msgstr "ユーザーがインストール可能なカラーパレット"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:19
+msgid "Support for preferences profiles with container integration"
+msgstr "コンテナ統合による設定プロファイルのサポート"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:20
+msgid "Integrated color palettes with light and dark support"
+msgstr "ライトとダークに対応した調和したカラーバレット"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:21
+msgid "Tabbed interface with tab overviews"
+msgstr "タブの一覧表示ができるタブインターフェース"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:22
+msgid "Efficient foreground process tracking denoting sudo and SSH"
+msgstr "フォアグラウンドプロセスを効率的に追跡し sudo や SSH をお知らせ"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:23
+msgid "Support for transparent terminal backgrounds"
+msgstr "ターミナル背景の透明化に対応"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:24
+msgid "Separate process mode for terminal-based applications"
+msgstr "ターミナルベースのアプリケーション用にプロセスモードを分離"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:25
+msgid "Support for pinned tabs and saved sessions"
+msgstr "タブのピン留め、セッションの保存に対応"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:26
+msgid "Terminal tabs are run within separate cgroups"
+msgstr "ターミナルのタブは分離された cgroups で実行されます"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:27
+msgid "Terminal inspector to help when writing terminal-based applications"
+msgstr "ターミナルベースのアプリケーション開発を支援するターミナルインスペクター"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:32
+msgid "Christian Hergert"
+msgstr "Christian Hergert"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:53
+msgid "A column and row size indicator is displayed when resizing the window"
+msgstr "ウィンドウサイズ変更時に、列と行のサイズインジケーターが表示されます"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:58
+msgid "Containers are automatically discovered and displayed"
+msgstr "コンテナーを自動検出して表示します"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:63
+msgid "Many behaviors of the terminal may be tweaked to user preference"
+msgstr "ユーザーの好みに合わせて、ターミナルの多くの動作を調整できます"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:68
+msgid "You may rename a tab by providing a prefix to the title"
+msgstr "タイトルにプレフィックスを付けることで、タブの名前を変更できます"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:73
+msgid "Palettes provide an integrated dark mode"
+msgstr "パレットは調和したダークモードを提供します"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:78
+msgid "You can see an overview of your tabs at any time"
+msgstr "いつでもタブ一覧を表示できます"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:83
+msgid "Many shortcuts may be remapped to user preference"
+msgstr "ユーザーの好みに合わせて、多くのショートカットを再割り当てできます"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:88
+msgid "Built-in color palettes provide both dark and light mode variants"
+msgstr "組み込みのカラーパレットはダークとライトモードの両方に対応"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:93
+msgid "Profiles allow for overriding a number of features such as default container"
+msgstr "プロファイルを使用すると、デフォルトコンテナーなど、多くの機能を上書きできます"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:98
+msgid "The terminal will remind you when you're root on the local system"
+msgstr "ローカルシステムで root 権限の時にお知らせします"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:103
+msgid "The terminal will remind you when you're on a remote system"
+msgstr "リモートシステムに接続中であることをお知らせします"
+
+#: src/main.c:142 src/main.c:149 src/main.c:161
+msgid "Error"
+msgstr "エラー"
+
+#: src/main.c:155
+#, c-format
+msgid ""
+"Error: %s already exists.\n"
+"Please remove it first.\n"
+msgstr ""
+"エラー: %s はすでに存在します。\n"
+"先に削除してください。\n"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:101
+msgid "Default Profile UUID"
+msgstr "デフォルトプロファイルの UUID"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:102
+msgid "The UUID of the default profile"
+msgstr "デフォルトのプロファイルに割り当てられた UUID"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:107
+msgid "UUIDs of all Profiles"
+msgstr "すべてのプロファイルの UUID"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:108
+msgid "A list of UUID for every profile"
+msgstr "すべてのプロファイルに割り当てられた UUID の一覧"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:113 src/ptyxis-preferences-window.ui:322
+msgid "New Tab Position"
+msgstr "新しいタブの位置"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:114
+msgid "Where to place new tabs"
+msgstr "新しいタブを配置する場所"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:119 src/ptyxis-preferences-window.ui:414
+msgid "Audible Bell"
+msgstr "音声ベル"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:120
+msgid "If an audible bell should be used"
+msgstr "音声ベルを使用するかどうか"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:125
+msgid "Visible Bell"
+msgstr "視覚ベル"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:126
+msgid "If a visual bell should be used"
+msgstr "視覚ベルを使用するかどうか"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:131
+msgid "Visual Process Leader"
+msgstr "プロセスリーダーの視覚化"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:132
+msgid "Display a visual window highlight when process leader is SSH, sudo, or other specialized tooling"
+msgstr ""
+"プロセスリーダーが SSH、sudo、または他の特殊なツールの場合にウィンドウの視覚的なハイライトを表示します"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:137
+msgid "Use System Font"
+msgstr "システムフォントを使用"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:138
+msgid "If the default system monospace font should be used"
+msgstr "デフォルトのシステムの等幅フォントを使用するかどうか"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:143
+msgid "Font Name"
+msgstr "フォント名"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:144
+msgid "The font description to use if use-system-font is set to False"
+msgstr "use-system-font が False に設定されている場合のフォントの説明"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:149 src/ptyxis-preferences-window.ui:249
+msgid "Cursor Shape"
+msgstr "カーソル形状"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:150
+msgid "The default shape of the cursor"
+msgstr "デフォルトのカーソル形状"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:155
+msgid "Cursor Blink Mode"
+msgstr "カーソル点滅モード"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:156
+msgid "The default blink mode cursor"
+msgstr "デフォルトのカーソル点滅モード"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:161
+msgid "List of punctuation characters that are treated as word characters"
+msgstr "単語の一部として扱われる句読点文字のリスト"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:162
+msgid ""
+"By default, when doing word-wise selection, most punctuation breaks up word boundaries. This list of "
+"exceptions will instead be treated as part of the word."
+msgstr ""
+"デフォルトでは単語選択時に句読点で境界が分かれますが、このリストの文字は単語の一部として扱われます。"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:167
+msgid "Scrollbar Policy"
+msgstr "スクロールバーの処理"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:168
+msgid "If scrollbars should be displayed"
+msgstr "スクロールバーが表示される場合"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:177
+msgid "Text Blink Mode"
+msgstr "テキスト点滅モード"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:178
+msgid "When text blinking is allowed"
+msgstr "テキストの点滅が許可されている場合"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:183
+msgid "Interface Style"
+msgstr "インターフェイスのスタイル"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:184
+msgid "If light or dark interface style should be used"
+msgstr "ライトまたはダークのインターフェイススタイルが使用されている場合"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:189 src/ptyxis-preferences-window.ui:351
+msgid "Restore Session"
+msgstr "セッションを復元"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:190
+msgid "Restore tabs from previous session when starting Ptyxis"
+msgstr "Ptyxis 起動時に以前のセッションのタブを復元"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:195 src/ptyxis-preferences-window.ui:357
+msgid "Restore Window Size"
+msgstr "ウィンドウサイズを復元"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:196
+msgid "Restore the previous window size when creating new windows"
+msgstr "新しいウィンドウを作成する際に前回のウィンドウサイズを復元"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:206
+msgid "Default Column Size"
+msgstr "デフォルトの列のサイズ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:207 src/org.gnome.Ptyxis.gschema.xml.in:214
+msgid "Default window size when restore-window-size is not true."
+msgstr "restore-window-size が true ではない場合のデフォルトのウィンドウサイズ。"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:213
+msgid "Default Row Size"
+msgstr "デフォルトの行のサイズ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:219
+msgid "Toast on Copy Clipboard"
+msgstr "クリップボードへコピー時にトースト通知"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:220
+msgid "Show the user when text has copied to the clipboard."
+msgstr "テキストがクリップボードにコピーされたとき、ユーザーに表示。"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:225
+msgid "Enable Accessibility"
+msgstr "アクセシビリティを有効"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:226
+msgid "Currently experimental feature to send accessibility information to screen readers."
+msgstr "アクセシビリティ情報をスクリーンリーダーへ送信する、現時点で実験的な機能。"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:231
+msgid "Enable zoom on scroll holding the control key"
+msgstr "Ctrl キーを押しながらスクロールしたときにズームする"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:232
+msgid "Enable to adjust the zoom level on scroll scroll while holding the control key."
+msgstr "Ctrl キーを押しながらスクロールしたときにズームレベルを調整できるようにする。"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:237
+msgid "Disable Padding around Terminal Emulator"
+msgstr "ターミナルの余白を無効"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:238
+msgid ""
+"Do not pad around the terminal emulator widget. Setting to true may have significant performance impacts."
+msgstr ""
+"ターミナルエミュレータウィジェットの周囲にパディングを設定しない。この設定によりパフォーマンスが低下する場"
+"合があります。"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:243
+msgid "Prompt when active tab is closed"
+msgstr "アクティブなタブを閉じる際に確認"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:244
+msgid "If a tab (or window) is closed with active foreground processes, prompt the user for confirmation."
+msgstr "実行中のプロセスがあるタブやウィンドウを閉じる際に確認ダイアログを表示。"
+
+#. Translators: OSC stands for "Operating System Command" and is referencing in-band escape sequences from the child process to set the title
+#: src/org.gnome.Ptyxis.gschema.xml.in:250
+msgid "Ignore OSC Title"
+msgstr "OSC タイトル設定を無視"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:251
+msgid "If OSC title should be ignored in tab titles."
+msgstr "OSC によるタブタイトル変更を無視。"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:256
+msgid "Inhibit Logout"
+msgstr "ログアウトを抑制"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:257
+msgid "Inhibit desktop logout when a foreground process is running in a tab."
+msgstr "タブでフォアグラウンドプロセスが実行中の場合、デスクトップのログアウトを抑制する。"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:266
+msgid "Label"
+msgstr "ラベル"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:267
+msgid "The label for the profile"
+msgstr "プロファイルのラベル"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:272
+msgid "Login Shell"
+msgstr "ログインシェル"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:273
+msgid "Use a login shell"
+msgstr "ログインシェルを使用"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:278 src/ptyxis-preferences-window.ui:482
+#: src/ptyxis-profile-editor.ui:333
+msgid "Limit Scrollback"
+msgstr "スクロールバックを制限"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:279
+msgid "Limit the number of lines to keep for scrollback"
+msgstr "スクロールバックのために保持する行数を制限"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:285 src/ptyxis-preferences-window.ui:491
+#: src/ptyxis-profile-editor.ui:342
+msgid "Scrollback Lines"
+msgstr "スクロールバックの行"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:286
+msgid "The number of lines to keep in the scrollback, zero for no scrollback"
+msgstr "スクロールバックで保持する行数。0 の場合、スクロールバックはオフ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:291 src/ptyxis-preferences-window.ui:472
+#: src/ptyxis-profile-editor.ui:323
+msgid "Scroll on Output"
+msgstr "出力時にスクロール"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:292
+msgid "Scroll to the bottom upon new output"
+msgstr "新しい出力される度に下へスクロール"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:297 src/ptyxis-preferences-window.ui:466
+#: src/ptyxis-profile-editor.ui:317
+msgid "Scroll on Keystroke"
+msgstr "キー入力時にスクロール"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:298
+msgid "Scroll to the bottom upon user keystroke"
+msgstr "ユーザーのキー入力の度に下へスクロール"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:303 src/ptyxis-profile-editor.ui:187
+msgid "Use Custom Command"
+msgstr "カスタムコマンドを使用"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:304
+msgid "If a custom command should be used"
+msgstr "カスタムコマンドが使用されている場合"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:309
+msgid "Use Proxy"
+msgstr "プロキシを使用"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:310
+msgid "Apply proxy settings from the host in the container"
+msgstr "コンテナでホストのプロキシ設定を適用"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:315 src/ptyxis-profile-editor.ui:192
+msgid "Custom Command"
+msgstr "カスタムコマンド"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:316
+msgid "A custom command for the shell"
+msgstr "シェルのカスタムコマンド"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:321 src/ptyxis-profile-editor.ui:211
+msgid "Default Container"
+msgstr "デフォルトのコンテナ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:322
+msgid "The default container to run the command in"
+msgstr "コマンドを実行するデフォルトのコンテナ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:327 src/ptyxis-profile-editor.ui:220
+msgid "Preserve Container"
+msgstr "持続するコンテナ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:328
+msgid "Preserve the active container when creating new tabs and windows"
+msgstr "新しいタブやウィンドウが開かれたときに、アクティブなコンテナを持続する"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:333 src/ptyxis-preferences-window.ui:551
+#: src/ptyxis-profile-editor.ui:281
+msgid "Exit Action"
+msgstr "終了時のアクション"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:334
+msgid "The action to take when the shell exits"
+msgstr "シェルが終了したときに取るアクション"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:339
+msgid "Preserve Directory"
+msgstr "記憶するディレクトリ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:340
+msgid "If the directory should be preserved for new terminals"
+msgstr "新しいターミナルのためにディレクトリ保存する場合"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:345 src/ptyxis-inspector.ui:102 src/ptyxis-preferences-window.ui:40
+#: src/ptyxis-profile-editor.ui:65
+msgid "Palette"
+msgstr "パレット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:346
+msgid "The color palette to use for the profile, by name"
+msgstr "プロファイルで使用するカラーパレットの名前"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:352
+msgid "Opacity"
+msgstr "不透明度"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:353
+msgid "The opacity of the palette background"
+msgstr "パレットの背景の不透明度"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:358
+msgid "Bold is Bright"
+msgstr "太字テキストを明るく"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:359
+msgid "Setting bold on one of the lower 8 colors in the palette will use bright variant (upper 8 colors)"
+msgstr "太字のテキストをパレットの下位８色に設定した場合、パレットの明るい色（上位８色）が使用される"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:365 src/ptyxis-preferences-window.ui:175
+#: src/ptyxis-profile-editor.ui:143
+msgid "Line Spacing"
+msgstr "行間隔"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:366
+msgid "The terminal’s cell height scale"
+msgstr "文字の高さ倍率"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:372 src/ptyxis-preferences-window.ui:189
+#: src/ptyxis-profile-editor.ui:157
+msgid "Column Spacing"
+msgstr "列間隔"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:373
+msgid "The terminal’s cell width scale"
+msgstr "文字幅の倍率"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:378
+msgid "CJK Ambiguous Width"
+msgstr "曖昧な CJK テキストの幅"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:379
+msgid "The size to apply to ambiguous width characters"
+msgstr "曖昧な幅の文字に適用するサイズ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:384 src/org.gnome.Ptyxis.gschema.xml.in:390
+msgid "Backspace Binding"
+msgstr "バックスペースキーの割り当て"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:385 src/org.gnome.Ptyxis.gschema.xml.in:391
+msgid "What to send to the PTY when a backspace is entered"
+msgstr "バックスペースが押されたとき PTY に送信する内容"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:396 src/ptyxis-preferences-window.ui:634
+#: src/ptyxis-profile-editor.ui:409
+msgid "Custom Links"
+msgstr "カスタムリンク"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:397
+msgid ""
+"A list of custom hyperlinks, each defined by a regular expression matching the text, and a replacement "
+"pattern"
+msgstr "カスタムハイパーリンクの一覧。各項目は、テキストにマッチする正規表現と置換パターンで定義される"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:406 src/ptyxis-preferences-window.ui:672
+msgid "Copy to Clipboard"
+msgstr "クリップボードにコピー"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:407
+msgid "The shortcut to copy to clipboard"
+msgstr "クリップボードにコピーするショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:412 src/ptyxis-preferences-window.ui:678
+msgid "Paste from Clipboard"
+msgstr "クリップボードから貼り付け"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:413
+msgid "The shortcut to paste from the clipboard"
+msgstr "クリップボードから貼り付けるショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:419
+msgid "The shortcut to create a new tab in the current window"
+msgstr "現在のウィンドウで新しいタブを開くショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:425
+msgid "The shortcut to create a new tab in a new window"
+msgstr "新しいウィンドウで新しいタブを開くショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:430
+msgid "Tab Overview"
+msgstr "タブ一覧"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:431
+msgid "The shortcut to show the tab overview"
+msgstr "タブ一覧を表示するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:437
+msgid "The shortcut to show application preferences"
+msgstr "アプリケーションの設定を表示するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:442 src/ptyxis-preferences-window.ui:930 src/ptyxis-window.c:1495
+#: src/ptyxis-window.c:1503
+msgid "Zoom Out"
+msgstr "縮小"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:443
+msgid "The shortcut to zoom out"
+msgstr "ターミナルを縮小するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:448 src/ptyxis-preferences-window.ui:936 src/ptyxis-window.c:1512
+msgid "Reset Zoom"
+msgstr "拡大縮小をリセット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:449
+msgid "The shortcut to reset zoom"
+msgstr "拡大縮小をリセットするショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:454 src/ptyxis-preferences-window.ui:924 src/ptyxis-window.c:1480
+#: src/ptyxis-window.c:1488
+msgid "Zoom In"
+msgstr "拡大"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:455
+msgid "The shortcut to zoom in"
+msgstr "ターミナルを拡大するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:460 src/ptyxis-preferences-window.ui:947
+msgid "Toggle Fullscreen"
+msgstr "全画面表示の切り替え"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:461
+msgid "The shortcut to toggle fullscreen"
+msgstr "全画面表示を行うショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:466
+msgid "Reset Terminal"
+msgstr "ターミナルをリセット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:467
+msgid "Reset the terminal state for misbehaving clients"
+msgstr "うまく動かないクライアントに対してターミナルの状態をリセット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:472
+msgid "Reset Terminal and Clear History"
+msgstr "ターミナルをリセットして履歴を削除"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:473
+msgid "Reset the terminal state and clear history for misbehaving clients"
+msgstr "うまく動かないクライアントに対してターミナルの状態をリセットして履歴を削除"
+
+#. Translators: Refers to searching the terminal scrollback
+#: src/org.gnome.Ptyxis.gschema.xml.in:479 src/ptyxis-find-bar.ui:39 src/ptyxis-preferences-window.ui:721
+msgid "Search History"
+msgstr "検索履歴"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:480
+msgid "Shortcut to begin searching the terminal history"
+msgstr "ターミナルの履歴の検索を始めるショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:485 src/ptyxis-preferences-window.ui:688
+msgid "Select All"
+msgstr "すべて選択"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:486
+msgid "Shortcut to select all the entire terminal scrollback"
+msgstr "ターミナルのスクロールバック全体を選択範囲にするショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:491
+msgid "Select None"
+msgstr "選択を解除"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:492
+msgid "Shortcut to clear the terminal selection"
+msgstr "ターミナルの選択範囲をクリアするスクリーンショット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:497
+msgid "Popup Menu"
+msgstr "ポップアップメニュー"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:498
+msgid "Shortcut to show the popup menu for the terminal"
+msgstr "ターミナルのポップアップメニューを表示するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:503
+msgid "Primary Menu"
+msgstr "プライマリーメニュー"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:504
+msgid "Shortcut to show the primary menu for the window"
+msgstr "プライマリーメニューをウィンドウに表示するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:509
+msgid "Tab Menu"
+msgstr "タブメニュー"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:510
+msgid "Shortcut to show the new tab menu"
+msgstr "新しいタブメニューを表示するショートカット"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:516 src/ptyxis-preferences-window.ui:818
+msgid "Move to Previous Tab"
+msgstr "前のタブに戻る"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:518
+msgid "Shortcut to move to the previous tab"
+msgstr "前のタブに戻るショートカット"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:524 src/ptyxis-preferences-window.ui:824
+msgid "Move to Next Tab"
+msgstr "次のタブに進む"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:526
+msgid "Shortcut to move to the next tab"
+msgstr "次のタブに進むショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:531 src/ptyxis-preferences-window.ui:834
+msgid "Move Tab Left"
+msgstr "左にタブを移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:532
+msgid "Shortcut to move the current tab to the left one position"
+msgstr "現在のタブを一つ左の位置に移動ショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:537 src/ptyxis-preferences-window.ui:841
+msgid "Move Tab Right"
+msgstr "右にタブを移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:538
+msgid "Shortcut to move the current tab to the right one position"
+msgstr "現在のタブを一つ右の位置に移動ショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:543 src/ptyxis-preferences-window.ui:848
+msgid "Move Tab to New Window"
+msgstr "新しいウィンドウにタブを移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:544
+msgid "Shortcut to move the current tab into a new window"
+msgstr "現在のタブを新しいウィンドウに移すショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:549 src/ptyxis-preferences-window.ui:793
+msgid "Close Tab"
+msgstr "タブを閉じる"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:550
+msgid "Shortcut to close the current tab"
+msgstr "現在のタブを閉じるショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:555 src/ptyxis-preferences-window.ui:800
+msgid "Close Other Tabs"
+msgstr "他のタブを閉じる"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:556
+msgid "Shortcut to close all tabs in the window but the current one"
+msgstr "現在のタブ以外のすべてのタブを閉じるショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:561 src/ptyxis-preferences-window.ui:749
+msgid "Close Window"
+msgstr "ウィンドウを閉じる"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:562
+msgid "Shortcut to close the current window"
+msgstr "現在のウィンドウを閉じるショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:567 src/ptyxis-preferences-window.ui:760 src/ptyxis-terminal.ui:244
+#: src/ptyxis-window.c:1198 src/ptyxis-window.ui:824
+msgid "Set Title"
+msgstr "タイトルを設定"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:568
+msgid "The shortcut to show set title"
+msgstr "タイトルを設定するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:573
+msgid "Focus Tab 1"
+msgstr "タブ1に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:574
+msgid "Shortcut to focus tab 1"
+msgstr "タブ1に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:579
+msgid "Focus Tab 2"
+msgstr "タブ2に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:580
+msgid "Shortcut to focus tab 2"
+msgstr "タブ2に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:585
+msgid "Focus Tab 3"
+msgstr "タブ3に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:586
+msgid "Shortcut to focus tab 3"
+msgstr "タブ3に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:591
+msgid "Focus Tab 4"
+msgstr "タブ4に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:592
+msgid "Shortcut to focus tab 4"
+msgstr "タブ4に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:597
+msgid "Focus Tab 5"
+msgstr "タブ5に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:598
+msgid "Shortcut to focus tab 5"
+msgstr "タブ5に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:603
+msgid "Focus Tab 6"
+msgstr "タブ6に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:604
+msgid "Shortcut to focus tab 6"
+msgstr "タブ6に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:609
+msgid "Focus Tab 7"
+msgstr "タブ7に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:610
+msgid "Shortcut to focus tab 7"
+msgstr "タブ7に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:615
+msgid "Focus Tab 8"
+msgstr "タブ8に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:616
+msgid "Shortcut to focus tab 8"
+msgstr "タブ8に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:621
+msgid "Focus Tab 9"
+msgstr "タブ9に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:622
+msgid "Shortcut to focus tab 9"
+msgstr "タブ9に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:627
+msgid "Focus Tab 10"
+msgstr "タブ10に移動"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:628
+msgid "Shortcut to focus tab 10"
+msgstr "タブ10に移動するショートカット"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:633 src/ptyxis-preferences-window.ui:807
+msgid "Undo Close Tab"
+msgstr "閉じたタブを取り消し"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:634
+msgid "Undo closing of last tab"
+msgstr "最後に閉じたタブを取り消す"
+
+#: src/ptyxis-application.c:465
+msgid "--tab, --tab-with-profile, or --new-window may not be used together"
+msgstr "--tab、--tab-with-profile、--new-window は併用できません"
+
+#: src/ptyxis-application.c:511
+#, c-format
+msgid "Cannot parse command: %s"
+msgstr "コマンドを処理できません: %s"
+
+#: src/ptyxis-application.c:1148
+msgid "Examples:"
+msgstr "例:"
+
+#: src/ptyxis-application.c:1150
+msgid "Show the application preferences"
+msgstr "アプリケーションの設定を表示する"
+
+#. Used for new tabs/windows/etc when specified
+#: src/ptyxis-application.c:1153
+msgid "Use DIR for --tab, --tab-with-profile, --new-window, or -x"
+msgstr "--tab、--tab-with-profile、--new-window、-x で DIR を指定"
+
+#: src/ptyxis-application.c:1153
+msgid "DIR"
+msgstr "DIR"
+
+#. By default, this implies a new ptyxis instance unless the options
+#. * below are provided to override that.
+#.
+#: src/ptyxis-application.c:1158
+msgid "Command to execute in new window"
+msgstr "新しいウィンドウで実行するコマンド"
+
+#. These options all imply we're using a shared Ptyxis instance. We do not support
+#. * short command options for these to make it easier to sniff them in early args
+#. * checking from `main.c`.
+#.
+#: src/ptyxis-application.c:1164
+msgid "New terminal window"
+msgstr "新しいターミナルウィンドウ"
+
+#: src/ptyxis-application.c:1165
+msgid "New terminal tab in active window"
+msgstr "アクティブウィンドウに新しいタブを作成"
+
+#: src/ptyxis-application.c:1166
+msgid "New terminal tab in active window using the profile UUID"
+msgstr "プロファイル UUID を指定してアクティブウィンドウに新しいタブを作成"
+
+#: src/ptyxis-application.c:1166
+msgid "PROFILE_UUID"
+msgstr "PROFILE_UUID"
+
+#. Standalone (single instance mode)
+#: src/ptyxis-application.c:1169
+msgid "Start a new instance, ignoring existing instances"
+msgstr "既存のプロセスを無視して新しいプロセスを起動"
+
+#: src/ptyxis-application.c:1171
+msgid "Set title for new tab"
+msgstr "新しいタブのタイトルを設定"
+
+#: src/ptyxis-application.c:1172
+msgid "Maximize a newly created window"
+msgstr "新しいウィンドウを最大化"
+
+#: src/ptyxis-application.c:1173
+msgid "Fullscreen a newly created window"
+msgstr "新しいウィンドウを全画面表示"
+
+#. Import a custom .palette file. This works like dragging the file onto preferences
+#: src/ptyxis-application.c:1176
+msgid "Import a Ptyxis palette file"
+msgstr "Ptyxis パレットファイルをインポート"
+
+#: src/ptyxis-application.c:1176
+msgid "FILE"
+msgstr "FILE"
+
+#: src/ptyxis-application.c:1183
+msgid "Run Separate Instance"
+msgstr "別プロセスとして起動"
+
+#: src/ptyxis-application.c:1187
+msgid "Open Preferences"
+msgstr "設定を開く"
+
+#: src/ptyxis-application.c:1191
+msgid "Run Custom Command in New Window"
+msgstr "新しいウィンドウでカスタムコマンドを実行"
+
+#: src/ptyxis-application.c:1196
+msgid "Import a custom palette"
+msgstr "カスタムパレットをインポート"
+
+#: src/ptyxis-application.c:1199
+msgid "[-- COMMAND ARGUMENTS]"
+msgstr "[-- COMMAND ARGUMENTS]"
+
+#: src/ptyxis-application.c:1440
+msgid "translator-credits"
+msgstr ""
+"Gnuey56 <gnuey56@proton.me>\n"
+"Makoto Sakaguchi <ycco34vx@gmail.com>"
+
+#: src/ptyxis-close-dialog.c:109
+msgid "_Close"
+msgstr "閉じる (_C)"
+
+#: src/ptyxis-close-dialog.c:109
+msgid "_Close All"
+msgstr "すべて閉じる (_C)"
+
+#: src/ptyxis-close-dialog.c:111
+msgid "Close Window?"
+msgstr "ウィンドウを閉じますか?"
+
+#: src/ptyxis-close-dialog.c:112
+msgid "Some processes are still running."
+msgstr "一部のプロセスが実行中です。"
+
+#: src/ptyxis-close-dialog.c:116
+msgid "_Cancel"
+msgstr "キャンセル (_C)"
+
+#: src/ptyxis-close-dialog.c:142
+#, c-format
+msgid "Process %d"
+msgstr "プロセス %d"
+
+#: src/ptyxis-custom-link-editor.ui:20
+msgid "Edit Custom Link"
+msgstr "カスタムリンクを編集"
+
+#: src/ptyxis-custom-link-editor.ui:29
+msgid "Custom Link"
+msgstr "カスタムリンク"
+
+#: src/ptyxis-custom-link-editor.ui:30
+msgid ""
+"A clickable link in the terminal that matches text patterns and opens custom URLs. Uses regex capture "
+"groups to build the final URL (e.g., $1 becomes the first matched group)."
+msgstr ""
+"テキストパターンを認識してカスタム URL を開くクリック可能リンクです。正規表現のキャプチャグループを使用し"
+"て URL を動的に生成します (例: $1 は最初にマッチした部分に置換されます)。"
+
+#: src/ptyxis-custom-link-editor.ui:35
+msgid "Regex Pattern"
+msgstr "正規表現パターン"
+
+#: src/ptyxis-custom-link-editor.ui:40
+msgid "Target URL"
+msgstr "対象 URL"
+
+#: src/ptyxis-custom-link-row.c:131
+#, c-format
+msgid "Removed custom link “%s”"
+msgstr "カスタムリンク “%s” を削除しました"
+
+#: src/ptyxis-custom-link-row.c:133 src/ptyxis-profile-editor.c:186 src/ptyxis-profile-row.c:106
+msgid "Undo"
+msgstr "元に戻す"
+
+#: src/ptyxis-custom-link-row.ui:26 src/ptyxis-profile-row.ui:33
+msgid "View More"
+msgstr "さらに表示"
+
+#: src/ptyxis-custom-link-row.ui:36 src/ptyxis-profile-row.ui:53
+msgid "_Edit…"
+msgstr "編集… (_E)"
+
+#: src/ptyxis-custom-link-row.ui:42 src/ptyxis-profile-row.ui:59
+msgid "_Remove"
+msgstr "削除… (_R)"
+
+#: src/ptyxis-find-bar.ui:69
+msgid "Search Up"
+msgstr "上方向検索"
+
+#: src/ptyxis-find-bar.ui:76
+msgid "Search Down"
+msgstr "下方向検索"
+
+#: src/ptyxis-find-bar.ui:85
+msgid "Search Options"
+msgstr "検索オプション"
+
+#: src/ptyxis-find-bar.ui:96
+msgid "Match _Case"
+msgstr "大・小文字を区別 (_C)"
+
+#: src/ptyxis-find-bar.ui:102
+msgid "Whole _Words"
+msgstr "単語で一致 (_W)"
+
+#: src/ptyxis-find-bar.ui:108
+msgid "Use _Regular Expressions"
+msgstr "正規表現を使用 (_R)"
+
+#: src/ptyxis-find-bar.ui:128 src/ptyxis-preferences-window.ui:572 src/ptyxis-profile-editor.ui:302
+msgid "Close"
+msgstr "閉じる"
+
+#: src/ptyxis-find-bar.ui:129
+msgid "Close the search bar"
+msgstr "検索バーを閉じる"
+
+#: src/ptyxis-inspector.c:95 src/ptyxis-inspector.c:357
+msgid "unset"
+msgstr "未設定"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Row"
+msgstr "行"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Column"
+msgstr "列"
+
+#. NOTE: If we are in a container that also supports VTE patches
+#. * then it will send shell-precmd via escape sequences. The reality
+#. * is that our foreground is the `toolbox enter` process (until we
+#. * have better patches in VTE) but we show "Shell" instead.
+#. *
+#. * This is fine for now, but I'd like it to be better and actually
+#. * show the proper `tcgetpgrp()` foreground.
+#.
+#: src/ptyxis-inspector.c:177 src/ptyxis-inspector.c:197 src/ptyxis-preferences-window.ui:508
+#: src/ptyxis-profile-editor.ui:184
+msgid "Shell"
+msgstr "シェル"
+
+#: src/ptyxis-inspector.c:276
+msgid "untracked"
+msgstr "追跡なし"
+
+#: src/ptyxis-inspector.ui:4
+msgid "Inspector"
+msgstr "分析ツール"
+
+#: src/ptyxis-inspector.ui:7
+msgid "Process"
+msgstr "プロセス"
+
+#: src/ptyxis-inspector.ui:13
+msgid "Foreground Process"
+msgstr "フォアグラウンドプロセス"
+
+#: src/ptyxis-inspector.ui:33
+msgid "Window Title"
+msgstr "ウィンドウタイトル"
+
+#: src/ptyxis-inspector.ui:45
+msgid "Current Directory"
+msgstr "現在のディレクトリ"
+
+#: src/ptyxis-inspector.ui:53
+msgid "Current File"
+msgstr "現在のファイル"
+
+#: src/ptyxis-inspector.ui:63
+msgid "Container"
+msgstr "コンテナ"
+
+#: src/ptyxis-inspector.ui:66
+msgid "Runtime"
+msgstr "ランタイム"
+
+#: src/ptyxis-inspector.ui:74 src/ptyxis-inspector.ui:228 src/ptyxis-profile-editor.ui:36
+msgid "Name"
+msgstr "名前"
+
+#: src/ptyxis-inspector.ui:86 src/ptyxis-preferences-window.ui:36
+msgid "Appearance"
+msgstr "外観"
+
+#: src/ptyxis-inspector.ui:92
+msgid "Grid Size"
+msgstr "グリッドサイズ"
+
+#: src/ptyxis-inspector.ui:105
+msgid "Colors"
+msgstr "カラー"
+
+#: src/ptyxis-inspector.ui:225 src/ptyxis-preferences-window.ui:130
+msgid "Font"
+msgstr "フォント"
+
+#: src/ptyxis-inspector.ui:233
+msgid "Cell Size"
+msgstr "セルのサイズ"
+
+#: src/ptyxis-inspector.ui:242
+msgid "Input"
+msgstr "入力"
+
+#: src/ptyxis-inspector.ui:246 src/ptyxis-preferences-window.ui:246
+msgid "Cursor"
+msgstr "カーソル"
+
+#: src/ptyxis-inspector.ui:249 src/ptyxis-inspector.ui:262
+msgid "Position"
+msgstr "位置"
+
+#: src/ptyxis-inspector.ui:259
+msgid "Mouse"
+msgstr "マウス"
+
+#: src/ptyxis-inspector.ui:270
+msgid "Hyperlink"
+msgstr "ハイパーリンク"
+
+#: src/ptyxis-menu-row.c:166 src/ptyxis-profile-editor.c:217 src/ptyxis-window.c:1734
+msgid "My Computer"
+msgstr "このコンピューター"
+
+#: src/ptyxis-palette-preview.ui:32
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "The quick brown fox jumps over the lazy dog"
+
+#: src/ptyxis-preferences-window.c:275
+msgid "Select Font"
+msgstr "フォントを選択"
+
+#: src/ptyxis-preferences-window.c:350
+msgid "Show Fewer Palettes"
+msgstr "パレットの表示を減らす"
+
+#: src/ptyxis-preferences-window.c:355 src/ptyxis-preferences-window.ui:46
+msgid "Show All Palettes"
+msgstr "パレットをすべて表示"
+
+#: src/ptyxis-preferences-window.c:380
+msgid "Add Profile"
+msgstr "プロファイルを追加"
+
+#: src/ptyxis-preferences-window.c:482 src/ptyxis-profile-editor.c:270
+msgid "Add Link"
+msgstr "リンクを追加"
+
+#: src/ptyxis-preferences-window.ui:72 src/ptyxis-profile-editor.ui:74
+msgid "Transparency"
+msgstr "透明度"
+
+#: src/ptyxis-preferences-window.ui:73 src/ptyxis-profile-editor.ui:75
+msgid "Reduces the opacity of the background window"
+msgstr "ウィンドウ背景の不透明度を下げます"
+
+#: src/ptyxis-preferences-window.ui:134
+msgid "Use System _Font"
+msgstr "システムフォントを使用 (_F)"
+
+#: src/ptyxis-preferences-window.ui:146
+msgid "Custom Font"
+msgstr "カスタムフォント"
+
+#: src/ptyxis-preferences-window.ui:207
+msgid "Blinking Text"
+msgstr "テキストの点滅"
+
+#: src/ptyxis-preferences-window.ui:216 src/ptyxis-preferences-window.ui:440
+#: src/ptyxis-preferences-window.ui:529 src/ptyxis-profile-editor.ui:230 src/ptyxis-profile-editor.ui:259
+msgid "Never"
+msgstr "しない"
+
+#: src/ptyxis-preferences-window.ui:222
+msgid "Focused"
+msgstr "フォーカス時"
+
+#: src/ptyxis-preferences-window.ui:228
+msgid "Unfocused"
+msgstr "非フォーカス時"
+
+#: src/ptyxis-preferences-window.ui:234 src/ptyxis-preferences-window.ui:452
+#: src/ptyxis-preferences-window.ui:541 src/ptyxis-profile-editor.ui:236 src/ptyxis-profile-editor.ui:271
+msgid "Always"
+msgstr "常時"
+
+#: src/ptyxis-preferences-window.ui:258
+msgid "Block"
+msgstr "ブロック"
+
+#: src/ptyxis-preferences-window.ui:264
+msgid "I-Beam"
+msgstr "I 字型"
+
+#: src/ptyxis-preferences-window.ui:270
+msgid "Underline"
+msgstr "下線"
+
+#: src/ptyxis-preferences-window.ui:280
+msgid "Cursor Blinking"
+msgstr "カーソルの点滅"
+
+#: src/ptyxis-preferences-window.ui:289 src/ptyxis-preferences-window.ui:446
+msgid "Follow System"
+msgstr "システムに従う"
+
+#: src/ptyxis-preferences-window.ui:295
+msgid "Enabled"
+msgstr "有効"
+
+#: src/ptyxis-preferences-window.ui:301
+msgid "Disabled"
+msgstr "無効"
+
+#: src/ptyxis-preferences-window.ui:315
+msgid "Behavior"
+msgstr "振る舞い"
+
+#: src/ptyxis-preferences-window.ui:319
+msgid "Interface"
+msgstr "インターフェイス"
+
+#: src/ptyxis-preferences-window.ui:331
+msgid "Next"
+msgstr "次"
+
+#: src/ptyxis-preferences-window.ui:337
+msgid "Last"
+msgstr "末尾"
+
+#: src/ptyxis-preferences-window.ui:352
+msgid "Attempt to restore previous tabs when Ptyxis starts"
+msgstr "Ptyxis 起動時に前回のタブを復元しようとします"
+
+#: src/ptyxis-preferences-window.ui:358
+msgid "Restore the previous window size when creating a new window"
+msgstr "新しいウィンドウ作成時に前回のウィンドウサイズを復元します"
+
+#: src/ptyxis-preferences-window.ui:368
+msgid "Columns"
+msgstr "列数"
+
+#: src/ptyxis-preferences-window.ui:382
+msgid "Rows"
+msgstr "行数"
+
+#: src/ptyxis-preferences-window.ui:400
+msgid "Accessibility"
+msgstr "アクセシビリティ"
+
+#: src/ptyxis-preferences-window.ui:403
+msgid "Allow Screen Readers"
+msgstr "スクリーンリーダーを許可"
+
+#: src/ptyxis-preferences-window.ui:404
+msgid "Permit screen readers such as Orca to read terminal content and typed text"
+msgstr "ターミナルの内容と入力されたテキストを Orca のようなスクリーンリーダーが読み上げることを許可します"
+
+#: src/ptyxis-preferences-window.ui:411
+msgid "Bell"
+msgstr "ベル"
+
+#: src/ptyxis-preferences-window.ui:415
+msgid "Emit an audible bell when requested by active tab"
+msgstr "アクティブなタブからのリクエストで音声ベルを鳴らします"
+
+#: src/ptyxis-preferences-window.ui:420
+msgid "Visual Bell"
+msgstr "視覚ベル"
+
+#: src/ptyxis-preferences-window.ui:421
+msgid "Emit a visual bell when requested by active tab"
+msgstr "アクティブなタブからのリクエストで視覚的なベルを表示します"
+
+#: src/ptyxis-preferences-window.ui:428 src/ptyxis-profile-editor.ui:314
+msgid "Scrolling"
+msgstr "スクロール"
+
+#: src/ptyxis-preferences-window.ui:431
+msgid "Use Scrollbars"
+msgstr "スクロールバーを使用"
+
+#: src/ptyxis-preferences-window.ui:467 src/ptyxis-profile-editor.ui:318
+msgid "Scroll to the bottom upon input keystroke"
+msgstr "キー入力で下にスクロールします"
+
+#: src/ptyxis-preferences-window.ui:473 src/ptyxis-profile-editor.ui:324
+msgid "Scroll to the bottom when new content is available"
+msgstr "新しいコンテンツが出力されたときにスクロールします"
+
+#: src/ptyxis-preferences-window.ui:483 src/ptyxis-profile-editor.ui:334
+msgid "Restrict the number of lines saved for scrollback"
+msgstr "スクロールバックのために保存される行数を制限します"
+
+#: src/ptyxis-preferences-window.ui:492 src/ptyxis-profile-editor.ui:343
+msgid "The number of lines to keep for scrollback"
+msgstr "スクロールバックのために保持する行数"
+
+#: src/ptyxis-preferences-window.ui:511 src/ptyxis-profile-editor.ui:202
+msgid "Use Login Shell"
+msgstr "ログインシェルを使用"
+
+#: src/ptyxis-preferences-window.ui:520 src/ptyxis-profile-editor.ui:250
+msgid "Preserve Working Directory"
+msgstr "作業ディレクトリを保持"
+
+#: src/ptyxis-preferences-window.ui:535 src/ptyxis-profile-editor.ui:265
+msgid "Safe"
+msgstr "安全"
+
+#: src/ptyxis-preferences-window.ui:560 src/ptyxis-profile-editor.ui:290
+msgid "No Action"
+msgstr "何もしない"
+
+#: src/ptyxis-preferences-window.ui:566 src/ptyxis-profile-editor.ui:296
+msgid "Restart"
+msgstr "再起動"
+
+#: src/ptyxis-preferences-window.ui:584 src/ptyxis-profile-editor.ui:359
+msgid "Compatibility"
+msgstr "互換性"
+
+#: src/ptyxis-preferences-window.ui:587 src/ptyxis-profile-editor.ui:362
+msgid "Backspace Key"
+msgstr "Backspace キー"
+
+# 「シークエンス」は「Sequence」の発音に違いが、用語としては「シーケンス」が一般的。
+#: src/ptyxis-preferences-window.ui:588 src/ptyxis-profile-editor.ui:363
+msgid "Sequence to send for Backspace key"
+msgstr "Backspace キーが押された際に送信されるシークエンス"
+
+#: src/ptyxis-preferences-window.ui:597 src/ptyxis-profile-editor.ui:372
+msgid "Delete Key"
+msgstr "Delete キー"
+
+#: src/ptyxis-preferences-window.ui:598 src/ptyxis-profile-editor.ui:373
+msgid "Sequence to send for Delete key"
+msgstr "Delete キーが押された際に送信されるシークエンス"
+
+#: src/ptyxis-preferences-window.ui:607 src/ptyxis-profile-editor.ui:382
+msgid "Ambiguous-width Characters"
+msgstr "曖昧な幅の文字"
+
+#: src/ptyxis-preferences-window.ui:616 src/ptyxis-profile-editor.ui:391
+msgid "Narrow"
+msgstr "狭い"
+
+#: src/ptyxis-preferences-window.ui:622 src/ptyxis-profile-editor.ui:397
+msgid "Wide"
+msgstr "広い"
+
+#: src/ptyxis-preferences-window.ui:655
+msgid "Set as Default Terminal"
+msgstr "デフォルトターミナルとして設定"
+
+#: src/ptyxis-preferences-window.ui:665
+msgid "Shortcuts"
+msgstr "ショートカット"
+
+#: src/ptyxis-preferences-window.ui:694
+msgid "Clear Selection"
+msgstr "選択を解除"
+
+#: src/ptyxis-preferences-window.ui:704 src/ptyxis-shortcut-accel-dialog.ui:48 src/ptyxis-terminal.ui:230
+msgid "Reset"
+msgstr "リセット"
+
+#: src/ptyxis-preferences-window.ui:710 src/ptyxis-terminal.ui:236
+msgid "Reset and Clear"
+msgstr "リセットしてクリア"
+
+#: src/ptyxis-preferences-window.ui:731
+msgid "Show Context Menu"
+msgstr "コンテキストメニューを表示"
+
+#: src/ptyxis-preferences-window.ui:739
+msgid "Windows"
+msgstr "ウィンドウ"
+
+#: src/ptyxis-preferences-window.ui:743
+msgid "Open a new tab in a new window"
+msgstr "新しいタブを新規ウィンドウで開く"
+
+#: src/ptyxis-preferences-window.ui:750
+msgid "Close the current window"
+msgstr "現在のウィンドウを閉じる"
+
+#: src/ptyxis-preferences-window.ui:768
+msgid "Tabs"
+msgstr "タブ"
+
+#: src/ptyxis-preferences-window.ui:772
+msgid "Open a new tab in the current window"
+msgstr "新しいタブを現在のウィンドウで開く"
+
+#: src/ptyxis-preferences-window.ui:782
+msgid "View Tab Overview"
+msgstr "タブ一覧を表示"
+
+#: src/ptyxis-preferences-window.ui:783
+msgid "Show an overview of all tabs within the window"
+msgstr "ウィンドウ内ですべてのタブ一覧を表示"
+
+#: src/ptyxis-preferences-window.ui:794
+msgid "Close the current tab"
+msgstr "現在のタブを閉じる"
+
+#: src/ptyxis-preferences-window.ui:801
+msgid "Close all tabs except the active tab"
+msgstr "アクティブなタブ以外のタブを閉じる"
+
+#: src/ptyxis-preferences-window.ui:808
+msgid "Undo closing the last tab"
+msgstr "最後に閉じたタブを取り消す"
+
+#: src/ptyxis-preferences-window.ui:835
+msgid "Move the tab one position to the left"
+msgstr "タブをひとつ左側に移動"
+
+#: src/ptyxis-preferences-window.ui:842
+msgid "Move the tab one position to the right"
+msgstr "タブをひとつ右側に移動"
+
+#: src/ptyxis-preferences-window.ui:849
+msgid "Detach the current tab and move it to a new window"
+msgstr "現在のタブを新しいウィンドウへ移動"
+
+#: src/ptyxis-preferences-window.ui:859
+msgid "Switch to Tab 1"
+msgstr "タブ 1 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:865
+msgid "Switch to Tab 2"
+msgstr "タブ 2 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:871
+msgid "Switch to Tab 3"
+msgstr "タブ 3 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:877
+msgid "Switch to Tab 4"
+msgstr "タブ 4 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:883
+msgid "Switch to Tab 5"
+msgstr "タブ 5 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:889
+msgid "Switch to Tab 6"
+msgstr "タブ 6 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:895
+msgid "Switch to Tab 7"
+msgstr "タブ 7 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:901
+msgid "Switch to Tab 8"
+msgstr "タブ 8 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:907
+msgid "Switch to Tab 9"
+msgstr "タブ 9 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:913
+msgid "Switch to Tab 10"
+msgstr "タブ 10 に切り替える"
+
+#: src/ptyxis-preferences-window.ui:921
+msgid "Zoom"
+msgstr "ズーム"
+
+#: src/ptyxis-preferences-window.ui:944
+msgid "Application"
+msgstr "アプリケーション"
+
+#: src/ptyxis-preferences-window.ui:948
+msgid "Toggle in and out of fullscreen"
+msgstr "フルスクリーンのオン/オフの切り替え"
+
+#: src/ptyxis-preferences-window.ui:958
+msgid "Show Primary Menu"
+msgstr "プライマリーメニューの表示"
+
+#: src/ptyxis-preferences-window.ui:959
+msgid "Displays the primary menu for the terminal window"
+msgstr "ターミナルのウィンドウにプライマリメニューを表示する"
+
+#: src/ptyxis-preferences-window.ui:965
+msgid "Show New Tab Menu"
+msgstr "新しいタブメニューを表示"
+
+#: src/ptyxis-preferences-window.ui:966
+msgid "Displays the new tab menu for the terminal window"
+msgstr "ターミナルウィンドウの新しいタブメニューを表示する"
+
+#: src/ptyxis-preferences-window.ui:973
+msgid "Show this preferences window"
+msgstr "この設定メニューを表示する"
+
+#: src/ptyxis-preferences-window.ui:983 src/ptyxis-preferences-window.ui:987 src/ptyxis-window.c:1708
+#: src/ptyxis-window.c:1870
+msgid "Profiles"
+msgstr "プロファイル"
+
+#: src/ptyxis-preferences-window.ui:1006 src/ptyxis-profile-editor.ui:442
+msgid "Automatic"
+msgstr "自動"
+
+#: src/ptyxis-preferences-window.ui:1012 src/ptyxis-profile-editor.ui:448
+msgid "Control-H"
+msgstr "Control-H"
+
+#: src/ptyxis-preferences-window.ui:1018 src/ptyxis-profile-editor.ui:454
+msgid "ASCII DEL"
+msgstr "ASCII DEL"
+
+#: src/ptyxis-preferences-window.ui:1024 src/ptyxis-profile-editor.ui:460
+msgid "Escape Sequence"
+msgstr "Escape キーのシークエンス"
+
+#: src/ptyxis-preferences-window.ui:1030 src/ptyxis-profile-editor.ui:466
+msgid "TTY Erase"
+msgstr "TTY 消去"
+
+#: src/ptyxis-profile.c:729
+msgid "Untitled Profile"
+msgstr "無題のプロファイル"
+
+#: src/ptyxis-profile-dialog.ui:29 src/ptyxis-terminal.ui:249
+msgid "Change Profile"
+msgstr "プロファイルを変更"
+
+#: src/ptyxis-profile-dialog.ui:42 src/ptyxis-profile-editor.ui:31
+msgid "Profile"
+msgstr "プロファイル"
+
+#: src/ptyxis-profile-dialog.ui:43
+msgid "Select a profile to apply to this terminal"
+msgstr "この端末に適用するプロファイルを選択します"
+
+#: src/ptyxis-profile-editor.c:155 src/ptyxis-terminal.c:440 src/ptyxis-terminal.c:472
+msgid "Copied to clipboard"
+msgstr "クリップボードにコピーされました"
+
+#: src/ptyxis-profile-editor.c:184 src/ptyxis-profile-row.c:104
+#, c-format
+msgid "Removed profile “%s”"
+msgstr "プロファイル “%s” を削除"
+
+#: src/ptyxis-profile-editor.ui:22 src/ptyxis-tab.c:504 src/ptyxis-tab.c:561
+msgid "Edit Profile"
+msgstr "プロファイルを編集"
+
+#: src/ptyxis-profile-editor.ui:41
+msgid "Identifier"
+msgstr "識別子"
+
+#: src/ptyxis-profile-editor.ui:50
+msgid "Copy"
+msgstr "コピー"
+
+#: src/ptyxis-profile-editor.ui:62
+msgid "Color"
+msgstr "カラー"
+
+#: src/ptyxis-profile-editor.ui:134
+msgid "Use Bright Colors for Bold"
+msgstr "太字に明るい色を使用"
+
+#: src/ptyxis-profile-editor.ui:173
+msgid "Network"
+msgstr "ネットワーク"
+
+#: src/ptyxis-profile-editor.ui:176
+msgid "Proxy"
+msgstr "プロキシ"
+
+#: src/ptyxis-profile-editor.ui:177
+msgid "Applies the network proxy settings to the container environment"
+msgstr "ネットワークプロキシ設定をコンテナ環境に適用する"
+
+#: src/ptyxis-profile-editor.ui:212
+msgid "The default container to use with this profile"
+msgstr "デフォルトのコンテナにこのプロファイルを使用する"
+
+#: src/ptyxis-profile-editor.ui:221
+msgid "Preserve the current container when opening new tabs and windows"
+msgstr "新しいタブやウィンドウを開く際に現在のコンテナを保持する"
+
+#: src/ptyxis-profile-editor.ui:427
+msgid "Remove Profile"
+msgstr "プロファイルを削除"
+
+#: src/ptyxis-profile-row.ui:43
+msgid "_Make Default"
+msgstr "デフォルトにする (_M)"
+
+#: src/ptyxis-profile-row.ui:49
+msgid "_Duplicate…"
+msgstr "複製… (_D)"
+
+#. Translators: <b>%s</b> is used to show the provided text in bold
+#: src/ptyxis-shortcut-accel-dialog.c:538
+#, c-format
+msgid "Enter new shortcut to change <b>%s</b>."
+msgstr "<b>%s</b> を変更する新しいショートカットを入力してください。"
+
+#. do not use underline as it prevents alt+c as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:42
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. do not use underline as it prevents alt+s as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:56
+msgid "Set"
+msgstr "設定"
+
+#: src/ptyxis-shortcut-accel-dialog.ui:96
+msgid "Press Escape to cancel or Backspace to disable."
+msgstr "Escape キーを押すとキャンセル、Backspace を押すと無効化します。"
+
+#: src/ptyxis-shortcut-row.c:84
+msgid "Set Shortcut"
+msgstr "ショートカットを設定"
+
+#: src/ptyxis-shortcut-row.ui:33
+msgid "disabled"
+msgstr "無効"
+
+#: src/ptyxis-tab.c:355
+msgid "A foreground process is running"
+msgstr "フォアグラウンドプロセスが実行中"
+
+#: src/ptyxis-tab.c:412
+#, c-format
+msgid "Process Exited from Signal %d"
+msgstr "プロセスがシグナル %d で終了しました"
+
+#: src/ptyxis-tab.c:415 src/ptyxis-tab.c:438
+msgid "_Restart"
+msgstr "再起動 (_R)"
+
+#. Always prepare the banner even if we don't show it because we may
+#. * display it again if the tab is removed from the parking lot and
+#. * restored into the window.
+#.
+#: src/ptyxis-tab.c:437
+msgid "Process Exited"
+msgstr "プロセス終了"
+
+#: src/ptyxis-tab.c:503
+msgid "Failed to launch terminal"
+msgstr "ターミナルの起動に失敗しました"
+
+#: src/ptyxis-tab.c:559
+#, c-format
+msgid "Cannot locate container “%s”"
+msgstr "コンテナー “%s” が見つかりません"
+
+#: src/ptyxis-tab.c:583
+msgid "Failed to create pseudo terminal device"
+msgstr "疑似ターミナルデバイスの作成に失敗しました"
+
+#: src/ptyxis-tab.c:1650
+msgid "Exited"
+msgstr "終了しました"
+
+#: src/ptyxis-tab.c:1652
+msgid "Failed"
+msgstr "失敗"
+
+#: src/ptyxis-tab.c:2237
+msgid "Failed to open link"
+msgstr "リンクを開けませんでした"
+
+#: src/ptyxis-tab-notify.h:89
+msgid "Command completed"
+msgstr "コマンドが完了しました"
+
+#: src/ptyxis-terminal.ui:169
+msgid "_Open Link"
+msgstr "リンクを開く (_O)"
+
+#: src/ptyxis-terminal.ui:174
+msgid "_Copy Link"
+msgstr "リンクをコピー (_C)"
+
+#: src/ptyxis-terminal.ui:182
+msgid "Search…"
+msgstr "検索…"
+
+#: src/ptyxis-terminal.ui:189
+msgid "_Copy"
+msgstr "コピー (_C)"
+
+#: src/ptyxis-terminal.ui:190
+msgid "Copy selection from terminal to clipboard"
+msgstr "ターミナルの選択範囲をクリップボードにコピー"
+
+#: src/ptyxis-terminal.ui:194
+msgid "Copy as _HTML"
+msgstr "HTML としてコピー (_H)"
+
+#: src/ptyxis-terminal.ui:195
+msgid "Copy selection from terminal to clipboard with HTML formatting"
+msgstr "ターミナルの選択範囲を HTML 書式付きでクリップボードにコピー"
+
+#: src/ptyxis-terminal.ui:201
+msgid "_Paste"
+msgstr "貼り付け (_P)"
+
+#: src/ptyxis-terminal.ui:202
+msgid "Paste from clipboard into the terminal"
+msgstr "ターミナルにクリップボードから貼り付ける"
+
+#: src/ptyxis-terminal.ui:209
+msgid "Select _All"
+msgstr "すべて選択 (_A)"
+
+#: src/ptyxis-terminal.ui:210
+msgid "Selection all text from terminal including scrollback"
+msgstr "スクロールバックを含むターミナルのすべてのテキストを選択する"
+
+#: src/ptyxis-terminal.ui:216
+msgid "Select _None"
+msgstr "選択を解除 (_N)"
+
+#: src/ptyxis-terminal.ui:223
+msgid "Read-Only"
+msgstr "読み取り専用"
+
+#: src/ptyxis-terminal.ui:257 src/ptyxis-window.ui:388 src/ptyxis-window.ui:770
+msgid "Leave Fullscreen"
+msgstr "フルスクリーンを解除"
+
+#: src/ptyxis-terminal.ui:263
+msgid "_Inspect Terminal"
+msgstr "ターミナルを分析 (_I)"
+
+#: src/ptyxis-theme-selector.ui:21
+msgid "Follow System Style"
+msgstr "システムのスタイルに従う"
+
+#: src/ptyxis-theme-selector.ui:23
+msgid "Follow system style"
+msgstr "システムのスタイルに従う"
+
+#: src/ptyxis-theme-selector.ui:37
+msgid "Light Style"
+msgstr "明るいスタイル"
+
+#: src/ptyxis-theme-selector.ui:39
+msgid "Light style"
+msgstr "明るいスタイル"
+
+#: src/ptyxis-theme-selector.ui:54
+msgid "Dark Style"
+msgstr "暗いスタイル"
+
+#: src/ptyxis-theme-selector.ui:56
+msgid "Dark style"
+msgstr "暗いスタイル"
+
+#: src/ptyxis-title-dialog.ui:36
+msgid "Title"
+msgstr "タイトル"
+
+#: src/ptyxis-title-dialog.ui:42
+msgid "Include Process Title"
+msgstr "プロセス名を含める"
+
+#: src/ptyxis-title-dialog.ui:43
+msgid "Append title from Shell application"
+msgstr "シェルアプリケーションからのタイトルを追加"
+
+#. translators: Builder Terminal means this is a terminal bundled with GNOME Builder
+#: src/ptyxis-util.c:316
+msgid "Builder Terminal"
+msgstr "Builder ターミナル"
+
+#: src/ptyxis-util.c:320
+msgid "Ptyxis"
+msgstr "Ptyxis"
+
+#: src/ptyxis-window.c:1491
+msgid "Zoom in"
+msgstr "拡大"
+
+#: src/ptyxis-window.c:1506
+msgid "Zoom out"
+msgstr "縮小"
+
+#: src/ptyxis-window.c:1702 src/ptyxis-window.c:1874
+msgid "Containers"
+msgstr "コンテナ"
+
+#: src/ptyxis-window.ui:403
+msgid "New Terminal"
+msgstr "新しいターミナル"
+
+#: src/ptyxis-window.ui:416
+msgid "Show Profiles and Containers"
+msgstr "プロファイルとコンテナを表示"
+
+#: src/ptyxis-window.ui:436
+msgid "Filter…"
+msgstr "フィルター…"
+
+#: src/ptyxis-window.ui:589
+msgid "No Matching Results"
+msgstr "一致する結果がありません"
+
+#: src/ptyxis-window.ui:631
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: src/ptyxis-window.ui:639 src/ptyxis-window.ui:756
+msgid "Show Open Tabs"
+msgstr "開いているすべてのタブを表示"
+
+#: src/ptyxis-window.ui:740
+msgid "New _Tab"
+msgstr "新しいタブ (_T)"
+
+#: src/ptyxis-window.ui:747
+msgid "New _Window"
+msgstr "新しいウィンドウ (_W)"
+
+#: src/ptyxis-window.ui:764
+msgid "Fullscreen"
+msgstr "フルスクリーン"
+
+#: src/ptyxis-window.ui:778
+msgid "_Preferences"
+msgstr "設定 (_P)"
+
+#: src/ptyxis-window.ui:782
+msgid "_Keyboard Shortcuts"
+msgstr "キーボード・ショートカット (_K)"
+
+#: src/ptyxis-window.ui:786
+msgid "_About"
+msgstr "Ptyxis について (_A)"
+
+#: src/ptyxis-window.ui:795
+msgid "Move _Left"
+msgstr "左へ移動 (_L)"
+
+#: src/ptyxis-window.ui:800
+msgid "Move _Right"
+msgstr "右へ移動 (_R)"
+
+#: src/ptyxis-window.ui:805
+msgid "Move to New _Window"
+msgstr "新しいウィンドウへ移動 (_W)"
+
+#: src/ptyxis-window.ui:811
+msgid "_Pin Tab"
+msgstr "タブをピン留め (_P)"
+
+#: src/ptyxis-window.ui:816
+msgid "Un_pin Tab"
+msgstr "タブのピン留めを解除 (_P)"
+
+#: src/ptyxis-window.ui:831
+msgid "Close _Other Tabs"
+msgstr "他のタブを閉じる (_O)"
+
+#: src/ptyxis-window.ui:836
+msgid "_Close Tab"
+msgstr "タブを閉じる (_C)"
+
+#~ msgid "Document Portal"
+#~ msgstr "ドキュメントポータル"
+
+#, fuzzy
+#~| msgid "New terminal tab in active window"
+#~ msgid "New terminal tab in active window using PROFILE"
+#~ msgstr "アクティブウィンドウに新しいタブを作成"
+
+#, fuzzy
+#~| msgid "Container"
+#~ msgid "Unknown Container"
+#~ msgstr "コンテナ"
+
+#~ msgid "Search up to next result"
+#~ msgstr "下を検索"
+
+#~ msgid "Search down to next result"
+#~ msgstr "上を検索"
+
+#, fuzzy
+#~| msgid "My Computer"
+#~ msgid "_My Computer"
+#~ msgstr "このコンピューター"
+
+#~ msgid "Show more…"
+#~ msgstr "さらに表示…"
+
+#~ msgid "A container oriented terminal for GNOME"
+#~ msgstr "コンテナ志向の GNOME 向けターミナル"

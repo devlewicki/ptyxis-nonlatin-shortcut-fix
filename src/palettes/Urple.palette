@@ -1,0 +1,23 @@
+[Palette]
+Name=Urple
+Background=#1B1B23
+Foreground=#877A9B
+Cursor=#877A9B
+Color0=#000000
+Color1=#B0425B
+Color2=#37A415
+Color3=#AD5C42
+Color4=#564D9B
+Color5=#6C3CA1
+Color6=#808080
+Color7=#87799C
+Color8=#5D3225
+Color9=#FF6388
+Color10=#29E620
+Color11=#F08161
+Color12=#867AED
+Color13=#A05EEE
+Color14=#EAEAEA
+Color15=#BFA3FF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Urple.yml

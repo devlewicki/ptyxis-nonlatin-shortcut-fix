@@ -1,0 +1,23 @@
+[Palette]
+Name=Everblush
+Background=#141B1E
+Foreground=#DADADA
+Cursor=#DADADA
+Color0=#232A2D
+Color1=#E57474
+Color2=#8CCF7E
+Color3=#E5C76B
+Color4=#67B0E8
+Color5=#C47FD5
+Color6=#6CBFBF
+Color7=#B3B9B8
+Color8=#2D3437
+Color9=#EF7E7E
+Color10=#96D988
+Color11=#F4D67A
+Color12=#71BAF2
+Color13=#CE89DF
+Color14=#67CBE7
+Color15=#BDC3C2
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Everblush.yml

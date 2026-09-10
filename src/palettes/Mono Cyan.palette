@@ -1,0 +1,23 @@
+[Palette]
+Name=Mono Cyan
+Background=#00222B
+Foreground=#00CCFF
+Cursor=#00CCFF
+Color0=#003340
+Color1=#00CCFF
+Color2=#00CCFF
+Color3=#00CCFF
+Color4=#00CCFF
+Color5=#00CCFF
+Color6=#00CCFF
+Color7=#00CCFF
+Color8=#00CCFF
+Color9=#00CCFF
+Color10=#00CCFF
+Color11=#00CCFF
+Color12=#00CCFF
+Color13=#00CCFF
+Color14=#00CCFF
+Color15=#00CCFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Mono Cyan.yml

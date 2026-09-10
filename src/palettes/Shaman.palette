@@ -1,0 +1,23 @@
+[Palette]
+Name=Shaman
+Background=#001015
+Foreground=#405555
+Cursor=#405555
+Color0=#012026
+Color1=#B2302D
+Color2=#00A941
+Color3=#5E8BAA
+Color4=#449A86
+Color5=#00599D
+Color6=#5D7E19
+Color7=#405555
+Color8=#384451
+Color9=#FF4242
+Color10=#2AEA5E
+Color11=#8ED4FD
+Color12=#61D5BA
+Color13=#1298FF
+Color14=#98D028
+Color15=#58FBD6
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Shaman.yml

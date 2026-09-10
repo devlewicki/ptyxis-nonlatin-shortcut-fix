@@ -1,0 +1,23 @@
+[Palette]
+Name=Gotham
+Background=#0A0F14
+Foreground=#98D1CE
+Cursor=#98D1CE
+Color0=#0A0F14
+Color1=#C33027
+Color2=#26A98B
+Color3=#EDB54B
+Color4=#195465
+Color5=#4E5165
+Color6=#33859D
+Color7=#98D1CE
+Color8=#10151B
+Color9=#D26939
+Color10=#081F2D
+Color11=#245361
+Color12=#093748
+Color13=#888BA5
+Color14=#599CAA
+Color15=#D3EBE9
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Gotham.yml

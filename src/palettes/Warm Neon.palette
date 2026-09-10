@@ -1,0 +1,23 @@
+[Palette]
+Name=Warm Neon
+Background=#404040
+Foreground=#AFDAB6
+Cursor=#AFDAB6
+Color0=#000000
+Color1=#E24346
+Color2=#39B13A
+Color3=#DAE145
+Color4=#4261C5
+Color5=#F920FB
+Color6=#2ABBD4
+Color7=#D0B8A3
+Color8=#FEFCFC
+Color9=#E97071
+Color10=#9CC090
+Color11=#DDDA7A
+Color12=#7B91D6
+Color13=#F674BA
+Color14=#5ED1E5
+Color15=#D8C8BB
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Warm Neon.yml

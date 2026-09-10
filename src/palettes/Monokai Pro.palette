@@ -1,0 +1,23 @@
+[Palette]
+Name=Monokai Pro
+Background=#363537
+Foreground=#FDF9F3
+Cursor=#FDF9F3
+Color0=#363537
+Color1=#FF6188
+Color2=#A9DC76
+Color3=#FFD866
+Color4=#FC9867
+Color5=#AB9DF2
+Color6=#78DCE8
+Color7=#FDF9F3
+Color8=#908E8F
+Color9=#FF6188
+Color10=#A9DC76
+Color11=#FFD866
+Color12=#FC9867
+Color13=#AB9DF2
+Color14=#78DCE8
+Color15=#FDF9F3
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Monokai Pro.yml

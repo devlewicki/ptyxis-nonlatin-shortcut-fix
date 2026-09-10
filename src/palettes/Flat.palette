@@ -1,0 +1,23 @@
+[Palette]
+Name=Flat
+Background=#1F2D3A
+Foreground=#1ABC9C
+Cursor=#1ABC9C
+Color0=#2C3E50
+Color1=#C0392B
+Color2=#27AE60
+Color3=#F39C12
+Color4=#2980B9
+Color5=#8E44AD
+Color6=#16A085
+Color7=#BDC3C7
+Color8=#34495E
+Color9=#E74C3C
+Color10=#2ECC71
+Color11=#F1C40F
+Color12=#3498DB
+Color13=#9B59B6
+Color14=#2AA198
+Color15=#ECF0F1
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Flat.yml

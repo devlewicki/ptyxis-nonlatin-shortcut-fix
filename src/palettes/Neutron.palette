@@ -1,0 +1,23 @@
+[Palette]
+Name=Neutron
+Background=#1C1E22
+Foreground=#E6E8EF
+Cursor=#E6E8EF
+Color0=#23252B
+Color1=#B54036
+Color2=#5AB977
+Color3=#DEB566
+Color4=#6A7C93
+Color5=#A4799D
+Color6=#3F94A8
+Color7=#E6E8EF
+Color8=#23252B
+Color9=#B54036
+Color10=#5AB977
+Color11=#DEB566
+Color12=#6A7C93
+Color13=#A4799D
+Color14=#3F94A8
+Color15=#EBEDF2
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Neutron.yml

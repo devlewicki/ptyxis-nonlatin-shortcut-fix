@@ -1,0 +1,23 @@
+[Palette]
+Name=Ollie
+Background=#222125
+Foreground=#8A8DAE
+Cursor=#8A8DAE
+Color0=#000000
+Color1=#AC2E31
+Color2=#31AC61
+Color3=#AC4300
+Color4=#2D57AC
+Color5=#B08528
+Color6=#1FA6AC
+Color7=#8A8EAC
+Color8=#5B3725
+Color9=#FF3D48
+Color10=#3BFF99
+Color11=#FF5E1E
+Color12=#4488FF
+Color13=#FFC21D
+Color14=#1FFAFF
+Color15=#5B6EA7
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ollie.yml

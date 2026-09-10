@@ -1,0 +1,23 @@
+[Palette]
+Name=Wez
+Background=#000000
+Foreground=#B3B3B3
+Cursor=#B3B3B3
+Color0=#000000
+Color1=#CC5555
+Color2=#55CC55
+Color3=#CDCD55
+Color4=#5555CC
+Color5=#CC55CC
+Color6=#7ACACA
+Color7=#CCCCCC
+Color8=#555555
+Color9=#FF5555
+Color10=#55FF55
+Color11=#FFFF55
+Color12=#5555FF
+Color13=#FF55FF
+Color14=#55FFFF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Wez.yml

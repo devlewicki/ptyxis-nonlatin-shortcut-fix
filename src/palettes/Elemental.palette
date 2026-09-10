@@ -1,0 +1,23 @@
+[Palette]
+Name=Elemental
+Background=#22211D
+Foreground=#807A74
+Cursor=#807A74
+Color0=#3C3C30
+Color1=#98290F
+Color2=#479A43
+Color3=#7F7111
+Color4=#497F7D
+Color5=#7F4E2F
+Color6=#387F58
+Color7=#807974
+Color8=#555445
+Color9=#E0502A
+Color10=#61E070
+Color11=#D69927
+Color12=#79D9D9
+Color13=#CD7C54
+Color14=#59D599
+Color15=#FFF1E9
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Elemental.yml

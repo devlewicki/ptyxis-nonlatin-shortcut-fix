@@ -1,0 +1,1937 @@
+# Persian translation for ptyxis.
+# Copyright (C) 2024 ptyxis's COPYRIGHT HOLDER
+# This file is distributed under the same license as the ptyxis package.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2024-2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ptyxis main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/chergert/ptyxis/issues\n"
+"POT-Creation-Date: 2025-10-11 02:25+0000\n"
+"PO-Revision-Date: 2025-10-11 18:18+0330\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"Language-Team: Persian\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 48.0\n"
+"X-DL-Lang: fa\n"
+"X-DL-Module: ptyxis\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: None\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:2
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:6
+msgid "@APP_NAME@"
+msgstr "چنبره"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:3
+msgid "A container-oriented terminal for GNOME"
+msgstr "پایانه‌ای بارگنج‌محور برای گنوم"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:12 src/ptyxis-preferences-window.ui:669
+#: src/ptyxis-tab.c:1581 src/ptyxis-util.c:318
+msgid "Terminal"
+msgstr "پایانه"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Ptyxis.desktop.in.in:14
+msgid "terminal;prompt;ptyxis;shell;command;commandline;cmd;cli;console;container;podman;toolbox;distrobox;"
+msgstr "terminal;prompt;ptyxis;shell;command;commandline;cmd;cli;console;container;podman;toolbox;distrobox;ترمینال;پایانه;اعلان;چنبره;پوسته;فرمان;کنسول;خط;بارگنج;پادمن;"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:23
+#: src/org.gnome.Ptyxis.gschema.xml.in:418 src/ptyxis-preferences-window.ui:734
+msgid "New Window"
+msgstr "پنجرهٔ جدید"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:27
+#: src/org.gnome.Ptyxis.gschema.xml.in:412 src/ptyxis-preferences-window.ui:760
+msgid "New Tab"
+msgstr "زبانهٔ جدید"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:31
+#: src/org.gnome.Ptyxis.gschema.xml.in:430 src/ptyxis-preferences-window.ui:935
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:7
+msgid "Container-oriented terminal"
+msgstr "پایانهٔ بارگنج‌محور"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:9
+msgid ""
+"Ptyxis is a terminal for GNOME that focuses on ease-of-use in a world of "
+"containers."
+msgstr ""
+"چنبره پایانه‌ای برای گنوم است که روی سادگی استفاده در دنیای بارگنج‌ها تمرکز "
+"دارد."
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:13
+msgid "Features:"
+msgstr "ویژگی‌ها:"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:15
+msgid ""
+"Remembers current container when opening a new tab with support for podman, "
+"toolbox, distrobox, and more"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:16
+msgid "Configurable keyboard shortcuts"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:17
+msgid "Modern interface which integrates the palette with the window styling"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:18
+msgid "User-installable color palettes"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:19
+msgid "Support for preferences profiles with container integration"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:20
+msgid "Integrated color palettes with light and dark support"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:21
+msgid "Tabbed interface with tab overviews"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:22
+msgid "Efficient foreground process tracking denoting sudo and SSH"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:23
+msgid "Support for transparent terminal backgrounds"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:24
+msgid "Separate process mode for terminal-based applications"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:25
+msgid "Support for pinned tabs and saved sessions"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:26
+msgid "Terminal tabs are run within separate cgroups"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:27
+msgid "Terminal inspector to help when writing terminal-based applications"
+msgstr ""
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:32
+msgid "Christian Hergert"
+msgstr "کریستین هرگرت"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:52
+msgid "A column and row size indicator is displayed when resizing the window"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:57
+msgid "Containers are automatically discovered and displayed"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:62
+msgid "Many behaviors of the terminal may be tweaked to user preference"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:67
+msgid "You may rename a tab by providing a prefix to the title"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:72
+msgid "Palettes provide an integrated dark mode"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:77
+msgid "You can see an overview of your tabs at any time"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:82
+msgid "Many shortcuts may be remapped to user preference"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:87
+msgid "Built-in color palettes provide both dark and light mode variants"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:92
+msgid ""
+"Profiles allow for overriding a number of features such as default container"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:97
+msgid "The terminal will remind you when you're root on the local system"
+msgstr ""
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:102
+msgid "The terminal will remind you when you're on a remote system"
+msgstr ""
+
+#: src/main.c:142 src/main.c:149 src/main.c:161
+msgid "Error"
+msgstr ""
+
+#: src/main.c:155
+#, c-format
+msgid ""
+"Error: %s already exists.\n"
+"Please remove it first.\n"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:101
+msgid "Default Profile UUID"
+msgstr "شناسهٔ یکتای نمایهٔ پیش‌گزده"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:102
+msgid "The UUID of the default profile"
+msgstr "شناسهٔ یکتای نمایهٔ پیش‌گزده"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:107
+msgid "UUIDs of all Profiles"
+msgstr "شناسهٔ یکتای همهٔ نمایه‌ها"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:108
+msgid "A list of UUID for every profile"
+msgstr "سیاهه‌ای از شناسه‌های یکتا برای همهٔ نمایه‌ها"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:113 src/ptyxis-preferences-window.ui:322
+msgid "New Tab Position"
+msgstr "جایگاه زبانهٔ جدید"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:114
+msgid "Where to place new tabs"
+msgstr "مکان قرارگیری زبانه‌های جدید"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:119 src/ptyxis-preferences-window.ui:414
+msgid "Audible Bell"
+msgstr "زنگ صوتی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:120
+msgid "If an audible bell should be used"
+msgstr "این که باید از زنگ صوتی استفاده شود یا نه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:125
+msgid "Visible Bell"
+msgstr "زنگ بصری"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:126
+msgid "If a visual bell should be used"
+msgstr "این که باید از زنگ بصری استفاده شود یا نه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:131
+msgid "Visual Process Leader"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:132
+msgid ""
+"Display a visual window highlight when process leader is SSH, sudo, or other "
+"specialized tooling"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:137
+msgid "Use System Font"
+msgstr "استفاده از قلم سامانه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:138
+msgid "If the default system monospace font should be used"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:143
+msgid "Font Name"
+msgstr "نام قلم"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:144
+msgid "The font description to use if use-system-font is set to False"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:149 src/ptyxis-preferences-window.ui:249
+msgid "Cursor Shape"
+msgstr "شکل مکان‌نما"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:150
+msgid "The default shape of the cursor"
+msgstr "شکل پیش‌گزیدهٔ مکان‌نما"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:155
+msgid "Cursor Blink Mode"
+msgstr "حالت چشمک مکان‌نما"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:156
+msgid "The default blink mode cursor"
+msgstr "مکان‌نمای حالت چشمک پیش‌گزیده"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:161
+msgid "List of punctuation characters that are treated as word characters"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:162
+msgid ""
+"By default, when doing word-wise selection, most punctuation breaks up word "
+"boundaries. This list of exceptions will instead be treated as part of the "
+"word."
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:167
+msgid "Scrollbar Policy"
+msgstr "سیاست نوار لغزش"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:168
+msgid "If scrollbars should be displayed"
+msgstr "این که نوارهای لفزش باید نشان داده شوند یا نه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:177
+msgid "Text Blink Mode"
+msgstr "حالت چشمک متن"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:178
+msgid "When text blinking is allowed"
+msgstr "هنگام مجاز بودن چشمک زدن متن"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:183
+msgid "Interface Style"
+msgstr "سبک میانا"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:184
+msgid "If light or dark interface style should be used"
+msgstr "این که باید میانای روشن یا تیره استفاده شود"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:189 src/ptyxis-preferences-window.ui:351
+msgid "Restore Session"
+msgstr "بازگردانی نشست"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:190
+msgid "Restore tabs from previous session when starting Ptyxis"
+msgstr "بازگردانی زبانه‌ها از نشست پیشین هنگام آغاز چنبره"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:195 src/ptyxis-preferences-window.ui:357
+msgid "Restore Window Size"
+msgstr "بازگردانی اندازهٔ پنجره"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:196
+msgid "Restore the previous window size when creating new windows"
+msgstr "بازگردانی اندازهٔ پنجرهٔ پیشین هنگام ایجاد پنجره‌های جدید"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:206
+msgid "Default Column Size"
+msgstr "اندازهٔ پیش‌گزیدهٔ ستون"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:207
+#: src/org.gnome.Ptyxis.gschema.xml.in:214
+msgid "Default window size when restore-window-size is not true."
+msgstr "اندازهٔ پنجرهٔ پیش‌گزیده هنگام درست نبودن restore-window-size."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:213
+msgid "Default Row Size"
+msgstr "اندازهٔ پیش‌گزیدهٔ ردیف"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:219
+msgid "Toast on Copy Clipboard"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:220
+msgid "Show the user when text has copied to the clipboard."
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:225
+msgid "Enable Accessibility"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:226
+msgid ""
+"Currently experimental feature to send accessibility information to screen "
+"readers."
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:231
+msgid "Disable Padding around Terminal Emulator"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:232
+msgid ""
+"Do not pad around the terminal emulator widget. Setting to true may have "
+"significant performance impacts."
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:237
+msgid "Prompt when active tab is closed"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:238
+msgid ""
+"If a tab (or window) is closed with active foreground processes, prompt the "
+"user for confirmation."
+msgstr ""
+
+#. Translators: OSC stands for "Operating System Command" and is referencing in-band escape sequences from the child process to set the title
+#: src/org.gnome.Ptyxis.gschema.xml.in:244
+msgid "Ignore OSC Title"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:245
+msgid "If OSC title should be ignored in tab titles."
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:250
+msgid "Inhibit Logout"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:251
+msgid "Inhibit desktop logout when a foreground process is running in a tab."
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:260
+msgid "Label"
+msgstr "برچسب"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:261
+msgid "The label for the profile"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:266
+msgid "Login Shell"
+msgstr "پوستهٔ ورودی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:267
+msgid "Use a login shell"
+msgstr "استفاده از پوسته‌ای ورودی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:272 src/ptyxis-preferences-window.ui:482
+#: src/ptyxis-profile-editor.ui:333
+msgid "Limit Scrollback"
+msgstr "محدودیت پیمایش به پیش"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:273
+msgid "Limit the number of lines to keep for scrollback"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:279 src/ptyxis-preferences-window.ui:491
+#: src/ptyxis-profile-editor.ui:342
+msgid "Scrollback Lines"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:280
+msgid "The number of lines to keep in the scrollback, zero for no scrollback"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:285 src/ptyxis-preferences-window.ui:472
+#: src/ptyxis-profile-editor.ui:323
+msgid "Scroll on Output"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:286
+msgid "Scroll to the bottom upon new output"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:291 src/ptyxis-preferences-window.ui:466
+#: src/ptyxis-profile-editor.ui:317
+msgid "Scroll on Keystroke"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:292
+msgid "Scroll to the bottom upon user keystroke"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:297 src/ptyxis-profile-editor.ui:187
+msgid "Use Custom Command"
+msgstr "استفاده از فرمان سفارشی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:298
+msgid "If a custom command should be used"
+msgstr "این که از فرمانی سفارشی استفاده شود یا نه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:303
+msgid "Use Proxy"
+msgstr "استفاده از پیشکار"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:304
+msgid "Apply proxy settings from the host in the container"
+msgstr "اعمال تنظیمات پیشکار از میزبان در بارگنج"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:309 src/ptyxis-profile-editor.ui:192
+msgid "Custom Command"
+msgstr "فرمان سفارشی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:310
+msgid "A custom command for the shell"
+msgstr "فرمانی سفارشی برای پوسته"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:315 src/ptyxis-profile-editor.ui:211
+msgid "Default Container"
+msgstr "بارگنج پیش‌گزیده"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:316
+msgid "The default container to run the command in"
+msgstr "بارگنج پیش‌گزیده برای اجرای فرمان"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:321 src/ptyxis-profile-editor.ui:220
+msgid "Preserve Container"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:322
+msgid "Preserve the active container when creating new tabs and windows"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:327 src/ptyxis-preferences-window.ui:551
+#: src/ptyxis-profile-editor.ui:281
+msgid "Exit Action"
+msgstr "کنش خروج"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:328
+msgid "The action to take when the shell exits"
+msgstr "کنش انجام شده هنگام خروج از پوسته"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:333
+msgid "Preserve Directory"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:334
+msgid "If the directory should be preserved for new terminals"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:339 src/ptyxis-inspector.ui:102
+#: src/ptyxis-preferences-window.ui:40 src/ptyxis-profile-editor.ui:65
+msgid "Palette"
+msgstr "تخته‌رنگ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:340
+msgid "The color palette to use for the profile, by name"
+msgstr "تختخ‌رنگ استفاده شده برای نمایه، بر حسب نام"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:346
+msgid "Opacity"
+msgstr "شفافیت"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:347
+msgid "The opacity of the palette background"
+msgstr "کدری پس‌زمینهٔ تخته‌رنگ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:352
+msgid "Bold is Bright"
+msgstr "توپر روشن است"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:353
+msgid ""
+"Setting bold on one of the lower 8 colors in the palette will use bright "
+"variant (upper 8 colors)"
+msgstr ""
+"تنظیم توپری روی یکیاز ۸ رنگ پایین تخته‌رنگ از دگرگونهٔ روشن (۸ رنگ بالا) "
+"استفاده می‌کند"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:359 src/ptyxis-preferences-window.ui:175
+#: src/ptyxis-profile-editor.ui:143
+msgid "Line Spacing"
+msgstr "فاصله گذاری خط"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:360
+msgid "The terminal’s cell height scale"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:366 src/ptyxis-preferences-window.ui:189
+#: src/ptyxis-profile-editor.ui:157
+msgid "Column Spacing"
+msgstr "فاصله گذاری ستون"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:367
+msgid "The terminal’s cell width scale"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:372
+msgid "CJK Ambiguous Width"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:373
+msgid "The size to apply to ambiguous width characters"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:378
+#: src/org.gnome.Ptyxis.gschema.xml.in:384
+msgid "Backspace Binding"
+msgstr "ترکیب پس‌بر"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:379
+#: src/org.gnome.Ptyxis.gschema.xml.in:385
+msgid "What to send to the PTY when a backspace is entered"
+msgstr "هنگام ورود پس‌بر چه به PTY فرستاده شود"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:390 src/ptyxis-preferences-window.ui:634
+#: src/ptyxis-profile-editor.ui:409
+msgid "Custom Links"
+msgstr "پیوندهای سفارشی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:391
+msgid ""
+"A list of custom hyperlinks, each defined by a regular expression matching "
+"the text, and a replacement pattern"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:400 src/ptyxis-preferences-window.ui:672
+msgid "Copy to Clipboard"
+msgstr "رونوشت در تخته‌گیره"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:401
+msgid "The shortcut to copy to clipboard"
+msgstr "میان‌بر رونوشت به تخته‌گیره"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:406 src/ptyxis-preferences-window.ui:677
+msgid "Paste from Clipboard"
+msgstr "جایگذاری از تخته‌گیره"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:407
+msgid "The shortcut to paste from the clipboard"
+msgstr "میان‌بر جایگذاری از تخته‌گیره"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:413
+msgid "The shortcut to create a new tab in the current window"
+msgstr "میان‌بر ایجاد زبانه‌ای جدید در پنجرهٔ کنونی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:419
+msgid "The shortcut to create a new tab in a new window"
+msgstr "میان‌بر ایجاد زبانه‌ای جدید در پنجره‌ای جدید"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:424
+msgid "Tab Overview"
+msgstr "نمای کلی زبانه‌ها"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:425
+msgid "The shortcut to show the tab overview"
+msgstr "میان‌بر نمایش نمای کلی زبانه‌ها"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:431
+msgid "The shortcut to show application preferences"
+msgstr "میان‌بر نمایش ترجیحات برنامه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:436 src/ptyxis-preferences-window.ui:898
+#: src/ptyxis-window.c:1432 src/ptyxis-window.c:1440
+msgid "Zoom Out"
+msgstr "کوچک‌نمایی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:437
+msgid "The shortcut to zoom out"
+msgstr "میان‌بر کوچک‌نمایی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:442 src/ptyxis-preferences-window.ui:903
+#: src/ptyxis-window.c:1449
+msgid "Reset Zoom"
+msgstr "بازنشانی بزرگ‌نمایی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:443
+msgid "The shortcut to reset zoom"
+msgstr "میان‌بر بازنشانی بزرگنمایی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:448 src/ptyxis-preferences-window.ui:893
+#: src/ptyxis-window.c:1417 src/ptyxis-window.c:1425
+msgid "Zoom In"
+msgstr "بزرگ‌نمایی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:449
+msgid "The shortcut to zoom in"
+msgstr "میان‌بر بزرگ‌نمایی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:454 src/ptyxis-preferences-window.ui:913
+msgid "Toggle Fullscreen"
+msgstr "تغییر وضعیت تمام‌صفحه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:455
+msgid "The shortcut to toggle fullscreen"
+msgstr "میان‌بر تغییر حالت تمام‌صفحه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:460
+msgid "Reset Terminal"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:461
+msgid "Reset the terminal state for misbehaving clients"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:466
+msgid "Reset Terminal and Clear History"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:467
+msgid "Reset the terminal state and clear history for misbehaving clients"
+msgstr ""
+
+#. Translators: Refers to searching the terminal scrollback
+#: src/org.gnome.Ptyxis.gschema.xml.in:473 src/ptyxis-find-bar.ui:39
+#: src/ptyxis-preferences-window.ui:715
+msgid "Search History"
+msgstr "تاریخچهٔ جست‌وجو"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:474
+msgid "Shortcut to begin searching the terminal history"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:479 src/ptyxis-preferences-window.ui:686
+msgid "Select All"
+msgstr "گزینش همه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:480
+msgid "Shortcut to select all the entire terminal scrollback"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:485
+msgid "Select None"
+msgstr "گزینش هیچ‌کدام"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:486
+msgid "Shortcut to clear the terminal selection"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:491
+msgid "Popup Menu"
+msgstr "فهرست بالا پریدنی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:492
+msgid "Shortcut to show the popup menu for the terminal"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:497
+msgid "Primary Menu"
+msgstr "فهرست اصلی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:498
+msgid "Shortcut to show the primary menu for the window"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:503
+msgid "Tab Menu"
+msgstr "فهرست زبانه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:504
+msgid "Shortcut to show the new tab menu"
+msgstr "میان‌بر نمایش فهرست زبانهٔ جدید"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:510 src/ptyxis-preferences-window.ui:802
+msgid "Move to Previous Tab"
+msgstr ""
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:512
+msgid "Shortcut to move to the previous tab"
+msgstr ""
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:518 src/ptyxis-preferences-window.ui:807
+msgid "Move to Next Tab"
+msgstr ""
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:520
+msgid "Shortcut to move to the next tab"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:525 src/ptyxis-preferences-window.ui:816
+msgid "Move Tab Left"
+msgstr "جابه‌جایی زبانه به راست"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:526
+msgid "Shortcut to move the current tab to the left one position"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:531 src/ptyxis-preferences-window.ui:822
+msgid "Move Tab Right"
+msgstr "جابه‌جایی زبانه به چپ"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:532
+msgid "Shortcut to move the current tab to the right one position"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:537 src/ptyxis-preferences-window.ui:828
+msgid "Move Tab to New Window"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:538
+msgid "Shortcut to move the current tab into a new window"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:543 src/ptyxis-preferences-window.ui:780
+msgid "Close Tab"
+msgstr "بستن زبانه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:544
+msgid "Shortcut to close the current tab"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:549 src/ptyxis-preferences-window.ui:786
+msgid "Close Other Tabs"
+msgstr "بستن دیگر زبانه‌ها"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:550
+msgid "Shortcut to close all tabs in the window but the current one"
+msgstr "میان‌بر بستن همهٔ زبانه‌های پنجره جز زبانهٔ‌ کنونی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:555 src/ptyxis-preferences-window.ui:740
+msgid "Close Window"
+msgstr "بستن پنجره"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:556
+msgid "Shortcut to close the current window"
+msgstr "میان‌بر بستن پنجرهٔ کنونی"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:561 src/ptyxis-preferences-window.ui:750
+#: src/ptyxis-terminal.ui:244 src/ptyxis-window.c:1157 src/ptyxis-window.ui:833
+msgid "Set Title"
+msgstr "تنظیم عنوان"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:562
+msgid "The shortcut to show set title"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:567
+msgid "Focus Tab 1"
+msgstr "تمرکز روی زبانهٔ ۱"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:568
+msgid "Shortcut to focus tab 1"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۱"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:573
+msgid "Focus Tab 2"
+msgstr "تمرکز روی زبانهٔ ۲"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:574
+msgid "Shortcut to focus tab 2"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۲"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:579
+msgid "Focus Tab 3"
+msgstr "تمرکز روی زبانهٔ ۳"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:580
+msgid "Shortcut to focus tab 3"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۳"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:585
+msgid "Focus Tab 4"
+msgstr "تمرکز روی زبانهٔ ۴"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:586
+msgid "Shortcut to focus tab 4"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۴"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:591
+msgid "Focus Tab 5"
+msgstr "تمرکز روی زبانهٔ ۵"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:592
+msgid "Shortcut to focus tab 5"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۵"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:597
+msgid "Focus Tab 6"
+msgstr "تمرکز روی زبانهٔ ۶"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:598
+msgid "Shortcut to focus tab 6"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۶"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:603
+msgid "Focus Tab 7"
+msgstr "تمرکز روی زبانهٔ ۷"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:604
+msgid "Shortcut to focus tab 7"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۷"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:609
+msgid "Focus Tab 8"
+msgstr "تمرکز روی زبانهٔ ۸"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:610
+msgid "Shortcut to focus tab 8"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۸"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:615
+msgid "Focus Tab 9"
+msgstr "تمرکز روی زبانهٔ ۹"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:616
+msgid "Shortcut to focus tab 9"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۹"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:621
+msgid "Focus Tab 10"
+msgstr "تمرکز روی زبانهٔ ۱۰"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:622
+msgid "Shortcut to focus tab 10"
+msgstr "میان‌بر تمرکز روی زبانهٔ ۱۰"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:627 src/ptyxis-preferences-window.ui:792
+msgid "Undo Close Tab"
+msgstr "برگردان بستن زبانه"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:628
+msgid "Undo closing of last tab"
+msgstr "برگذداندن بستن آخرین زبانه"
+
+#: src/ptyxis-application.c:465
+msgid "--tab, --tab-with-profile, or --new-window may not be used together"
+msgstr ""
+
+#: src/ptyxis-application.c:511
+#, c-format
+msgid "Cannot parse command: %s"
+msgstr ""
+
+#: src/ptyxis-application.c:1147
+msgid "Examples:"
+msgstr "مثال‌ها:"
+
+#: src/ptyxis-application.c:1149
+msgid "Show the application preferences"
+msgstr "نمایش ترجیحات برنامه"
+
+#. Used for new tabs/windows/etc when specified
+#: src/ptyxis-application.c:1152
+msgid "Use DIR for --tab, --tab-with-profile, --new-window, or -x"
+msgstr ""
+
+#: src/ptyxis-application.c:1152
+msgid "DIR"
+msgstr "DIR"
+
+#. By default, this implies a new ptyxis instance unless the options
+#. * below are provided to override that.
+#.
+#: src/ptyxis-application.c:1157
+msgid "Command to execute in new window"
+msgstr ""
+
+#. These options all imply we're using a shared Ptyxis instance. We do not support
+#. * short command options for these to make it easier to sniff them in early args
+#. * checking from `main.c`.
+#.
+#: src/ptyxis-application.c:1163
+msgid "New terminal window"
+msgstr "پنجرهٔ جدید پایانه"
+
+#: src/ptyxis-application.c:1164
+msgid "New terminal tab in active window"
+msgstr ""
+
+#: src/ptyxis-application.c:1165
+msgid "New terminal tab in active window using the profile UUID"
+msgstr ""
+
+#: src/ptyxis-application.c:1165
+msgid "PROFILE_UUID"
+msgstr ""
+
+#. Standalone (single instance mode)
+#: src/ptyxis-application.c:1168
+msgid "Start a new instance, ignoring existing instances"
+msgstr ""
+
+#: src/ptyxis-application.c:1170
+msgid "Set title for new tab"
+msgstr ""
+
+#: src/ptyxis-application.c:1171
+msgid "Maximize a newly created window"
+msgstr ""
+
+#: src/ptyxis-application.c:1172
+msgid "Fullscreen a newly created window"
+msgstr ""
+
+#. Import a custom .palette file. This works like dragging the file onto preferences
+#: src/ptyxis-application.c:1175
+msgid "Import a Ptyxis palette file"
+msgstr ""
+
+#: src/ptyxis-application.c:1175
+msgid "FILE"
+msgstr ""
+
+#: src/ptyxis-application.c:1182
+msgid "Run Separate Instance"
+msgstr ""
+
+#: src/ptyxis-application.c:1186
+msgid "Open Preferences"
+msgstr "گشودن ترجیحات"
+
+#: src/ptyxis-application.c:1190
+msgid "Run Custom Command in New Window"
+msgstr ""
+
+#: src/ptyxis-application.c:1195
+msgid "Import a custom palette"
+msgstr ""
+
+#: src/ptyxis-application.c:1198
+msgid "[-- COMMAND ARGUMENTS]"
+msgstr ""
+
+#: src/ptyxis-application.c:1436
+msgid "translator-credits"
+msgstr "دانیال بهزادی <dani.behzi@ubuntu.com>"
+
+#: src/ptyxis-close-dialog.c:109
+msgid "_Close"
+msgstr "_بستن"
+
+#: src/ptyxis-close-dialog.c:109
+msgid "_Close All"
+msgstr "_بستن همه"
+
+#: src/ptyxis-close-dialog.c:111
+msgid "Close Window?"
+msgstr "بستن پنجره؟"
+
+#: src/ptyxis-close-dialog.c:112
+msgid "Some processes are still running."
+msgstr ""
+
+#: src/ptyxis-close-dialog.c:116
+msgid "_Cancel"
+msgstr "_لغو"
+
+#: src/ptyxis-close-dialog.c:142
+#, c-format
+msgid "Process %d"
+msgstr "فرایند %Id"
+
+#: src/ptyxis-custom-link-editor.ui:20
+msgid "Edit Custom Link"
+msgstr ""
+
+#: src/ptyxis-custom-link-editor.ui:29
+msgid "Custom Link"
+msgstr "پیوند سفارشی"
+
+#: src/ptyxis-custom-link-editor.ui:30
+msgid ""
+"A clickable link in the terminal that matches text patterns and opens custom "
+"URLs. Uses regex capture groups to build the final URL (e.g., $1 becomes the "
+"first matched group)."
+msgstr ""
+
+#: src/ptyxis-custom-link-editor.ui:35
+msgid "Regex Pattern"
+msgstr "الگوی عبارت باقاعده"
+
+#: src/ptyxis-custom-link-editor.ui:40
+msgid "Target URL"
+msgstr "نشانی مقصد"
+
+#: src/ptyxis-custom-link-row.c:131
+#, c-format
+msgid "Removed custom link “%s”"
+msgstr "پیوند سفارشی «%s»  برداشته شد"
+
+#: src/ptyxis-custom-link-row.c:133 src/ptyxis-profile-editor.c:186
+#: src/ptyxis-profile-row.c:106
+msgid "Undo"
+msgstr "برگردان"
+
+#: src/ptyxis-custom-link-row.ui:26 src/ptyxis-profile-row.ui:33
+msgid "View More"
+msgstr "بیش‌تر ببینید"
+
+#: src/ptyxis-custom-link-row.ui:36 src/ptyxis-profile-row.ui:53
+msgid "_Edit…"
+msgstr "_ویرایش…"
+
+#: src/ptyxis-custom-link-row.ui:42 src/ptyxis-profile-row.ui:59
+msgid "_Remove"
+msgstr "_برداشتن"
+
+#: src/ptyxis-find-bar.ui:69
+msgid "Search Up"
+msgstr "جست‌وجو به بالا"
+
+#: src/ptyxis-find-bar.ui:76
+msgid "Search Down"
+msgstr "جست‌وجو به پایین"
+
+#: src/ptyxis-find-bar.ui:85
+msgid "Search Options"
+msgstr "گزینه‌های جست‌وجو"
+
+#: src/ptyxis-find-bar.ui:96
+msgid "Match _Case"
+msgstr "تطابق _بزرگی و کوچکی"
+
+#: src/ptyxis-find-bar.ui:102
+msgid "Whole _Words"
+msgstr "واژه‌های _کامل"
+
+#: src/ptyxis-find-bar.ui:108
+msgid "Use _Regular Expressions"
+msgstr "استفاده از _عبارت‌های باقاعده"
+
+#: src/ptyxis-find-bar.ui:128 src/ptyxis-preferences-window.ui:572
+#: src/ptyxis-profile-editor.ui:302
+msgid "Close"
+msgstr "بستن"
+
+#: src/ptyxis-find-bar.ui:129
+msgid "Close the search bar"
+msgstr "بستن نوار جست‌وجو"
+
+#: src/ptyxis-inspector.c:95 src/ptyxis-inspector.c:357
+msgid "unset"
+msgstr "ناتنظیم"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Row"
+msgstr "ردیف"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Column"
+msgstr "ستون"
+
+#. NOTE: If we are in a container that also supports VTE patches
+#. * then it will send shell-precmd via escape sequences. The reality
+#. * is that our foreground is the `toolbox enter` process (until we
+#. * have better patches in VTE) but we show "Shell" instead.
+#. *
+#. * This is fine for now, but I'd like it to be better and actually
+#. * show the proper `tcgetpgrp()` foreground.
+#.
+#: src/ptyxis-inspector.c:177 src/ptyxis-inspector.c:197
+#: src/ptyxis-preferences-window.ui:508 src/ptyxis-profile-editor.ui:184
+msgid "Shell"
+msgstr "پوسته"
+
+#: src/ptyxis-inspector.c:276
+msgid "untracked"
+msgstr "ردیابی نشده"
+
+#: src/ptyxis-inspector.ui:4
+msgid "Inspector"
+msgstr "بازرس"
+
+#: src/ptyxis-inspector.ui:7
+msgid "Process"
+msgstr "فرایند"
+
+#: src/ptyxis-inspector.ui:13
+msgid "Foreground Process"
+msgstr "فرایند پیش‌زمینه"
+
+#: src/ptyxis-inspector.ui:33
+msgid "Window Title"
+msgstr "عنوان پنجره"
+
+#: src/ptyxis-inspector.ui:45
+msgid "Current Directory"
+msgstr "شاخهٔ کنونی"
+
+#: src/ptyxis-inspector.ui:53
+msgid "Current File"
+msgstr "پروندهٔ کنونی"
+
+#: src/ptyxis-inspector.ui:63
+msgid "Container"
+msgstr "بارگنج"
+
+#: src/ptyxis-inspector.ui:66
+msgid "Runtime"
+msgstr "سامانه زمان اجرا"
+
+#: src/ptyxis-inspector.ui:74 src/ptyxis-inspector.ui:228
+#: src/ptyxis-profile-editor.ui:36
+msgid "Name"
+msgstr "نام"
+
+#: src/ptyxis-inspector.ui:86 src/ptyxis-preferences-window.ui:36
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: src/ptyxis-inspector.ui:92
+msgid "Grid Size"
+msgstr "اندازهٔ شبکه"
+
+#: src/ptyxis-inspector.ui:105
+msgid "Colors"
+msgstr "رنگ‌ها"
+
+#: src/ptyxis-inspector.ui:225 src/ptyxis-preferences-window.ui:130
+msgid "Font"
+msgstr "قلم"
+
+#: src/ptyxis-inspector.ui:233
+msgid "Cell Size"
+msgstr "اندازهٔ خانه"
+
+#: src/ptyxis-inspector.ui:242
+msgid "Input"
+msgstr "ورودی"
+
+#: src/ptyxis-inspector.ui:246 src/ptyxis-preferences-window.ui:246
+msgid "Cursor"
+msgstr "مکان‌نما"
+
+#: src/ptyxis-inspector.ui:249 src/ptyxis-inspector.ui:262
+msgid "Position"
+msgstr "جایگاه"
+
+#: src/ptyxis-inspector.ui:259
+msgid "Mouse"
+msgstr "موشی"
+
+#: src/ptyxis-inspector.ui:270
+msgid "Hyperlink"
+msgstr "فراپیوند"
+
+#: src/ptyxis-menu-row.c:166 src/ptyxis-profile-editor.c:217
+#: src/ptyxis-window.c:1661
+msgid "My Computer"
+msgstr "رایانه‌ام"
+
+#: src/ptyxis-palette-preview.ui:32
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "اَلا یا اَیًُهَا السّاقی، اَدِر کَاْساً وَ ناوِلها"
+
+#: src/ptyxis-preferences-window.c:274
+msgid "Select Font"
+msgstr "گزینش قلم"
+
+#: src/ptyxis-preferences-window.c:349
+msgid "Show Fewer Palettes"
+msgstr "نمایش تخته‌رنگ‌های کم‌تر"
+
+#: src/ptyxis-preferences-window.c:354 src/ptyxis-preferences-window.ui:46
+msgid "Show All Palettes"
+msgstr "نمایش همهٔ تخته‌رنگ‌ها"
+
+#: src/ptyxis-preferences-window.c:379
+msgid "Add Profile"
+msgstr "افزودن نمایه"
+
+#: src/ptyxis-preferences-window.c:481 src/ptyxis-profile-editor.c:270
+msgid "Add Link"
+msgstr "افزودن پیوند"
+
+#: src/ptyxis-preferences-window.ui:72 src/ptyxis-profile-editor.ui:74
+msgid "Transparency"
+msgstr "شفافیت"
+
+#: src/ptyxis-preferences-window.ui:73 src/ptyxis-profile-editor.ui:75
+msgid "Reduces the opacity of the background window"
+msgstr "کاهش کدری پنجرهٔ پس‌زمینه"
+
+#: src/ptyxis-preferences-window.ui:134
+msgid "Use System _Font"
+msgstr "استفاده از _قلم سامانه"
+
+#: src/ptyxis-preferences-window.ui:146
+msgid "Custom Font"
+msgstr "قلم سفارشی"
+
+#: src/ptyxis-preferences-window.ui:207
+msgid "Blinking Text"
+msgstr "متن چشمک زن"
+
+#: src/ptyxis-preferences-window.ui:216 src/ptyxis-preferences-window.ui:440
+#: src/ptyxis-preferences-window.ui:529 src/ptyxis-profile-editor.ui:230
+#: src/ptyxis-profile-editor.ui:259
+msgid "Never"
+msgstr "هرگز"
+
+#: src/ptyxis-preferences-window.ui:222
+msgid "Focused"
+msgstr "متمرکز"
+
+#: src/ptyxis-preferences-window.ui:228
+msgid "Unfocused"
+msgstr "نامتمرکز"
+
+#: src/ptyxis-preferences-window.ui:234 src/ptyxis-preferences-window.ui:452
+#: src/ptyxis-preferences-window.ui:541 src/ptyxis-profile-editor.ui:236
+#: src/ptyxis-profile-editor.ui:271
+msgid "Always"
+msgstr "همیشه"
+
+#: src/ptyxis-preferences-window.ui:258
+msgid "Block"
+msgstr "بلوک"
+
+#: src/ptyxis-preferences-window.ui:264
+msgid "I-Beam"
+msgstr "باریکه"
+
+#: src/ptyxis-preferences-window.ui:270
+msgid "Underline"
+msgstr "زیر خط"
+
+#: src/ptyxis-preferences-window.ui:280
+msgid "Cursor Blinking"
+msgstr "چشمک‌زدن مکان‌نما"
+
+#: src/ptyxis-preferences-window.ui:289 src/ptyxis-preferences-window.ui:446
+msgid "Follow System"
+msgstr "پیروی از سامانه"
+
+#: src/ptyxis-preferences-window.ui:295
+msgid "Enabled"
+msgstr "به کار افتاده"
+
+#: src/ptyxis-preferences-window.ui:301
+msgid "Disabled"
+msgstr "از کار افتاده"
+
+#: src/ptyxis-preferences-window.ui:315
+msgid "Behavior"
+msgstr "رفتار"
+
+#: src/ptyxis-preferences-window.ui:319
+msgid "Interface"
+msgstr "واسط"
+
+#: src/ptyxis-preferences-window.ui:331
+msgid "Next"
+msgstr "بعدی"
+
+#: src/ptyxis-preferences-window.ui:337
+msgid "Last"
+msgstr "آخر"
+
+#: src/ptyxis-preferences-window.ui:352
+msgid "Attempt to restore previous tabs when Ptyxis starts"
+msgstr "تلاش برای بازگردانی زبانه‌های پیشین هنگام آغاز چنبره"
+
+#: src/ptyxis-preferences-window.ui:358
+msgid "Restore the previous window size when creating a new window"
+msgstr "بازگردانی اندازهٔ پنجرهٔ پیشین هنگام ایجاد پنجره‌ای جدید"
+
+#: src/ptyxis-preferences-window.ui:368
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: src/ptyxis-preferences-window.ui:382
+msgid "Rows"
+msgstr "سطرها"
+
+#: src/ptyxis-preferences-window.ui:400
+msgid "Accessibility"
+msgstr "دسترسی‌پذیری"
+
+#: src/ptyxis-preferences-window.ui:403
+msgid "Allow Screen Readers"
+msgstr "اجازه به صفحه‌خوان‌ها"
+
+#: src/ptyxis-preferences-window.ui:404
+msgid ""
+"Permit screen readers such as Orca to read terminal content and typed text"
+msgstr "اجازه به صفحه‌خوان‌هایی چون اورکا برای خواندن محتوای پایانه و متن نوشته"
+
+#: src/ptyxis-preferences-window.ui:411
+msgid "Bell"
+msgstr "زنگوله"
+
+#: src/ptyxis-preferences-window.ui:415
+msgid "Emit an audible bell when requested by active tab"
+msgstr "اعمال زنگی شنیداری هنگام درخواست از سوی زبانهٔ فعّال"
+
+#: src/ptyxis-preferences-window.ui:420
+msgid "Visual Bell"
+msgstr "زنگ دیداری"
+
+#: src/ptyxis-preferences-window.ui:421
+msgid "Emit a visual bell when requested by active tab"
+msgstr "اعمال زنگی دیداری هنگام درخواست از سوی زبانهٔ فعّال"
+
+#: src/ptyxis-preferences-window.ui:428 src/ptyxis-profile-editor.ui:314
+msgid "Scrolling"
+msgstr "لغزش"
+
+#: src/ptyxis-preferences-window.ui:431
+msgid "Use Scrollbars"
+msgstr "استفاده از نوارهای لغزش"
+
+#: src/ptyxis-preferences-window.ui:467 src/ptyxis-profile-editor.ui:318
+msgid "Scroll to the bottom upon input keystroke"
+msgstr "لغزش به ته هنگام ورود ضربهٔ کلید"
+
+#: src/ptyxis-preferences-window.ui:473 src/ptyxis-profile-editor.ui:324
+msgid "Scroll to the bottom when new content is available"
+msgstr "لغزش به ته هنگام موجود بودن محتوای جدید"
+
+#: src/ptyxis-preferences-window.ui:483 src/ptyxis-profile-editor.ui:334
+msgid "Restrict the number of lines saved for scrollback"
+msgstr "محدود کردن شمار خط‌های ذخیره شده برای لغزش به پس"
+
+#: src/ptyxis-preferences-window.ui:492 src/ptyxis-profile-editor.ui:343
+msgid "The number of lines to keep for scrollback"
+msgstr "شمار خط‌های نگه داشته برای لغزش به پس"
+
+#: src/ptyxis-preferences-window.ui:511 src/ptyxis-profile-editor.ui:202
+msgid "Use Login Shell"
+msgstr "استفاده از پوستهٔ ورود"
+
+#: src/ptyxis-preferences-window.ui:520 src/ptyxis-profile-editor.ui:250
+msgid "Preserve Working Directory"
+msgstr "نگه داشتن شاخهٔ کاری"
+
+#: src/ptyxis-preferences-window.ui:535 src/ptyxis-profile-editor.ui:265
+msgid "Safe"
+msgstr "امن"
+
+#: src/ptyxis-preferences-window.ui:560 src/ptyxis-profile-editor.ui:290
+msgid "No Action"
+msgstr "بون کنش"
+
+#: src/ptyxis-preferences-window.ui:566 src/ptyxis-profile-editor.ui:296
+msgid "Restart"
+msgstr "آغاز دوباره"
+
+#: src/ptyxis-preferences-window.ui:584 src/ptyxis-profile-editor.ui:359
+msgid "Compatibility"
+msgstr "سازگاری"
+
+#: src/ptyxis-preferences-window.ui:587 src/ptyxis-profile-editor.ui:362
+msgid "Backspace Key"
+msgstr "کلید پس‌بر"
+
+#: src/ptyxis-preferences-window.ui:588 src/ptyxis-profile-editor.ui:363
+msgid "Sequence to send for Backspace key"
+msgstr "دنبالهٔ فرستادن برای کلید پس‌بر"
+
+#: src/ptyxis-preferences-window.ui:597 src/ptyxis-profile-editor.ui:372
+msgid "Delete Key"
+msgstr "کلید حذف"
+
+#: src/ptyxis-preferences-window.ui:598 src/ptyxis-profile-editor.ui:373
+msgid "Sequence to send for Delete key"
+msgstr "دنبالهٔ فرستادن برای کلید حذف"
+
+#: src/ptyxis-preferences-window.ui:607 src/ptyxis-profile-editor.ui:382
+msgid "Ambiguous-width Characters"
+msgstr "نویسه‌های با پهنای نامشخّص"
+
+#: src/ptyxis-preferences-window.ui:616 src/ptyxis-profile-editor.ui:391
+msgid "Narrow"
+msgstr "باریک"
+
+#: src/ptyxis-preferences-window.ui:622 src/ptyxis-profile-editor.ui:397
+msgid "Wide"
+msgstr "پهن"
+
+#: src/ptyxis-preferences-window.ui:655
+msgid "Set as Default Terminal"
+msgstr "تنظیم به پایانهٔ پیش‌گزیده"
+
+#: src/ptyxis-preferences-window.ui:665
+msgid "Shortcuts"
+msgstr "میان‌برها"
+
+#: src/ptyxis-preferences-window.ui:691
+msgid "Clear Selection"
+msgstr "پاک‌سازی گزینش"
+
+#: src/ptyxis-preferences-window.ui:700 src/ptyxis-terminal.ui:230
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: src/ptyxis-preferences-window.ui:705 src/ptyxis-terminal.ui:236
+msgid "Reset and Clear"
+msgstr "بازنشانی و پاک‌سازی"
+
+#: src/ptyxis-preferences-window.ui:724
+msgid "Show Context Menu"
+msgstr "نمایش فهرست بافتاری"
+
+#: src/ptyxis-preferences-window.ui:731
+msgid "Windows"
+msgstr "پنجره‌ها"
+
+#: src/ptyxis-preferences-window.ui:735
+msgid "Open a new tab in a new window"
+msgstr "گشودن زبانه‌ای جدید در پنجره‌ای جدید"
+
+#: src/ptyxis-preferences-window.ui:741
+msgid "Close the current window"
+msgstr "بستن پنجرهٔ کنونی"
+
+#: src/ptyxis-preferences-window.ui:757
+msgid "Tabs"
+msgstr "زبانه‌ها"
+
+#: src/ptyxis-preferences-window.ui:761
+msgid "Open a new tab in the current window"
+msgstr "گشودن زبانه‌ای جدید در پنجرهٔ کنونی"
+
+#: src/ptyxis-preferences-window.ui:770
+msgid "View Tab Overview"
+msgstr "دیدن نمای کلی زبانه‌ها"
+
+#: src/ptyxis-preferences-window.ui:771
+msgid "Show an overview of all tabs within the window"
+msgstr "نمایش نمایی کلی از همهٔ زبانه‌ها در پنجره"
+
+#: src/ptyxis-preferences-window.ui:781
+msgid "Close the current tab"
+msgstr "بستن زبانهٔ کنونی"
+
+#: src/ptyxis-preferences-window.ui:787
+msgid "Close all tabs except the active tab"
+msgstr "بستن همهٔ زبانه‌ها جز زبانهٔ فعّال"
+
+#: src/ptyxis-preferences-window.ui:793
+msgid "Undo closing the last tab"
+msgstr "بازگردنی بستن آخرین زبانه"
+
+#: src/ptyxis-preferences-window.ui:817
+msgid "Move the tab one position to the left"
+msgstr "جابه‌جایی زبانه یکی به راست"
+
+#: src/ptyxis-preferences-window.ui:823
+msgid "Move the tab one position to the right"
+msgstr "جابه‌جایی زبانه یکی به چپ"
+
+#: src/ptyxis-preferences-window.ui:829
+msgid "Detach the current tab and move it to a new window"
+msgstr "جدا کردن زبانهٔ کنونی و جابه‌جاییش به پنجره‌ای جدید"
+
+#: src/ptyxis-preferences-window.ui:838
+msgid "Switch to Tab 1"
+msgstr "تعویض به زبانهٔ ۱"
+
+#: src/ptyxis-preferences-window.ui:843
+msgid "Switch to Tab 2"
+msgstr "تعویض به زبانهٔ ۲"
+
+#: src/ptyxis-preferences-window.ui:848
+msgid "Switch to Tab 3"
+msgstr "تعویض به زبانهٔ ۳"
+
+#: src/ptyxis-preferences-window.ui:853
+msgid "Switch to Tab 4"
+msgstr "تعویض به زبانهٔ ۴"
+
+#: src/ptyxis-preferences-window.ui:858
+msgid "Switch to Tab 5"
+msgstr "تعویض به زبانهٔ ۵"
+
+#: src/ptyxis-preferences-window.ui:863
+msgid "Switch to Tab 6"
+msgstr "تعویض به زبانهٔ ۶"
+
+#: src/ptyxis-preferences-window.ui:868
+msgid "Switch to Tab 7"
+msgstr "تعویض به زبانهٔ ۷"
+
+#: src/ptyxis-preferences-window.ui:873
+msgid "Switch to Tab 8"
+msgstr "تعویض به زبانهٔ ۸"
+
+#: src/ptyxis-preferences-window.ui:878
+msgid "Switch to Tab 9"
+msgstr "تعویض به زبانهٔ ۹"
+
+#: src/ptyxis-preferences-window.ui:883
+msgid "Switch to Tab 10"
+msgstr "تعویض به زبانهٔ ۱۰"
+
+#: src/ptyxis-preferences-window.ui:890
+msgid "Zoom"
+msgstr "بزرگنمایی"
+
+#: src/ptyxis-preferences-window.ui:910
+msgid "Application"
+msgstr "برنامه"
+
+#: src/ptyxis-preferences-window.ui:914
+msgid "Toggle in and out of fullscreen"
+msgstr "تغییر وضعیت تمام‌صفحه بودن"
+
+#: src/ptyxis-preferences-window.ui:923
+msgid "Show Primary Menu"
+msgstr "نمایش فهرست اصلی"
+
+#: src/ptyxis-preferences-window.ui:924
+msgid "Displays the primary menu for the terminal window"
+msgstr "نمایش فهرست اصلی پنجرهٔ پایانه"
+
+#: src/ptyxis-preferences-window.ui:929
+msgid "Show New Tab Menu"
+msgstr "نمایش فهرست زبانهٔ جدید"
+
+#: src/ptyxis-preferences-window.ui:930
+msgid "Displays the new tab menu for the terminal window"
+msgstr "نمایش فهرست زبانهٔ جدید پنجرهٔ پایانه"
+
+#: src/ptyxis-preferences-window.ui:936
+msgid "Show this preferences window"
+msgstr "نمایش این پنجرهٔ ترجیحات"
+
+#: src/ptyxis-preferences-window.ui:945 src/ptyxis-preferences-window.ui:949
+#: src/ptyxis-window.c:1635 src/ptyxis-window.c:1797
+msgid "Profiles"
+msgstr "نمایه‌ها"
+
+#: src/ptyxis-preferences-window.ui:968 src/ptyxis-profile-editor.ui:442
+msgid "Automatic"
+msgstr "خودکار"
+
+#: src/ptyxis-preferences-window.ui:974 src/ptyxis-profile-editor.ui:448
+msgid "Control-H"
+msgstr "مهار+H"
+
+#: src/ptyxis-preferences-window.ui:980 src/ptyxis-profile-editor.ui:454
+msgid "ASCII DEL"
+msgstr "حذف اَسکی"
+
+#: src/ptyxis-preferences-window.ui:986 src/ptyxis-profile-editor.ui:460
+msgid "Escape Sequence"
+msgstr "دنبالهٔ گریز"
+
+#: src/ptyxis-preferences-window.ui:992 src/ptyxis-profile-editor.ui:466
+msgid "TTY Erase"
+msgstr "پاک کردن TTY"
+
+#: src/ptyxis-profile.c:729
+msgid "Untitled Profile"
+msgstr "نمایهٔ بی‌نام"
+
+#: src/ptyxis-profile-editor.c:155 src/ptyxis-terminal.c:438
+#: src/ptyxis-terminal.c:470
+msgid "Copied to clipboard"
+msgstr "در تخته‌گیره رونوشت شد"
+
+#: src/ptyxis-profile-editor.c:184 src/ptyxis-profile-row.c:104
+#, c-format
+msgid "Removed profile “%s”"
+msgstr "نمایهٔ برداشتهٔ «%s»"
+
+#: src/ptyxis-profile-editor.ui:22 src/ptyxis-tab.c:487 src/ptyxis-tab.c:544
+msgid "Edit Profile"
+msgstr "ویرایش نمایه"
+
+#: src/ptyxis-profile-editor.ui:31
+msgid "Profile"
+msgstr "نمایه"
+
+#: src/ptyxis-profile-editor.ui:41
+msgid "Identifier"
+msgstr "شناساگر"
+
+#: src/ptyxis-profile-editor.ui:50
+msgid "Copy"
+msgstr "رونوشت"
+
+#: src/ptyxis-profile-editor.ui:62
+msgid "Color"
+msgstr "رنگ"
+
+#: src/ptyxis-profile-editor.ui:134
+msgid "Use Bright Colors for Bold"
+msgstr "استفاده از رنگ‌های روشن برای توپر"
+
+#: src/ptyxis-profile-editor.ui:173
+msgid "Network"
+msgstr "شبکه"
+
+#: src/ptyxis-profile-editor.ui:176
+msgid "Proxy"
+msgstr "پیشکار"
+
+#: src/ptyxis-profile-editor.ui:177
+msgid "Applies the network proxy settings to the container environment"
+msgstr "تنظیمات پیشکار شبکه را در محیط بارگنج به کار می‌بندد"
+
+#: src/ptyxis-profile-editor.ui:212
+msgid "The default container to use with this profile"
+msgstr "بارگنج پیش‌گزیدهٔ این نمایه"
+
+#: src/ptyxis-profile-editor.ui:221
+msgid "Preserve the current container when opening new tabs and windows"
+msgstr "نگه داشتن بارگنج کنونی هنگام گشودن پنجره‌ها و زبانه‌های جدید"
+
+#: src/ptyxis-profile-editor.ui:427
+msgid "Remove Profile"
+msgstr "برداشتن نمایه"
+
+#: src/ptyxis-profile-row.ui:43
+msgid "_Make Default"
+msgstr "_تبدیل به پیش‌گزیده"
+
+#: src/ptyxis-profile-row.ui:49
+msgid "_Duplicate…"
+msgstr "_تکثیر…"
+
+#. Translators: <b>%s</b> is used to show the provided text in bold
+#: src/ptyxis-shortcut-accel-dialog.c:455
+#, c-format
+msgid "Enter new shortcut to change <b>%s</b>."
+msgstr "ورود میان‌بر جدید برای تعویض <b>%s</b>."
+
+#. do not use underline as it prevents alt+c as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:42
+msgid "Cancel"
+msgstr "لغو"
+
+#. do not use underline as it prevents alt+s as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:49
+msgid "Set"
+msgstr "تنظیم"
+
+#: src/ptyxis-shortcut-accel-dialog.ui:89
+msgid "Press Escape to cancel or Backspace to disable."
+msgstr "برای لغو گریز را یا برای از کار انداختن پس‌بر را بزنید."
+
+#: src/ptyxis-shortcut-row.c:75
+msgid "Set Shortcut"
+msgstr "تنظیم میان‌بر"
+
+#: src/ptyxis-shortcut-row.ui:33
+msgid "disabled"
+msgstr "از کار افتاده"
+
+#: src/ptyxis-tab.c:328
+msgid "A foreground process is running"
+msgstr "فرایند پیش‌زمینه‌ای دارد اجرا می‌شود"
+
+#: src/ptyxis-tab.c:395
+#, c-format
+msgid "Process Exited from Signal %d"
+msgstr "فرایند از علامت %Id خارج شد"
+
+#: src/ptyxis-tab.c:398 src/ptyxis-tab.c:421
+msgid "_Restart"
+msgstr "_آغاز دوباره"
+
+#. Always prepare the banner even if we don't show it because we may
+#. * display it again if the tab is removed from the parking lot and
+#. * restored into the window.
+#.
+#: src/ptyxis-tab.c:420
+msgid "Process Exited"
+msgstr "فرایند خارج شد"
+
+#: src/ptyxis-tab.c:486
+msgid "Failed to launch terminal"
+msgstr "شکست در اجرای پایانه"
+
+#: src/ptyxis-tab.c:542
+#, c-format
+msgid "Cannot locate container “%s”"
+msgstr "نمی‌توان بارگنج «%s» را جانمایی کرد"
+
+#: src/ptyxis-tab.c:566
+msgid "Failed to create pseudo terminal device"
+msgstr "شکست در ایجاد افزارهٔ شبه‌پایانه"
+
+#: src/ptyxis-tab.c:1584
+msgid "Exited"
+msgstr "خارج شد"
+
+#: src/ptyxis-tab.c:1586
+msgid "Failed"
+msgstr "شکست خورد"
+
+#: src/ptyxis-tab.c:2171
+msgid "Failed to open link"
+msgstr "گشودن پیوند شکست خورد"
+
+#: src/ptyxis-tab-notify.h:89
+msgid "Command completed"
+msgstr "دستور کامل شد"
+
+#: src/ptyxis-terminal.ui:170
+msgid "Search…"
+msgstr "جست‌وجو…"
+
+#: src/ptyxis-terminal.ui:176
+msgid "_Open Link"
+msgstr "_گشودن پیوند"
+
+#: src/ptyxis-terminal.ui:184
+msgid "_Copy"
+msgstr "_رونوشت"
+
+#: src/ptyxis-terminal.ui:185
+msgid "Copy selection from terminal to clipboard"
+msgstr "رونوشت گزینش از پایانه به تخته‌گیره"
+
+#: src/ptyxis-terminal.ui:189
+msgid "Copy as _HTML"
+msgstr "رونوشت به صورت _HTML"
+
+#: src/ptyxis-terminal.ui:190
+msgid "Copy selection from terminal to clipboard with HTML formatting"
+msgstr "رونوشت گزینش از پایانه به تخته‌گیره با قالب‌بندی HTML"
+
+#: src/ptyxis-terminal.ui:195
+msgid "_Copy Link"
+msgstr "_رونوشت از پیوند"
+
+#: src/ptyxis-terminal.ui:201
+msgid "_Paste"
+msgstr "_جایگذاری"
+
+#: src/ptyxis-terminal.ui:202
+msgid "Paste from clipboard into the terminal"
+msgstr "جای‌گذاری از تخته‌گیره به پایانه"
+
+#: src/ptyxis-terminal.ui:209
+msgid "Select _All"
+msgstr "گزینش _همه"
+
+#: src/ptyxis-terminal.ui:210
+msgid "Selection all text from terminal including scrollback"
+msgstr "گزینش تمام متن از پایانه شامل متن‌های لغزانده"
+
+#: src/ptyxis-terminal.ui:216
+msgid "Select _None"
+msgstr "گزینش هیچ‌_کدام"
+
+#: src/ptyxis-terminal.ui:223
+msgid "Read-Only"
+msgstr "فقط خواندنی"
+
+#: src/ptyxis-terminal.ui:251 src/ptyxis-window.ui:388 src/ptyxis-window.ui:779
+msgid "Leave Fullscreen"
+msgstr "خروج از تمام‌صفحه"
+
+#: src/ptyxis-terminal.ui:257
+msgid "_Inspect Terminal"
+msgstr "_وارسی پایانه"
+
+#: src/ptyxis-theme-selector.ui:21
+msgid "Follow System Style"
+msgstr "پیروی از سبک سامانه"
+
+#: src/ptyxis-theme-selector.ui:23
+msgid "Follow system style"
+msgstr "پیروی از سبک سامانه"
+
+#: src/ptyxis-theme-selector.ui:37
+msgid "Light Style"
+msgstr "سبک روشن"
+
+#: src/ptyxis-theme-selector.ui:39
+msgid "Light style"
+msgstr "سبک روشن"
+
+#: src/ptyxis-theme-selector.ui:54
+msgid "Dark Style"
+msgstr "سبک تیره"
+
+#: src/ptyxis-theme-selector.ui:56
+msgid "Dark style"
+msgstr "سبک تیره"
+
+#: src/ptyxis-title-dialog.ui:36
+msgid "Title"
+msgstr "عنوان"
+
+#: src/ptyxis-title-dialog.ui:42
+msgid "Include Process Title"
+msgstr "شامل عنوان فرایند"
+
+#: src/ptyxis-title-dialog.ui:43
+msgid "Append title from Shell application"
+msgstr "افزودن عنوان از برنامهٔ پوسته"
+
+#. translators: Builder Terminal means this is a terminal bundled with GNOME Builder
+#: src/ptyxis-util.c:316
+msgid "Builder Terminal"
+msgstr "پایانهٔ سازنده"
+
+#: src/ptyxis-util.c:320
+msgid "Ptyxis"
+msgstr "چنبره"
+
+#: src/ptyxis-window.c:1428
+msgid "Zoom in"
+msgstr "بزرگ‌نمایی"
+
+#: src/ptyxis-window.c:1443
+msgid "Zoom out"
+msgstr "کوچک‌نمایی"
+
+#: src/ptyxis-window.c:1629 src/ptyxis-window.c:1801
+msgid "Containers"
+msgstr "بارگنج‌ها"
+
+#: src/ptyxis-window.ui:403
+msgid "New Terminal"
+msgstr "پایانهٔ جدید"
+
+#: src/ptyxis-window.ui:416
+msgid "Show Profiles and Containers"
+msgstr "نمایش نمایه‌ها و بارگنج‌ها"
+
+#: src/ptyxis-window.ui:436
+msgid "Filter…"
+msgstr "پالایش…"
+
+#: src/ptyxis-window.ui:598
+msgid "No Matching Results"
+msgstr "بدون نتیجهٔ مطابقک"
+
+#: src/ptyxis-window.ui:640
+msgid "Main Menu"
+msgstr "فهرست اصلی"
+
+#: src/ptyxis-window.ui:648 src/ptyxis-window.ui:765
+msgid "Show Open Tabs"
+msgstr "نمایش زبانه‌های گشوده"
+
+#: src/ptyxis-window.ui:749
+msgid "New _Tab"
+msgstr "_‌زبانهٔ جدید"
+
+#: src/ptyxis-window.ui:756
+msgid "New _Window"
+msgstr "_پنجرهٔ جدید"
+
+#: src/ptyxis-window.ui:773
+msgid "Fullscreen"
+msgstr "تمام‌صفحه"
+
+#: src/ptyxis-window.ui:787
+msgid "_Preferences"
+msgstr "_ترجیحات"
+
+#: src/ptyxis-window.ui:791
+msgid "_Keyboard Shortcuts"
+msgstr "_میان‌برهای صفحه‌کلید"
+
+#: src/ptyxis-window.ui:795
+msgid "_About"
+msgstr "_درباره"
+
+#: src/ptyxis-window.ui:804
+msgid "Move _Left"
+msgstr "جابه‌جایی به _چپ"
+
+#: src/ptyxis-window.ui:809
+msgid "Move _Right"
+msgstr "جابه‌جایی به _راست"
+
+#: src/ptyxis-window.ui:814
+msgid "Move to New _Window"
+msgstr "انتقال به _پنجرهٔ جدید"
+
+#: src/ptyxis-window.ui:820
+msgid "_Pin Tab"
+msgstr "_سنجاق کردن زبانه"
+
+#: src/ptyxis-window.ui:825
+msgid "Un_pin Tab"
+msgstr "_برداشتن سنجاق زبانه"
+
+#: src/ptyxis-window.ui:840
+msgid "Close _Other Tabs"
+msgstr "بستن _دیگر زبانه‌ها"
+
+#: src/ptyxis-window.ui:845
+msgid "_Close Tab"
+msgstr "_بستن زبانه"

@@ -1,0 +1,23 @@
+[Palette]
+Name=Powershell
+Background=#052454
+Foreground=#F6F6F7
+Cursor=#F6F6F7
+Color0=#000000
+Color1=#7E0008
+Color2=#098003
+Color3=#C4A000
+Color4=#010083
+Color5=#D33682
+Color6=#0E807F
+Color7=#7F7C7F
+Color8=#808080
+Color9=#EF2929
+Color10=#1CFE3C
+Color11=#FEFE45
+Color12=#268AD2
+Color13=#FE13FA
+Color14=#29FFFE
+Color15=#C2C1C3
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Powershell.yml

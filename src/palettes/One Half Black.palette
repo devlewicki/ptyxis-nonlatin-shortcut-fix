@@ -1,0 +1,23 @@
+[Palette]
+Name=One Half Black
+Background=#000000
+Foreground=#DCDFE4
+Cursor=#DCDFE4
+Color0=#282C34
+Color1=#E06C75
+Color2=#98C379
+Color3=#E5C07B
+Color4=#61AFEF
+Color5=#C678DD
+Color6=#56B6C2
+Color7=#DCDFE4
+Color8=#282C34
+Color9=#E06C75
+Color10=#98C379
+Color11=#E5C07B
+Color12=#61AFEF
+Color13=#C678DD
+Color14=#56B6C2
+Color15=#DCDFE4
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/One Half Black.yml

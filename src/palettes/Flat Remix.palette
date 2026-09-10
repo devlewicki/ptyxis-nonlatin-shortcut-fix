@@ -1,0 +1,23 @@
+[Palette]
+Name=Flat Remix
+Background=#272A34
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#1F2229
+Color1=#D41919
+Color2=#5EBDAB
+Color3=#FEA44C
+Color4=#367BF0
+Color5=#BF2E5D
+Color6=#49AEE6
+Color7=#E6E6E6
+Color8=#8C42AB
+Color9=#EC0101
+Color10=#47D4B9
+Color11=#FF8A18
+Color12=#277FFF
+Color13=#D71655
+Color14=#05A1F7
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Flat Remix.yml

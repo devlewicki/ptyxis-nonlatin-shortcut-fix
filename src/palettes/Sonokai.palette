@@ -1,0 +1,23 @@
+[Palette]
+Name=Sonokai
+Background=#2C2E34
+Foreground=#E2E2E3
+Cursor=#E2E2E3
+Color0=#2C2E34
+Color1=#FC5D7C
+Color2=#9ED072
+Color3=#E7C664
+Color4=#F39660
+Color5=#B39DF3
+Color6=#76CCE0
+Color7=#E2E2E3
+Color8=#7F8490
+Color9=#FC5D7C
+Color10=#9ED072
+Color11=#E7C664
+Color12=#F39660
+Color13=#B39DF3
+Color14=#76CCE0
+Color15=#E2E2E3
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Sonokai.yml

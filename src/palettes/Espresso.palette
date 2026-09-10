@@ -1,0 +1,23 @@
+[Palette]
+Name=Espresso
+Background=#323232
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#353535
+Color1=#D25252
+Color2=#A5C261
+Color3=#FFC66D
+Color4=#6C99BB
+Color5=#D197D9
+Color6=#BED6FF
+Color7=#EEEEEC
+Color8=#535353
+Color9=#F00C0C
+Color10=#C2E075
+Color11=#E1E48B
+Color12=#8AB7D9
+Color13=#EFB5F7
+Color14=#DCF4FF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Espresso.yml

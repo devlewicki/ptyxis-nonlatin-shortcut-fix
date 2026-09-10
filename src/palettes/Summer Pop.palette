@@ -1,0 +1,23 @@
+[Palette]
+Name=Summer Pop
+Background=#272822
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#666666
+Color1=#FF1E8E
+Color2=#8EFF1E
+Color3=#FFFB00
+Color4=#1E8EFF
+Color5=#E500E5
+Color6=#00E5E5
+Color7=#E5E5E5
+Color8=#666666
+Color9=#FF1E8E
+Color10=#8EFF1E
+Color11=#FFFB00
+Color12=#1E8EFF
+Color13=#E500E5
+Color14=#00E5E5
+Color15=#E5E5E5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Summer Pop.yml

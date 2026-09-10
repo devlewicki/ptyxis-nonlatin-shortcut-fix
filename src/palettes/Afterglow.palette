@@ -1,0 +1,23 @@
+[Palette]
+Name=Afterglow
+Background=#222222
+Foreground=#D0D0D0
+Cursor=#D0D0D0
+Color0=#151515
+Color1=#A53C23
+Color2=#7B9246
+Color3=#D3A04D
+Color4=#6C99BB
+Color5=#9F4E85
+Color6=#7DD6CF
+Color7=#D0D0D0
+Color8=#505050
+Color9=#A53C23
+Color10=#7B9246
+Color11=#D3A04D
+Color12=#547C99
+Color13=#9F4E85
+Color14=#7DD6CF
+Color15=#F5F5F5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Afterglow.yml

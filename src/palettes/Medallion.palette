@@ -1,0 +1,23 @@
+[Palette]
+Name=Medallion
+Background=#1D1908
+Foreground=#CAC296
+Cursor=#CAC296
+Color0=#000000
+Color1=#B64C00
+Color2=#7C8B16
+Color3=#D3BD26
+Color4=#616BB0
+Color5=#8C5A90
+Color6=#916C25
+Color7=#CAC29A
+Color8=#5E5219
+Color9=#FF9149
+Color10=#B2CA3B
+Color11=#FFE54A
+Color12=#ACB8FF
+Color13=#FFA0FF
+Color14=#FFBC51
+Color15=#FED698
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Medallion.yml

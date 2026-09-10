@@ -1,0 +1,23 @@
+[Palette]
+Name=Tokyo Night Storm
+Background=#24283B
+Foreground=#C0CAF5
+Cursor=#C0CAF5
+Color0=#414868
+Color1=#F7768E
+Color2=#9ECE6A
+Color3=#E0AF68
+Color4=#7AA2F7
+Color5=#BB9AF7
+Color6=#7DCFFF
+Color7=#C0CAF5
+Color8=#414868
+Color9=#F7768E
+Color10=#9ECE6A
+Color11=#E0AF68
+Color12=#7AA2F7
+Color13=#BB9AF7
+Color14=#7DCFFF
+Color15=#C0CAF5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Tokyo Night Storm.yml

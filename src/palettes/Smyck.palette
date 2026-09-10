@@ -1,0 +1,23 @@
+[Palette]
+Name=Smyck
+Background=#242424
+Foreground=#F7F7F7
+Cursor=#F7F7F7
+Color0=#000000
+Color1=#C75646
+Color2=#8EB33B
+Color3=#D0B03C
+Color4=#72B3CC
+Color5=#C8A0D1
+Color6=#218693
+Color7=#B0B0B0
+Color8=#5D5D5D
+Color9=#E09690
+Color10=#CDEE69
+Color11=#FFE377
+Color12=#9CD9F0
+Color13=#FBB1F9
+Color14=#77DFD8
+Color15=#F7F7F7
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Smyck.yml

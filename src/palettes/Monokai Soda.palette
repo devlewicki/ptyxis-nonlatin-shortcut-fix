@@ -1,0 +1,23 @@
+[Palette]
+Name=Monokai Soda
+Background=#1A1A1A
+Foreground=#C4C5B5
+Cursor=#C4C5B5
+Color0=#1A1A1A
+Color1=#F4005F
+Color2=#98E024
+Color3=#FA8419
+Color4=#9D65FF
+Color5=#F4005F
+Color6=#58D1EB
+Color7=#C4C5B5
+Color8=#625E4C
+Color9=#F4005F
+Color10=#98E024
+Color11=#E0D561
+Color12=#9D65FF
+Color13=#F4005F
+Color14=#58D1EB
+Color15=#F6F6EF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Monokai Soda.yml

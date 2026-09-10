@@ -1,0 +1,1968 @@
+# Catalan translation for ptyxis.
+# Copyright (C) 2024 ptyxis's COPYRIGHT HOLDER
+# This file is distributed under the same license as the ptyxis package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ptyxis main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/chergert/ptyxis/issues\n"
+"POT-Creation-Date: 2026-01-29 17:47+0000\n"
+"PO-Revision-Date: 2026-02-13 11:37+0100\n"
+"Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
+"Language-Team: Catalan <Catalan>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:2 data/org.gnome.Ptyxis.metainfo.xml.in.in:6
+msgid "@APP_NAME@"
+msgstr "@APP_NAME@"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:3
+msgid "A container-oriented terminal for GNOME"
+msgstr "Un terminal orientat a contenidors per al GNOME"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:12 src/ptyxis-preferences-window.ui:669 src/ptyxis-tab.c:1647
+#: src/ptyxis-util.c:318
+msgid "Terminal"
+msgstr "Terminal"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Ptyxis.desktop.in.in:14
+msgid "terminal;prompt;ptyxis;shell;command;commandline;cmd;cli;console;container;podman;toolbox;distrobox;"
+msgstr ""
+"terminal;prompt;ptyxis;shell;ordre;línia d'ordres;cmd;cli;consola;contenidor;podman;toolbox;distrobox;"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:23 src/org.gnome.Ptyxis.gschema.xml.in:424
+#: src/ptyxis-preferences-window.ui:742
+msgid "New Window"
+msgstr "Finestra nova"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:27 src/org.gnome.Ptyxis.gschema.xml.in:418
+#: src/ptyxis-preferences-window.ui:771
+msgid "New Tab"
+msgstr "Pestanya nova"
+
+#: data/org.gnome.Ptyxis.desktop.in.in:31 src/org.gnome.Ptyxis.gschema.xml.in:436
+#: src/ptyxis-preferences-window.ui:978
+msgid "Preferences"
+msgstr "Preferències"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:7
+msgid "Container-oriented terminal"
+msgstr "Terminal orientat a contenidors"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:9
+msgid "Ptyxis is a terminal for GNOME that focuses on ease-of-use in a world of containers."
+msgstr "Ptyxis és un terminal per a GNOME focalitzat en la facilitat d'ús en un món de contenidors."
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:13
+msgid "Features:"
+msgstr "Característiques:"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:15
+msgid ""
+"Remembers current container when opening a new tab with support for podman, toolbox, distrobox, and more"
+msgstr ""
+"Recorda el contenidor actual en obrir una pestanya nova amb suport per a podman, toolbox, distrobox i més"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:16
+msgid "Configurable keyboard shortcuts"
+msgstr "Dreceres de teclat configurables"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:17
+msgid "Modern interface which integrates the palette with the window styling"
+msgstr "Interfície moderna que integra la paleta amb l'estil de finestres"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:18
+msgid "User-installable color palettes"
+msgstr "Paletes de colors instal·lables per l'usuari"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:19
+msgid "Support for preferences profiles with container integration"
+msgstr "Suport per a perfils de preferències amb integració de contenidors"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:20
+msgid "Integrated color palettes with light and dark support"
+msgstr "Paletes de colors integrades compatibles amb temes clars i foscos"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:21
+msgid "Tabbed interface with tab overviews"
+msgstr "Interfície de pestanyes amb visió general d'aquestes"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:22
+msgid "Efficient foreground process tracking denoting sudo and SSH"
+msgstr "Seguiment eficient del procés de primer pla denotant sudo i SSH"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:23
+msgid "Support for transparent terminal backgrounds"
+msgstr "Compatible amb fons de terminal transparents"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:24
+msgid "Separate process mode for terminal-based applications"
+msgstr "Mode de procés separat per a aplicacions basades en terminal"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:25
+msgid "Support for pinned tabs and saved sessions"
+msgstr "Compatibilitat amb pestanyes ancorades i sessions desades"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:26
+msgid "Terminal tabs are run within separate cgroups"
+msgstr "Les pestanyes de terminal s'executen en «cgroups» separats"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:27
+msgid "Terminal inspector to help when writing terminal-based applications"
+msgstr "Inspector de terminal per ajudar quan es programen aplicacions basades en terminal"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:32
+msgid "Christian Hergert"
+msgstr "Christian Hergert"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:54
+msgid "A column and row size indicator is displayed when resizing the window"
+msgstr "Es mostra un indicador amb fila i columna quan es redimensiona la finestra"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:59
+msgid "Containers are automatically discovered and displayed"
+msgstr "Els contenidors són automàticament detectats i mostrats"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:64
+msgid "Many behaviors of the terminal may be tweaked to user preference"
+msgstr "Molts dels comportaments del terminal poden ser retocats segons les preferències de l'usuari"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:69
+msgid "You may rename a tab by providing a prefix to the title"
+msgstr "Es pot reanomenar una pestanya proporcionant un prefix per al títol"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:74
+msgid "Palettes provide an integrated dark mode"
+msgstr "Les paletes proporcionen un mode fosc integrat"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:79
+msgid "You can see an overview of your tabs at any time"
+msgstr "Es pot veure una vista general de les pestanyes en qualsevol moment"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:84
+msgid "Many shortcuts may be remapped to user preference"
+msgstr "Moltes dreceres es poden canviar segons la preferència de l'usuari"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:89
+msgid "Built-in color palettes provide both dark and light mode variants"
+msgstr "Les paletes de color integrades proporcionen tant variants de mode clar com de mode fosc"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:94
+msgid "Profiles allow for overriding a number of features such as default container"
+msgstr "Els perfils permeten afinar diverses característiques com ara el contenidor predeterminat"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:99
+msgid "The terminal will remind you when you're root on the local system"
+msgstr "El terminal us recordarà quan sou «root» al sistema local"
+
+#: data/org.gnome.Ptyxis.metainfo.xml.in.in:104
+msgid "The terminal will remind you when you're on a remote system"
+msgstr "El terminal us recordarà quan sou en un sistema remot"
+
+#: src/main.c:142 src/main.c:149 src/main.c:161
+msgid "Error"
+msgstr "Error"
+
+#: src/main.c:155
+#, c-format
+msgid ""
+"Error: %s already exists.\n"
+"Please remove it first.\n"
+msgstr ""
+"Error: %s ja existeix.\n"
+"Suprimiu-lo primer.\n"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:101
+msgid "Default Profile UUID"
+msgstr "UUID del perfil predeterminat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:102
+msgid "The UUID of the default profile"
+msgstr "L'UUID del perfil predeterminat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:107
+msgid "UUIDs of all Profiles"
+msgstr "UUIDs de tots els perfils"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:108
+msgid "A list of UUID for every profile"
+msgstr "Una llista dels UUID de cada perfil"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:113 src/ptyxis-preferences-window.ui:322
+msgid "New Tab Position"
+msgstr "Posició de la pestanya nova"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:114
+msgid "Where to place new tabs"
+msgstr "On s'han d'ubicar les pestanyes noves"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:119 src/ptyxis-preferences-window.ui:414
+msgid "Audible Bell"
+msgstr "Campana audible"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:120
+msgid "If an audible bell should be used"
+msgstr "Si s'ha d'usar la campana audible"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:125
+msgid "Visible Bell"
+msgstr "Campana visible"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:126
+msgid "If a visual bell should be used"
+msgstr "Si s'ha d'usar la campana visible"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:131
+msgid "Visual Process Leader"
+msgstr "Líder del procés visual"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:132
+msgid "Display a visual window highlight when process leader is SSH, sudo, or other specialized tooling"
+msgstr ""
+"Mostra un ressaltat de la finestra visual quan el líder del procés és SSH, sudo o altres eines "
+"especialitzades"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:137
+msgid "Use System Font"
+msgstr "Utilitza el tipus de lletra del sistema"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:138
+msgid "If the default system monospace font should be used"
+msgstr "Si s'ha d'utilitzar el tipus de lletra monoespai per defecte del sistema"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:143
+msgid "Font Name"
+msgstr "Nom del tipus de lletra"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:144
+msgid "The font description to use if use-system-font is set to False"
+msgstr "La descripció del tipus de lletra que s'ha d'usar si «use-system-font» està establert a fals"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:149 src/ptyxis-preferences-window.ui:249
+msgid "Cursor Shape"
+msgstr "Forma del cursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:150
+msgid "The default shape of the cursor"
+msgstr "La forma predeterminada del cursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:155
+msgid "Cursor Blink Mode"
+msgstr "Mode de parpelleig del cursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:156
+msgid "The default blink mode cursor"
+msgstr "El mode predeterminat de parpelleig del cursor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:161
+msgid "List of punctuation characters that are treated as word characters"
+msgstr "Llista de caràcters de puntuació que es tracten com a caràcters de paraula"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:162
+msgid ""
+"By default, when doing word-wise selection, most punctuation breaks up word boundaries. This list of "
+"exceptions will instead be treated as part of the word."
+msgstr ""
+"De manera predeterminada, quan es fa la selecció en funció de la paraula, la majoria de les puntuacions "
+"trenquen els límits de les paraules. Aquesta llista d'excepcions serà tractada com a part de la paraula."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:167
+msgid "Scrollbar Policy"
+msgstr "La política de la barra de desplaçament"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:168
+msgid "If scrollbars should be displayed"
+msgstr "Si s'han de mostrar les barres de desplaçament"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:177
+msgid "Text Blink Mode"
+msgstr "Mode de parpelleig del text"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:178
+msgid "When text blinking is allowed"
+msgstr "Quan està permès que el text parpellegi"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:183
+msgid "Interface Style"
+msgstr "Estil de la interfície"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:184
+msgid "If light or dark interface style should be used"
+msgstr "Si s'ha d'usar l'estil d'interfície clara o fosca"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:189 src/ptyxis-preferences-window.ui:351
+msgid "Restore Session"
+msgstr "Restaura la sessió"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:190
+msgid "Restore tabs from previous session when starting Ptyxis"
+msgstr "Restauració de les pestanyes d'una sessió anterior quan s'inicia el Ptyxis"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:195 src/ptyxis-preferences-window.ui:357
+msgid "Restore Window Size"
+msgstr "Restaura la mida de la finestra"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:196
+msgid "Restore the previous window size when creating new windows"
+msgstr "Restauració de la mida de finestra prèvia quan es creen noves finestres"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:206
+msgid "Default Column Size"
+msgstr "Mida predeterminada de columna"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:207 src/org.gnome.Ptyxis.gschema.xml.in:214
+msgid "Default window size when restore-window-size is not true."
+msgstr "Mida de finestra predeterminada quan «restore-window-size» no està establert com a cert."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:213
+msgid "Default Row Size"
+msgstr "Mida predeterminada de fila"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:219
+msgid "Toast on Copy Clipboard"
+msgstr "Missatge en copiar el porta-retalls"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:220
+msgid "Show the user when text has copied to the clipboard."
+msgstr "Mostra a l'usuari quan el text s'ha copiat al porta-retalls."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:225
+msgid "Enable Accessibility"
+msgstr "Habilita l'accessibilitat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:226
+msgid "Currently experimental feature to send accessibility information to screen readers."
+msgstr ""
+"Característica actualment experimental que envia informació d'accessibilitat als lectors de pantalla."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:231
+msgid "Enable zoom on scroll holding the control key"
+msgstr "Habilita el zoom en desplaçar-se mantenint premuda la tecla de control"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:232
+msgid "Enable to adjust the zoom level on scroll scroll while holding the control key."
+msgstr ""
+"Habilita per a ajustar el nivell de zoom en desplaçar-se mentre es manté premuda la tecla de control."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:237
+msgid "Disable Padding around Terminal Emulator"
+msgstr "Desactiva el sagnat al voltant de l'emulador de terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:238
+msgid ""
+"Do not pad around the terminal emulator widget. Setting to true may have significant performance impacts."
+msgstr ""
+"No sagnis el text al voltant del giny emulador del terminal. Establir a cert pot tenir impactes de "
+"rendiment significatius."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:243
+msgid "Prompt when active tab is closed"
+msgstr "Demana confirmació quan es tanca la pestanya activa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:244
+msgid "If a tab (or window) is closed with active foreground processes, prompt the user for confirmation."
+msgstr ""
+"Si una pestanya (o finestra) és tancada amb processos actius en primer pla, demana confirmació a l'usuari."
+
+#. Translators: OSC stands for "Operating System Command" and is referencing in-band escape sequences from the child process to set the title
+#: src/org.gnome.Ptyxis.gschema.xml.in:250
+msgid "Ignore OSC Title"
+msgstr "Ignora el títol OSC"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:251
+msgid "If OSC title should be ignored in tab titles."
+msgstr "Si el títol OSC s'ha d'ignorar en els títols de les pestanyes."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:256
+msgid "Inhibit Logout"
+msgstr "Inhibeix la sortida"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:257
+msgid "Inhibit desktop logout when a foreground process is running in a tab."
+msgstr "Inhibeix la sortida de l'escriptori quan s'està executant un procés de primer pla en una pestanya."
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:266
+msgid "Label"
+msgstr "Etiqueta"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:267
+msgid "The label for the profile"
+msgstr "L'etiqueta del perfil"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:272
+msgid "Login Shell"
+msgstr "Intèrpret d'ordres d'inici de sessió"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:273
+msgid "Use a login shell"
+msgstr "Usa un intèrpret d'ordres d'inici de sessió"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:278 src/ptyxis-preferences-window.ui:482
+#: src/ptyxis-profile-editor.ui:333
+msgid "Limit Scrollback"
+msgstr "Limita el desplaçament cap enrere"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:279
+msgid "Limit the number of lines to keep for scrollback"
+msgstr "Limita el nombre de línies a conservar per al desplaçament cap enrere"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:285 src/ptyxis-preferences-window.ui:491
+#: src/ptyxis-profile-editor.ui:342
+msgid "Scrollback Lines"
+msgstr "Línies de desplaçament enrere"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:286
+msgid "The number of lines to keep in the scrollback, zero for no scrollback"
+msgstr "El nombre de línies a conservar per al desplaçament cap enrere; zero per desactivar-lo"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:291 src/ptyxis-preferences-window.ui:472
+#: src/ptyxis-profile-editor.ui:323
+msgid "Scroll on Output"
+msgstr "Desplaçament en haver-hi sortida"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:292
+msgid "Scroll to the bottom upon new output"
+msgstr "Desplaçar al capdavall quan hi ha nova sortida"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:297 src/ptyxis-preferences-window.ui:466
+#: src/ptyxis-profile-editor.ui:317
+msgid "Scroll on Keystroke"
+msgstr "Desplaçament en prémer una tecla"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:298
+msgid "Scroll to the bottom upon user keystroke"
+msgstr "Desplaçar al capdavall quan es prem alguna tecla"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:303 src/ptyxis-profile-editor.ui:187
+msgid "Use Custom Command"
+msgstr "Usa una ordre personalitzada"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:304
+msgid "If a custom command should be used"
+msgstr "Si s'ha d'usar una ordre personalitzada"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:309
+msgid "Use Proxy"
+msgstr "Usa un intermediari"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:310
+msgid "Apply proxy settings from the host in the container"
+msgstr "Aplica la configuració de servidor intermediari de l'amfitrió al contenidor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:315 src/ptyxis-profile-editor.ui:192
+msgid "Custom Command"
+msgstr "Ordre personalitzada"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:316
+msgid "A custom command for the shell"
+msgstr "Una ordre personalitzada per a l'intèrpret d'ordres"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:321 src/ptyxis-profile-editor.ui:211
+msgid "Default Container"
+msgstr "Contenidor predeterminat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:322
+msgid "The default container to run the command in"
+msgstr "El contenidor predeterminat on executar-hi l'ordre"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:327 src/ptyxis-profile-editor.ui:220
+msgid "Preserve Container"
+msgstr "Mantenir el contenidor"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:328
+msgid "Preserve the active container when creating new tabs and windows"
+msgstr "Preservar el contenidor actiu quan es creen noves pestanyes i finestres"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:333 src/ptyxis-preferences-window.ui:551
+#: src/ptyxis-profile-editor.ui:281
+msgid "Exit Action"
+msgstr "Acció de sortida"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:334
+msgid "The action to take when the shell exits"
+msgstr "L'acció per dur a terme quan l'intèrpret d'ordres acaba"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:339
+msgid "Preserve Directory"
+msgstr "Mantenir el directori"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:340
+msgid "If the directory should be preserved for new terminals"
+msgstr "Si s'hauria de mantenir el directori en nous terminals"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:345 src/ptyxis-inspector.ui:102 src/ptyxis-preferences-window.ui:40
+#: src/ptyxis-profile-editor.ui:65
+msgid "Palette"
+msgstr "Paleta"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:346
+msgid "The color palette to use for the profile, by name"
+msgstr "La paleta de colors a usar pel perfil, per nom"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:352
+msgid "Opacity"
+msgstr "Opacitat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:353
+msgid "The opacity of the palette background"
+msgstr "L'opacitat del rerefons de la paleta"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:358
+msgid "Bold is Bright"
+msgstr "La negreta és també brillant"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:359
+msgid "Setting bold on one of the lower 8 colors in the palette will use bright variant (upper 8 colors)"
+msgstr ""
+"Establir la negreta amb un dels 8 colors de baix de la paleta usarà la variant brillant (8 colors de dalt)"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:365 src/ptyxis-preferences-window.ui:175
+#: src/ptyxis-profile-editor.ui:143
+msgid "Line Spacing"
+msgstr "Espaiat de línia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:366
+msgid "The terminal’s cell height scale"
+msgstr "Escala d'alçada de la cel·la del terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:372 src/ptyxis-preferences-window.ui:189
+#: src/ptyxis-profile-editor.ui:157
+msgid "Column Spacing"
+msgstr "Espaiat de les columnes"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:373
+msgid "The terminal’s cell width scale"
+msgstr "Escala d'amplada de la cel·la del terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:378
+msgid "CJK Ambiguous Width"
+msgstr "Amplada ambigu del CJK"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:379
+msgid "The size to apply to ambiguous width characters"
+msgstr "La mida que s'ha d'aplicar als caràcters d'amplada incerta"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:384 src/org.gnome.Ptyxis.gschema.xml.in:390
+msgid "Backspace Binding"
+msgstr "Vinculació de retrocés"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:385 src/org.gnome.Ptyxis.gschema.xml.in:391
+msgid "What to send to the PTY when a backspace is entered"
+msgstr "Què s'ha d'enviar al PTY quan s'escriu un caràcter de retrocés"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:396 src/ptyxis-preferences-window.ui:634
+#: src/ptyxis-profile-editor.ui:409
+msgid "Custom Links"
+msgstr "Enllaços personalitzats"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:397
+msgid ""
+"A list of custom hyperlinks, each defined by a regular expression matching the text, and a replacement "
+"pattern"
+msgstr ""
+"Una llista d'enllaços personalitzats, cadascun definit per una expressió regular que coincideixi amb el "
+"text, i un patró de reemplaçament"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:406 src/ptyxis-preferences-window.ui:672
+msgid "Copy to Clipboard"
+msgstr "Copia al porta-retalls"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:407
+msgid "The shortcut to copy to clipboard"
+msgstr "La drecera per copiar al porta-retalls"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:412 src/ptyxis-preferences-window.ui:678
+msgid "Paste from Clipboard"
+msgstr "Enganxa des del porta-retalls"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:413
+msgid "The shortcut to paste from the clipboard"
+msgstr "La drecera per enganxar des del porta-retalls"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:419
+msgid "The shortcut to create a new tab in the current window"
+msgstr "La drecera per crear una pestanya nova a la finestra actual"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:425
+msgid "The shortcut to create a new tab in a new window"
+msgstr "La drecera per crear una pestanya nova en una nova finestra"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:430
+msgid "Tab Overview"
+msgstr "Visió general de les pestanyes"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:431
+msgid "The shortcut to show the tab overview"
+msgstr "La drecera per mostrar la visió general de les pestanyes"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:437
+msgid "The shortcut to show application preferences"
+msgstr "La drecera per mostrar les preferències d'aplicació"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:442 src/ptyxis-preferences-window.ui:985
+msgid "Keyboard Shortcuts"
+msgstr "Dreceres de teclat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:443
+msgid "The shortcut to show the keyboard shortcuts configuration"
+msgstr "La drecera per a mostrar la configuració de les dreceres de teclat"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:448 src/ptyxis-preferences-window.ui:936 src/ptyxis-window.c:1522
+#: src/ptyxis-window.c:1530
+msgid "Zoom Out"
+msgstr "Redueix l'ampliació"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:449
+msgid "The shortcut to zoom out"
+msgstr "La drecera per reduir l'ampliació"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:454 src/ptyxis-preferences-window.ui:942 src/ptyxis-window.c:1539
+msgid "Reset Zoom"
+msgstr "Reinicia l'ampliació"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:455
+msgid "The shortcut to reset zoom"
+msgstr "La drecera per reinicialitzar l'ampliació"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:460 src/ptyxis-preferences-window.ui:930 src/ptyxis-window.c:1507
+#: src/ptyxis-window.c:1515
+msgid "Zoom In"
+msgstr "Amplia"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:461
+msgid "The shortcut to zoom in"
+msgstr "La drecera per ampliar"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:466 src/ptyxis-preferences-window.ui:953
+msgid "Toggle Fullscreen"
+msgstr "Commuta la pantalla completa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:467
+msgid "The shortcut to toggle fullscreen"
+msgstr "La drecera per commutar la pantalla completa"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:472
+msgid "Reset Terminal"
+msgstr "Reinicia el terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:473
+msgid "Reset the terminal state for misbehaving clients"
+msgstr "Restableix l'estat del terminal per als clients que no es comporten correctament"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:478
+msgid "Reset Terminal and Clear History"
+msgstr "Reinicia el terminal i buida l'historial"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:479
+msgid "Reset the terminal state and clear history for misbehaving clients"
+msgstr "Restableix l'estat del terminal i neteja l'historial per a un comportament incorrecte dels clients"
+
+#. Translators: Refers to searching the terminal scrollback
+#: src/org.gnome.Ptyxis.gschema.xml.in:485 src/ptyxis-find-bar.ui:39 src/ptyxis-preferences-window.ui:721
+msgid "Search History"
+msgstr "Historial de cerques"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:486
+msgid "Shortcut to begin searching the terminal history"
+msgstr "Drecera per a cercar l'historial del terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:491 src/ptyxis-preferences-window.ui:688
+msgid "Select All"
+msgstr "Selecciona-ho tot"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:492
+msgid "Shortcut to select all the entire terminal scrollback"
+msgstr "Drecera per seleccionar tot el desplaçament enrere del terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:497
+msgid "Select None"
+msgstr "No seleccionis res"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:498
+msgid "Shortcut to clear the terminal selection"
+msgstr "Drecera per buidar la selecció del terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:503
+msgid "Popup Menu"
+msgstr "Menú emergent"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:504
+msgid "Shortcut to show the popup menu for the terminal"
+msgstr "Drecera per mostrar el menú emergent del terminal"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:509
+msgid "Primary Menu"
+msgstr "Menú primari"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:510
+msgid "Shortcut to show the primary menu for the window"
+msgstr "Drecera per a mostrar el menú primari"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:515
+msgid "Tab Menu"
+msgstr "Menú de pestanyes"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:516
+msgid "Shortcut to show the new tab menu"
+msgstr "Drecera per a mostrar el menú de nova pestanya"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:522 src/ptyxis-preferences-window.ui:818
+msgid "Move to Previous Tab"
+msgstr "Vés a la pestanya anterior"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:524
+msgid "Shortcut to move to the previous tab"
+msgstr "Drecera per a canviar a la pestanya anterior"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:530 src/ptyxis-preferences-window.ui:824
+msgid "Move to Next Tab"
+msgstr "Mou a la pestanya següent"
+
+#. Translators: in this context, "Move" means to switch tabs
+#: src/org.gnome.Ptyxis.gschema.xml.in:532
+msgid "Shortcut to move to the next tab"
+msgstr "Drecera per a canviar a la pestanya següent"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:537 src/ptyxis-preferences-window.ui:834
+msgid "Move Tab Left"
+msgstr "Mou la pestanya a l'esquerra"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:538
+msgid "Shortcut to move the current tab to the left one position"
+msgstr "Drecera per a canviar a la pestanya a l'esquerra de l'actual"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:543 src/ptyxis-preferences-window.ui:841
+msgid "Move Tab Right"
+msgstr "Mou la pestanya a la dreta"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:544
+msgid "Shortcut to move the current tab to the right one position"
+msgstr "Drecera per a canviar a la pestanya a la dreta de l'actual"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:549 src/ptyxis-preferences-window.ui:848
+msgid "Move Tab to New Window"
+msgstr "Mou la pestanya a una finestra nova"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:550
+msgid "Shortcut to move the current tab into a new window"
+msgstr "Drecera per moure la pestanya actual a una finestra nova"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:555 src/ptyxis-preferences-window.ui:793
+msgid "Close Tab"
+msgstr "Tanca la pestanya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:556
+msgid "Shortcut to close the current tab"
+msgstr "Drecera per a tancar la pestanya actual"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:561 src/ptyxis-preferences-window.ui:800
+msgid "Close Other Tabs"
+msgstr "Tanca les altres pestanyes"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:562
+msgid "Shortcut to close all tabs in the window but the current one"
+msgstr "Drecera per tancar totes les pestanyes de la finestra tret de l'actual"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:567 src/ptyxis-preferences-window.ui:749
+msgid "Close Window"
+msgstr "Tanca la finestra"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:568
+msgid "Shortcut to close the current window"
+msgstr "Drecera per a tancar la finestra actual"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:573 src/ptyxis-preferences-window.ui:760 src/ptyxis-terminal.ui:244
+#: src/ptyxis-window.c:1210 src/ptyxis-window.ui:846
+msgid "Set Title"
+msgstr "Estableix el títol"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:574
+msgid "The shortcut to show set title"
+msgstr "La drecera per a mostrar el títol establert"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:579
+msgid "Focus Tab 1"
+msgstr "Envia el focus a la pestanya 1"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:580
+msgid "Shortcut to focus tab 1"
+msgstr "Drecera per enviar el focus a la pestanya 1"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:585
+msgid "Focus Tab 2"
+msgstr "Envia el focus a la pestanya 2"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:586
+msgid "Shortcut to focus tab 2"
+msgstr "Drecera per enviar el focus a la pestanya 2"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:591
+msgid "Focus Tab 3"
+msgstr "Envia el focus a la pestanya 3"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:592
+msgid "Shortcut to focus tab 3"
+msgstr "Drecera per enviar el focus a la pestanya 3"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:597
+msgid "Focus Tab 4"
+msgstr "Envia el focus a la pestanya 4"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:598
+msgid "Shortcut to focus tab 4"
+msgstr "Drecera per enviar el focus a la pestanya 4"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:603
+msgid "Focus Tab 5"
+msgstr "Envia el focus a la pestanya 5"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:604
+msgid "Shortcut to focus tab 5"
+msgstr "Drecera per enviar el focus a la pestanya 5"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:609
+msgid "Focus Tab 6"
+msgstr "Envia el focus a la pestanya 6"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:610
+msgid "Shortcut to focus tab 6"
+msgstr "Drecera per enviar el focus a la pestanya 6"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:615
+msgid "Focus Tab 7"
+msgstr "Envia el focus a la pestanya 7"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:616
+msgid "Shortcut to focus tab 7"
+msgstr "Drecera per enviar el focus a la pestanya 7"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:621
+msgid "Focus Tab 8"
+msgstr "Envia el focus a la pestanya 8"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:622
+msgid "Shortcut to focus tab 8"
+msgstr "Drecera per enviar el focus a la pestanya 8"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:627
+msgid "Focus Tab 9"
+msgstr "Envia el focus a la pestanya 9"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:628
+msgid "Shortcut to focus tab 9"
+msgstr "Drecera per enviar el focus a la pestanya 9"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:633
+msgid "Focus Tab 10"
+msgstr "Envia el focus a la pestanya 10"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:634
+msgid "Shortcut to focus tab 10"
+msgstr "Drecera per enviar el focus a la pestanya 10"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:639
+msgid "Focus Last Tab"
+msgstr "Envia el focus a la darrera pestanya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:640
+msgid "Shortcut to focus the last tab"
+msgstr "Drecera per enviar el focus a la darrera pestanya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:645 src/ptyxis-preferences-window.ui:807
+msgid "Undo Close Tab"
+msgstr "Desfer el tancar pestanya"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:646
+msgid "Undo closing of last tab"
+msgstr "Desfer el tancament de la darrera pestanya"
+
+#: src/ptyxis-application.c:461
+msgid "--tab, --tab-with-profile, or --new-window may not be used together"
+msgstr "«--tab», «--tab-with-profile», o «--new-window» no es poden usar alhora"
+
+#: src/ptyxis-application.c:507
+#, c-format
+msgid "Cannot parse command: %s"
+msgstr "No s'ha pogut analitzar l'ordre: %s"
+
+#: src/ptyxis-application.c:1140
+msgid "Examples:"
+msgstr "Exemples:"
+
+#: src/ptyxis-application.c:1142
+msgid "Show the application preferences"
+msgstr "Mostra les preferències d'aplicació"
+
+#. Used for new tabs/windows/etc when specified
+#: src/ptyxis-application.c:1145
+msgid "Use DIR for --tab, --tab-with-profile, --new-window, or -x"
+msgstr "Useu DIR per «--tab», «--tab-with-profile», «--new-window», o «-x»"
+
+#: src/ptyxis-application.c:1145
+msgid "DIR"
+msgstr "DIR"
+
+#. By default, this implies a new ptyxis instance unless the options
+#. * below are provided to override that.
+#.
+#: src/ptyxis-application.c:1150
+msgid "Command to execute in new window"
+msgstr "Ordre a executar a la nova finestra"
+
+#. These options all imply we're using a shared Ptyxis instance. We do not support
+#. * short command options for these to make it easier to sniff them in early args
+#. * checking from `main.c`.
+#.
+#: src/ptyxis-application.c:1156
+msgid "New terminal window"
+msgstr "Nova finestra de terminal"
+
+#: src/ptyxis-application.c:1157
+msgid "New terminal tab in active window"
+msgstr "Nova pestanya de terminal a la finestra activa"
+
+#: src/ptyxis-application.c:1158
+msgid "New terminal tab in active window using the profile UUID"
+msgstr "Nova pestanya de terminal a la finestra activa usant el perfil UUID"
+
+#: src/ptyxis-application.c:1158
+msgid "PROFILE_UUID"
+msgstr "PROFILE_UUID"
+
+#. Standalone (single instance mode)
+#: src/ptyxis-application.c:1161
+msgid "Start a new instance, ignoring existing instances"
+msgstr "Inicia una instància nova, ignorant les instàncies existents"
+
+#: src/ptyxis-application.c:1163
+msgid "Set title for new tab"
+msgstr "Estableix el títol d'una pestanya nova"
+
+#: src/ptyxis-application.c:1164
+msgid "Maximize a newly created window"
+msgstr "Maximitza una finestra nova"
+
+#: src/ptyxis-application.c:1165
+msgid "Fullscreen a newly created window"
+msgstr "Pantalla completa una finestra nova"
+
+#. Import a custom .palette file. This works like dragging the file onto preferences
+#: src/ptyxis-application.c:1168
+msgid "Import a Ptyxis palette file"
+msgstr "Importa un fitxer de paleta Ptyxis"
+
+#: src/ptyxis-application.c:1168
+msgid "FILE"
+msgstr "FILE"
+
+#: src/ptyxis-application.c:1175
+msgid "Run Separate Instance"
+msgstr "Executa una instància separada"
+
+#: src/ptyxis-application.c:1179
+msgid "Open Preferences"
+msgstr "Obre les preferències"
+
+#: src/ptyxis-application.c:1183
+msgid "Run Custom Command in New Window"
+msgstr "Executa una ordre personalitzada en una nova finestra"
+
+#: src/ptyxis-application.c:1188
+msgid "Import a custom palette"
+msgstr "Importa una paleta personalitzada"
+
+#: src/ptyxis-application.c:1191
+msgid "[-- COMMAND ARGUMENTS]"
+msgstr "[-- PARÀMETRES DE L'ORDRE]"
+
+#: src/ptyxis-application.c:1432
+msgid "translator-credits"
+msgstr ""
+"poc senderi <pocsenderi@protonmail.com>\n"
+"Victor Dargallo <victordargallo@disroot.org>"
+
+#: src/ptyxis-close-dialog.c:109
+msgid "_Close"
+msgstr "Tan_ca"
+
+#: src/ptyxis-close-dialog.c:109
+msgid "_Close All"
+msgstr "Tan_ca-ho tot"
+
+#: src/ptyxis-close-dialog.c:111
+msgid "Close Window?"
+msgstr "Voleu tancar la finestra?"
+
+#: src/ptyxis-close-dialog.c:112
+msgid "Some processes are still running."
+msgstr "Hi ha alguns processos que encara s'estan executant."
+
+#: src/ptyxis-close-dialog.c:116
+msgid "_Cancel"
+msgstr "_Cancel·la"
+
+#: src/ptyxis-close-dialog.c:142
+#, c-format
+msgid "Process %d"
+msgstr "Procés %d"
+
+#: src/ptyxis-custom-link-editor.ui:20
+msgid "Edit Custom Link"
+msgstr "Edita l'enllaç personalitzat"
+
+#: src/ptyxis-custom-link-editor.ui:29
+msgid "Custom Link"
+msgstr "Enllaç personalitzat"
+
+#: src/ptyxis-custom-link-editor.ui:30
+msgid ""
+"A clickable link in the terminal that matches text patterns and opens custom URLs. Uses regex capture "
+"groups to build the final URL (e.g., $1 becomes the first matched group)."
+msgstr ""
+"Un enllaç clicable al terminal que coincideix amb els patrons de text i obre URL personalitzats. Utilitza "
+"grups de captura d'expressió regular per a construir l'URL final (p. ex., $1 es converteix en el primer "
+"grup coincident)."
+
+#: src/ptyxis-custom-link-editor.ui:35
+msgid "Regex Pattern"
+msgstr "Patró d'expressió regular"
+
+#: src/ptyxis-custom-link-editor.ui:40
+msgid "Target URL"
+msgstr "URL de destinació"
+
+#: src/ptyxis-custom-link-row.c:131
+#, c-format
+msgid "Removed custom link “%s”"
+msgstr "S'ha esborrat l'enllaç personalitzat «%s»"
+
+#: src/ptyxis-custom-link-row.c:133 src/ptyxis-profile-editor.c:186 src/ptyxis-profile-row.c:106
+msgid "Undo"
+msgstr "Desfés"
+
+#: src/ptyxis-custom-link-row.ui:26 src/ptyxis-profile-row.ui:33
+msgid "View More"
+msgstr "Mostra'n més"
+
+#: src/ptyxis-custom-link-row.ui:36 src/ptyxis-profile-row.ui:53
+msgid "_Edit…"
+msgstr "_Edita…"
+
+#: src/ptyxis-custom-link-row.ui:42 src/ptyxis-profile-row.ui:59
+msgid "_Remove"
+msgstr "Sup_rimeix"
+
+#: src/ptyxis-find-bar.ui:69
+msgid "Search Up"
+msgstr "Cerca amunt"
+
+#: src/ptyxis-find-bar.ui:76
+msgid "Search Down"
+msgstr "Cerca avall"
+
+#: src/ptyxis-find-bar.ui:85
+msgid "Search Options"
+msgstr "Opcions de cerca"
+
+#: src/ptyxis-find-bar.ui:96
+msgid "Match _Case"
+msgstr "Fes _coincidir majúscules i minúscules"
+
+#: src/ptyxis-find-bar.ui:102
+msgid "Whole _Words"
+msgstr "_Paraules senceres"
+
+#: src/ptyxis-find-bar.ui:108
+msgid "Use _Regular Expressions"
+msgstr "Utilitza expressions _regulars"
+
+#: src/ptyxis-find-bar.ui:128 src/ptyxis-preferences-window.ui:572 src/ptyxis-profile-editor.ui:302
+msgid "Close"
+msgstr "Tanca"
+
+#: src/ptyxis-find-bar.ui:129
+msgid "Close the search bar"
+msgstr "Tanca la barra de cerca"
+
+#: src/ptyxis-inspector.c:95 src/ptyxis-inspector.c:357
+msgid "unset"
+msgstr "no definit"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Row"
+msgstr "Fila"
+
+#: src/ptyxis-inspector.c:116 src/ptyxis-inspector.c:274
+msgid "Column"
+msgstr "Columna"
+
+#. NOTE: If we are in a container that also supports VTE patches
+#. * then it will send shell-precmd via escape sequences. The reality
+#. * is that our foreground is the `toolbox enter` process (until we
+#. * have better patches in VTE) but we show "Shell" instead.
+#. *
+#. * This is fine for now, but I'd like it to be better and actually
+#. * show the proper `tcgetpgrp()` foreground.
+#.
+#: src/ptyxis-inspector.c:177 src/ptyxis-inspector.c:197 src/ptyxis-preferences-window.ui:508
+#: src/ptyxis-profile-editor.ui:184
+msgid "Shell"
+msgstr "Intèrpret d'ordres"
+
+#: src/ptyxis-inspector.c:276
+msgid "untracked"
+msgstr "sense seguiment"
+
+#: src/ptyxis-inspector.ui:4
+msgid "Inspector"
+msgstr "Inspector"
+
+#: src/ptyxis-inspector.ui:7
+msgid "Process"
+msgstr "Procés"
+
+#: src/ptyxis-inspector.ui:13
+msgid "Foreground Process"
+msgstr "Procés en primer pla"
+
+#: src/ptyxis-inspector.ui:33
+msgid "Window Title"
+msgstr "Títol de la finestra"
+
+#: src/ptyxis-inspector.ui:45
+msgid "Current Directory"
+msgstr "Directori actual"
+
+#: src/ptyxis-inspector.ui:53
+msgid "Current File"
+msgstr "Fitxer actual"
+
+#: src/ptyxis-inspector.ui:63
+msgid "Container"
+msgstr "Contenidor"
+
+#: src/ptyxis-inspector.ui:66
+msgid "Runtime"
+msgstr "Execució"
+
+#: src/ptyxis-inspector.ui:74 src/ptyxis-inspector.ui:228 src/ptyxis-profile-editor.ui:36
+msgid "Name"
+msgstr "Nom"
+
+#: src/ptyxis-inspector.ui:86 src/ptyxis-preferences-window.ui:36
+msgid "Appearance"
+msgstr "Aparença"
+
+#: src/ptyxis-inspector.ui:92
+msgid "Grid Size"
+msgstr "Mida de la graella"
+
+#: src/ptyxis-inspector.ui:105
+msgid "Colors"
+msgstr "Colors"
+
+#: src/ptyxis-inspector.ui:225 src/ptyxis-preferences-window.ui:130
+msgid "Font"
+msgstr "Tipus de lletra"
+
+#: src/ptyxis-inspector.ui:233
+msgid "Cell Size"
+msgstr "Mida de la cel·la"
+
+#: src/ptyxis-inspector.ui:242
+msgid "Input"
+msgstr "Entrada"
+
+#: src/ptyxis-inspector.ui:246 src/ptyxis-preferences-window.ui:246
+msgid "Cursor"
+msgstr "Cursor"
+
+#: src/ptyxis-inspector.ui:249 src/ptyxis-inspector.ui:262
+msgid "Position"
+msgstr "Posició"
+
+#: src/ptyxis-inspector.ui:259
+msgid "Mouse"
+msgstr "Ratolí"
+
+#: src/ptyxis-inspector.ui:270
+msgid "Hyperlink"
+msgstr "Enllaç"
+
+#: src/ptyxis-menu-row.c:166 src/ptyxis-profile-editor.c:217 src/ptyxis-window.c:1761
+msgid "My Computer"
+msgstr "Ordinador"
+
+#: src/ptyxis-palette-preview.ui:32
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "Baixant la font del gat una noia i un soldat"
+
+#: src/ptyxis-preferences-window.c:277
+msgid "Select Font"
+msgstr "Selecciona el tipus de lletra"
+
+#: src/ptyxis-preferences-window.c:352
+msgid "Show Fewer Palettes"
+msgstr "Mostra menys paletes"
+
+#: src/ptyxis-preferences-window.c:357 src/ptyxis-preferences-window.ui:46
+msgid "Show All Palettes"
+msgstr "Mostra totes les paletes"
+
+#: src/ptyxis-preferences-window.c:382
+msgid "Add Profile"
+msgstr "Afegeix un perfil"
+
+#: src/ptyxis-preferences-window.c:484 src/ptyxis-profile-editor.c:270
+msgid "Add Link"
+msgstr "Afegeix un enllaç"
+
+#: src/ptyxis-preferences-window.ui:72 src/ptyxis-profile-editor.ui:74
+msgid "Transparency"
+msgstr "Transparència"
+
+#: src/ptyxis-preferences-window.ui:73 src/ptyxis-profile-editor.ui:75
+msgid "Reduces the opacity of the background window"
+msgstr "Redueix l'opacitat del rerefons de la finestra"
+
+#: src/ptyxis-preferences-window.ui:134
+msgid "Use System _Font"
+msgstr "Utilitza el tipus de _lletra del sistema"
+
+#: src/ptyxis-preferences-window.ui:146
+msgid "Custom Font"
+msgstr "Tipus de lletra personalitzada"
+
+#: src/ptyxis-preferences-window.ui:207
+msgid "Blinking Text"
+msgstr "Text amb pampallugues"
+
+#: src/ptyxis-preferences-window.ui:216 src/ptyxis-preferences-window.ui:440
+#: src/ptyxis-preferences-window.ui:529 src/ptyxis-profile-editor.ui:230 src/ptyxis-profile-editor.ui:259
+msgid "Never"
+msgstr "Mai"
+
+#: src/ptyxis-preferences-window.ui:222
+msgid "Focused"
+msgstr "Amb el focus"
+
+#: src/ptyxis-preferences-window.ui:228
+msgid "Unfocused"
+msgstr "Sense el focus"
+
+#: src/ptyxis-preferences-window.ui:234 src/ptyxis-preferences-window.ui:452
+#: src/ptyxis-preferences-window.ui:541 src/ptyxis-profile-editor.ui:236 src/ptyxis-profile-editor.ui:271
+msgid "Always"
+msgstr "Sempre"
+
+#: src/ptyxis-preferences-window.ui:258
+msgid "Block"
+msgstr "Bloqueja"
+
+#: src/ptyxis-preferences-window.ui:264
+msgid "I-Beam"
+msgstr "I-Beam"
+
+#: src/ptyxis-preferences-window.ui:270
+msgid "Underline"
+msgstr "Subratllat"
+
+#: src/ptyxis-preferences-window.ui:280
+msgid "Cursor Blinking"
+msgstr "Parpelleig del cursor"
+
+#: src/ptyxis-preferences-window.ui:289 src/ptyxis-preferences-window.ui:446
+msgid "Follow System"
+msgstr "Igual que el sistema"
+
+#: src/ptyxis-preferences-window.ui:295
+msgid "Enabled"
+msgstr "Habilitat"
+
+#: src/ptyxis-preferences-window.ui:301
+msgid "Disabled"
+msgstr "Inhabilitat"
+
+#: src/ptyxis-preferences-window.ui:315
+msgid "Behavior"
+msgstr "Comportament"
+
+#: src/ptyxis-preferences-window.ui:319
+msgid "Interface"
+msgstr "Interfície"
+
+#: src/ptyxis-preferences-window.ui:331
+msgid "Next"
+msgstr "Següent"
+
+#: src/ptyxis-preferences-window.ui:337
+msgid "Last"
+msgstr "Darrer"
+
+#: src/ptyxis-preferences-window.ui:352
+msgid "Attempt to restore previous tabs when Ptyxis starts"
+msgstr "Mira de restaurar les pestanyes prèvies quan s'inicia el Ptyxis"
+
+#: src/ptyxis-preferences-window.ui:358
+msgid "Restore the previous window size when creating a new window"
+msgstr "Restaura la mida de finestra prèvia quan es creen una nova finestra"
+
+#: src/ptyxis-preferences-window.ui:368
+msgid "Columns"
+msgstr "Columnes"
+
+#: src/ptyxis-preferences-window.ui:382
+msgid "Rows"
+msgstr "Files"
+
+#: src/ptyxis-preferences-window.ui:400
+msgid "Accessibility"
+msgstr "Accessibilitat"
+
+#: src/ptyxis-preferences-window.ui:403
+msgid "Allow Screen Readers"
+msgstr "Permet els lectors de pantalla"
+
+#: src/ptyxis-preferences-window.ui:404
+msgid "Permit screen readers such as Orca to read terminal content and typed text"
+msgstr ""
+"Permet que els lectors de pantalla com ara l'Orca puguin llegir el contingut del terminal i el text "
+"teclejat"
+
+#: src/ptyxis-preferences-window.ui:411
+msgid "Bell"
+msgstr "Campana"
+
+#: src/ptyxis-preferences-window.ui:415
+msgid "Emit an audible bell when requested by active tab"
+msgstr "Emet un toc de campana audible quan ho requereixi la pestanya activa"
+
+#: src/ptyxis-preferences-window.ui:420
+msgid "Visual Bell"
+msgstr "Campana visual"
+
+#: src/ptyxis-preferences-window.ui:421
+msgid "Emit a visual bell when requested by active tab"
+msgstr "Emet un toc de campana visible quan ho requereixi la pestanya activa"
+
+#: src/ptyxis-preferences-window.ui:428 src/ptyxis-profile-editor.ui:314
+msgid "Scrolling"
+msgstr "Desplaçament"
+
+#: src/ptyxis-preferences-window.ui:431
+msgid "Use Scrollbars"
+msgstr "Utilitza barres de desplaçament"
+
+#: src/ptyxis-preferences-window.ui:467 src/ptyxis-profile-editor.ui:318
+msgid "Scroll to the bottom upon input keystroke"
+msgstr "Desplaçar al capdavall quan es prem alguna tecla"
+
+#: src/ptyxis-preferences-window.ui:473 src/ptyxis-profile-editor.ui:324
+msgid "Scroll to the bottom when new content is available"
+msgstr "Desplaçar al capdavall quan hi ha nou contingut disponible"
+
+#: src/ptyxis-preferences-window.ui:483 src/ptyxis-profile-editor.ui:334
+msgid "Restrict the number of lines saved for scrollback"
+msgstr "Restringeix el nombre de línies a conservar per al desplaçament cap enrere"
+
+#: src/ptyxis-preferences-window.ui:492 src/ptyxis-profile-editor.ui:343
+msgid "The number of lines to keep for scrollback"
+msgstr "Nombre de línies a mantenir en el desplaçament cap enrere"
+
+#: src/ptyxis-preferences-window.ui:511 src/ptyxis-profile-editor.ui:202
+msgid "Use Login Shell"
+msgstr "Usa un intèrpret d'ordres d'inici de sessió"
+
+#: src/ptyxis-preferences-window.ui:520 src/ptyxis-profile-editor.ui:250
+msgid "Preserve Working Directory"
+msgstr "Manté el directori de treball"
+
+#: src/ptyxis-preferences-window.ui:535 src/ptyxis-profile-editor.ui:265
+msgid "Safe"
+msgstr "Segur"
+
+#: src/ptyxis-preferences-window.ui:560 src/ptyxis-profile-editor.ui:290
+msgid "No Action"
+msgstr "Cap acció"
+
+#: src/ptyxis-preferences-window.ui:566 src/ptyxis-profile-editor.ui:296
+msgid "Restart"
+msgstr "Reinicia"
+
+#: src/ptyxis-preferences-window.ui:584 src/ptyxis-profile-editor.ui:359
+msgid "Compatibility"
+msgstr "Compatibilitat"
+
+#: src/ptyxis-preferences-window.ui:587 src/ptyxis-profile-editor.ui:362
+msgid "Backspace Key"
+msgstr "Tecla de retrocés"
+
+#: src/ptyxis-preferences-window.ui:588 src/ptyxis-profile-editor.ui:363
+msgid "Sequence to send for Backspace key"
+msgstr "Seqüència per enviar la tecla de retrocés"
+
+#: src/ptyxis-preferences-window.ui:597 src/ptyxis-profile-editor.ui:372
+msgid "Delete Key"
+msgstr "Tecla de suprimir"
+
+#: src/ptyxis-preferences-window.ui:598 src/ptyxis-profile-editor.ui:373
+msgid "Sequence to send for Delete key"
+msgstr "Seqüència per enviar la tecla de suprimir"
+
+#: src/ptyxis-preferences-window.ui:607 src/ptyxis-profile-editor.ui:382
+msgid "Ambiguous-width Characters"
+msgstr "Caràcters d'amplada incerta"
+
+#: src/ptyxis-preferences-window.ui:616 src/ptyxis-profile-editor.ui:391
+msgid "Narrow"
+msgstr "Estret"
+
+#: src/ptyxis-preferences-window.ui:622 src/ptyxis-profile-editor.ui:397
+msgid "Wide"
+msgstr "Ample"
+
+#: src/ptyxis-preferences-window.ui:655
+msgid "Set as Default Terminal"
+msgstr "Estableix com a terminal predeterminat"
+
+#: src/ptyxis-preferences-window.ui:665
+msgid "Shortcuts"
+msgstr "Dreceres"
+
+#: src/ptyxis-preferences-window.ui:694
+msgid "Clear Selection"
+msgstr "Neteja la selecció"
+
+#: src/ptyxis-preferences-window.ui:704 src/ptyxis-shortcut-accel-dialog.ui:48 src/ptyxis-terminal.ui:230
+msgid "Reset"
+msgstr "Restableix"
+
+#: src/ptyxis-preferences-window.ui:710 src/ptyxis-terminal.ui:236
+msgid "Reset and Clear"
+msgstr "Restableix i neteja"
+
+#: src/ptyxis-preferences-window.ui:731
+msgid "Show Context Menu"
+msgstr "Mostra el menú contextual"
+
+#: src/ptyxis-preferences-window.ui:739
+msgid "Windows"
+msgstr "Finestres"
+
+#: src/ptyxis-preferences-window.ui:743
+msgid "Open a new tab in a new window"
+msgstr "Obre en una pestanya nova en una finestra nova"
+
+#: src/ptyxis-preferences-window.ui:750
+msgid "Close the current window"
+msgstr "Tanca la finestra actual"
+
+#: src/ptyxis-preferences-window.ui:768
+msgid "Tabs"
+msgstr "Pestanyes"
+
+#: src/ptyxis-preferences-window.ui:772
+msgid "Open a new tab in the current window"
+msgstr "Obre en una pestanya nova a la finestra actual"
+
+#: src/ptyxis-preferences-window.ui:782
+msgid "View Tab Overview"
+msgstr "Visió general de les pestanyes"
+
+#: src/ptyxis-preferences-window.ui:783
+msgid "Show an overview of all tabs within the window"
+msgstr "Mostra una visió general de totes les pestanyes de la finestra"
+
+#: src/ptyxis-preferences-window.ui:794
+msgid "Close the current tab"
+msgstr "Tancar la pestanya actual"
+
+#: src/ptyxis-preferences-window.ui:801
+msgid "Close all tabs except the active tab"
+msgstr "Tanca totes les pestanyes tret de l'activa"
+
+#: src/ptyxis-preferences-window.ui:808
+msgid "Undo closing the last tab"
+msgstr "Desfer el tancament de la darrera pestanya"
+
+#: src/ptyxis-preferences-window.ui:835
+msgid "Move the tab one position to the left"
+msgstr "Mou la pestanya a l'esquerra una posició cap a l'esquerra"
+
+#: src/ptyxis-preferences-window.ui:842
+msgid "Move the tab one position to the right"
+msgstr "Mou la pestanya a l'esquerra una posició cap a la dreta"
+
+#: src/ptyxis-preferences-window.ui:849
+msgid "Detach the current tab and move it to a new window"
+msgstr "Desconnecta la pestanya actual i mou-la a una nova finestra"
+
+#: src/ptyxis-preferences-window.ui:859
+msgid "Switch to Tab 1"
+msgstr "Canvia a la pestanya 1"
+
+#: src/ptyxis-preferences-window.ui:865
+msgid "Switch to Tab 2"
+msgstr "Canvia a la pestanya 2"
+
+#: src/ptyxis-preferences-window.ui:871
+msgid "Switch to Tab 3"
+msgstr "Canvia a la pestanya 3"
+
+#: src/ptyxis-preferences-window.ui:877
+msgid "Switch to Tab 4"
+msgstr "Canvia a la pestanya 4"
+
+#: src/ptyxis-preferences-window.ui:883
+msgid "Switch to Tab 5"
+msgstr "Canvia a la pestanya 5"
+
+#: src/ptyxis-preferences-window.ui:889
+msgid "Switch to Tab 6"
+msgstr "Canvia a la pestanya 6"
+
+#: src/ptyxis-preferences-window.ui:895
+msgid "Switch to Tab 7"
+msgstr "Canvia a la pestanya 7"
+
+#: src/ptyxis-preferences-window.ui:901
+msgid "Switch to Tab 8"
+msgstr "Canvia a la pestanya 8"
+
+#: src/ptyxis-preferences-window.ui:907
+msgid "Switch to Tab 9"
+msgstr "Canvia a la pestanya 9"
+
+#: src/ptyxis-preferences-window.ui:913
+msgid "Switch to Tab 10"
+msgstr "Canvia a la pestanya 10"
+
+#: src/ptyxis-preferences-window.ui:919
+msgid "Switch to Last Tab"
+msgstr "Canvia a la darrera pestanya"
+
+#: src/ptyxis-preferences-window.ui:927
+msgid "Zoom"
+msgstr "Ampliació"
+
+#: src/ptyxis-preferences-window.ui:950
+msgid "Application"
+msgstr "Aplicació"
+
+#: src/ptyxis-preferences-window.ui:954
+msgid "Toggle in and out of fullscreen"
+msgstr "Commuta la pantalla completa"
+
+#: src/ptyxis-preferences-window.ui:964
+msgid "Show Primary Menu"
+msgstr "Mostra el menú primari"
+
+#: src/ptyxis-preferences-window.ui:965
+msgid "Displays the primary menu for the terminal window"
+msgstr "Mostra el menú primari de la finestra del terminal"
+
+#: src/ptyxis-preferences-window.ui:971
+msgid "Show New Tab Menu"
+msgstr "Mostra el menú de nova pestanya"
+
+#: src/ptyxis-preferences-window.ui:972
+msgid "Displays the new tab menu for the terminal window"
+msgstr "Mostra el menú de pestanya nova de la finestra del terminal"
+
+#: src/ptyxis-preferences-window.ui:979
+msgid "Show this preferences window"
+msgstr "Mostra la finestra de les preferències"
+
+#: src/ptyxis-preferences-window.ui:986
+msgid "Show the keyboard shortcuts configuration"
+msgstr "Mostra la configuració de les dreceres de teclat"
+
+#: src/ptyxis-preferences-window.ui:996 src/ptyxis-preferences-window.ui:1000 src/ptyxis-window.c:1735
+#: src/ptyxis-window.c:1897
+msgid "Profiles"
+msgstr "Perfils"
+
+#: src/ptyxis-preferences-window.ui:1019 src/ptyxis-profile-editor.ui:442
+msgid "Automatic"
+msgstr "Automàtic"
+
+#: src/ptyxis-preferences-window.ui:1025 src/ptyxis-profile-editor.ui:448
+msgid "Control-H"
+msgstr "Control-H"
+
+#: src/ptyxis-preferences-window.ui:1031 src/ptyxis-profile-editor.ui:454
+msgid "ASCII DEL"
+msgstr "Supr ASCII"
+
+#: src/ptyxis-preferences-window.ui:1037 src/ptyxis-profile-editor.ui:460
+msgid "Escape Sequence"
+msgstr "Seqüència d'escapada"
+
+#: src/ptyxis-preferences-window.ui:1043 src/ptyxis-profile-editor.ui:466
+msgid "TTY Erase"
+msgstr "Esborrat TTY"
+
+#: src/ptyxis-profile.c:729
+msgid "Untitled Profile"
+msgstr "Perfil sense títol"
+
+#: src/ptyxis-profile-dialog.ui:29 src/ptyxis-terminal.ui:249
+msgid "Change Profile"
+msgstr "Canvia el perfil"
+
+#: src/ptyxis-profile-dialog.ui:42 src/ptyxis-profile-editor.ui:31
+msgid "Profile"
+msgstr "Perfil"
+
+#: src/ptyxis-profile-dialog.ui:43
+msgid "Select a profile to apply to this terminal"
+msgstr "Seleccioneu un perfil a aplicar a aquest terminal"
+
+#: src/ptyxis-profile-editor.c:155 src/ptyxis-terminal.c:440 src/ptyxis-terminal.c:472
+msgid "Copied to clipboard"
+msgstr "S'ha copiat al porta-retalls"
+
+#: src/ptyxis-profile-editor.c:184 src/ptyxis-profile-row.c:104
+#, c-format
+msgid "Removed profile “%s”"
+msgstr "S'ha esborrat el perfil «%s»"
+
+#: src/ptyxis-profile-editor.ui:22 src/ptyxis-tab.c:504 src/ptyxis-tab.c:561
+msgid "Edit Profile"
+msgstr "Edita el perfil"
+
+#: src/ptyxis-profile-editor.ui:41
+msgid "Identifier"
+msgstr "Identificador"
+
+#: src/ptyxis-profile-editor.ui:50
+msgid "Copy"
+msgstr "Copia"
+
+#: src/ptyxis-profile-editor.ui:62
+msgid "Color"
+msgstr "Color"
+
+#: src/ptyxis-profile-editor.ui:134
+msgid "Use Bright Colors for Bold"
+msgstr "Usa colors brillants amb la negreta"
+
+#: src/ptyxis-profile-editor.ui:173
+msgid "Network"
+msgstr "Xarxa"
+
+#: src/ptyxis-profile-editor.ui:176
+msgid "Proxy"
+msgstr "Servidor intermediari"
+
+#: src/ptyxis-profile-editor.ui:177
+msgid "Applies the network proxy settings to the container environment"
+msgstr "Aplica la configuració del servidor intermediari («proxy») a l'entorn del contenidor"
+
+#: src/ptyxis-profile-editor.ui:212
+msgid "The default container to use with this profile"
+msgstr "El contenidor predeterminat per usar amb aquest perfil"
+
+#: src/ptyxis-profile-editor.ui:221
+msgid "Preserve the current container when opening new tabs and windows"
+msgstr "Preserva el contenidor actiu quan es creen noves pestanyes i finestres"
+
+#: src/ptyxis-profile-editor.ui:427
+msgid "Remove Profile"
+msgstr "Esborra el perfil"
+
+#: src/ptyxis-profile-row.ui:43
+msgid "_Make Default"
+msgstr "Un terminal orientat a contenidors per al GNOME"
+
+#: src/ptyxis-profile-row.ui:49
+msgid "_Duplicate…"
+msgstr "_Duplica…"
+
+#. Translators: <b>%s</b> is used to show the provided text in bold
+#: src/ptyxis-shortcut-accel-dialog.c:538
+#, c-format
+msgid "Enter new shortcut to change <b>%s</b>."
+msgstr "Introduïu una drecera nova per a canviar <b>%s</b>."
+
+#. do not use underline as it prevents alt+c as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:42
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#. do not use underline as it prevents alt+s as an accelerator
+#: src/ptyxis-shortcut-accel-dialog.ui:56
+msgid "Set"
+msgstr "Estableix"
+
+#: src/ptyxis-shortcut-accel-dialog.ui:96
+msgid "Press Escape to cancel or Backspace to disable."
+msgstr "Premeu Escape per a cancel·lar o Retrocés per a deshabilitar-lo."
+
+#: src/ptyxis-shortcut-row.c:84
+msgid "Set Shortcut"
+msgstr "Estableix la drecera"
+
+#: src/ptyxis-shortcut-row.ui:33
+msgid "disabled"
+msgstr "inhabilitat"
+
+#: src/ptyxis-tab.c:355
+msgid "A foreground process is running"
+msgstr "S'està executant un procés en primer pla"
+
+#: src/ptyxis-tab.c:412
+#, c-format
+msgid "Process Exited from Signal %d"
+msgstr "S'ha sortit del procés del senyal %d"
+
+#: src/ptyxis-tab.c:415 src/ptyxis-tab.c:438
+msgid "_Restart"
+msgstr "_Reinicia"
+
+#. Always prepare the banner even if we don't show it because we may
+#. * display it again if the tab is removed from the parking lot and
+#. * restored into the window.
+#.
+#: src/ptyxis-tab.c:437
+msgid "Process Exited"
+msgstr "El procés ha acabat"
+
+#: src/ptyxis-tab.c:503
+msgid "Failed to launch terminal"
+msgstr "No s'ha pogut iniciar el terminal"
+
+#: src/ptyxis-tab.c:559
+#, c-format
+msgid "Cannot locate container “%s”"
+msgstr "No s'ha trobat el contenidor «%s»"
+
+#: src/ptyxis-tab.c:583
+msgid "Failed to create pseudo terminal device"
+msgstr "La creació del pseudo terminal ha fallat"
+
+#: src/ptyxis-tab.c:1650
+msgid "Exited"
+msgstr "Ha sortit"
+
+#: src/ptyxis-tab.c:1652
+msgid "Failed"
+msgstr "Ha fallat"
+
+#: src/ptyxis-tab.c:2237
+msgid "Failed to open link"
+msgstr "No s'ha pogut obrir l'enllaç"
+
+#: src/ptyxis-tab-notify.h:93
+msgid "Command completed"
+msgstr "Ordre completada"
+
+#: src/ptyxis-terminal.ui:169
+msgid "_Open Link"
+msgstr "_Obre l'enllaç"
+
+#: src/ptyxis-terminal.ui:174
+msgid "_Copy Link"
+msgstr "_Copia l'enllaç"
+
+#: src/ptyxis-terminal.ui:182
+msgid "Search…"
+msgstr "Cerca…"
+
+#: src/ptyxis-terminal.ui:189
+msgid "_Copy"
+msgstr "_Copia"
+
+#: src/ptyxis-terminal.ui:190
+msgid "Copy selection from terminal to clipboard"
+msgstr "Copia la selecció des del terminal al porta-retalls"
+
+#: src/ptyxis-terminal.ui:194
+msgid "Copy as _HTML"
+msgstr "Copia com a _HTML"
+
+#: src/ptyxis-terminal.ui:195
+msgid "Copy selection from terminal to clipboard with HTML formatting"
+msgstr "Copia la selecció del terminal al porta-retalls amb format HTML"
+
+#: src/ptyxis-terminal.ui:201
+msgid "_Paste"
+msgstr "_Enganxa"
+
+#: src/ptyxis-terminal.ui:202
+msgid "Paste from clipboard into the terminal"
+msgstr "Enganxa des del porta-retalls al terminal"
+
+#: src/ptyxis-terminal.ui:209
+msgid "Select _All"
+msgstr "Seleccion_a-ho tot"
+
+#: src/ptyxis-terminal.ui:210
+msgid "Selection all text from terminal including scrollback"
+msgstr "Selecciona tot el text des del terminal, inclòs el desplaçament enrere"
+
+#: src/ptyxis-terminal.ui:216
+msgid "Select _None"
+msgstr "_No seleccionis res"
+
+#: src/ptyxis-terminal.ui:223
+msgid "Read-Only"
+msgstr "Només lectura"
+
+#: src/ptyxis-terminal.ui:257 src/ptyxis-window.ui:409 src/ptyxis-window.ui:791
+msgid "Leave Fullscreen"
+msgstr "Surt del mode de pantalla completa"
+
+#: src/ptyxis-terminal.ui:263
+msgid "_Inspect Terminal"
+msgstr "_Inspecciona el terminal"
+
+#: src/ptyxis-theme-selector.ui:21
+msgid "Follow System Style"
+msgstr "Segueix l'estil del sistema"
+
+#: src/ptyxis-theme-selector.ui:23
+msgid "Follow system style"
+msgstr "Segueix l'estil del sistema"
+
+#: src/ptyxis-theme-selector.ui:37
+msgid "Light Style"
+msgstr "Estil clar"
+
+#: src/ptyxis-theme-selector.ui:39
+msgid "Light style"
+msgstr "Estil clar"
+
+#: src/ptyxis-theme-selector.ui:54
+msgid "Dark Style"
+msgstr "Estil fosc"
+
+#: src/ptyxis-theme-selector.ui:56
+msgid "Dark style"
+msgstr "Estil fosc"
+
+#: src/ptyxis-title-dialog.ui:36
+msgid "Title"
+msgstr "Títol"
+
+#: src/ptyxis-title-dialog.ui:42
+msgid "Include Process Title"
+msgstr "Inclou el títol del procés"
+
+#: src/ptyxis-title-dialog.ui:43
+msgid "Append title from Shell application"
+msgstr "Afegeix el títol de l'aplicació Shell"
+
+#. translators: Builder Terminal means this is a terminal bundled with GNOME Builder
+#: src/ptyxis-util.c:316
+msgid "Builder Terminal"
+msgstr "Terminal del constructor"
+
+#: src/ptyxis-util.c:320
+msgid "Ptyxis"
+msgstr "Ptyxis"
+
+#: src/ptyxis-window.c:1518
+msgid "Zoom in"
+msgstr "Amplia"
+
+#: src/ptyxis-window.c:1533
+msgid "Zoom out"
+msgstr "Allunya"
+
+#: src/ptyxis-window.c:1729 src/ptyxis-window.c:1901
+msgid "Containers"
+msgstr "Contenidors"
+
+#: src/ptyxis-window.ui:424
+msgid "New Terminal"
+msgstr "Terminal nou"
+
+#: src/ptyxis-window.ui:437
+msgid "Show Profiles and Containers"
+msgstr "Mostra perfils i contenidors"
+
+#: src/ptyxis-window.ui:457
+msgid "Filter…"
+msgstr "Filtra…"
+
+#: src/ptyxis-window.ui:610
+msgid "No Matching Results"
+msgstr "No hi ha resultats coincidents"
+
+#: src/ptyxis-window.ui:652
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: src/ptyxis-window.ui:660 src/ptyxis-window.ui:777
+msgid "Show Open Tabs"
+msgstr "Mostra les pestanyes obertes"
+
+#: src/ptyxis-window.ui:761
+msgid "New _Tab"
+msgstr "Pes_tanya nova"
+
+#: src/ptyxis-window.ui:768
+msgid "New _Window"
+msgstr "Finestra _nova"
+
+#: src/ptyxis-window.ui:785
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
+#: src/ptyxis-window.ui:799
+msgid "_Preferences"
+msgstr "_Preferències"
+
+#: src/ptyxis-window.ui:804
+msgid "_Keyboard Shortcuts"
+msgstr "_Dreceres del teclat"
+
+#: src/ptyxis-window.ui:808
+msgid "_About"
+msgstr "Quant _a"
+
+#: src/ptyxis-window.ui:817
+msgid "Move _Left"
+msgstr "Mou a _l'esquerra"
+
+#: src/ptyxis-window.ui:822
+msgid "Move _Right"
+msgstr "Mou a la d_reta"
+
+#: src/ptyxis-window.ui:827
+msgid "Move to New _Window"
+msgstr "_Mou a una finestra nova"
+
+#: src/ptyxis-window.ui:833
+msgid "_Pin Tab"
+msgstr "Fixa la _pestanya"
+
+#: src/ptyxis-window.ui:838
+msgid "Un_pin Tab"
+msgstr "Allibera la _pestanya"
+
+#: src/ptyxis-window.ui:853
+msgid "Close _Other Tabs"
+msgstr "_Tanca les altres pestanyes"
+
+#: src/ptyxis-window.ui:858
+msgid "_Close Tab"
+msgstr "Tan_ca la pestanya"
+
+#~ msgid "Unknown Container"
+#~ msgstr "Contenidor desconegut"
+
+#~ msgid "_My Computer"
+#~ msgstr "El _meu ordinador"

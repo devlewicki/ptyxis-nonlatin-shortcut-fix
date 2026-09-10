@@ -1,0 +1,23 @@
+[Palette]
+Name=Jup
+Background=#758480
+Foreground=#23476A
+Cursor=#23476A
+Color0=#000000
+Color1=#DD006F
+Color2=#6FDD00
+Color3=#DD6F00
+Color4=#006FDD
+Color5=#6F00DD
+Color6=#00DD6F
+Color7=#F2F2F2
+Color8=#7D7D7D
+Color9=#FF74B9
+Color10=#B9FF74
+Color11=#FFB974
+Color12=#74B9FF
+Color13=#B974FF
+Color14=#74FFB9
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Jup.yml

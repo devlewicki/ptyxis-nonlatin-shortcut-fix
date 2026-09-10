@@ -1,0 +1,23 @@
+[Palette]
+Name=Hybrid
+Background=#141414
+Foreground=#94A3A5
+Cursor=#94A3A5
+Color0=#282A2E
+Color1=#A54242
+Color2=#8C9440
+Color3=#DE935F
+Color4=#5F819D
+Color5=#85678F
+Color6=#5E8D87
+Color7=#969896
+Color8=#373B41
+Color9=#CC6666
+Color10=#B5BD68
+Color11=#F0C674
+Color12=#81A2BE
+Color13=#B294BB
+Color14=#8ABEB7
+Color15=#C5C8C6
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Hybrid.yml

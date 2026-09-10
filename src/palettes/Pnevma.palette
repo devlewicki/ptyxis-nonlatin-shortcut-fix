@@ -1,0 +1,23 @@
+[Palette]
+Name=Pnevma
+Background=#1C1C1C
+Foreground=#D0D0D0
+Cursor=#D0D0D0
+Color0=#2F2E2D
+Color1=#A36666
+Color2=#90A57D
+Color3=#D7AF87
+Color4=#7FA5BD
+Color5=#C79EC4
+Color6=#8ADBB4
+Color7=#D0D0D0
+Color8=#4A4845
+Color9=#D78787
+Color10=#AFBEA2
+Color11=#E4C9AF
+Color12=#A1BDCE
+Color13=#D7BEDA
+Color14=#B1E7DD
+Color15=#EFEFEF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Pnevma.yml

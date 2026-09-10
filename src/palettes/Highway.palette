@@ -1,0 +1,23 @@
+[Palette]
+Name=Highway
+Background=#222225
+Foreground=#EDEDED
+Cursor=#EDEDED
+Color0=#000000
+Color1=#D00E18
+Color2=#138034
+Color3=#FFCB3E
+Color4=#006BB3
+Color5=#6B2775
+Color6=#384564
+Color7=#EDEDED
+Color8=#5D504A
+Color9=#F07E18
+Color10=#B1D130
+Color11=#FFF120
+Color12=#4FC2FD
+Color13=#DE0071
+Color14=#5D504A
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Highway.yml

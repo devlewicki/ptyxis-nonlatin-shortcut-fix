@@ -1,0 +1,23 @@
+[Palette]
+Name=Neon Night
+Background=#20242D
+Foreground=#C7C8FF
+Cursor=#C7C8FF
+Color0=#20242D
+Color1=#FF8E8E
+Color2=#7EFDD0
+Color3=#FCAD3F
+Color4=#69B4F9
+Color5=#DD92F6
+Color6=#8CE8FF
+Color7=#C9CCCD
+Color8=#20242D
+Color9=#FF8E8E
+Color10=#7EFDD0
+Color11=#FCAD3F
+Color12=#69B4F9
+Color13=#DD92F6
+Color14=#8CE8FF
+Color15=#C9CCCD
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Neon Night.yml

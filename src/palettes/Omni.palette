@@ -1,0 +1,23 @@
+[Palette]
+Name=Omni
+Background=#191622
+Foreground=#ABB2BF
+Cursor=#ABB2BF
+Color0=#191622
+Color1=#E96379
+Color2=#67E480
+Color3=#E89E64
+Color4=#78D1E1
+Color5=#988BC7
+Color6=#FF79C6
+Color7=#ABB2BF
+Color8=#000000
+Color9=#E96379
+Color10=#67E480
+Color11=#E89E64
+Color12=#78D1E1
+Color13=#988BC7
+Color14=#FF79C6
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Omni.yml

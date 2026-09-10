@@ -1,0 +1,23 @@
+[Palette]
+Name=Relaxed
+Background=#353A44
+Foreground=#D9D9D9
+Cursor=#D9D9D9
+Color0=#151515
+Color1=#BC5653
+Color2=#909D63
+Color3=#EBC17A
+Color4=#6A8799
+Color5=#B06698
+Color6=#C9DFFF
+Color7=#D9D9D9
+Color8=#636363
+Color9=#BC5653
+Color10=#A0AC77
+Color11=#EBC17A
+Color12=#7EAAC7
+Color13=#B06698
+Color14=#ACBBD0
+Color15=#F7F7F7
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Relaxed.yml

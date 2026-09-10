@@ -1,0 +1,23 @@
+[Palette]
+Name=Grass
+Background=#13773D
+Foreground=#FFF0A5
+Cursor=#FFF0A5
+Color0=#000000
+Color1=#BB0000
+Color2=#00BB00
+Color3=#E7B000
+Color4=#0000A3
+Color5=#950062
+Color6=#00BBBB
+Color7=#BBBBBB
+Color8=#555555
+Color9=#BB0000
+Color10=#00BB00
+Color11=#E7B000
+Color12=#0000BB
+Color13=#FF55FF
+Color14=#55FFFF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Grass.yml

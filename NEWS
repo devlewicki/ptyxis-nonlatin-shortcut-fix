@@ -1,0 +1,295 @@
+# Ptyxis 50.1
+
+ * Fix GNOME CI pipeline which fails on alpha/beta/rc in metainfo
+
+# Ptyxis 50.0
+
+ * window: fix restore with "Next" for new-tab-position.
+ * tab: fix NULL warning from libadwaita via subtitle property.
+
+# Ptyxis 50.rc
+
+ * Translation updates.
+
+# Ptyxis 50.beta
+
+ * Add "Switch to Last Tab" shortcut (Alt+9).
+ * Use tab-focus action to handle tab bar overflow gracefully.
+ * Shortcut dialog: add reset button for default accelerator; allow
+   shift+arrow selection; make keyboard-shortcuts shortcut configurable.
+ * Add setting to enable/disable zoom on scroll with Ctrl.
+ * Make zoom less sensitive.
+ * Support for apx containers.
+ * Agent: ignore --no-tty/-tty when distrobox.unshare_groups=1.
+ * Ignore tab notifications shorter than 250 ms.
+ * Fix palette 'Foreground' typo.
+ * Fix man page and README.
+ * Translation updates.
+
+# Ptyxis 50.alpha
+
+ * Add a logout inhibitor when tabs have active programs running that
+   are not the shell process. Can be disabled by toggling a GSetting
+   named 'inhibit-logout'.
+ * Add dialog to change tab profile.
+ * Improvements to --working-directory support.
+ * cell-width-scale profile option.
+ * User palettes can now set primary/system-accent colors.
+ * Man page documentation for palettes.
+ * Improved tab focus handling when creating new tabs and windows.
+ * Move open/copy link actions to top of terminal context menu.
+ * Improved single-instance handling in preferences.
+ * Screen reader announcements for terminal size changes.
+ * Use default profile when requested profile UUID does not exist.
+ * Clear X11 urgency hint when window becomes active.
+ * Fix visual bell area padding.
+ * Fix cursor color in linux.palette.
+ * Fix terminal snapshot rewriting for single color node.
+ * Handle failure to get portal path gracefully.
+ * Avoid Document Portal paths during Drag'n'Drop operations.
+ * Improved cleanup handling during application shutdown.
+ * Raise priority of force-quit fallback.
+ * Improved container handling for --init 1 containers.
+ * Remove unnecessary gate check for containers list.
+ * Make libc-compat builds optional.
+ * Use VTE -Dapp=false build option now that it is supported.
+ * Testsuite infrastructure for container provider unit testing.
+ * Include APP_ID and DESKTOP_SESSION in troubleshooting information.
+ * Translation updates.
+
+# Ptyxis 49.0
+
+ * Fix padding around visual-bell when tabs are visible
+ * Increase contrast for solarized titlebar foreground
+ * Translation updates
+
+# Ptyxis 49.rc
+
+ * Fix some incorrect README information
+ * Fix theming to track changes in libadwaita
+ * Use new AdwShortcutLabel in preferences UI
+ * Add palette titles to preview
+ * Improve custom URL regex wording
+ * Translation updates
+
+# Ptyxis 49.alpha
+
+ * New searchable menu for containers and profiles (via Alt+comma)
+ * Various .desktop file integration points
+ * Add --fullscreen option to start Ptyxis fullscreen
+ * Avoid saving state twice during shutdown
+ * Add --import-palette command line argument
+ * Improved handling of --standalone and --execute to support specifying
+   a non-default application-id.
+ * Various palette updates
+ * Handle mailto: URLs
+ * Check for X_OK before potential chdir
+ * Remove bold-is-bright from preferences UI (but maintain GSetting)
+ * Updated documentation
+ * Translation updates
+
+# Ptyxis 48.1
+
+ * Unreveal fullscreen topbar upon user input into terminal
+ * Increase timeout for ptyxis-agent to start
+ * Improve shell discovery for safe-directory inheritance
+ * Respect gtk-decoration-layout for tab close buttons
+
+# Ptyxis 48.0
+
+ * Reset tab grid size when leaving maximized/fullscreen
+ * Reset RLIMIT_NOFILE from ptyxis-agent subprocess child setup
+ * Fix release of fullscreen controls under no mouse movement
+ * Be more defensive against potential file-system operation failures
+ * Tweak CSS styling for padding/margin to both reduce border padding
+   and increase grip area for selections
+ * Add a generated UUID to suffix to systemd unit scopes
+ * Translation updates
+
+# Ptyxis 48.rc
+
+ * Fix VTE_VERSION envvar to use runtime version, not compile time version
+ * Check XDG_CURRENT_DESKTOP when setting xdg-terminals.list
+ * Add global GSetting to disable osc-title on tabs
+ * Implement x-terminal-emulator for Debian (and others)
+ * Fix exit code when communicating with pre-existing Ptyxis instance
+ * Translation updates
+
+# Ptyxis 48.beta
+
+ * Styling improvements to fullscreen mode
+ * Styling improvements to default GNOME palette
+ * Styling improvements to titlebar coloring
+ * Fix size calculation of new windows when not inheriting the
+   current window size.
+ * Support for sftp:// URIs from Nautilus
+ * Fix new windows created from "Move to New Window" to ensure
+   they have an application instance to keep app alive.
+ * Translation updates
+
+# Ptyxis 48.alpha.2
+
+ * Reveal tabs briefly when changing tabs in fullscreen mode
+ * Translation updates
+
+# Ptyxis 48.alpha
+
+ * Automatically hide tabs and headerbar when entering fullscreen. They
+   can be shown by moving the mouse to the top of the monitor, similar to
+   the Epiphany browser (GNOME Web).
+ * Suport for setting Cursor foreground using the CursorForeground= palette
+   value. Cursor= is now an alias for CursorBackground=.
+ * Allow completely replacing the tab title.
+ * Add a high-contrast palette using the GNOME indexed palette.
+ * Ensure PWD is set for handling execve within symlinks.
+ * Avoid tracking podman changes too often.
+ * Add alt+comma to activate menu tab menu list.
+ * Support for 9;4 OSC used by ConEmu/Windows Terminal in preparation
+   for systemd support in v257.
+
+# Ptyxis 47.6
+
+ * Many separate light/dark palettes have been merged so that they may
+   switch between light/dark like the core palettes.
+ * A new GSetting has been added to allow controlling middle-mouse-click
+   behavior.
+ * Use the minimum size request for the header bar to prevent --title
+   from creating larger than necessary windows.
+ * Fix brightness of GNOME palette on dark mode to match palette index 7.
+ * Revert a workaround for reverse video cursor which caused some fg/bg
+   issues in some terminal applications.
+ * Ensure all palettes specify Cursor color which makes the previous
+   mitigation unnecessary.
+ * Allow the window to grow/shrink when dragging a tab out of the tab bar.
+ * Send SIGHUP before SIGKILL upon forcing a tab to quit so that shells
+   like bash may save history.
+ * Mark mosh/mosh-client as "remote" processes.
+
+# Ptyxis 47.5
+
+ * Bump the FD soft limit to the max allowed, now that there are more
+   FDs open for Vulkan shader caches.
+ * Fix monitoring of podman for changes which fixes auto-discovery
+   of quadlets in systemd --user services.
+ * Fix disposal of tabs without a foreground process upon closing
+   a Ptyxis window.
+ * Robustness fixes in icon discover for tabs with containers
+ * Robustness fixes in checking for active container
+ * Fix scrolling within close-tabs dialog
+
+# Ptyxis 47.4
+
+ * Work around Podman in `--additional-flags` parsing to fix
+   execution of distrobox containers.
+ * Prioritize "manager":"distrobox" over "com.github.containers.toolbox"
+   label because F41 images created by distrobox are, for some reason,
+   setting the toolbox label id.
+ * Fix raising of window when activating shell notification.
+ * Override distro-theming for `vte-terminal` CSS element. This
+   fixes styling on Ubuntu-based systems, but possibly others.
+
+Thanks to everyone who filed bugs to help catch these issues.
+
+# Ptyxis 47.3
+
+ * Fix race condition in connecting to exited/signaled D-Bus
+   signals from PtyxisIpcProcess. This fixes situations where
+   quick running scripts exit before attaching to said signals,
+   generally during application startup.
+ * Fix --preserve-fds=0 error on distrobox.
+ * Check tiled state in new-window action to start in windowed mode.
+ * Fix detach-tab shortcut.
+ * Translation updates
+
+# Ptyxis 47.2
+
+ * Fix closing window title dialog with Return/Enter
+ * Fix naming of Ubuntu palette
+ * Allow setting shortcuts with Fn keys on Macbooks
+ * Fix some solarized palette inconsistencies
+ * Translation updates
+
+# Ptyxis 47.1
+
+ * More clipboard fixes for initial state tracking
+ * Handle shell detection when directory slash is omitted
+ * Exit cleanly when ptyxis-agent exits
+ * Fix VteRegex warning from the search bar
+ * Fix potential leak of VteTerminal instances
+ * Update gruvbox light/dark scheme
+ * Translation updates
+
+# Ptyxis 47.0
+
+ * Implement application open file vfunc to work with Nautilus
+ * Fix inintial clipboard action state
+ * Fix various styling issues
+ * Rename Clone of Ubuntu to Ubuntu at request of Ubuntu
+ * Try to adjust window size to keep grid size the same when
+   adding or removing tabs
+
+# Ptyxis 47.rc
+
+This is a release for GNOME 47.rc
+
+ * Ctrl+shift+w now set as default shortcut for closing a tab, matching
+   GNOME Terminal.
+ * Preferences window improvements.
+ * Updated GNOME Terminal palettes.
+ * UI changes to improve screen reader support.
+ * Make CSS provider priority less than the GTK inspector.
+ * Styling improvements to match Builder and Text Editor.
+ * Fix support for enabling login shells.
+ * Convenience API for distros which require downstream patching for
+   current directory tracking (such as Debian).
+ * Fix container tracking and notifications via termprops.
+ * Show opacity toggle if the setting has been changed.
+ * Handle new tab creation when directory is in a GVFS FUSE path.
+ * Reduce agent poll priority when ^C is pressed.
+ * Overview styling and live-preview improvements to updated immediately
+   when preferences changes.
+ * Fix missing shortcut bindings for reset and reset-and-clear.
+
+# Ptyxis 47.beta
+
+This is a beta release for GNOME 47
+
+Chances since 47.alpha
+
+ * Ptyxis no longer requires patches to VTE when using a recent VTE
+   git tag for GNOME 47.
+ * Legacy libc compat was dropped for 32-bit x86 as it is unnecessary.
+ * Window pallete and styling improvements to match GNOME 47 styling.
+ * A new gsetting to disable padding around the terminal, at the cost
+   of runtime performance.
+ * Translation updates.
+
+# Ptyxis 47.alpha
+
+This is our first pre-release for GNOME 47 as part of 47.alpha.
+
+Chances since 46.0
+
+ * Many updates for GNOME HIG across dialogs and widgetry.
+ * Ptyxis can run the ptyxis-agent inside the sandbox if we fail to run
+   on the host. That comes with drawbacks but at least keeps the application
+   working in those scenarios.
+ * The build system supports some whitebox renaming allowing it to be called
+   "Terminal" in some situations. Distributions shipping Ptyxis as their
+   terminal may be encouraged to use that. Branding is also reduced to less
+   dramatic styling.
+ * Many fixes for Podman, Toolbox, and Distrobox.
+ * Fallback to `sh` if we cannot locate the shell specified in /etc/passwd.
+ * Improvements to the tab parking lot so that processes are properly exited.
+ * Notification improvements.
+ * Port Ptyxis to use the new VTE "termprops" feature. This requires a newer
+   VTE than is currently released but is anticipated shortly. This reduces
+   the number of patches required by Ptyxis (and eventually Fedora) to a
+   single small patch for vte.sh.in.
+ * New palettes styles.
+ * Many new command line options and improved support for combining them.
+ * Translation updates.
+
+Thanks to everyone who filed bugs and contributed patches!
+
+-- Christian

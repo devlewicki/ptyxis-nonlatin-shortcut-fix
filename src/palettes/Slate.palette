@@ -1,0 +1,23 @@
+[Palette]
+Name=Slate
+Background=#222222
+Foreground=#35B1D2
+Cursor=#35B1D2
+Color0=#222222
+Color1=#E2A8BF
+Color2=#81D778
+Color3=#C4C9C0
+Color4=#264B49
+Color5=#A481D3
+Color6=#15AB9C
+Color7=#02C5E0
+Color8=#FFFFFF
+Color9=#FFCDD9
+Color10=#BEFFA8
+Color11=#D0CCCA
+Color12=#7AB0D2
+Color13=#C5A7D9
+Color14=#8CDFE0
+Color15=#E0E0E0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Slate.yml

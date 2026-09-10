@@ -1,0 +1,23 @@
+[Palette]
+Name=Ic Green Ppl
+Background=#3A3D3F
+Foreground=#D9EFD3
+Cursor=#D9EFD3
+Color0=#1F1F1F
+Color1=#FB002A
+Color2=#339C24
+Color3=#659B25
+Color4=#149B45
+Color5=#53B82C
+Color6=#2CB868
+Color7=#E0FFEF
+Color8=#032710
+Color9=#A7FF3F
+Color10=#9FFF6D
+Color11=#D2FF6D
+Color12=#72FFB5
+Color13=#50FF3E
+Color14=#22FF71
+Color15=#DAEFD0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ic Green Ppl.yml

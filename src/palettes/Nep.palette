@@ -1,0 +1,23 @@
+[Palette]
+Name=Nep
+Background=#758480
+Foreground=#23476A
+Cursor=#23476A
+Color0=#000000
+Color1=#DD6F00
+Color2=#00DD6F
+Color3=#6FDD00
+Color4=#6F00DD
+Color5=#DD006F
+Color6=#006FDD
+Color7=#F2F2F2
+Color8=#7D7D7D
+Color9=#FFB974
+Color10=#74FFB9
+Color11=#B9FF74
+Color12=#B974FF
+Color13=#FF74B9
+Color14=#74B9FF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Nep.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Synthwave Alpha
+Background=#241B30
+Foreground=#F2F2E3
+Cursor=#F2F2E3
+Color0=#241B30
+Color1=#9A0048
+Color2=#00986C
+Color3=#ADAD3E
+Color4=#6E29AD
+Color5=#B300AD
+Color6=#00B0B1
+Color7=#B9B1BC
+Color8=#7F7094
+Color9=#E60A70
+Color10=#0AE4A4
+Color11=#F9F972
+Color12=#AA54F9
+Color13=#FF00F6
+Color14=#00FBFD
+Color15=#F2F2E3
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Synthwave Alpha.yml

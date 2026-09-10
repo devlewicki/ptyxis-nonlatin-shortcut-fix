@@ -1,0 +1,23 @@
+[Palette]
+Name=Ic Orange Ppl
+Background=#262626
+Foreground=#FFCB83
+Cursor=#FFCB83
+Color0=#000000
+Color1=#C13900
+Color2=#A4A900
+Color3=#CAAF00
+Color4=#BD6D00
+Color5=#FC5E00
+Color6=#F79500
+Color7=#FFC88A
+Color8=#6A4F2A
+Color9=#FF8C68
+Color10=#F6FF40
+Color11=#FFE36E
+Color12=#FFBE55
+Color13=#FC874F
+Color14=#C69752
+Color15=#FAFAFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Ic Orange Ppl.yml

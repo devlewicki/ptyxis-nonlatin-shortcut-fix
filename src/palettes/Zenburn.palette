@@ -1,0 +1,23 @@
+[Palette]
+Name=Zenburn
+Background=#3F3F3F
+Foreground=#DCDCCC
+Cursor=#DCDCCC
+Color0=#4D4D4D
+Color1=#705050
+Color2=#60B48A
+Color3=#F0DFAF
+Color4=#506070
+Color5=#DC8CC3
+Color6=#8CD0D3
+Color7=#DCDCCC
+Color8=#709080
+Color9=#DCA3A3
+Color10=#C3BF9F
+Color11=#E0CF9F
+Color12=#94BFF3
+Color13=#EC93D3
+Color14=#93E0E3
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Zenburn.yml

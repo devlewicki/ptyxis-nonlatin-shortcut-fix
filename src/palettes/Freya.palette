@@ -1,0 +1,23 @@
+[Palette]
+Name=Freya
+Background=#252E32
+Foreground=#94A3A5
+Cursor=#839496
+Color0=#073642
+Color1=#DC322F
+Color2=#859900
+Color3=#B58900
+Color4=#268BD2
+Color5=#EC0048
+Color6=#2AA198
+Color7=#94A3A5
+Color8=#586E75
+Color9=#CB4B16
+Color10=#859900
+Color11=#B58900
+Color12=#268BD2
+Color13=#D33682
+Color14=#2AA198
+Color15=#6C71C4
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Freya.yml

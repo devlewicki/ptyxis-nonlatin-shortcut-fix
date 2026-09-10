@@ -1,0 +1,78 @@
+[
+  {
+    "AutoRemove": false,
+    "Command": [
+      "toolbox",
+      "--log-level",
+      "debug",
+      "init-container",
+      "--gid",
+      "1004",
+      "--home",
+      "/var/home/Victoria",
+      "--shell",
+      "/bin/bash",
+      "--uid",
+      "1004",
+      "--user",
+      "Victoria",
+      "--home-link",
+      "--media-link",
+      "--mnt-link"
+    ],
+    "CreatedAt": "5 days ago",
+    "CIDFile": "",
+    "Exited": false,
+    "ExitedAt": 1761514430,
+    "ExitCode": 0,
+    "ExposedPorts": null,
+    "Id": "1f99f50895080b0bd0a5acc904069222b0f14b0338a8c53cf842d588d8510d1c",
+    "Image": "registry.fedoraproject.org/fedora-toolbox:44",
+    "ImageID": "5c3c49125b27fbdfa24177f50acbb6eaf5d7198ad1badee3e7e768405def992d",
+    "IsInfra": false,
+    "Labels": {
+      "com.github.containers.toolbox": "true",
+      "io.buildah.version": "1.41.5",
+      "license": "MIT",
+      "name": "fedora-toolbox",
+      "org.opencontainers.image.license": "MIT",
+      "org.opencontainers.image.name": "fedora-toolbox",
+      "org.opencontainers.image.url": "https://fedoraproject.org/",
+      "org.opencontainers.image.vendor": "Fedora Project",
+      "org.opencontainers.image.version": "rawhide",
+      "vendor": "Fedora Project",
+      "version": "rawhide"
+    },
+    "Mounts": [
+      "/var/home/Victoria",
+      "/usr/bin/toolbox",
+      "/dev/pts",
+      "/run/media",
+      "/run/dbus/system_bus_socket",
+      "/run/avahi-daemon/socket",
+      "/run/host",
+      "/dev",
+      "/run/user/1004",
+      "/run/pcscd/pcscd.comm",
+      "/etc/profile.d/toolbox.sh",
+      "/run/.heim_org.h5l.kcm-socket"
+    ],
+    "Names": [
+      "fedora-toolbox-44"
+    ],
+    "Namespaces": {
+      
+    },
+    "Networks": [],
+    "Pid": 30821,
+    "Pod": "",
+    "PodName": "",
+    "Ports": null,
+    "Restarts": 0,
+    "Size": null,
+    "StartedAt": 1761583714,
+    "State": "running",
+    "Status": "Up 4 hours",
+    "Created": 1761082210
+  }
+]

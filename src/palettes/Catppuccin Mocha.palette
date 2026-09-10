@@ -1,0 +1,23 @@
+[Palette]
+Name=Catppuccin Mocha
+Background=#1E1E2E
+Foreground=#CDD6F4
+Cursor=#CDD6F4
+Color0=#45475A
+Color1=#F38BA8
+Color2=#A6E3A1
+Color3=#F9E2AF
+Color4=#89B4FA
+Color5=#F5C2E7
+Color6=#94E2D5
+Color7=#BAC2DE
+Color8=#585B70
+Color9=#F38BA8
+Color10=#A6E3A1
+Color11=#F9E2AF
+Color12=#89B4FA
+Color13=#F5C2E7
+Color14=#94E2D5
+Color15=#A6ADC8
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Catppuccin Mocha.yml

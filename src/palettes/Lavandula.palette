@@ -1,0 +1,23 @@
+[Palette]
+Name=Lavandula
+Background=#050014
+Foreground=#736E7D
+Cursor=#736E7D
+Color0=#230046
+Color1=#7D1625
+Color2=#337E6F
+Color3=#7F6F49
+Color4=#4F4A7F
+Color5=#5A3F7F
+Color6=#58777F
+Color7=#736E7D
+Color8=#372D46
+Color9=#E05167
+Color10=#52E0C4
+Color11=#E0C386
+Color12=#8E87E0
+Color13=#A776E0
+Color14=#9AD4E0
+Color15=#8C91FA
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Lavandula.yml

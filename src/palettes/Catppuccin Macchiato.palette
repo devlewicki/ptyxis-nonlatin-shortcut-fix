@@ -1,0 +1,23 @@
+[Palette]
+Name=Catppuccin Macchiato
+Background=#24273A
+Foreground=#CAD3F5
+Cursor=#CAD3F5
+Color0=#494D64
+Color1=#ED8796
+Color2=#A6DA95
+Color3=#EED49F
+Color4=#8AADF4
+Color5=#F5BDE6
+Color6=#8BD5CA
+Color7=#B8C0E0
+Color8=#5B6078
+Color9=#ED8796
+Color10=#A6DA95
+Color11=#EED49F
+Color12=#8AADF4
+Color13=#F5BDE6
+Color14=#8BD5CA
+Color15=#A5ADCB
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Catppuccin Macchiato.yml

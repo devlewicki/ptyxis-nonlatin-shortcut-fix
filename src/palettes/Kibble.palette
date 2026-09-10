@@ -1,0 +1,23 @@
+[Palette]
+Name=Kibble
+Background=#0E100A
+Foreground=#F7F7F7
+Cursor=#F7F7F7
+Color0=#4D4D4D
+Color1=#C70031
+Color2=#29CF13
+Color3=#D8E30E
+Color4=#3449D1
+Color5=#8400FF
+Color6=#0798AB
+Color7=#E2D1E3
+Color8=#5A5A5A
+Color9=#F01578
+Color10=#6CE05C
+Color11=#F3F79E
+Color12=#97A4F7
+Color13=#C495F0
+Color14=#68F2E0
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Kibble.yml

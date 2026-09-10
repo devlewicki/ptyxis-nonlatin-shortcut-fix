@@ -1,0 +1,23 @@
+[Palette]
+Name=Misterioso
+Background=#2D3743
+Foreground=#E1E1E0
+Cursor=#E1E1E0
+Color0=#000000
+Color1=#FF4242
+Color2=#74AF68
+Color3=#FFAD29
+Color4=#338F86
+Color5=#9414E6
+Color6=#23D7D7
+Color7=#E1E1E0
+Color8=#555555
+Color9=#FF3242
+Color10=#74CD68
+Color11=#FFB929
+Color12=#23D7D7
+Color13=#FF37FF
+Color14=#00EDE1
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Misterioso.yml

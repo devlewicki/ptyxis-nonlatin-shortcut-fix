@@ -1,0 +1,23 @@
+[Palette]
+Name=Nightlion V2
+Background=#171717
+Foreground=#BBBBBB
+Cursor=#BBBBBB
+Color0=#4C4C4C
+Color1=#BB0000
+Color2=#04F623
+Color3=#F3F167
+Color4=#64D0F0
+Color5=#CE6FDB
+Color6=#00DADF
+Color7=#BBBBBB
+Color8=#555555
+Color9=#FF5555
+Color10=#7DF71D
+Color11=#FFFF55
+Color12=#62CBE8
+Color13=#FF9BF5
+Color14=#00CCD8
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Nightlion V2.yml

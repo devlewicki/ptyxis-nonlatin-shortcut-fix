@@ -1,0 +1,23 @@
+[Palette]
+Name=Japanesque
+Background=#1E1E1E
+Foreground=#F7F6EC
+Cursor=#F7F6EC
+Color0=#343935
+Color1=#CF3F61
+Color2=#7BB75B
+Color3=#E9B32A
+Color4=#4C9AD4
+Color5=#A57FC4
+Color6=#389AAD
+Color7=#FAFAF6
+Color8=#595B59
+Color9=#D18FA6
+Color10=#767F2C
+Color11=#78592F
+Color12=#135979
+Color13=#604291
+Color14=#76BBCA
+Color15=#B2B5AE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Japanesque.yml

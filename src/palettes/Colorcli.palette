@@ -1,0 +1,23 @@
+[Palette]
+Name=Colorcli
+Background=#FFFFFF
+Foreground=#005F87
+Cursor=#005F87
+Color0=#000000
+Color1=#D70000
+Color2=#5FAF00
+Color3=#5FAF00
+Color4=#005F87
+Color5=#D70000
+Color6=#5F5F5F
+Color7=#E4E4E4
+Color8=#5F5F5F
+Color9=#D70000
+Color10=#5F5F5F
+Color11=#FFFF00
+Color12=#0087AF
+Color13=#0087AF
+Color14=#0087AF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Colorcli.yml

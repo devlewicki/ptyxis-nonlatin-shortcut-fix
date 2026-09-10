@@ -1,0 +1,23 @@
+[Palette]
+Name=Square
+Background=#0A1E24
+Foreground=#A1A1A1
+Cursor=#A1A1A1
+Color0=#050505
+Color1=#E9897C
+Color2=#B6377D
+Color3=#ECEBBE
+Color4=#A9CDEB
+Color5=#75507B
+Color6=#C9CAEC
+Color7=#F2F2F2
+Color8=#141414
+Color9=#F99286
+Color10=#C3F786
+Color11=#FCFBCC
+Color12=#B6DEFB
+Color13=#AD7FA8
+Color14=#D7D9FC
+Color15=#E2E2E2
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Square.yml

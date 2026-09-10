@@ -1,0 +1,23 @@
+[Palette]
+Name=Tender
+Background=#282828
+Foreground=#EEEEEE
+Cursor=#EEEEEE
+Color0=#1D1D1D
+Color1=#C5152F
+Color2=#C9D05C
+Color3=#FFC24B
+Color4=#B3DEEF
+Color5=#D3B987
+Color6=#73CEF4
+Color7=#EEEEEE
+Color8=#323232
+Color9=#F43753
+Color10=#D9E066
+Color11=#FACC72
+Color12=#C0EAFB
+Color13=#EFD093
+Color14=#A1D6EC
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Tender.yml

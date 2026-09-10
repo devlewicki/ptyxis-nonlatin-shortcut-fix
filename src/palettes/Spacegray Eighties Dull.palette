@@ -1,0 +1,23 @@
+[Palette]
+Name=Spacegray Eighties Dull
+Background=#222222
+Foreground=#C9C6BC
+Cursor=#C9C6BC
+Color0=#15171C
+Color1=#B24A56
+Color2=#92B477
+Color3=#C6735A
+Color4=#7C8FA5
+Color5=#A5789E
+Color6=#80CDCB
+Color7=#B3B8C3
+Color8=#555555
+Color9=#EC5F67
+Color10=#89E986
+Color11=#FEC254
+Color12=#5486C0
+Color13=#BF83C1
+Color14=#58C2C1
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Spacegray Eighties Dull.yml

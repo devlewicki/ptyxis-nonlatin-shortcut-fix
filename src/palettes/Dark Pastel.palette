@@ -1,0 +1,23 @@
+[Palette]
+Name=Dark Pastel
+Background=#000000
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#000000
+Color1=#FF5555
+Color2=#55FF55
+Color3=#FFFF55
+Color4=#5555FF
+Color5=#FF55FF
+Color6=#55FFFF
+Color7=#BBBBBB
+Color8=#555555
+Color9=#FF5555
+Color10=#55FF55
+Color11=#FFFF55
+Color12=#5555FF
+Color13=#FF55FF
+Color14=#55FFFF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Dark Pastel.yml

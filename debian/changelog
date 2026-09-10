@@ -1,0 +1,272 @@
+ptyxis (50.1-1ubuntu2local1) resolute; urgency=medium
+
+  * Fix Ctrl+Shift+C / Ctrl+Shift+V on non-Latin (e.g. Russian) keyboard
+    layouts: match the copy/paste shortcuts against the physical C/V keys
+    instead of the active-layout keyval (hardware keycode via
+    gdk_display_map_keyval()).
+
+ -- lewicki <lewicki@localhost>  Thu, 10 Sep 2026 00:00:00 +0300
+
+ptyxis (50.1-1ubuntu2) resolute; urgency=medium
+
+  * d/p/ubuntu, d/rules: Tweak the Ubuntu color palette
+    - Set "UseSystemAccent" so it uses the desktop accent color in menus
+    - Add Light variant (LP: #2122390)
+    - Tweak Dark variant slightly for better contrast
+
+ -- Alessandro Astone <alessandro.astone@canonical.com>  Wed, 15 Apr 2026 10:52:44 +0200
+
+ptyxis (50.1-1ubuntu1) resolute; urgency=medium
+
+  * d/p: Launch in single-terminal mode when lanuched from xdg-terminal-exec
+    (LP: #2143649)
+  * debian: Branch for ubuntu/latest
+
+ -- Alessandro Astone <alessandro.astone@canonical.com>  Fri, 03 Apr 2026 15:57:36 +0200
+
+ptyxis (50.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * d/rules: Set Ubuntu palette as primary, in Ubuntu only
+  * d/rules: Use backup files for in-line patching
+  * d/rules: Rework Ubuntu-specific gsettings-override
+
+ -- Alessandro Astone <alessandro.astone@canonical.com>  Thu, 19 Mar 2026 13:19:04 +0100
+
+ptyxis (50~beta-1) unstable; urgency=medium
+
+  [ Alessandro Astone ]
+  * New upstream release
+
+  [ Jeremy Bícha ]
+  * Add Build-Depends: libxml2-utils for xmllint
+  * custom-links: handle ITP: and RFP: links
+  * Update Standards Version to 4.7.3
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 17 Feb 2026 11:37:34 -0500
+
+ptyxis (49.2-4) unstable; urgency=medium
+
+  * custom-links: Support more variants for Debian & Launchpad bugs
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 18 Dec 2025 17:06:41 -0500
+
+ptyxis (49.2-3) unstable; urgency=medium
+
+  * Use a gsettings override for custom-links instead of a patch to handle
+    Launchpad bug number links
+  * Also handle links to closed Debian bugs
+  * Simplify handling of Ubuntu gsettings override
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Dec 2025 14:11:56 -0500
+
+ptyxis (49.2-2) unstable; urgency=medium
+
+  [ Marc Deslauriers ]
+  * Add a patch to make LP: # references clickable URLs, similar to the
+    longstanding behavior with Ubuntu's gnome-terminal (LP: #2136756)
+
+  [ Jeremy Bícha ]
+  * Override dh_gnome to avoid build log warnings
+  * Remove unnecessary Priority: optional field
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Dec 2025 13:14:30 -0500
+
+ptyxis (49.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 27 Oct 2025 21:13:03 -0400
+
+ptyxis (49.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Remove remaining patch: applied in new release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 26 Sep 2025 16:30:33 -0400
+
+ptyxis (49.0-2) unstable; urgency=medium
+
+  * Fix not honoring --working-directory in first window (LP: #2124263)
+
+ -- Sergio Costas Rodriguez <sergio.costas@canonical.com>  Thu, 25 Sep 2025 11:51:34 -0400
+
+ptyxis (49.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Use generic branding
+  * debian/watch: convert to Version: 5
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 12 Sep 2025 20:52:21 -0400
+
+ptyxis (49~rc-2) experimental; urgency=medium
+
+  * Remove obsolete Rules-Requires-Root: no field
+  * Remove unnecessary X-Ubuntu-Use-Langpack: yes field
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 08 Sep 2025 06:43:29 -0400
+
+ptyxis (49~rc-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream release (LP: #2122021)
+
+ -- Alessandro Astone <alessandro.astone@canonical.com>  Thu, 04 Sep 2025 10:46:14 +0200
+
+ptyxis (48.5-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream bugfix release
+    - When saving tab state, if the terminal does not have a title, save the
+      tab's initial title instead
+      (ptyxis#428 upstream)
+    - Use the same code for menu -> Show Open Tabs -> New Tab that was already
+      used for Menu -> New Tab, fixing propagation of zoom settings to the
+      newly created tab
+      (ptyxis#435 upstream)
+    - Don't try to chdir() to a working directory that does not have +x
+      permission
+    - Use g_set_str() for less error-prone property setting
+    - Ensure that interface-style action isn't freed prematurely, and
+      explicitly remove it when the window is destroyed, fixing a
+      possible use-after-free when switching between dark and light modes
+      (ptyxis#440 upstream)
+  * Standards-Version: 4.7.2 (no changes required)
+
+ -- Simon McVittie <smcv@debian.org>  Mon, 28 Jul 2025 10:09:31 +0100
+
+ptyxis (48.4-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+  * Use Terminal branding instead of Ptyxis for Ubuntu
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sun, 01 Jun 2025 08:34:27 -0400
+
+ptyxis (48.3-1) unstable; urgency=medium
+
+  [ Jeremy Bícha ]
+  * New upstream bugfix release
+
+  [ Alex Myczko ]
+  * Add README.Debian with note for transparency
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 08 May 2025 12:49:02 -0400
+
+ptyxis (48.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 20 Mar 2025 14:11:27 -0400
+
+ptyxis (48.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Remove all patches: applied in new release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 17 Mar 2025 10:57:58 -0400
+
+ptyxis (48~rc-2) unstable; urgency=medium
+
+  * Cherry-pick patches to fix issues with too high ulimit (LP: #2100485)
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 11 Mar 2025 17:41:29 -0400
+
+ptyxis (48~rc-1) unstable; urgency=medium
+
+  * New upstream release
+  * Remove all patches: applied in new release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 26 Feb 2025 14:20:06 -0500
+
+ptyxis (48~beta-2) unstable; urgency=medium
+
+  * Add Depends: xdg-terminal-exec for the Set as Default Terminal button
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 18 Feb 2025 19:07:08 -0500
+
+ptyxis (48~beta-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump minimum vte
+  * Cherry-pick a patch to support x-terminal-emulator
+  * Cherry-pick 2 more fixes
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 18 Feb 2025 18:30:14 -0500
+
+ptyxis (47.10-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Register as an implementation of x-terminal-emulator.
+    xterm-compatible -e and -T options have been added in the new upstream
+    release, so we do not need a wrapper like we did for gnome-terminal.
+    (Closes: #1089704)
+
+ -- Simon McVittie <smcv@debian.org>  Sat, 15 Feb 2025 17:41:21 +0000
+
+ptyxis (47.8-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 28 Jan 2025 16:30:26 -0500
+
+ptyxis (47.7-1) unstable; urgency=medium
+
+  * New upstream release
+    - Hide top bar in Fullscreen mode (Closes: #1084047)
+  * Run wrap-and-sort
+  * Opt into Salsa CI
+  * Opt into Ubuntu language packs
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 21 Jan 2025 13:56:56 -0500
+
+ptyxis (47.6-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 05 Dec 2024 16:08:26 -0500
+
+ptyxis (47.5-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update Homepage
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 21 Nov 2024 16:15:34 -0500
+
+ptyxis (47.4-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix setting background color (Closes: #1084046, LP: #2085901)
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 30 Oct 2024 11:01:18 +0100
+
+ptyxis (47.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Remove remaining patch: applied in new release
+  * Opt into Ubuntu palette on Ubuntu
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 04 Oct 2024 15:20:20 -0400
+
+ptyxis (47.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add patch to correct Ubuntu palette name
+  * Add gsettings-override to opt into screen reader support
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 03 Oct 2024 08:59:41 -0400
+
+ptyxis (47~rc-2) experimental; urgency=medium
+
+  * Update debian/copyright
+  * Bump Standards Version to 4.7.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 10 Sep 2024 08:28:27 -0400
+
+ptyxis (47~rc-1) experimental; urgency=medium
+
+  * Initial release. (Closes: #1061368)
+
+ -- Alex Myczko <tar@debian.org>  Mon, 09 Sep 2024 12:15:22 +0000

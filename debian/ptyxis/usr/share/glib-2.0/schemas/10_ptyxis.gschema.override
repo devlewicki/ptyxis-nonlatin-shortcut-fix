@@ -1,0 +1,6 @@
+[org.gnome.Ptyxis]
+enable-a11y=true
+
+[org.gnome.Ptyxis.Profile]
+palette='Ubuntu'
+custom-links=[('(?i)(Closes|Helps|Mitigates|RFP|ITP): ?#?(\\d+)', 'https://bugs.debian.org/$2'), ('(?i)LP:? ?#?(\\d+)', 'https://launchpad.net/bugs/$1')]

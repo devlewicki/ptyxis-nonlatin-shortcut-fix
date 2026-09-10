@@ -1,0 +1,23 @@
+[Palette]
+Name=Srcery
+Background=#1C1B19
+Foreground=#FCE8C3
+Cursor=#FBB829
+Color0=#1C1B19
+Color1=#EF2F27
+Color2=#519F50
+Color3=#FBB829
+Color4=#2C78BF
+Color5=#E02C6D
+Color6=#0AAEB3
+Color7=#BAA67F
+Color8=#918175
+Color9=#F75341
+Color10=#98BC37
+Color11=#FED06E
+Color12=#68A8E4
+Color13=#FF5C8F
+Color14=#2BE4D0
+Color15=#FCE8C3
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Srcery.yml

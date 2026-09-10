@@ -1,0 +1,23 @@
+[Palette]
+Name=Morada
+Background=#211F46
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#040404
+Color1=#0F49C4
+Color2=#48B117
+Color3=#E87324
+Color4=#BC0116
+Color5=#665B93
+Color6=#70A699
+Color7=#F5DCBE
+Color8=#4F7CBF
+Color9=#1C96C7
+Color10=#3BFF6F
+Color11=#EFC31C
+Color12=#FB605B
+Color13=#975B5A
+Color14=#1EFF8E
+Color15=#F6F5FB
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Morada.yml

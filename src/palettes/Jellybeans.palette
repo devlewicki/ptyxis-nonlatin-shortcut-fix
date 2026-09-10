@@ -1,0 +1,23 @@
+[Palette]
+Name=Jellybeans
+Background=#121212
+Foreground=#DEDEDE
+Cursor=#DEDEDE
+Color0=#929292
+Color1=#E27373
+Color2=#94B979
+Color3=#FFBA7B
+Color4=#97BEDC
+Color5=#E1C0FA
+Color6=#00988E
+Color7=#DEDEDE
+Color8=#BDBDBD
+Color9=#FFA1A1
+Color10=#BDDEAB
+Color11=#FFDCA0
+Color12=#B1D8F6
+Color13=#FBDAFF
+Color14=#1AB2A8
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Jellybeans.yml

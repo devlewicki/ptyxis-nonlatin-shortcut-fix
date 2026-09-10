@@ -1,0 +1,23 @@
+[Palette]
+Name=Catppuccin Frappé
+Background=#303446
+Foreground=#C6D0F5
+Cursor=#C6D0F5
+Color0=#51576D
+Color1=#E78284
+Color2=#A6D189
+Color3=#E5C890
+Color4=#8CAAEE
+Color5=#F4B8E4
+Color6=#81C8BE
+Color7=#B5BFE2
+Color8=#626880
+Color9=#E78284
+Color10=#A6D189
+Color11=#E5C890
+Color12=#8CAAEE
+Color13=#F4B8E4
+Color14=#81C8BE
+Color15=#A5ADCE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Catppuccin Frappé.yml

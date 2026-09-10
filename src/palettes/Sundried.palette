@@ -1,0 +1,23 @@
+[Palette]
+Name=Sundried
+Background=#1A1818
+Foreground=#C9C9C9
+Cursor=#C9C9C9
+Color0=#302B2A
+Color1=#A7463D
+Color2=#587744
+Color3=#9D602A
+Color4=#485B98
+Color5=#864651
+Color6=#9C814F
+Color7=#C9C9C9
+Color8=#4D4E48
+Color9=#AA000C
+Color10=#128C21
+Color11=#FC6A21
+Color12=#7999F7
+Color13=#FD8AA1
+Color14=#FAD484
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Sundried.yml

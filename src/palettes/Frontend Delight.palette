@@ -1,0 +1,23 @@
+[Palette]
+Name=Frontend Delight
+Background=#1B1C1D
+Foreground=#ADADAD
+Cursor=#ADADAD
+Color0=#242526
+Color1=#F8511B
+Color2=#565747
+Color3=#FA771D
+Color4=#2C70B7
+Color5=#F02E4F
+Color6=#3CA1A6
+Color7=#ADADAD
+Color8=#5FAC6D
+Color9=#F74319
+Color10=#74EC4C
+Color11=#FDC325
+Color12=#3393CA
+Color13=#E75E4F
+Color14=#4FBCE6
+Color15=#8C735B
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Frontend Delight.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Birds Of Paradise
+Background=#2A1F1D
+Foreground=#E0DBB7
+Cursor=#E0DBB7
+Color0=#573D26
+Color1=#BE2D26
+Color2=#6BA18A
+Color3=#E99D2A
+Color4=#5A86AD
+Color5=#AC80A6
+Color6=#74A6AD
+Color7=#E0DBB7
+Color8=#9B6C4A
+Color9=#E84627
+Color10=#95D8BA
+Color11=#D0D150
+Color12=#B8D3ED
+Color13=#D19ECB
+Color14=#93CFD7
+Color15=#FFF9D5
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Birds Of Paradise.yml

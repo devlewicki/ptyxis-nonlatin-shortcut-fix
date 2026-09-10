@@ -1,0 +1,23 @@
+[Palette]
+Name=Royal
+Background=#100815
+Foreground=#514968
+Cursor=#514968
+Color0=#241F2B
+Color1=#91284C
+Color2=#23801C
+Color3=#B49D27
+Color4=#6580B0
+Color5=#674D96
+Color6=#8AAABE
+Color7=#524966
+Color8=#312D3D
+Color9=#D5356C
+Color10=#2CD946
+Color11=#FDE83B
+Color12=#90BAF9
+Color13=#A479E3
+Color14=#ACD4EB
+Color15=#9E8CBD
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Royal.yml

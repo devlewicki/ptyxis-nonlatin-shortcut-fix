@@ -1,0 +1,23 @@
+[Palette]
+Name=Vag
+Background=#191F1D
+Foreground=#D9E6F2
+Cursor=#D9E6F2
+Color0=#303030
+Color1=#A87139
+Color2=#39A871
+Color3=#71A839
+Color4=#7139A8
+Color5=#A83971
+Color6=#3971A8
+Color7=#8A8A8A
+Color8=#494949
+Color9=#B0763B
+Color10=#3BB076
+Color11=#76B03B
+Color12=#763BB0
+Color13=#B03B76
+Color14=#3B76B0
+Color15=#CFCFCF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Vag.yml

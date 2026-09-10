@@ -1,0 +1,23 @@
+[Palette]
+Name=Moonfly
+Background=#080808
+Foreground=#BDBDBD
+Cursor=#9E9E9E
+Color0=#323437
+Color1=#FF5454
+Color2=#8CC85F
+Color3=#E3C78A
+Color4=#80A0FF
+Color5=#CF87E8
+Color6=#79DAC8
+Color7=#C6C6C6
+Color8=#949494
+Color9=#FF5189
+Color10=#36C692
+Color11=#C2C292
+Color12=#74B2FF
+Color13=#AE81FF
+Color14=#85DC85
+Color15=#E4E4E4
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Moonfly.yml

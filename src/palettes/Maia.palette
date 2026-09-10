@@ -1,0 +1,23 @@
+[Palette]
+Name=Maia
+Background=#31363B
+Foreground=#BDC3C7
+Cursor=#BDC3C7
+Color0=#232423
+Color1=#BA2922
+Color2=#7E807E
+Color3=#4C4F4D
+Color4=#16A085
+Color5=#43746A
+Color6=#00CCCC
+Color7=#E0E0E0
+Color8=#282928
+Color9=#CC372C
+Color10=#8D8F8D
+Color11=#4E524F
+Color12=#13BF9D
+Color13=#487D72
+Color14=#00D1D1
+Color15=#E8E8E8
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Maia.yml

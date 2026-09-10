@@ -1,0 +1,23 @@
+[Palette]
+Name=Terminix Dark
+Background=#091116
+Foreground=#868A8C
+Cursor=#868A8C
+Color0=#282A2E
+Color1=#A54242
+Color2=#A1B56C
+Color3=#DE935F
+Color4=#225555
+Color5=#85678F
+Color6=#5E8D87
+Color7=#777777
+Color8=#373B41
+Color9=#C63535
+Color10=#608360
+Color11=#FA805A
+Color12=#449DA1
+Color13=#BA8BAF
+Color14=#86C1B9
+Color15=#C5C8C6
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Terminix Dark.yml

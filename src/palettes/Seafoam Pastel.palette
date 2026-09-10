@@ -1,0 +1,23 @@
+[Palette]
+Name=Seafoam Pastel
+Background=#243435
+Foreground=#D4E7D4
+Cursor=#D4E7D4
+Color0=#757575
+Color1=#825D4D
+Color2=#728C62
+Color3=#ADA16D
+Color4=#4D7B82
+Color5=#8A7267
+Color6=#729494
+Color7=#E0E0E0
+Color8=#8A8A8A
+Color9=#CF937A
+Color10=#98D9AA
+Color11=#FAE79D
+Color12=#7AC3CF
+Color13=#D6B2A1
+Color14=#ADE0E0
+Color15=#E0E0E0
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Seafoam Pastel.yml

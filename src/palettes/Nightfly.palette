@@ -1,0 +1,23 @@
+[Palette]
+Name=Nightfly
+Background=#011627
+Foreground=#BDC1C6
+Cursor=#9CA1AA
+Color0=#1D3B53
+Color1=#FC514E
+Color2=#A1CD5E
+Color3=#E3D18A
+Color4=#82AAFF
+Color5=#C792EA
+Color6=#7FDBCA
+Color7=#A1AAB8
+Color8=#7C8F8F
+Color9=#FF5874
+Color10=#21C7A8
+Color11=#ECC48D
+Color12=#82AAFF
+Color13=#AE81FF
+Color14=#7FDBCA
+Color15=#D6DEEB
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Nightfly.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Obsidian
+Background=#283033
+Foreground=#CDCDCD
+Cursor=#CDCDCD
+Color0=#000000
+Color1=#A60001
+Color2=#00BB00
+Color3=#FECD22
+Color4=#3A9BDB
+Color5=#BB00BB
+Color6=#00BBBB
+Color7=#BBBBBB
+Color8=#555555
+Color9=#FF0003
+Color10=#93C863
+Color11=#FEF874
+Color12=#A1D7FF
+Color13=#FF55FF
+Color14=#55FFFF
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Obsidian.yml

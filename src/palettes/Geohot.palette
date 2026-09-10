@@ -1,0 +1,23 @@
+[Palette]
+Name=Geohot
+Background=#1F1E1F
+Foreground=#FFFFFF
+Cursor=#FFFFFF
+Color0=#F9F5F5
+Color1=#CC0000
+Color2=#1F1E1F
+Color3=#ADA110
+Color4=#FF004E
+Color5=#75507B
+Color6=#06919A
+Color7=#FFFFFF
+Color8=#555753
+Color9=#EF2929
+Color10=#FF0000
+Color11=#ADA110
+Color12=#5F4AA6
+Color13=#B74438
+Color14=#408F0C
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Geohot.yml

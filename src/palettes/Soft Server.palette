@@ -1,0 +1,23 @@
+[Palette]
+Name=Soft Server
+Background=#242626
+Foreground=#99A3A2
+Cursor=#99A3A2
+Color0=#000000
+Color1=#A2686A
+Color2=#9AA56A
+Color3=#A3906A
+Color4=#6B8FA3
+Color5=#6A71A3
+Color6=#6BA58F
+Color7=#99A3A2
+Color8=#666C6C
+Color9=#DD5C60
+Color10=#BFDF55
+Color11=#DEB360
+Color12=#62B1DF
+Color13=#606EDF
+Color14=#64E39C
+Color15=#D2E0DE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Soft Server.yml

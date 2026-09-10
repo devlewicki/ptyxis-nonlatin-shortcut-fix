@@ -1,0 +1,23 @@
+[Palette]
+Name=Tomorrow Night Blue
+Background=#002451
+Foreground=#FFFEFE
+Cursor=#FFFEFE
+Color0=#000000
+Color1=#FF9DA3
+Color2=#D1F1A9
+Color3=#FFEEAD
+Color4=#BBDAFF
+Color5=#EBBBFF
+Color6=#99FFFF
+Color7=#FFFEFE
+Color8=#000000
+Color9=#FF9CA3
+Color10=#D0F0A8
+Color11=#FFEDAC
+Color12=#BADAFF
+Color13=#EBBAFF
+Color14=#99FFFF
+Color15=#FFFEFE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Tomorrow Night Blue.yml

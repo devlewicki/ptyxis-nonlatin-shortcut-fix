@@ -1,0 +1,23 @@
+[Palette]
+Name=Sea Shells
+Background=#09141B
+Foreground=#DEB88D
+Cursor=#DEB88D
+Color0=#17384C
+Color1=#D15123
+Color2=#027C9B
+Color3=#FCA02F
+Color4=#1E4950
+Color5=#68D4F1
+Color6=#50A3B5
+Color7=#DEB88D
+Color8=#434B53
+Color9=#D48678
+Color10=#628D98
+Color11=#FDD39F
+Color12=#1BBCDD
+Color13=#BBE3EE
+Color14=#87ACB4
+Color15=#FEE4CE
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Sea Shells.yml

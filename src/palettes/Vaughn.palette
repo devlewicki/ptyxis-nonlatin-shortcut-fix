@@ -1,0 +1,23 @@
+[Palette]
+Name=Vaughn
+Background=#25234F
+Foreground=#DCDCCC
+Cursor=#DCDCCC
+Color0=#25234F
+Color1=#705050
+Color2=#60B48A
+Color3=#DFAF8F
+Color4=#5555FF
+Color5=#F08CC3
+Color6=#8CD0D3
+Color7=#709080
+Color8=#709080
+Color9=#DCA3A3
+Color10=#60B48A
+Color11=#F0DFAF
+Color12=#5555FF
+Color13=#EC93D3
+Color14=#93E0E3
+Color15=#FFFFFF
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Vaughn.yml

@@ -1,0 +1,23 @@
+[Palette]
+Name=Hurtado
+Background=#000000
+Foreground=#DBDBDB
+Cursor=#DBDBDB
+Color0=#575757
+Color1=#FF1B00
+Color2=#A5E055
+Color3=#FBE74A
+Color4=#496487
+Color5=#FD5FF1
+Color6=#86E9FE
+Color7=#CBCCCB
+Color8=#262626
+Color9=#D51D00
+Color10=#A5DF55
+Color11=#FBE84A
+Color12=#89BEFF
+Color13=#C001C1
+Color14=#86EAFE
+Color15=#DBDBDB
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Hurtado.yml

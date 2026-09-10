@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>@APP_ID@</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>@APP_NAME@</name>
+  <summary>Container-oriented terminal</summary>
+  <description>
+    <p>
+      Ptyxis is a terminal for GNOME that focuses on ease-of-use in a
+      world of containers.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Remembers current container when opening a new tab with support for podman, toolbox, distrobox, and more</li>
+      <li>Configurable keyboard shortcuts</li>
+      <li>Modern interface which integrates the palette with the window styling</li>
+      <li>User-installable color palettes</li>
+      <li>Support for preferences profiles with container integration</li>
+      <li>Integrated color palettes with light and dark support</li>
+      <li>Tabbed interface with tab overviews</li>
+      <li>Efficient foreground process tracking denoting sudo and SSH</li>
+      <li>Support for transparent terminal backgrounds</li>
+      <li>Separate process mode for terminal-based applications</li>
+      <li>Support for pinned tabs and saved sessions</li>
+      <li>Terminal tabs are run within separate cgroups</li>
+      <li>Terminal inspector to help when writing terminal-based applications</li>
+    </ul>
+  </description>
+  <project_group>GNOME</project_group>
+  <!-- developer_name tag deprecated with Appstream 1.0 -->
+  <developer_name translate="no">Christian Hergert</developer_name>
+  <developer id="org.gnome">
+    <name translate="no">Christian Hergert</name>
+  </developer>
+  <url type="homepage">https://gitlab.gnome.org/chergert/ptyxis</url>
+  <url type="bugtracker">https://gitlab.gnome.org/chergert/ptyxis/issues</url>
+  <url type="translate">https://gitlab.gnome.org/chergert/ptyxis/-/tree/main/po</url>
+  <url type="vcs-browser">https://gitlab.gnome.org/chergert/ptyxis</url>
+
+  <update_contact>chergert@gnome.org</update_contact>
+  <translation type="gettext">ptyxis</translation>
+  <launchable type="desktop-id">@APP_ID@.desktop</launchable>
+
+  <releases>
+    <release version="50.1" date="2026-03-16"/>
+    <release version="50.0" date="2026-03-16"/>
+    <release version="49.0" date="2025-09-12"/>
+  </releases>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/columns-and-rows.png</image>
+      <caption>A column and row size indicator is displayed when resizing the window</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/containers-menu.png</image>
+      <caption>Containers are automatically discovered and displayed</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/change-behavior.png</image>
+      <caption>Many behaviors of the terminal may be tweaked to user preference</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/rename-tab.png </image>
+      <caption>You may rename a tab by providing a prefix to the title</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/integrated-dark-mode.png</image>
+      <caption>Palettes provide an integrated dark mode</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/tab-overview.png</image>
+      <caption>You can see an overview of your tabs at any time</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/shortcut-editing.png</image>
+      <caption>Many shortcuts may be remapped to user preference</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/palette-selector.png</image>
+      <caption>Built-in color palettes provide both dark and light mode variants</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/edit-profile.png</image>
+      <caption>Profiles allow for overriding a number of features such as default container</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/sudo-tracking.png</image>
+      <caption>The terminal will remind you when you're root on the local system</caption>
+    </screenshot>
+
+    <screenshot>
+      <image>https://gitlab.gnome.org/chergert/ptyxis/-/raw/main/data/screenshots/ssh-tracking.png</image>
+      <caption>The terminal will remind you when you're on a remote system</caption>
+    </screenshot>
+  </screenshots>
+
+  <content_rating type="oars-1.1" />
+</component>

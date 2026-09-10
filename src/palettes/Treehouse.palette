@@ -1,0 +1,23 @@
+[Palette]
+Name=Treehouse
+Background=#191919
+Foreground=#786B53
+Cursor=#786B53
+Color0=#321300
+Color1=#B2270E
+Color2=#44A900
+Color3=#AA820C
+Color4=#58859A
+Color5=#97363D
+Color6=#B25A1E
+Color7=#786B53
+Color8=#433626
+Color9=#ED5D20
+Color10=#55F238
+Color11=#F2B732
+Color12=#85CFED
+Color13=#E14C5A
+Color14=#F07D14
+Color15=#FFC800
+
+# This file was generated from https://github.com/Gogh-Co/Gogh/tree/master/themes/Treehouse.yml

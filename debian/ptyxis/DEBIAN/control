@@ -1,0 +1,17 @@
+Package: ptyxis
+Version: 50.1-1ubuntu2local1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2177
+Depends: xdg-terminal-exec, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.13.8), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.45.5), libportal-gtk4-1 (>= 0.5), libportal1 (>= 0.5), libvte-2.91-gtk4-0 (>= 0.79)
+Provides: x-terminal-emulator
+Section: gnome
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://devsuite.app/ptyxis/
+Description: Modern terminal emulator for GNOME
+ Ptyxis is a terminal for GNOME with first-class support for containers.
+ This app provides significantly more preferences than gnome-console
+ while arranging them in a simpler layout than gnome-terminal. Ptyxis
+ is also crafted to be both fast and efficient.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
